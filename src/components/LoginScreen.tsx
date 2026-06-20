@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { Sparkles, Check, HelpCircle } from 'lucide-react';
+import { Check, HelpCircle } from 'lucide-react';
 import { MOCK_ACCOUNTS, mockAuthService } from '../utils/firebase';
+import logo from '../assets/jo logo.png';
 
 export const LoginScreen: React.FC = () => {
   const { signInWithGoogle } = useAuth();
@@ -59,38 +60,28 @@ export const LoginScreen: React.FC = () => {
       
       {/* Brand & Introduction */}
       <div className="flex-1 flex flex-col items-center justify-center space-y-8 my-auto">
-        {/* Animated Custom Sail/Learning SVG Logo */}
+        {/* Animated Custom Logo container */}
         <div className="relative group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-cyan-600 to-teal-500 rounded-full blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200" />
-          <div className="relative w-24 h-24 bg-white dark:bg-slate-900 border border-slate-200/50 dark:border-slate-800 rounded-full flex items-center justify-center shadow-lg">
-            <svg
-              className="w-14 h-14 text-cyan-600 dark:text-cyan-400 animate-pulse"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              {/* Abstract sail shape combined with book */}
-              <path d="M4 22V2h12l-4 4H4" />
-              <path d="M4 6h12l5 6-5 6H4" />
-              <path d="M12 22v-4" />
-              <path d="M8 22v-2" />
-            </svg>
+          <div className="absolute -inset-1 bg-gradient-to-r from-cyan-600 to-teal-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200" />
+          <div className="relative w-28 h-28 bg-white dark:bg-slate-900 border border-slate-200/50 dark:border-slate-800 rounded-3xl flex items-center justify-center shadow-lg p-4">
+            <img
+              src={logo}
+              alt="JO Sphere Logo"
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
 
         {/* Text Headers */}
         <div className="text-center space-y-2 max-w-xs">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10px] font-black tracking-widest text-cyan-700 bg-cyan-50 dark:text-cyan-400 dark:bg-cyan-950/40 uppercase">
-            <Sparkles size={10} /> Department Portal
-          </span>
-          <h2 className="text-2xl font-black text-slate-850 dark:text-slate-100 font-sans tracking-tight leading-tight pt-1">
-            Promotion Exam Revision
+          <h2 className="text-3xl font-black text-slate-850 dark:text-slate-100 font-sans tracking-tight leading-tight">
+            JO Sphere
           </h2>
-          <p className="text-xs font-semibold text-slate-400 leading-normal">
-            Prepare Smarter. Revise Faster.
+          <p className="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest leading-none">
+            Learn • Revise • Succeed
+          </p>
+          <p className="text-[11px] font-semibold text-slate-400 leading-normal pt-1.5">
+            Your Complete Learning and Revision Companion
           </p>
         </div>
       </div>
@@ -160,7 +151,7 @@ export const LoginScreen: React.FC = () => {
                   Choose an account
                 </h3>
                 <p className="text-[10px] text-slate-400 font-semibold mt-0.5">
-                  to continue to SAIL Revision App
+                  to continue to JO Sphere
                 </p>
               </div>
               <button

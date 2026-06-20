@@ -25,17 +25,55 @@ import { LoginScreen } from './components/LoginScreen';
 import { FirstTimeScreen } from './components/FirstTimeScreen';
 import { ProfileDrawer } from './components/ProfileDrawer';
 
+import logo from './assets/jo logo.png';
+
 const MainAppContent: React.FC = () => {
   const { user, loading, isFirstTimeUser } = useAuth();
   const { activeRoute, loadingQuestions, settings, profileDrawerOpen, setProfileDrawerOpen } = useApp();
+  const [showSplash, setShowSplash] = React.useState(true);
 
-  // 1. Session Initialization Gate
-  if (loading) {
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowSplash(false);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  // 1. Session Initialization Gate & Premium Splash Screen
+  if (showSplash || loading) {
     return (
       <div className="h-full flex justify-center bg-slate-100 dark:bg-slate-950/80 transition-colors duration-200">
-        <div className="max-w-md w-full h-full flex flex-col items-center justify-center p-6 text-center bg-slate-50 dark:bg-slate-900 border-x border-slate-200 dark:border-slate-800 shadow-xl">
-          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-cyan-600"></div>
-          <p className="text-sm font-bold text-slate-700 dark:text-slate-350 mt-4 animate-pulse">Initializing session...</p>
+        <div className="max-w-md w-full h-full flex flex-col items-center justify-center p-6 text-center bg-slate-50 dark:bg-slate-900 border-x border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden animate-in fade-in duration-500">
+          {/* Decorative background glow */}
+          <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-48 h-48 bg-cyan-500/10 dark:bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
+          
+          <div className="flex-1 flex flex-col items-center justify-center space-y-6 my-auto z-10">
+            {/* Logo */}
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-cyan-600 to-teal-500 rounded-3xl blur opacity-25" />
+              <div className="relative w-28 h-28 bg-white dark:bg-slate-900 border border-slate-200/50 dark:border-slate-800 rounded-3xl flex items-center justify-center shadow-lg p-4">
+                <img src={logo} alt="JO Sphere Logo" className="w-full h-full object-contain" />
+              </div>
+            </div>
+
+            {/* Text Headers */}
+            <div className="text-center space-y-2">
+              <h1 className="text-3xl font-black text-slate-800 dark:text-slate-100 font-sans tracking-tight leading-tight">
+                JO Sphere
+              </h1>
+              <p className="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest">
+                Learn • Revise • Succeed
+              </p>
+            </div>
+          </div>
+
+          {/* Loading Animation */}
+          <div className="pb-12 flex flex-col items-center space-y-3 z-10">
+            <div className="w-10 h-10 border-4 border-slate-200 border-t-cyan-600 rounded-full animate-spin" />
+            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider animate-pulse">
+              {loading ? 'Initializing session...' : 'Loading resources...'}
+            </p>
+          </div>
         </div>
       </div>
     );
@@ -66,10 +104,19 @@ const MainAppContent: React.FC = () => {
   const renderActiveScreen = () => {
     if (loadingQuestions) {
       return (
-        <div className="flex-1 flex flex-col items-center justify-center p-6 text-center bg-slate-50 dark:bg-slate-950 transition-colors duration-200">
-          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-cyan-600"></div>
-          <p className="text-sm font-bold text-slate-700 dark:text-slate-350 mt-4">Loading question bank...</p>
-          <p className="text-xs text-slate-400 mt-1">Caching chapters for offline study.</p>
+        <div className="flex-1 flex flex-col items-center justify-center p-6 text-center bg-slate-50 dark:bg-slate-950 transition-colors duration-200 space-y-6">
+          <div className="relative w-20 h-20 bg-white dark:bg-slate-900 border border-slate-200/50 dark:border-slate-800 rounded-2xl flex items-center justify-center shadow-md p-3">
+            <img src={logo} alt="JO Sphere Logo" className="w-full h-full object-contain" />
+          </div>
+          <div className="text-center space-y-1">
+            <h3 className="text-lg font-black text-slate-800 dark:text-slate-100 font-sans leading-none">JO Sphere</h3>
+            <p className="text-[10px] text-cyan-600 dark:text-cyan-400 uppercase font-black tracking-widest">Learn • Revise • Succeed</p>
+          </div>
+          <div className="flex flex-col items-center space-y-2 pt-2">
+            <div className="animate-spin rounded-full h-8 w-8 border-2 border-slate-200 border-t-cyan-600"></div>
+            <p className="text-xs font-bold text-slate-500 dark:text-slate-400">Loading question bank...</p>
+            <p className="text-[9px] text-slate-400">Caching chapters for offline study.</p>
+          </div>
         </div>
       );
     }
@@ -136,6 +183,10 @@ const MainAppContent: React.FC = () => {
       <div
         className={`max-w-md w-full h-full flex flex-col bg-slate-50 dark:bg-slate-900 border-x border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden ${getFontSizeClass()}`}
       >
+        {/* Background Watermark Logo */}
+        <div className="absolute inset-0 pointer-events-none flex items-center justify-center opacity-[0.03] dark:opacity-[0.025] z-0 overflow-hidden">
+          <img src={logo} alt="" className="w-4/5 object-contain max-h-[50%] select-none filter dark:invert" />
+        </div>
         {/* Top Header */}
         <TopBar />
         

@@ -14,6 +14,7 @@ import {
   ArrowLeft
 } from 'lucide-react';
 import type { FontSizeOption } from '../types';
+import logo from '../assets/jo logo.png';
 
 export const MoreScreen: React.FC = () => {
   const {
@@ -28,7 +29,7 @@ export const MoreScreen: React.FC = () => {
   } = useApp();
   const { user } = useAuth();
 
-  const [activeSubView, setActiveSubView] = useState<'review-later' | null>(null);
+  const [activeSubView, setActiveSubView] = useState<'review-later' | 'about' | null>(null);
 
   const totalMistakes = progress.mistakes.length;
   const totalBookmarks = progress.bookmarks.length;
@@ -56,7 +57,7 @@ export const MoreScreen: React.FC = () => {
 
   if (activeSubView === 'review-later') {
     return (
-      <div className="flex-1 flex flex-col justify-between overflow-hidden pb-6 safe-padding-bottom bg-slate-50 dark:bg-slate-950/40">
+      <div className="flex-1 flex flex-col justify-between overflow-hidden pb-6 safe-padding-bottom bg-transparent">
         <div>
           <div className="px-4 pt-3 flex items-center justify-between text-xs font-semibold text-slate-500">
             <button
@@ -127,12 +128,66 @@ export const MoreScreen: React.FC = () => {
     );
   }
 
+  if (activeSubView === 'about') {
+    return (
+      <div className="flex-1 flex flex-col justify-between overflow-hidden pb-6 safe-padding-bottom bg-transparent">
+        <div>
+          <div className="px-4 pt-3 flex items-center justify-between text-xs font-semibold text-slate-500">
+            <button
+              onClick={() => setActiveSubView(null)}
+              className="flex items-center gap-1 text-slate-500 hover:text-slate-700 dark:hover:text-slate-350 cursor-pointer font-extrabold"
+            >
+              <ArrowLeft size={14} /> Back to Settings
+            </button>
+            <span className="font-bold text-slate-450">About App</span>
+          </div>
+          <div className="w-full bg-slate-200 dark:bg-slate-800 h-1 mt-1" />
+        </div>
+
+        <div className="flex-1 overflow-y-auto px-6 py-8 flex flex-col items-center justify-center space-y-6 text-center">
+          {/* Logo */}
+          <div className="relative group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-600 to-teal-500 rounded-3xl blur opacity-25" />
+            <div className="relative w-28 h-28 bg-white dark:bg-slate-900 border border-slate-200/50 dark:border-slate-800 rounded-3xl flex items-center justify-center shadow-lg p-4">
+              <img src={logo} alt="JO Sphere Logo" className="w-full h-full object-contain" />
+            </div>
+          </div>
+
+          <div className="space-y-2">
+            <h3 className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans leading-none">JO Sphere</h3>
+            <p className="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest leading-none pt-0.5">Learn • Revise • Succeed</p>
+            <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider pt-2">Version 1.2.0</p>
+          </div>
+
+          <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed max-w-xs font-medium">
+            JO Sphere is a mobile-first learning, revision, and exam preparation platform designed to help learners study smarter, revise efficiently, and achieve success.
+          </p>
+        </div>
+
+        <footer className="px-4">
+          <button
+            onClick={() => setActiveSubView(null)}
+            className="w-full py-4 bg-cyan-600 hover:bg-cyan-700 text-white font-bold rounded-2xl text-sm uppercase tracking-wider shadow-md cursor-pointer active:scale-95 transition-all flex items-center justify-center gap-1.5"
+            style={{ minHeight: '52px' }}
+          >
+            Go Back
+          </button>
+        </footer>
+      </div>
+    );
+  }
+
   return (
-    <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6 bg-slate-50 dark:bg-slate-950/40">
-      {/* Header */}
-      <div>
-        <h2 className="text-xs font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">More & Settings</h2>
-        <p className="text-2xl font-black text-slate-800 dark:text-slate-105 font-sans mt-0.5">Control Panel</p>
+    <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6 bg-transparent">
+      {/* Header with Logo */}
+      <div className="flex flex-col items-center text-center space-y-4 py-2">
+        <div className="w-16 h-16 bg-white dark:bg-slate-900 border border-slate-200/50 dark:border-slate-800 rounded-2xl p-2.5 shadow-md flex items-center justify-center">
+          <img src={logo} alt="JO Sphere Logo" className="w-full h-full object-contain" />
+        </div>
+        <div className="space-y-1">
+          <h2 className="text-xl font-black text-slate-850 dark:text-slate-100 font-sans leading-none">JO Sphere Settings</h2>
+          <p className="text-[10px] text-cyan-600 dark:text-cyan-400 font-black uppercase tracking-widest leading-none pt-0.5">Learn • Revise • Succeed</p>
+        </div>
       </div>
 
       {/* User Profile Card */}
@@ -177,7 +232,7 @@ export const MoreScreen: React.FC = () => {
             className="w-full px-4 py-3.5 flex items-center justify-between text-xs font-bold text-slate-750 dark:text-slate-250 cursor-pointer active:bg-slate-50/50 dark:active:bg-slate-850"
           >
             <div className="flex items-center gap-3">
-              <div className="p-2 bg-rose-50 text-rose-550 dark:bg-rose-955/20 rounded-xl">
+              <div className="p-2 bg-rose-50 text-rose-550 dark:bg-rose-900/20 rounded-xl">
                 <AlertTriangle size={16} />
               </div>
               <div className="text-left">
@@ -206,7 +261,7 @@ export const MoreScreen: React.FC = () => {
               </div>
             </div>
             <div className="flex items-center gap-1.5 text-slate-400 font-extrabold">
-              <span className="bg-amber-100 text-amber-800 dark:bg-amber-955/60 dark:text-amber-400 px-2 py-0.5 rounded-lg text-[9px] font-black">{totalBookmarks}</span>
+              <span className="bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-400 px-2 py-0.5 rounded-lg text-[9px] font-black">{totalBookmarks}</span>
               <ChevronRight size={16} />
             </div>
           </button>
@@ -323,14 +378,16 @@ export const MoreScreen: React.FC = () => {
       </section>
 
       {/* 4. About Details */}
-      <section className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm text-center space-y-3 select-none">
-        <Info className="mx-auto text-cyan-500" size={24} />
-        <h4 className="text-xs font-extrabold text-slate-800 dark:text-slate-250">SAIL Revision Prep App</h4>
-        <p className="text-[9px] text-slate-400 leading-relaxed font-semibold max-w-xs mx-auto">
-          Version 1.2.0 • Offline Ready PWA<br />
-          Built specifically for department promotion exam revision. Caches question banks and chapters automatically.
+      <button
+        onClick={() => setActiveSubView('about')}
+        className="w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm text-center space-y-2 select-none cursor-pointer hover:border-cyan-500 active:scale-[0.99] transition-all flex flex-col items-center"
+      >
+        <Info className="text-cyan-500" size={20} />
+        <h4 className="text-xs font-extrabold text-slate-800 dark:text-slate-250">About JO Sphere</h4>
+        <p className="text-[9px] text-slate-400 leading-relaxed font-semibold">
+          Version 1.2.0 • View application info
         </p>
-      </section>
+      </button>
     </div>
   );
 };

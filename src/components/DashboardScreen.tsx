@@ -12,6 +12,7 @@ import {
   BookOpen,
   FileSpreadsheet
 } from 'lucide-react';
+import logo from '../assets/jo logo.png';
 
 export const DashboardScreen: React.FC = () => {
   const {
@@ -54,10 +55,7 @@ export const DashboardScreen: React.FC = () => {
     return `Welcome Back, ${firstName}`;
   };
 
-  const getCurrentDateString = () => {
-    const options: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' };
-    return new Date().toLocaleDateString('en-GB', options); // returns format like "20 June 2026"
-  };
+
 
   // 1. Calculate General stats
   const totalQuestions = questions.length || 3750;
@@ -152,17 +150,26 @@ export const DashboardScreen: React.FC = () => {
   };
 
   return (
-    <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6 bg-slate-50 dark:bg-slate-950/40">
+    <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6 bg-transparent">
       
       {/* SECTION 1: Welcome Header */}
-      <header className="flex justify-between items-center bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4.5 shadow-sm">
-        <div className="flex flex-col space-y-1">
-          <h2 className="text-sm font-black text-slate-800 dark:text-slate-100 font-sans leading-tight">
-            {getGreeting(user?.firstName || 'User')} 👋
-          </h2>
-          <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-none">
-            {getCurrentDateString()}
-          </p>
+      <header className="flex justify-between items-center bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4.5 shadow-sm gap-3">
+        <div className="flex items-center gap-3">
+          {/* JO Sphere Logo */}
+          <div className="w-10 h-10 bg-slate-50 dark:bg-slate-950 rounded-xl p-1.5 border border-slate-100 dark:border-slate-800 shadow-inner shrink-0 flex items-center justify-center">
+            <img src={logo} alt="JO Sphere Logo" className="w-full h-full object-contain" />
+          </div>
+          <div className="flex flex-col space-y-0.5">
+            <h2 className="text-xs font-black text-slate-800 dark:text-slate-100 font-sans leading-tight">
+              {getGreeting(user?.firstName || 'User')} 👋
+            </h2>
+            <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-none">
+              Welcome back to JO Sphere
+            </p>
+            <p className="text-[8px] text-cyan-600 dark:text-cyan-400 font-extrabold uppercase tracking-widest leading-none pt-0.5">
+              Learn • Revise • Succeed
+            </p>
+          </div>
         </div>
         
         {/* Profile Avatar Launcher */}
@@ -232,7 +239,7 @@ export const DashboardScreen: React.FC = () => {
             }}
             className="w-full p-4 bg-white dark:bg-slate-900 border border-slate-205 dark:border-slate-800 hover:border-cyan-500 rounded-2xl flex items-center gap-3 text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer"
           >
-            <div className="p-3 bg-rose-50 text-rose-500 dark:bg-rose-955/20 rounded-2xl shrink-0">
+            <div className="p-3 bg-rose-50 text-rose-500 dark:bg-rose-950/20 rounded-2xl shrink-0">
               <BookOpen size={20} />
             </div>
             <div>
@@ -412,7 +419,7 @@ export const DashboardScreen: React.FC = () => {
                 className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm flex items-center justify-between"
               >
                 <div className="space-y-1">
-                  <span className="text-[8px] bg-rose-50 dark:bg-rose-955/20 text-rose-500 border border-rose-100 dark:border-rose-900 px-1.5 py-0.5 rounded uppercase font-black">
+                  <span className="text-[8px] bg-rose-50 dark:bg-rose-950/20 text-rose-500 border border-rose-100 dark:border-rose-900 px-1.5 py-0.5 rounded uppercase font-black">
                     {ch.accuracy}% Accuracy
                   </span>
                   <h4 className="text-xs font-extrabold text-slate-850 dark:text-slate-150 leading-snug pt-0.5 font-sans">

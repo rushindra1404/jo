@@ -1,11 +1,47 @@
 {
-  "short_name": "SAIL Promo",
-  "name": "Promotion Exam Revision PWA",
+  "short_name": "JO Sphere",
+  "name": "JO Sphere",
+  "description": "Learn • Revise • Succeed",
   "icons": [
     {
-      "src": "favicon.svg",
-      "type": "image/svg+xml",
-      "sizes": "any"
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",

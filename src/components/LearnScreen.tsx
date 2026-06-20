@@ -52,12 +52,12 @@ export const LearnScreen: React.FC = () => {
     : [];
 
   return (
-    <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6 bg-slate-50 dark:bg-slate-950/40">
+    <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6 bg-transparent">
       {/* Tab Header */}
       <div className="flex justify-between items-center">
         <div>
-          <h2 className="text-xs font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">Learning Hub</h2>
-          <p className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans mt-0.5">Start Preparing</p>
+          <h2 className="text-xs font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">JO Sphere Learning Hub</h2>
+          <p className="text-2xl font-black text-cyan-600 dark:text-cyan-400 font-sans mt-0.5">Learn • Revise • Succeed</p>
         </div>
         <button
           onClick={() => navigate('study-library')}

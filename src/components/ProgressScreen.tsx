@@ -90,8 +90,8 @@ export const ProgressScreen: React.FC = () => {
     <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6 bg-slate-50 dark:bg-slate-950/40">
       {/* Header */}
       <div>
-        <h2 className="text-xs font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">Progress & Stats</h2>
-        <p className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans mt-0.5">My Progress</p>
+        <h2 className="text-xs font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">JO Sphere Analytics</h2>
+        <p className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans mt-0.5">Learn • Revise • Succeed</p>
       </div>
 
       {/* 1. Exam Readiness Card */}

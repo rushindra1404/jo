@@ -299,7 +299,7 @@ export const StudyModeScreen: React.FC = () => {
                       onClick={() => toggleReviewLater(currentQuestion.uniqueId)}
                       className={`p-1 rounded-lg hover:text-rose-500 active:scale-95 transition-all cursor-pointer min-w-[36px] min-h-[36px] flex items-center justify-center border border-transparent ${
                         (progress.reviewLater || []).includes(currentQuestion.uniqueId)
-                          ? 'text-rose-500 bg-rose-50/50 dark:bg-rose-955/25'
+                          ? 'text-rose-500 bg-rose-50/50 dark:bg-rose-950/25'
                           : 'text-slate-400'
                       }`}
                       aria-label="Flag for review later"

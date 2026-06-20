@@ -615,7 +615,7 @@ export const ExamModeScreen: React.FC = () => {
               <span className="text-[10px] text-slate-450 block uppercase tracking-wider font-semibold">Accuracy</span>
               <span className="text-2xl font-black text-cyan-600 dark:text-cyan-400 font-sans">{run.accuracy}%</span>
             </div>
-            <div className="bg-slate-50 dark:bg-slate-955 p-3 rounded-2xl">
+            <div className="bg-slate-50 dark:bg-slate-900 p-3 rounded-2xl">
               <span className="text-[10px] text-slate-450 block uppercase tracking-wider font-semibold">Score</span>
               <span className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans">{run.score} / {run.totalQuestions}</span>
             </div>
@@ -626,15 +626,15 @@ export const ExamModeScreen: React.FC = () => {
               <span className="text-slate-400 flex items-center gap-1"><Check size={14} className="text-emerald-500" /> Correct Answers:</span>
               <span className="font-extrabold text-slate-800 dark:text-slate-100">{run.correct}</span>
             </div>
-            <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-955 px-3 py-2 rounded-xl">
+            <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-900 px-3 py-2 rounded-xl">
               <span className="text-slate-400 flex items-center gap-1"><X size={14} className="text-rose-500" /> Wrong Answers:</span>
               <span className="font-extrabold text-slate-800 dark:text-slate-100">{run.wrong}</span>
             </div>
-            <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-955 px-3 py-2 rounded-xl">
+            <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-900 px-3 py-2 rounded-xl">
               <span className="text-slate-400 flex items-center gap-1"><HelpCircle size={14} className="text-slate-500" /> Unanswered:</span>
               <span className="font-extrabold text-slate-800 dark:text-slate-100">{run.unanswered}</span>
             </div>
-            <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-955 px-3 py-2 rounded-xl">
+            <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-900 px-3 py-2 rounded-xl">
               <span className="text-slate-400 flex items-center gap-1"><Clock size={14} className="text-indigo-500" /> Time Spent:</span>
               <span className="font-extrabold text-slate-800 dark:text-slate-100">{formatDuration(run.timeTaken)}</span>
             </div>
@@ -652,7 +652,7 @@ export const ExamModeScreen: React.FC = () => {
                 <div
                   key={q.uniqueId}
                   className={`bg-white dark:bg-slate-900 border rounded-2xl p-4 space-y-3 shadow-premium ${
-                    isCorrect ? 'border-emerald-200 dark:border-emerald-950/60' : 'border-rose-255 dark:border-rose-955/60'
+                    isCorrect ? 'border-emerald-200 dark:border-emerald-950/60' : 'border-rose-200 dark:border-rose-900/60'
                   }`}
                 >
                   <div className="flex justify-between items-start text-xs font-bold">

@@ -155,7 +155,7 @@ export const ExamTabScreen: React.FC = () => {
                       )}
                     </div>
 
-                    <div className="bg-slate-50 dark:bg-slate-955/40 border border-slate-100 dark:border-slate-850 rounded-xl p-3 text-[11px] leading-relaxed text-slate-600 dark:text-slate-400 font-semibold">
+                    <div className="bg-slate-50 dark:bg-slate-900/40 border border-slate-100 dark:border-slate-850 rounded-xl p-3 text-[11px] leading-relaxed text-slate-600 dark:text-slate-400 font-semibold">
                       <strong className="text-[10px] text-slate-400 uppercase font-black block tracking-wider mb-1">Explanation</strong>
                       {q.explanation || 'No explanation provided.'}
                     </div>
@@ -183,8 +183,8 @@ export const ExamTabScreen: React.FC = () => {
     <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6 bg-slate-50 dark:bg-slate-950/40">
       {/* Header */}
       <div>
-        <h2 className="text-xs font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">Exam Centre</h2>
-        <p className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans mt-0.5">Mock CBT Exams</p>
+        <h2 className="text-xs font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">JO Sphere Exam Center</h2>
+        <p className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans mt-0.5">Learn • Revise • Succeed</p>
       </div>
 
       {/* Start Mock CBT Test */}
@@ -230,7 +230,7 @@ export const ExamTabScreen: React.FC = () => {
           {/* Simple Animated Custom SVG Chart displaying the last 6 exam scores */}
           <div className="space-y-1 pt-1">
             <h4 className="text-[9px] font-bold text-slate-400 uppercase">Recent Performance (Last 6 Runs)</h4>
-            <div className="h-28 w-full bg-slate-50 dark:bg-slate-955/65 rounded-xl border border-slate-100 dark:border-slate-900 flex items-end justify-around p-3 relative">
+            <div className="h-28 w-full bg-slate-50 dark:bg-slate-900/65 rounded-xl border border-slate-100 dark:border-slate-900 flex items-end justify-around p-3 relative">
               {examHistory.slice(0, 6).reverse().map((item, idx) => {
                 const heightPercent = Math.max(10, item.accuracy);
                 return (

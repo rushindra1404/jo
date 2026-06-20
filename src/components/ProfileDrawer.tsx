@@ -88,6 +88,12 @@ export const ProfileDrawer: React.FC<ProfileDrawerProps> = ({ isOpen, onClose })
             {!showConfirmSignOut ? (
               /* Main Drawer View */
               <div className="px-5 pb-8 space-y-6">
+                {/* JO Sphere Profile Branding Header */}
+                <div className="flex flex-col items-center justify-center space-y-1 py-1 border-b border-slate-100 dark:border-slate-800/80">
+                  <span className="text-[10px] font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">JO Sphere Profile</span>
+                  <span className="text-[8px] text-slate-400 uppercase font-black tracking-widest leading-none">Learn • Revise • Succeed</span>
+                </div>
+
                 {/* Header Profile Info */}
                 <div className="flex justify-between items-start">
                   <div className="flex items-center gap-3.5">

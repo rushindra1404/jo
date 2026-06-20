@@ -50,7 +50,7 @@ export const TopBar: React.FC = () => {
       case 'search':
         return 'Search Bank';
       default:
-        return 'SAIL Revision';
+        return 'JO Sphere';
     }
   };
 

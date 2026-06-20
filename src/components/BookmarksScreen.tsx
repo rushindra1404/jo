@@ -87,14 +87,18 @@ export const BookmarksScreen: React.FC = () => {
           Bookmarks ({filteredQuestions.length})
         </h3>
         {filteredQuestions.length === 0 ? (
-          <div className="p-8 border border-dashed border-slate-200 dark:border-slate-800 rounded-3xl text-center space-y-2">
-            <div className="mx-auto w-12 h-12 bg-slate-50 dark:bg-slate-900 rounded-full flex items-center justify-center text-slate-300 dark:text-slate-700">
+          <div className="p-8 border border-dashed border-slate-200 dark:border-slate-800 rounded-3xl text-center space-y-3 bg-white dark:bg-slate-900/50">
+            <div className="mx-auto w-12 h-12 bg-amber-50 dark:bg-amber-950/20 rounded-full flex items-center justify-center text-amber-500">
               <Bookmark size={24} />
             </div>
-            <h4 className="text-sm font-bold text-slate-800 dark:text-slate-350 font-sans">No bookmarks found</h4>
-            <p className="text-xs text-slate-400 leading-relaxed">
+            <div className="space-y-1">
+              <h4 className="text-sm font-black text-slate-800 dark:text-slate-100 font-sans uppercase">No Bookmarks Yet</h4>
+              <p className="text-[10px] text-cyan-650 dark:text-cyan-400 font-bold uppercase tracking-wider">JO Sphere</p>
+              <p className="text-[9px] text-slate-400 uppercase tracking-widest leading-none pt-0.5">Learn • Revise • Succeed</p>
+            </div>
+            <p className="text-xs text-slate-450 leading-relaxed max-w-xs mx-auto">
               {bookmarkedQuestions.length === 0
-                ? 'Bookmarks will appear here once saved from study mode.'
+                ? 'Start learning and bookmark difficult questions to see them here.'
                 : 'No bookmarks match the active filters.'}
             </p>
           </div>
