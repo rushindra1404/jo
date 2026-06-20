@@ -12,16 +12,18 @@ import {
 } from 'lucide-react';
 
 export const ExamTabScreen: React.FC = () => {
-  const { navigate } = useApp();
+  const { navigate, questions } = useApp();
   const {
     examHistory,
     historyLoading,
     loadHistory,
     setMaterial,
+    setChapter,
     setExamMode
   } = useExamStore();
 
   const [selectedRun, setSelectedRun] = useState<ExamHistoryItem | null>(null);
+  const [materialFilter, setMaterialFilter] = useState<'ica' | 'gpoe'>('ica');
 
   useEffect(() => {
     loadHistory();
@@ -29,6 +31,13 @@ export const ExamTabScreen: React.FC = () => {
 
   const handleStartExamSetup = (mat: 'ica' | 'gpoe' | 'all') => {
     setMaterial(mat);
+    setExamMode('setup');
+    navigate('exam');
+  };
+
+  const handleStartChapterExamSetup = (mat: 'ica' | 'gpoe', chapterId: string, num: number, title: string) => {
+    setMaterial(mat);
+    setChapter(chapterId, num, title);
     setExamMode('setup');
     navigate('exam');
   };
@@ -56,6 +65,13 @@ export const ExamTabScreen: React.FC = () => {
   const bestScore = totalTests > 0
     ? Math.max(...examHistory.map(item => item.accuracy))
     : 0;
+
+  const formatDuration = (seconds: number) => {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    if (m === 0) return `${s}s`;
+    return `${m}m ${s}s`;
+  };
 
   // View exam details page
   if (selectedRun) {
@@ -89,7 +105,9 @@ export const ExamTabScreen: React.FC = () => {
                   ? 'All Chapters Mix'
                   : `${selectedRun.material.toUpperCase()} Chapter ${selectedRun.chapterNum}`}
               </p>
-              <p className="text-[9px] text-slate-500 uppercase tracking-wider">Date: {formatDate(selectedRun.date)}</p>
+              <p className="text-[9px] text-slate-400 uppercase tracking-wider">
+                Date: {formatDate(selectedRun.date)} • Time Taken: {formatDuration(selectedRun.timeTaken)}
+              </p>
             </div>
           </div>
 
@@ -141,7 +159,7 @@ export const ExamTabScreen: React.FC = () => {
                       {!isUnanswered && !isCorrect && (
                         <div className="flex justify-between items-center">
                           <span className="text-slate-450 font-medium">Your Answer:</span>
-                          <span className="text-rose-500 font-extrabold">{ans}) {q[`option_${ans.toLowerCase()}` as keyof typeof q]}</span>
+                          <span className="text-rose-550 font-extrabold">{ans}) {q[`option_${ans.toLowerCase()}` as keyof typeof q]}</span>
                         </div>
                       )}
                     </div>
@@ -178,38 +196,26 @@ export const ExamTabScreen: React.FC = () => {
         <p className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans mt-0.5">Mock CBT Exams</p>
       </div>
 
-      {/* CBT Material Cards Selectors */}
+      {/* Category 1: Full-Length Comprehensive Mock Exams */}
       <section className="space-y-3">
-        <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">1. Start Timed Practice Test</h3>
+        <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400 font-sans">1. Full-Length Comprehensive Exams</h3>
         <div className="grid grid-cols-1 gap-3">
           {[
             {
-              id: 'ica',
-              name: '📘 ICA CBT Simulation',
-              desc: 'Test your understanding across all 16 ICA chapters.',
-              colorClass: 'border-cyan-200 dark:border-cyan-950'
-            },
-            {
-              id: 'gpoe',
-              name: '📗 GPOE CBT Simulation',
-              desc: 'Simulate a timed mock exam for GPOE engineering chapters.',
-              colorClass: 'border-emerald-200 dark:border-emerald-950'
-            },
-            {
               id: 'all',
               name: '⚡ All Chapters Mixed CBT',
-              desc: 'Complete mock exam with equal chapter question weights.',
-              colorClass: 'border-rose-200 dark:border-rose-950'
+              desc: 'GPOE + ICA Mixed CBT Simulation with equal chapter weights.',
+              colorClass: 'border-purple-200 dark:border-purple-950 hover:border-purple-500'
             }
           ].map(opt => (
             <button
               key={opt.id}
               onClick={() => handleStartExamSetup(opt.id as any)}
-              className={`w-full p-4 bg-white dark:bg-slate-900 border ${opt.colorClass} hover:border-cyan-500 dark:hover:border-cyan-600 rounded-2xl flex items-center justify-between text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer`}
+              className={`w-full p-4 bg-white dark:bg-slate-900 border ${opt.colorClass} rounded-2xl flex items-center justify-between text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer`}
             >
               <div className="space-y-1">
-                <h4 className="text-sm font-extrabold text-slate-800 dark:text-slate-100 leading-snug">{opt.name}</h4>
-                <p className="text-[10px] text-slate-400 dark:text-slate-550 leading-normal font-semibold max-w-[280px]">
+                <h4 className="text-sm font-extrabold text-slate-855 dark:text-slate-100 leading-snug">{opt.name}</h4>
+                <p className="text-[10px] text-slate-400 dark:text-slate-500 leading-normal font-semibold max-w-[280px]">
                   {opt.desc}
                 </p>
               </div>
@@ -219,11 +225,61 @@ export const ExamTabScreen: React.FC = () => {
         </div>
       </section>
 
+      {/* Category 2: Chapter-Wise CBT Mock Exams */}
+      <section className="space-y-3">
+        <div className="flex justify-between items-center">
+          <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">2. Chapter-Wise CBT Mock Exams</h3>
+          <div className="flex gap-1 bg-slate-100 dark:bg-slate-850 p-0.5 rounded-lg border border-slate-200/50 dark:border-slate-800/80">
+            <button
+              onClick={() => setMaterialFilter('ica')}
+              className={`px-2.5 py-1 rounded-md text-[9px] font-black uppercase cursor-pointer transition-all ${
+                materialFilter === 'ica'
+                  ? 'bg-white dark:bg-slate-900 text-cyan-600 dark:text-cyan-400 shadow-sm'
+                  : 'text-slate-450 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-350'
+              }`}
+            >
+              ICA
+            </button>
+            <button
+              onClick={() => setMaterialFilter('gpoe')}
+              className={`px-2.5 py-1 rounded-md text-[9px] font-black uppercase cursor-pointer transition-all ${
+                materialFilter === 'gpoe'
+                  ? 'bg-white dark:bg-slate-900 text-emerald-600 dark:text-emerald-400 shadow-sm'
+                  : 'text-slate-450 dark:text-slate-500 hover:text-slate-700 dark:hover:text-slate-350'
+              }`}
+            >
+              GPOE
+            </button>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 gap-2 max-h-[300px] overflow-y-auto pr-1 border border-slate-200/80 dark:border-slate-850 rounded-2xl p-2 bg-slate-50/50 dark:bg-slate-950/20 shadow-inner">
+          {getChaptersByMaterial(materialFilter).map((ch) => {
+            const chSize = questions.filter(q => q.material === materialFilter && q.chapterId === ch.id).length;
+            return (
+              <button
+                key={ch.id}
+                onClick={() => handleStartChapterExamSetup(materialFilter, ch.id, ch.num, ch.title)}
+                className="w-full p-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800/80 hover:border-cyan-500 dark:hover:border-cyan-600 rounded-xl flex items-center justify-between text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer"
+              >
+                <div className="space-y-0.5">
+                  <span className="text-[9px] text-slate-400 dark:text-slate-500 font-extrabold uppercase">Chapter {ch.num}</span>
+                  <h4 className="text-xs font-extrabold text-slate-800 dark:text-slate-200 line-clamp-1 max-w-[220px] leading-snug">{ch.title}</h4>
+                </div>
+                <span className="shrink-0 py-0.5 px-2 bg-slate-50 dark:bg-slate-800 text-[9px] font-black text-slate-550 dark:text-slate-400 rounded-md border border-slate-100 dark:border-slate-750">
+                  {chSize} Qs
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
       {/* Exam Performance Analytics Header */}
       {totalTests > 0 && (
         <section className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm space-y-4">
           <div className="flex items-center justify-between">
-            <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">Mock Exam Statistics</h3>
+            <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">3. Mock Exam Statistics</h3>
             <span className="text-[9px] font-bold text-cyan-600 dark:text-cyan-400 flex items-center gap-0.5"><TrendingUp size={10} /> Active Trends</span>
           </div>
 
@@ -275,7 +331,7 @@ export const ExamTabScreen: React.FC = () => {
 
       {/* CBT History Logs */}
       <section className="space-y-3">
-        <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">2. History Log ({totalTests})</h3>
+        <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">4. History Log ({totalTests})</h3>
 
         {historyLoading ? (
           <div className="p-8 text-center text-xs text-slate-400 font-semibold bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl">
