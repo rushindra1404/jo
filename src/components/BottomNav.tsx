@@ -1,23 +1,23 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
 import { useExamStore } from '../store/examStore';
-import { LayoutDashboard, BookOpen, ClipboardList, Bookmark, AlertTriangle } from 'lucide-react';
+import { Home, BookOpen, ClipboardList, TrendingUp, Sliders } from 'lucide-react';
 
 export const BottomNav: React.FC = () => {
   const { activeRoute, navigate } = useApp();
   const examMode = useExamStore(state => state.examMode);
 
   const navItems = [
-    { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
-    { id: 'home', label: 'Study Materials', icon: BookOpen },
-    { id: 'exam', label: 'Exam Mode', icon: ClipboardList },
-    { id: 'bookmarks', label: 'Bookmarks', icon: Bookmark },
-    { id: 'mistakes', label: 'Mistakes', icon: AlertTriangle },
+    { id: 'dashboard', label: 'Home', icon: Home },
+    { id: 'learn', label: 'Learn', icon: BookOpen },
+    { id: 'exam-tab', label: 'Exam', icon: ClipboardList },
+    { id: 'progress', label: 'Progress', icon: TrendingUp },
+    { id: 'more', label: 'More', icon: Sliders },
   ];
 
-  // Don't show bottom nav inside active study, active pdf reader, or active exam running sessions to maximize screen area and prevent accidental clicks
+  // Hide bottom nav inside active study sessions, PDF readers, and flashcard practice sessions to maximize screen real estate
   const isExamRunning = activeRoute === 'exam' && examMode === 'running';
-  const hideBottomNav = ['study', 'random-revision', 'pdf-viewer'].includes(activeRoute) || isExamRunning;
+  const hideBottomNav = ['study', 'random-revision', 'pdf-viewer', 'flashcards-practice'].includes(activeRoute) || isExamRunning;
 
   if (hideBottomNav) return null;
 
@@ -32,19 +32,19 @@ export const BottomNav: React.FC = () => {
             <button
               key={item.id}
               onClick={() => navigate(item.id)}
-              className={`flex flex-col items-center justify-center flex-1 h-full text-xs font-medium cursor-pointer transition-colors ${
+              className={`flex flex-col items-center justify-center flex-1 h-full text-[10px] font-bold cursor-pointer transition-colors ${
                 isActive
-                  ? 'text-cyan-600 dark:text-cyan-400 font-semibold'
+                  ? 'text-cyan-600 dark:text-cyan-400'
                   : 'text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200'
               }`}
               aria-label={item.label}
             >
-              <div className={`p-1.5 rounded-xl transition-all duration-200 ${
+              <div className={`p-1 rounded-xl transition-all duration-200 ${
                 isActive ? 'bg-cyan-50 dark:bg-cyan-950/30 scale-105' : ''
               }`}>
-                <Icon size={20} strokeWidth={isActive ? 2.5 : 2} />
+                <Icon size={18} strokeWidth={isActive ? 2.5 : 2} />
               </div>
-              <span className="mt-0.5 tracking-wide">{item.label}</span>
+              <span className="mt-0.5 tracking-wider font-extrabold uppercase text-[8px]">{item.label}</span>
             </button>
           );
         })}

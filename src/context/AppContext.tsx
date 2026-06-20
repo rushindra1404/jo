@@ -23,6 +23,8 @@ interface AppContextProps {
   // User Progress & Persistence
   progress: UserProgress;
   toggleBookmark: (uniqueId: string) => void;
+  toggleReviewLater: (uniqueId: string) => void;
+  saveQuestionNote: (uniqueId: string, noteText: string) => void;
   recordAttempt: (uniqueId: string, isCorrect: boolean) => void;
   removeMistake: (uniqueId: string) => void;
   addRecentActivity: (
@@ -91,6 +93,8 @@ const defaultProgress: UserProgress = {
   attempts: {},
   mistakes: [],
   bookmarks: [],
+  reviewLater: [],
+  notes: {},
   resolvedMistakesCount: 0,
   continueLearning: null,
   recentActivity: [],
@@ -332,6 +336,49 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const navigate = (route: string) => {
     stopSpeaking();
     setActiveRoute(route);
+  };
+
+  const toggleReviewLater = (uniqueId: string) => {
+    setProgress(prev => {
+      const isFlagged = (prev.reviewLater || []).includes(uniqueId);
+      const reviewLater = isFlagged
+        ? (prev.reviewLater || []).filter(id => id !== uniqueId)
+        : [...(prev.reviewLater || []), uniqueId];
+      
+      const question = questions.find(q => q.uniqueId === uniqueId);
+      const material = question?.material || 'ica';
+      const label = isFlagged ? 'Removed Review Later' : 'Flagged for Review Later';
+      const detail = question ? question.question.substring(0, 35) + '...' : '';
+
+      const activity: RecentActivity = {
+        id: Math.random().toString(36).substring(2, 9),
+        timestamp: Date.now(),
+        type: 'bookmark',
+        material,
+        chapterId: question?.chapterId,
+        label,
+        detail,
+      };
+
+      return {
+        ...prev,
+        reviewLater,
+        recentActivity: [activity, ...prev.recentActivity.slice(0, 49)],
+      };
+    });
+  };
+
+  const saveQuestionNote = (uniqueId: string, noteText: string) => {
+    setProgress(prev => {
+      const notes = {
+        ...(prev.notes || {}),
+        [uniqueId]: noteText,
+      };
+      return {
+        ...prev,
+        notes,
+      };
+    });
   };
 
   // State update functions
@@ -657,6 +704,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         setActivePdfChapterId,
         progress,
         toggleBookmark,
+        toggleReviewLater,
+        saveQuestionNote,
         recordAttempt,
         removeMistake,
         addRecentActivity,

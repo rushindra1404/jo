@@ -59,6 +59,8 @@ export interface UserProgress {
   attempts: Record<string, { correct: boolean; timestamp: number }>; // uniqueId -> attempt status
   mistakes: string[]; // uniqueId list
   bookmarks: string[]; // uniqueId list
+  reviewLater: string[]; // uniqueId list
+  notes: Record<string, string>; // uniqueId -> note text
   resolvedMistakesCount: number; // count of mistakes corrected
   continueLearning: {
     material: 'ica' | 'gpoe';

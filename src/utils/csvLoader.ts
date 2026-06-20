@@ -61,3 +61,83 @@ export const loadChapterQuestions = async (
     return [];
   }
 };
+
+export interface FlashCard {
+  id: string;
+  point: string;
+  explanation: string;
+  chapterId: string;
+  material: 'ica' | 'gpoe';
+  uniqueId: string;
+}
+
+export const loadChapterFlashCards = async (
+  material: 'ica' | 'gpoe',
+  fileName: string,
+  chapterId: string,
+  chapterQuestionsFallback: Question[] = []
+): Promise<FlashCard[]> => {
+  const url = `/flash_cards/${material}/${fileName}`;
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      if (chapterQuestionsFallback.length > 0) {
+        return chapterQuestionsFallback.map((q, idx) => ({
+          id: q.question_id,
+          point: q.question,
+          explanation: `Correct Answer: ${q.correct_answer}\n\n${q.explanation || q[`option_${q.correct_answer.toLowerCase()}` as keyof Question] || ''}`,
+          chapterId,
+          material,
+          uniqueId: `fc_${material}_${chapterId}_${q.question_id || idx}`
+        }));
+      }
+      return [];
+    }
+    const csvText = await response.text();
+    
+    return new Promise((resolve, reject) => {
+      Papa.parse(csvText, {
+        header: true,
+        skipEmptyLines: true,
+        complete: (results) => {
+          const cards: FlashCard[] = results.data
+            .map((row: any, idx: number) => {
+              const cardId = row.id || row.card_id || String(idx + 1);
+              const point = row.point || row.important_point || row.front || '';
+              const explanation = row.explanation || row.back || row.details || '';
+              
+              const uniqueId = `fc_${material}_${chapterId}_${cardId}`;
+              
+              return {
+                id: String(cardId).trim(),
+                point: point.trim(),
+                explanation: explanation.trim(),
+                chapterId,
+                material,
+                uniqueId
+              };
+            })
+            .filter((c) => c.point);
+            
+          resolve(cards);
+        },
+        error: (error: any) => {
+          reject(error);
+        }
+      });
+    });
+  } catch (error) {
+    console.error(`Error loading flashcards from ${url}:`, error);
+    if (chapterQuestionsFallback.length > 0) {
+      return chapterQuestionsFallback.map((q, idx) => ({
+        id: q.question_id,
+        point: q.question,
+        explanation: `Correct Answer: ${q.correct_answer}\n\n${q.explanation || q[`option_${q.correct_answer.toLowerCase()}` as keyof Question] || ''}`,
+        chapterId,
+        material,
+        uniqueId: `fc_${material}_${chapterId}_${q.question_id || idx}`
+      }));
+    }
+    return [];
+  }
+};

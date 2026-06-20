@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { getChaptersByMaterial } from '../utils/chapters';
-import { Bookmark, HelpCircle, CheckCircle2, XCircle, ChevronLeft, ChevronRight, Play, Pause, Square } from 'lucide-react';
+import { Bookmark, HelpCircle, CheckCircle2, XCircle, ChevronLeft, ChevronRight, Play, Pause, Square, Clock, FileText, X } from 'lucide-react';
 
 export const StudyModeScreen: React.FC = () => {
   const {
@@ -11,6 +11,8 @@ export const StudyModeScreen: React.FC = () => {
     setStudyQuestionIndex,
     progress,
     toggleBookmark,
+    toggleReviewLater,
+    saveQuestionNote,
     recordAttempt,
     updateContinueLearning,
     addRecentActivity,
@@ -24,6 +26,10 @@ export const StudyModeScreen: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isFlipped, setIsFlipped] = useState<boolean>(false);
   const [hasAttempted, setHasAttempted] = useState<boolean>(false);
+  
+  // Notes states
+  const [showNotesModal, setShowNotesModal] = useState<boolean>(false);
+  const [noteInput, setNoteInput] = useState<string>('');
 
   const chapterQuestions = activeMaterial && activeChapterId
     ? useApp().questions.filter(q => q.material === activeMaterial && q.chapterId === activeChapterId)
@@ -165,13 +171,24 @@ export const StudyModeScreen: React.FC = () => {
         </div>
       </div>
 
-      {/* TTS control bar */}
-      <div className="px-4 py-2 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between bg-slate-50 dark:bg-slate-950">
-        <span className="text-xs text-slate-500 font-medium">Text-To-Speech:</span>
+      {/* TTS and Note control bar */}
+      <div className="px-4 py-2 border-b border-slate-205 dark:border-slate-800 flex items-center justify-between bg-slate-50 dark:bg-slate-950/80">
+        <div className="flex items-center gap-1.5">
+          <button
+            onClick={() => {
+              setNoteInput(progress.notes?.[currentQuestion.uniqueId] || '');
+              setShowNotesModal(true);
+            }}
+            className="px-3 py-1.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-black flex items-center gap-1 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer min-h-[38px] text-slate-700 dark:text-slate-350 shadow-sm"
+          >
+            <FileText size={14} className="text-cyan-600" />
+            {progress.notes?.[currentQuestion.uniqueId] ? 'Edit Note' : 'Add Note'}
+          </button>
+        </div>
         <div className="flex gap-2">
           <button
             onClick={handleTtsToggle}
-            className="px-3.5 py-1.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-bold flex items-center gap-1.5 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer min-h-[38px] text-slate-700 dark:text-slate-300"
+            className="px-3 py-1.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-bold flex items-center gap-1.5 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer min-h-[38px] text-slate-700 dark:text-slate-300 shadow-sm"
           >
             {speakingState === 'playing' ? <Pause size={14} /> : <Play size={14} fill="currentColor" />}
             {speakingState === 'playing' ? 'Pause' : speakingState === 'paused' ? 'Resume' : 'Read Aloud'}
@@ -203,17 +220,30 @@ export const StudyModeScreen: React.FC = () => {
                   <span className="flex items-center gap-1">
                     <HelpCircle size={14} /> Question
                   </span>
-                  <button
-                    onClick={() => toggleBookmark(currentQuestion.uniqueId)}
-                    className="p-1 rounded-lg text-slate-400 hover:text-amber-500 active:scale-95 transition-all cursor-pointer min-w-[36px] min-h-[36px] flex items-center justify-center"
-                    aria-label="Bookmark this question"
-                  >
-                    {isBookmarked ? (
-                      <Bookmark size={22} className="text-amber-500 fill-amber-500" />
-                    ) : (
-                      <Bookmark size={22} />
-                    )}
-                  </button>
+                  <div className="flex gap-1.5">
+                    <button
+                      onClick={() => toggleReviewLater(currentQuestion.uniqueId)}
+                      className={`p-1 rounded-lg hover:text-rose-500 active:scale-95 transition-all cursor-pointer min-w-[36px] min-h-[36px] flex items-center justify-center border border-slate-100 dark:border-slate-800 ${
+                        (progress.reviewLater || []).includes(currentQuestion.uniqueId)
+                          ? 'text-rose-500 bg-rose-50 dark:bg-rose-950/20'
+                          : 'text-slate-400'
+                      }`}
+                      aria-label="Flag for review later"
+                    >
+                      <Clock size={16} />
+                    </button>
+                    <button
+                      onClick={() => toggleBookmark(currentQuestion.uniqueId)}
+                      className="p-1 rounded-lg text-slate-400 hover:text-amber-500 active:scale-95 transition-all cursor-pointer min-w-[36px] min-h-[36px] flex items-center justify-center border border-slate-100 dark:border-slate-800"
+                      aria-label="Bookmark this question"
+                    >
+                      {isBookmarked ? (
+                        <Bookmark size={18} className="text-amber-500 fill-amber-500" />
+                      ) : (
+                        <Bookmark size={18} />
+                      )}
+                    </button>
+                  </div>
                 </div>
                 <h3 className="text-base font-bold text-slate-800 dark:text-slate-100 mt-3 leading-relaxed">
                   {currentQuestion.question}
@@ -264,17 +294,30 @@ export const StudyModeScreen: React.FC = () => {
                     {isCorrectChoice ? <CheckCircle2 size={16} /> : <XCircle size={16} />}
                     {isCorrectChoice ? 'Correct!' : 'Incorrect'}
                   </span>
-                  <button
-                    onClick={() => toggleBookmark(currentQuestion.uniqueId)}
-                    className="p-1 rounded-lg text-slate-400 hover:text-amber-500 active:scale-95 transition-all cursor-pointer min-w-[36px] min-h-[36px] flex items-center justify-center"
-                    aria-label="Bookmark this question"
-                  >
-                    {isBookmarked ? (
-                      <Bookmark size={22} className="fill-amber-500 text-amber-500" />
-                    ) : (
-                      <Bookmark size={22} />
-                    )}
-                  </button>
+                  <div className="flex gap-1.5">
+                    <button
+                      onClick={() => toggleReviewLater(currentQuestion.uniqueId)}
+                      className={`p-1 rounded-lg hover:text-rose-500 active:scale-95 transition-all cursor-pointer min-w-[36px] min-h-[36px] flex items-center justify-center border border-transparent ${
+                        (progress.reviewLater || []).includes(currentQuestion.uniqueId)
+                          ? 'text-rose-500 bg-rose-50/50 dark:bg-rose-955/25'
+                          : 'text-slate-400'
+                      }`}
+                      aria-label="Flag for review later"
+                    >
+                      <Clock size={16} />
+                    </button>
+                    <button
+                      onClick={() => toggleBookmark(currentQuestion.uniqueId)}
+                      className="p-1 rounded-lg text-slate-400 hover:text-amber-500 active:scale-95 transition-all cursor-pointer min-w-[36px] min-h-[36px] flex items-center justify-center border border-transparent"
+                      aria-label="Bookmark this question"
+                    >
+                      {isBookmarked ? (
+                        <Bookmark size={18} className="fill-amber-500 text-amber-500" />
+                      ) : (
+                        <Bookmark size={18} />
+                      )}
+                    </button>
+                  </div>
                 </div>
 
                 <div className="bg-slate-100 dark:bg-slate-950/20 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 space-y-2.5">
@@ -339,6 +382,57 @@ export const StudyModeScreen: React.FC = () => {
           Next <ChevronRight size={16} />
         </button>
       </footer>
+
+      {/* Notes Modal Overlay */}
+      {showNotesModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-sm animate-fade-in">
+          <div className="bg-white dark:bg-slate-900 border border-slate-205 dark:border-slate-800 rounded-3xl p-6 w-full max-w-sm space-y-4 shadow-2xl relative">
+            <button
+              onClick={() => setShowNotesModal(false)}
+              className="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-slate-600 rounded-lg cursor-pointer"
+              title="Close notes"
+            >
+              <X size={18} />
+            </button>
+            <h4 className="text-sm font-extrabold text-slate-850 dark:text-slate-100 flex items-center gap-1.5 font-sans">
+              <FileText size={18} className="text-cyan-600 animate-pulse" /> Study Notes
+            </h4>
+            <p className="text-[10px] text-slate-450 dark:text-slate-500 font-semibold leading-normal">
+              Write key takeaways, notes, or mnemonic clues for this question. Your notes will be saved and can be reviewed later.
+            </p>
+            <textarea
+              rows={4}
+              placeholder="Type your notes here..."
+              value={noteInput}
+              onChange={(e) => setNoteInput(e.target.value)}
+              className="w-full p-3 bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-850 rounded-2xl text-xs font-semibold focus:outline-none focus:border-cyan-500 text-slate-800 dark:text-slate-200"
+            />
+            <div className="flex gap-2">
+              <button
+                onClick={() => {
+                  saveQuestionNote(currentQuestion.uniqueId, noteInput);
+                  setShowNotesModal(false);
+                }}
+                className="flex-1 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-extrabold text-xs uppercase rounded-xl tracking-wider cursor-pointer active:scale-95 transition-all shadow-sm"
+              >
+                Save Note
+              </button>
+              {noteInput && (
+                <button
+                  onClick={() => {
+                    saveQuestionNote(currentQuestion.uniqueId, '');
+                    setNoteInput('');
+                    setShowNotesModal(false);
+                  }}
+                  className="px-3.5 py-3 bg-rose-50 hover:bg-rose-100 text-rose-600 font-extrabold text-xs uppercase rounded-xl tracking-wider cursor-pointer active:scale-95 transition-all"
+                >
+                  Clear
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
