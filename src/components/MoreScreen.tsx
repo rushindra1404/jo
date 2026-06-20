@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
+import { useAuth } from '../context/AuthContext';
 import { getChaptersByMaterial } from '../utils/chapters';
 import {
   Bookmark,
@@ -22,8 +23,10 @@ export const MoreScreen: React.FC = () => {
     resetProgress,
     navigate,
     toggleReviewLater,
-    questions
+    questions,
+    setProfileDrawerOpen,
   } = useApp();
+  const { user } = useAuth();
 
   const [activeSubView, setActiveSubView] = useState<'review-later' | null>(null);
 
@@ -131,6 +134,37 @@ export const MoreScreen: React.FC = () => {
         <h2 className="text-xs font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">More & Settings</h2>
         <p className="text-2xl font-black text-slate-800 dark:text-slate-105 font-sans mt-0.5">Control Panel</p>
       </div>
+
+      {/* User Profile Card */}
+      <section className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          {user?.photoURL ? (
+            <img
+              src={user.photoURL}
+              alt={user.displayName}
+              className="w-11 h-11 rounded-full border border-cyan-500/20 object-cover"
+            />
+          ) : (
+            <div className="w-11 h-11 rounded-full bg-cyan-600 dark:bg-cyan-900 text-white flex items-center justify-center font-bold text-sm uppercase">
+              {user?.displayName ? user.displayName.charAt(0).toUpperCase() : 'U'}
+            </div>
+          )}
+          <div>
+            <h3 className="text-xs font-black text-slate-800 dark:text-slate-150 leading-none">
+              {user?.displayName}
+            </h3>
+            <p className="text-[9px] text-slate-400 font-semibold mt-1.5 leading-none">
+              {user?.email}
+            </p>
+          </div>
+        </div>
+        <button
+          onClick={() => setProfileDrawerOpen(true)}
+          className="px-3 py-2 bg-slate-50 hover:bg-slate-100 dark:bg-slate-850 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 font-extrabold text-[9px] uppercase rounded-xl tracking-wider active:scale-95 transition-all shadow-sm border border-slate-200 dark:border-slate-850 cursor-pointer"
+        >
+          Manage
+        </button>
+      </section>
 
       {/* 1. Revision Queues Shortcuts */}
       <section className="space-y-3">

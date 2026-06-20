@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import type { Question, UserProgress, AccessibilitySettings, RecentActivity, SessionStats, DailyActivityLog } from '../types';
 import { GPOE_CHAPTERS, ICA_CHAPTERS, getChaptersByMaterial } from '../utils/chapters';
 import { loadChapterQuestions } from '../utils/csvLoader';
+import { useAuth } from './AuthContext';
 
 interface AppContextProps {
   // Questions Bank
@@ -75,6 +76,10 @@ interface AppContextProps {
   pauseSpeaking: () => void;
   resumeSpeaking: () => void;
   stopSpeaking: () => void;
+  
+  // Profile Drawer state
+  profileDrawerOpen: boolean;
+  setProfileDrawerOpen: (open: boolean) => void;
 }
 
 const defaultSessionStats: SessionStats = {
@@ -111,6 +116,8 @@ const defaultSettings: AccessibilitySettings = {
 const AppContext = createContext<AppContextProps | undefined>(undefined);
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const { user } = useAuth();
+
   // Global states
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loadingQuestions, setLoadingQuestions] = useState<boolean>(true);
@@ -123,31 +130,54 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [activePdfChapterId, setActivePdfChapterId] = useState<string | null>(null);
 
   // Persistence States
-  const [progress, setProgress] = useState<UserProgress>(() => {
-    const saved = localStorage.getItem('sail_revision_progress');
-    if (saved) {
-      const parsed = JSON.parse(saved);
-      return {
-        ...defaultProgress,
-        ...parsed,
-        sessionStats: {
-          ...defaultSessionStats,
-          ...(parsed.sessionStats || {}),
-        },
-        dailyLogs: parsed.dailyLogs || {},
-      };
-    }
-    return defaultProgress;
-  });
+  const [progress, setProgress] = useState<UserProgress>(defaultProgress);
   
   const [settings, setSettings] = useState<AccessibilitySettings>(() => {
-    const saved = localStorage.getItem('sail_revision_settings');
-    if (saved) {
-      return JSON.parse(saved);
-    }
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     return { ...defaultSettings, darkMode: prefersDark };
   });
+
+  // Sync state with authenticated user
+  useEffect(() => {
+    const progressKey = user ? `sail_revision_progress_${user.uid}` : 'sail_revision_progress';
+    const settingsKey = user ? `sail_revision_settings_${user.uid}` : 'sail_revision_settings';
+
+    const savedProgress = localStorage.getItem(progressKey);
+    if (savedProgress) {
+      try {
+        const parsed = JSON.parse(savedProgress);
+        setProgress({
+          ...defaultProgress,
+          ...parsed,
+          sessionStats: {
+            ...defaultSessionStats,
+            ...(parsed.sessionStats || {}),
+          },
+          dailyLogs: parsed.dailyLogs || {},
+        });
+      } catch (e) {
+        setProgress(defaultProgress);
+      }
+    } else {
+      setProgress(defaultProgress);
+    }
+
+    const savedSettings = localStorage.getItem(settingsKey);
+    if (savedSettings) {
+      try {
+        const parsed = JSON.parse(savedSettings);
+        setSettings(parsed);
+      } catch (e) {
+        // Keep current settings
+      }
+    } else {
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setSettings({ ...defaultSettings, darkMode: prefersDark });
+    }
+  }, [user]);
+
+  // Profile Drawer state
+  const [profileDrawerOpen, setProfileDrawerOpen] = useState<boolean>(false);
 
   // Study Mode State
   const [studyQuestionIndex, setStudyQuestionIndex] = useState<number>(0);
@@ -195,11 +225,13 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   // Save progress & settings on change
   useEffect(() => {
-    localStorage.setItem('sail_revision_progress', JSON.stringify(progress));
-  }, [progress]);
+    const progressKey = user ? `sail_revision_progress_${user.uid}` : 'sail_revision_progress';
+    localStorage.setItem(progressKey, JSON.stringify(progress));
+  }, [progress, user]);
 
   useEffect(() => {
-    localStorage.setItem('sail_revision_settings', JSON.stringify(settings));
+    const settingsKey = user ? `sail_revision_settings_${user.uid}` : 'sail_revision_settings';
+    localStorage.setItem(settingsKey, JSON.stringify(settings));
     
     const root = window.document.documentElement;
     if (settings.highContrast) {
@@ -207,7 +239,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     } else {
       root.classList.remove('high-contrast');
     }
-  }, [settings]);
+  }, [settings, user]);
 
 
   // Seed study history data if dailyLogs is empty, and track streaks
@@ -563,7 +595,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const resetProgress = () => {
     if (window.confirm('Are you sure you want to reset all your revision progress, stats, bookmarks, and mistakes?')) {
       setProgress(defaultProgress);
-      localStorage.removeItem('sail_revision_progress');
+      const progressKey = user ? `sail_revision_progress_${user.uid}` : 'sail_revision_progress';
+      localStorage.removeItem(progressKey);
       navigate('home');
     }
   };
@@ -733,6 +766,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         pauseSpeaking,
         resumeSpeaking,
         stopSpeaking,
+        profileDrawerOpen,
+        setProfileDrawerOpen,
       }}
     >
       {children}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppProvider, useApp } from './context/AppContext';
 import { ThemeProvider } from './context/ThemeContext';
+import { AuthProvider, useAuth } from './context/AuthContext';
 import { TopBar } from './components/TopBar';
 import { BottomNav } from './components/BottomNav';
 import { ChapterSelectionScreen } from './components/ChapterSelectionScreen';
@@ -20,9 +21,47 @@ import { FlashCardsChaptersScreen } from './components/FlashCardsChaptersScreen'
 import { ExamTabScreen } from './components/ExamTabScreen';
 import { ProgressScreen } from './components/ProgressScreen';
 import { MoreScreen } from './components/MoreScreen';
+import { LoginScreen } from './components/LoginScreen';
+import { FirstTimeScreen } from './components/FirstTimeScreen';
+import { ProfileDrawer } from './components/ProfileDrawer';
 
 const MainAppContent: React.FC = () => {
-  const { activeRoute, loadingQuestions, settings } = useApp();
+  const { user, loading, isFirstTimeUser } = useAuth();
+  const { activeRoute, loadingQuestions, settings, profileDrawerOpen, setProfileDrawerOpen } = useApp();
+
+  // 1. Session Initialization Gate
+  if (loading) {
+    return (
+      <div className="h-full flex justify-center bg-slate-100 dark:bg-slate-950/80 transition-colors duration-200">
+        <div className="max-w-md w-full h-full flex flex-col items-center justify-center p-6 text-center bg-slate-50 dark:bg-slate-900 border-x border-slate-200 dark:border-slate-800 shadow-xl">
+          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-cyan-600"></div>
+          <p className="text-sm font-bold text-slate-700 dark:text-slate-350 mt-4 animate-pulse">Initializing session...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // 2. Authentication Gate (Protected Routes Check)
+  if (!user) {
+    return (
+      <div className="h-full flex justify-center bg-slate-100 dark:bg-slate-950/80 transition-colors duration-200">
+        <div className="max-w-md w-full h-full flex flex-col bg-slate-50 dark:bg-slate-900 border-x border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden">
+          <LoginScreen />
+        </div>
+      </div>
+    );
+  }
+
+  // 3. First-Time User Experience Onboarding Gate
+  if (isFirstTimeUser) {
+    return (
+      <div className="h-full flex justify-center bg-slate-100 dark:bg-slate-950/80 transition-colors duration-200">
+        <div className="max-w-md w-full h-full flex flex-col bg-slate-50 dark:bg-slate-900 border-x border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden">
+          <FirstTimeScreen />
+        </div>
+      </div>
+    );
+  }
 
   const renderActiveScreen = () => {
     if (loadingQuestions) {
@@ -105,6 +144,12 @@ const MainAppContent: React.FC = () => {
         
         {/* Bottom Navigation */}
         <BottomNav />
+
+        {/* Global Slide-up Profile Menu Drawer */}
+        <ProfileDrawer
+          isOpen={profileDrawerOpen}
+          onClose={() => setProfileDrawerOpen(false)}
+        />
       </div>
     </div>
   );
@@ -113,10 +158,13 @@ const MainAppContent: React.FC = () => {
 export default function App() {
   return (
     <ThemeProvider>
-      <AppProvider>
-        <MainAppContent />
-      </AppProvider>
+      <AuthProvider>
+        <AppProvider>
+          <MainAppContent />
+        </AppProvider>
+      </AuthProvider>
     </ThemeProvider>
   );
 }
+
 

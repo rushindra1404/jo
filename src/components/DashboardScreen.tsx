@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
+import { useAuth } from '../context/AuthContext';
 import { getChaptersByMaterial, ICA_CHAPTERS, GPOE_CHAPTERS } from '../utils/chapters';
 import { getAllStudyProgress } from '../utils/indexedDB';
 import type { StudyProgress } from '../utils/indexedDB';
@@ -9,9 +10,6 @@ import {
   Sliders,
   Play,
   BookOpen,
-  User,
-  SlidersHorizontal,
-  Bell,
   FileSpreadsheet
 } from 'lucide-react';
 
@@ -25,7 +23,9 @@ export const DashboardScreen: React.FC = () => {
     setStudyQuestionIndex,
     setActivePdfMaterial,
     setActivePdfChapterId,
+    setProfileDrawerOpen,
   } = useApp();
+  const { user } = useAuth();
 
   const [continueReadingPdf, setContinueReadingPdf] = useState<StudyProgress | null>(null);
 
@@ -46,11 +46,17 @@ export const DashboardScreen: React.FC = () => {
     loadLibraryDetails();
   }, []);
 
-  const getGreeting = () => {
+  const getGreeting = (firstName: string) => {
     const hrs = new Date().getHours();
-    if (hrs < 12) return 'Good Morning';
-    if (hrs < 17) return 'Good Afternoon';
-    return 'Good Evening';
+    if (hrs >= 5 && hrs < 12) return `Good Morning, ${firstName}`;
+    if (hrs >= 12 && hrs < 17) return `Good Afternoon, ${firstName}`;
+    if (hrs >= 17 && hrs < 24) return `Good Evening, ${firstName}`;
+    return `Welcome Back, ${firstName}`;
+  };
+
+  const getCurrentDateString = () => {
+    const options: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' };
+    return new Date().toLocaleDateString('en-GB', options); // returns format like "20 June 2026"
   };
 
   // 1. Calculate General stats
@@ -149,29 +155,36 @@ export const DashboardScreen: React.FC = () => {
     <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6 bg-slate-50 dark:bg-slate-950/40">
       
       {/* SECTION 1: Welcome Header */}
-      <header className="flex justify-between items-center bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4 shadow-sm">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-cyan-600 dark:bg-cyan-900 text-white rounded-full flex items-center justify-center font-bold shadow-sm">
-            <User size={20} />
-          </div>
-          <div>
-            <h2 className="text-xs text-slate-400 font-bold uppercase tracking-wider">{getGreeting()}</h2>
-            <p className="text-sm font-black text-slate-800 dark:text-slate-100 font-sans leading-none mt-1">Promotion Exam Revision</p>
-          </div>
+      <header className="flex justify-between items-center bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4.5 shadow-sm">
+        <div className="flex flex-col space-y-1">
+          <h2 className="text-sm font-black text-slate-800 dark:text-slate-100 font-sans leading-tight">
+            {getGreeting(user?.firstName || 'User')} 👋
+          </h2>
+          <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-none">
+            {getCurrentDateString()}
+          </p>
         </div>
-        <div className="flex items-center gap-2">
-          <div className="relative p-2 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-400 rounded-xl cursor-pointer" title="Notifications">
-            <Bell size={18} />
-            <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-rose-500 rounded-full" />
-          </div>
-          <button
-            onClick={() => navigate('more')}
-            className="p-2 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-400 rounded-xl cursor-pointer"
-            title="Settings"
-          >
-            <SlidersHorizontal size={18} />
-          </button>
-        </div>
+        
+        {/* Profile Avatar Launcher */}
+        <button
+          onClick={() => setProfileDrawerOpen(true)}
+          className="relative shrink-0 w-11 h-11 hover:scale-105 active:scale-95 transition-all cursor-pointer rounded-full"
+          title="Open Profile Menu"
+          aria-label="Open Profile Menu"
+        >
+          {user?.photoURL ? (
+            <img
+              src={user.photoURL}
+              alt={user.displayName}
+              className="w-full h-full rounded-full border border-cyan-500/20 shadow-sm object-cover"
+            />
+          ) : (
+            <div className="w-full h-full bg-cyan-600 dark:bg-cyan-900 text-white rounded-full flex items-center justify-center font-bold text-sm shadow-sm">
+              {user?.displayName ? user.displayName.charAt(0).toUpperCase() : 'U'}
+            </div>
+          )}
+          <span className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-emerald-500 border-2 border-white dark:border-slate-900 rounded-full" />
+        </button>
       </header>
 
       {/* SECTION 2: Continue Learning HERO Card */}

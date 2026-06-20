@@ -1,10 +1,14 @@
-const DB_NAME = 'sail_cbt_db';
+let currentDbName = 'sail_cbt_db_guest';
 const DB_VERSION = 2;
 const ACTIVE_STORE = 'active_exam';
 const HISTORY_STORE = 'exam_history';
 const PROGRESS_STORE = 'study_progress';
 const FAVORITES_STORE = 'study_favorites';
 const RECENT_STORE = 'study_recent';
+
+export function setDatabaseNamespace(userId: string) {
+  currentDbName = `sail_cbt_db_${userId}`;
+}
 
 export interface StudyProgress {
   chapterUniqueId: string; // e.g. "ica_chapter01"
@@ -38,7 +42,7 @@ export interface StudyRecent {
 
 function openDB(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
-    const request = indexedDB.open(DB_NAME, DB_VERSION);
+    const request = indexedDB.open(currentDbName, DB_VERSION);
 
     request.onerror = () => reject(request.error);
     request.onsuccess = () => resolve(request.result);
