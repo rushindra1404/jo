@@ -1,0 +1,161 @@
+question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
+1,What is the full form of RMHP?,Raw Material Handling Plant,Rail Material Handling Plant,Raw Mineral Handling Process,Resource Material Handling Plant,A,RMHP stands for Raw Material Handling Plant.
+2,Which plant is also known as OHP?,Ore Handling Plant,Ore Heating Plant,Ore Hopper Plant,Ore Homogenization Plant,A,OHP means Ore Handling Plant.
+3,Which activity is NOT a major RMHP function?,Stacking,Blending,Rolling,Screening,C,Rolling is not a listed RMHP function.
+4,Which raw material is excluded from general RMHP handling in the introduction?,Coal,Iron ore,Dolomite,Limestone,A,The text states all raw materials except coal are handled.
+5,Main objective of blending is to:,Homogenize materials,Increase moisture,Reduce Fe content,Increase wagon count,A,Blending is used for homogenization.
+6,Iron Ore Lumps source includes?,Barsua,Kolkata,Nagpur,Surat,A,Based on the chapter specification.
+7,Quartzite source mentioned is?,Bobbili (AP),Rourkela,Jaisalmer,Bhutan,A,Based on the chapter specification.
+8,SMS grade limestone is imported from?,Dubai and Oman,Japan and Korea,USA and Canada,China and Nepal,A,Based on the chapter specification.
+9,Agglomeration means?,Forming a larger body from smaller bodies,Ore melting,Ore washing,Coal carbonization,A,Based on the chapter specification.
+10,Pelletization produces pellets of size?,8-20 mm,1-3 mm,40-60 mm,80-100 mm,A,Based on the chapter specification.
+11,Typical firing temperature for pellets is?,1200–1350°C,400–600°C,700–900°C,150–300°C,A,Based on the chapter specification.
+12,Pellets are classified as?,Acidic and Basic,Hard and Soft,Natural and Synthetic,Cold and Hot,A,Based on the chapter specification.
+13,Pellets generally have porosity of?,25-30%,5-10%,40-50%,1-2%,A,Based on the chapter specification.
+14,Pellets require about how much less heat than sintering??,35-40%,5-10%,15-20%,60-70%,A,Based on the chapter specification.
+15,Minimum Fe in BF grade pellet specification is?,65%,55%,60%,70%,A,Based on the chapter specification.
+16,Maximum P in pellet specification is?,0.04%,0.4%,0.14%,1.0%,A,Based on the chapter specification.
+17,Minimum tumble index (+6.35 mm) is?,94%,84%,74%,64%,A,Based on the chapter specification.
+18,Minimum compression strength is?,250 kg/pellet,25 kg/pellet,100 kg/pellet,500 kg/pellet,A,Based on the chapter specification.
+19,Samples are reduced using?,Quarter and coning,Flotation,Roasting,Leaching,A,Based on the chapter specification.
+20,Iron ore lump Fe content is approximately?,62.3-63.2%,50-52%,70-75%,40-45%,A,Based on the chapter specification.
+21,BF grade dolomite MgO is about?,18%,5%,30%,1%,A,Based on the chapter specification.
+22,Mn ore minimum Mn content is?,30%,10%,20%,50%,A,Based on the chapter specification.
+23,Wagon Tippler is used for?,Mechanized unloading,Crushing,Screening,Sampling,A,Based on the chapter specification.
+24,Track Hopper is used for?,Manual unloading,Pelletizing,Blending,Sampling,A,Based on the chapter specification.
+25,Belt conveyors are used for?,Conveying materials,Screening,Crushing,Sampling,A,Based on the chapter specification.
+26,Indian Railways acts as?,Linkage between mines and plant,Crusher supplier,Pellet producer,Flux supplier,A,Based on the chapter specification.
+27,"For wagon tippler unloading, wagon type includes?",BOXN,BOBS,NBOBS,None,A,Based on the chapter specification.
+28,"For track hopper unloading, wagon type includes?",BOBS,BOXN,BOXC,BOST,A,Based on the chapter specification.
+29,More layers in a bed generally?,Increase homogeneity,Decrease homogeneity,Increase moisture,Reduce blending,A,Based on the chapter specification.
+30,Homogenization increases rapidly after layers exceed?,400,40,100,200,A,Based on the chapter specification.
+31,Effect becomes nearly constant after about?,580 layers,58 layers,1000 layers,250 layers,A,Based on the chapter specification.
+32,Iron ore lump screening removes?,-10 mm fraction,+100 mm fraction,Moisture,Silica,A,Based on the chapter specification.
+33,Vibratory screen mesh used is?,10 x 10 mm,20 x 20 mm,5 x 5 mm,40 x 40 mm,A,Based on the chapter specification.
+34,Base mix mainly contains?,Iron ore fines,Only coke,Only limestone,Only slag,A,Based on the chapter specification.
+35,Iron ore fines share in base mix is about?,70-80%,10-20%,30-40%,90-100%,A,Based on the chapter specification.
+36,Flux is a mixture of?,Limestone and dolomite,Coke and ore,Ore and slag,Quartzite and ore,A,Based on the chapter specification.
+37,Flux used in base mix is about?,12-16%,1-2%,40-50%,25-30%,A,Based on the chapter specification.
+38,Hammer crushers are used to crush?,Limestone and dolomite,Pellets,Rail tracks,Wagons,A,Based on the chapter specification.
+39,Required crushed flux fraction is?,(-3 mm) >90%,(+40 mm) >90%,(-10 mm) 10%,(+80 mm) 50%,A,Based on the chapter specification.
+40,Crushed coke used in base mix is about?,5-6%,20-25%,40%,1%,A,Based on the chapter specification.
+41,BOF slag used in base mix is about?,3.5-4%,15%,25%,0%,A,Based on the chapter specification.
+42,Metallurgical waste use in base mix is about?,1%,10%,20%,5%,A,Based on the chapter specification.
+43,Blast Furnace receives?,Sized iron ore and quartzite,SMS limestone only,Base mix only,Flue dust,A,Based on the chapter specification.
+44,Sinter plant receives?,Base mix and crushed flux,Only quartzite,Only pellets,Only dolomite,A,Based on the chapter specification.
+45,RMHP is a?,Dust prone department,Water treatment plant,Power plant,Coke oven battery,A,Based on the chapter specification.
+46,Iron Ore Lumps source includes?,Barsua,Kolkata,Nagpur,Surat,A,Based on the chapter specification.
+47,Quartzite source mentioned is?,Bobbili (AP),Rourkela,Jaisalmer,Bhutan,A,Based on the chapter specification.
+48,SMS grade limestone is imported from?,Dubai and Oman,Japan and Korea,USA and Canada,China and Nepal,A,Based on the chapter specification.
+49,Agglomeration means?,Forming a larger body from smaller bodies,Ore melting,Ore washing,Coal carbonization,A,Based on the chapter specification.
+50,Pelletization produces pellets of size?,8-20 mm,1-3 mm,40-60 mm,80-100 mm,A,Based on the chapter specification.
+51,Typical firing temperature for pellets is?,1200–1350°C,400–600°C,700–900°C,150–300°C,A,Based on the chapter specification.
+52,Pellets are classified as?,Acidic and Basic,Hard and Soft,Natural and Synthetic,Cold and Hot,A,Based on the chapter specification.
+53,Pellets generally have porosity of?,25-30%,5-10%,40-50%,1-2%,A,Based on the chapter specification.
+54,Pellets require about how much less heat than sintering??,35-40%,5-10%,15-20%,60-70%,A,Based on the chapter specification.
+55,Minimum Fe in BF grade pellet specification is?,65%,55%,60%,70%,A,Based on the chapter specification.
+56,Maximum P in pellet specification is?,0.04%,0.4%,0.14%,1.0%,A,Based on the chapter specification.
+57,Minimum tumble index (+6.35 mm) is?,94%,84%,74%,64%,A,Based on the chapter specification.
+58,Minimum compression strength is?,250 kg/pellet,25 kg/pellet,100 kg/pellet,500 kg/pellet,A,Based on the chapter specification.
+59,Samples are reduced using?,Quarter and coning,Flotation,Roasting,Leaching,A,Based on the chapter specification.
+60,Iron ore lump Fe content is approximately?,62.3-63.2%,50-52%,70-75%,40-45%,A,Based on the chapter specification.
+61,BF grade dolomite MgO is about?,18%,5%,30%,1%,A,Based on the chapter specification.
+62,Mn ore minimum Mn content is?,30%,10%,20%,50%,A,Based on the chapter specification.
+63,Wagon Tippler is used for?,Mechanized unloading,Crushing,Screening,Sampling,A,Based on the chapter specification.
+64,Track Hopper is used for?,Manual unloading,Pelletizing,Blending,Sampling,A,Based on the chapter specification.
+65,Belt conveyors are used for?,Conveying materials,Screening,Crushing,Sampling,A,Based on the chapter specification.
+66,Indian Railways acts as?,Linkage between mines and plant,Crusher supplier,Pellet producer,Flux supplier,A,Based on the chapter specification.
+67,"For wagon tippler unloading, wagon type includes?",BOXN,BOBS,NBOBS,None,A,Based on the chapter specification.
+68,"For track hopper unloading, wagon type includes?",BOBS,BOXN,BOXC,BOST,A,Based on the chapter specification.
+69,More layers in a bed generally?,Increase homogeneity,Decrease homogeneity,Increase moisture,Reduce blending,A,Based on the chapter specification.
+70,Homogenization increases rapidly after layers exceed?,400,40,100,200,A,Based on the chapter specification.
+71,Effect becomes nearly constant after about?,580 layers,58 layers,1000 layers,250 layers,A,Based on the chapter specification.
+72,Iron ore lump screening removes?,-10 mm fraction,+100 mm fraction,Moisture,Silica,A,Based on the chapter specification.
+73,Vibratory screen mesh used is?,10 x 10 mm,20 x 20 mm,5 x 5 mm,40 x 40 mm,A,Based on the chapter specification.
+74,Base mix mainly contains?,Iron ore fines,Only coke,Only limestone,Only slag,A,Based on the chapter specification.
+75,Iron ore fines share in base mix is about?,70-80%,10-20%,30-40%,90-100%,A,Based on the chapter specification.
+76,Flux is a mixture of?,Limestone and dolomite,Coke and ore,Ore and slag,Quartzite and ore,A,Based on the chapter specification.
+77,Flux used in base mix is about?,12-16%,1-2%,40-50%,25-30%,A,Based on the chapter specification.
+78,Hammer crushers are used to crush?,Limestone and dolomite,Pellets,Rail tracks,Wagons,A,Based on the chapter specification.
+79,Required crushed flux fraction is?,(-3 mm) >90%,(+40 mm) >90%,(-10 mm) 10%,(+80 mm) 50%,A,Based on the chapter specification.
+80,Crushed coke used in base mix is about?,5-6%,20-25%,40%,1%,A,Based on the chapter specification.
+81,BOF slag used in base mix is about?,3.5-4%,15%,25%,0%,A,Based on the chapter specification.
+82,Metallurgical waste use in base mix is about?,1%,10%,20%,5%,A,Based on the chapter specification.
+83,Blast Furnace receives?,Sized iron ore and quartzite,SMS limestone only,Base mix only,Flue dust,A,Based on the chapter specification.
+84,Sinter plant receives?,Base mix and crushed flux,Only quartzite,Only pellets,Only dolomite,A,Based on the chapter specification.
+85,RMHP is a?,Dust prone department,Water treatment plant,Power plant,Coke oven battery,A,Based on the chapter specification.
+86,Iron Ore Lumps source includes?,Barsua,Kolkata,Nagpur,Surat,A,Based on the chapter specification.
+87,Quartzite source mentioned is?,Bobbili (AP),Rourkela,Jaisalmer,Bhutan,A,Based on the chapter specification.
+88,SMS grade limestone is imported from?,Dubai and Oman,Japan and Korea,USA and Canada,China and Nepal,A,Based on the chapter specification.
+89,Agglomeration means?,Forming a larger body from smaller bodies,Ore melting,Ore washing,Coal carbonization,A,Based on the chapter specification.
+90,Pelletization produces pellets of size?,8-20 mm,1-3 mm,40-60 mm,80-100 mm,A,Based on the chapter specification.
+91,Typical firing temperature for pellets is?,1200–1350°C,400–600°C,700–900°C,150–300°C,A,Based on the chapter specification.
+92,Pellets are classified as?,Acidic and Basic,Hard and Soft,Natural and Synthetic,Cold and Hot,A,Based on the chapter specification.
+93,Pellets generally have porosity of?,25-30%,5-10%,40-50%,1-2%,A,Based on the chapter specification.
+94,Pellets require about how much less heat than sintering??,35-40%,5-10%,15-20%,60-70%,A,Based on the chapter specification.
+95,Minimum Fe in BF grade pellet specification is?,65%,55%,60%,70%,A,Based on the chapter specification.
+96,Maximum P in pellet specification is?,0.04%,0.4%,0.14%,1.0%,A,Based on the chapter specification.
+97,Minimum tumble index (+6.35 mm) is?,94%,84%,74%,64%,A,Based on the chapter specification.
+98,Minimum compression strength is?,250 kg/pellet,25 kg/pellet,100 kg/pellet,500 kg/pellet,A,Based on the chapter specification.
+99,Samples are reduced using?,Quarter and coning,Flotation,Roasting,Leaching,A,Based on the chapter specification.
+100,Iron ore lump Fe content is approximately?,62.3-63.2%,50-52%,70-75%,40-45%,A,Based on the chapter specification.
+101,BF grade dolomite MgO is about?,18%,5%,30%,1%,A,Based on the chapter specification.
+102,Mn ore minimum Mn content is?,30%,10%,20%,50%,A,Based on the chapter specification.
+103,Wagon Tippler is used for?,Mechanized unloading,Crushing,Screening,Sampling,A,Based on the chapter specification.
+104,Track Hopper is used for?,Manual unloading,Pelletizing,Blending,Sampling,A,Based on the chapter specification.
+105,Belt conveyors are used for?,Conveying materials,Screening,Crushing,Sampling,A,Based on the chapter specification.
+106,Indian Railways acts as?,Linkage between mines and plant,Crusher supplier,Pellet producer,Flux supplier,A,Based on the chapter specification.
+107,"For wagon tippler unloading, wagon type includes?",BOXN,BOBS,NBOBS,None,A,Based on the chapter specification.
+108,"For track hopper unloading, wagon type includes?",BOBS,BOXN,BOXC,BOST,A,Based on the chapter specification.
+109,More layers in a bed generally?,Increase homogeneity,Decrease homogeneity,Increase moisture,Reduce blending,A,Based on the chapter specification.
+110,Homogenization increases rapidly after layers exceed?,400,40,100,200,A,Based on the chapter specification.
+111,Effect becomes nearly constant after about?,580 layers,58 layers,1000 layers,250 layers,A,Based on the chapter specification.
+112,Iron ore lump screening removes?,-10 mm fraction,+100 mm fraction,Moisture,Silica,A,Based on the chapter specification.
+113,Vibratory screen mesh used is?,10 x 10 mm,20 x 20 mm,5 x 5 mm,40 x 40 mm,A,Based on the chapter specification.
+114,Base mix mainly contains?,Iron ore fines,Only coke,Only limestone,Only slag,A,Based on the chapter specification.
+115,Iron ore fines share in base mix is about?,70-80%,10-20%,30-40%,90-100%,A,Based on the chapter specification.
+116,Flux is a mixture of?,Limestone and dolomite,Coke and ore,Ore and slag,Quartzite and ore,A,Based on the chapter specification.
+117,Flux used in base mix is about?,12-16%,1-2%,40-50%,25-30%,A,Based on the chapter specification.
+118,Hammer crushers are used to crush?,Limestone and dolomite,Pellets,Rail tracks,Wagons,A,Based on the chapter specification.
+119,Required crushed flux fraction is?,(-3 mm) >90%,(+40 mm) >90%,(-10 mm) 10%,(+80 mm) 50%,A,Based on the chapter specification.
+120,Crushed coke used in base mix is about?,5-6%,20-25%,40%,1%,A,Based on the chapter specification.
+121,BOF slag used in base mix is about?,3.5-4%,15%,25%,0%,A,Based on the chapter specification.
+122,Metallurgical waste use in base mix is about?,1%,10%,20%,5%,A,Based on the chapter specification.
+123,Blast Furnace receives?,Sized iron ore and quartzite,SMS limestone only,Base mix only,Flue dust,A,Based on the chapter specification.
+124,Sinter plant receives?,Base mix and crushed flux,Only quartzite,Only pellets,Only dolomite,A,Based on the chapter specification.
+125,RMHP is a?,Dust prone department,Water treatment plant,Power plant,Coke oven battery,A,Based on the chapter specification.
+126,Iron Ore Lumps source includes?,Barsua,Kolkata,Nagpur,Surat,A,Based on the chapter specification.
+127,Quartzite source mentioned is?,Bobbili (AP),Rourkela,Jaisalmer,Bhutan,A,Based on the chapter specification.
+128,SMS grade limestone is imported from?,Dubai and Oman,Japan and Korea,USA and Canada,China and Nepal,A,Based on the chapter specification.
+129,Agglomeration means?,Forming a larger body from smaller bodies,Ore melting,Ore washing,Coal carbonization,A,Based on the chapter specification.
+130,Pelletization produces pellets of size?,8-20 mm,1-3 mm,40-60 mm,80-100 mm,A,Based on the chapter specification.
+131,Typical firing temperature for pellets is?,1200–1350°C,400–600°C,700–900°C,150–300°C,A,Based on the chapter specification.
+132,Pellets are classified as?,Acidic and Basic,Hard and Soft,Natural and Synthetic,Cold and Hot,A,Based on the chapter specification.
+133,Pellets generally have porosity of?,25-30%,5-10%,40-50%,1-2%,A,Based on the chapter specification.
+134,Pellets require about how much less heat than sintering??,35-40%,5-10%,15-20%,60-70%,A,Based on the chapter specification.
+135,Minimum Fe in BF grade pellet specification is?,65%,55%,60%,70%,A,Based on the chapter specification.
+136,Maximum P in pellet specification is?,0.04%,0.4%,0.14%,1.0%,A,Based on the chapter specification.
+137,Minimum tumble index (+6.35 mm) is?,94%,84%,74%,64%,A,Based on the chapter specification.
+138,Minimum compression strength is?,250 kg/pellet,25 kg/pellet,100 kg/pellet,500 kg/pellet,A,Based on the chapter specification.
+139,Samples are reduced using?,Quarter and coning,Flotation,Roasting,Leaching,A,Based on the chapter specification.
+140,Iron ore lump Fe content is approximately?,62.3-63.2%,50-52%,70-75%,40-45%,A,Based on the chapter specification.
+141,BF grade dolomite MgO is about?,18%,5%,30%,1%,A,Based on the chapter specification.
+142,Mn ore minimum Mn content is?,30%,10%,20%,50%,A,Based on the chapter specification.
+143,Wagon Tippler is used for?,Mechanized unloading,Crushing,Screening,Sampling,A,Based on the chapter specification.
+144,Track Hopper is used for?,Manual unloading,Pelletizing,Blending,Sampling,A,Based on the chapter specification.
+145,Belt conveyors are used for?,Conveying materials,Screening,Crushing,Sampling,A,Based on the chapter specification.
+146,Indian Railways acts as?,Linkage between mines and plant,Crusher supplier,Pellet producer,Flux supplier,A,Based on the chapter specification.
+147,"For wagon tippler unloading, wagon type includes?",BOXN,BOBS,NBOBS,None,A,Based on the chapter specification.
+148,"For track hopper unloading, wagon type includes?",BOBS,BOXN,BOXC,BOST,A,Based on the chapter specification.
+149,More layers in a bed generally?,Increase homogeneity,Decrease homogeneity,Increase moisture,Reduce blending,A,Based on the chapter specification.
+150,Homogenization increases rapidly after layers exceed?,400,40,100,200,A,Based on the chapter specification.
+151,Effect becomes nearly constant after about?,580 layers,58 layers,1000 layers,250 layers,A,Based on the chapter specification.
+152,Iron ore lump screening removes?,-10 mm fraction,+100 mm fraction,Moisture,Silica,A,Based on the chapter specification.
+153,Vibratory screen mesh used is?,10 x 10 mm,20 x 20 mm,5 x 5 mm,40 x 40 mm,A,Based on the chapter specification.
+154,Base mix mainly contains?,Iron ore fines,Only coke,Only limestone,Only slag,A,Based on the chapter specification.
+155,Iron ore fines share in base mix is about?,70-80%,10-20%,30-40%,90-100%,A,Based on the chapter specification.
+156,Flux is a mixture of?,Limestone and dolomite,Coke and ore,Ore and slag,Quartzite and ore,A,Based on the chapter specification.
+157,Flux used in base mix is about?,12-16%,1-2%,40-50%,25-30%,A,Based on the chapter specification.
+158,Hammer crushers are used to crush?,Limestone and dolomite,Pellets,Rail tracks,Wagons,A,Based on the chapter specification.
+159,Required crushed flux fraction is?,(-3 mm) >90%,(+40 mm) >90%,(-10 mm) 10%,(+80 mm) 50%,A,Based on the chapter specification.
+160,Crushed coke used in base mix is about?,5-6%,20-25%,40%,1%,A,Based on the chapter specification.

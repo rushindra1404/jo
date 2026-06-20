@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #f0f9ff;
+  --color-brand-100: #e0f2fe;
+  --color-brand-200: #bae6fd;
+  --color-brand-300: #7dd3fc;
+  --color-brand-400: #38bdf8;
+  --color-brand-500: #0e7490;
+  --color-brand-600: #0891b2;
+  --color-brand-700: #0e7490;
+  --color-brand-800: #155e75;
+  --color-brand-900: #164e63;
+  --color-brand-950: #083344;
+  --color-slate-950: #0b0f19;
+  
+  --font-sans: 'Outfit', 'Inter', 'system-ui', 'sans-serif';
+  
+  --shadow-premium: 0 4px 20px -2px rgba(0, 0, 0, 0.08), 0 2px 8px -1px rgba(0, 0, 0, 0.04);
+  --shadow-premium-hover: 0 10px 25px -3px rgba(0, 0, 0, 0.12), 0 4px 12px -2px rgba(0, 0, 0, 0.06);
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased transition-colors duration-200;
+    font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom Accessibility Font Size Classes */
+.font-size-small {
+  font-size: 0.875rem; /* 14px */
+}
+.font-size-medium {
+  font-size: 1rem; /* 16px */
+}
+.font-size-large {
+  font-size: 1.125rem; /* 18px */
+}
+.font-size-xlarge {
+  font-size: 1.25rem; /* 20px */
+}
+
+/* Flashcard Flip CSS */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Safe Area Insets for iOS and notch devices */
+.safe-padding-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
+
+.safe-padding-top {
+  padding-top: env(safe-area-inset-top, 16px);
+}
+
+/* Premium micro-animations */
+.tap-bounce {
+  transition: transform 0.1s ease;
+}
+.tap-bounce:active {
+  transform: scale(0.96);
+}

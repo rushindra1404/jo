@@ -1,0 +1,121 @@
+question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
+1,Quality may be defined as the degree to which a set of inherent characteristics fulfills,Requirements,Profits,Production targets,Market share,A,Quality is defined by fulfillment of requirements.
+2,Which of the following is a physical characteristic of quality?,Mechanical property,Courtesy,Punctuality,Reliability,A,Mechanical characteristics are physical attributes.
+3,Which characteristic is sensory in nature?,Smell,Reliability,Safety,Availability,A,Smell is listed as a sensory characteristic.
+4,Courtesy is an example of which characteristic?,Behavioral,Physical,Temporal,Functional,A,Courtesy is a behavioral characteristic.
+5,Punctuality belongs to which category?,Temporal,Sensory,Functional,Physical,A,Temporal characteristics include punctuality.
+6,Human safety is associated with which characteristic?,Ergonomic,Behavioral,Sensory,Temporal,A,Ergonomic characteristics relate to physiology and safety.
+7,Maximum speed of an aircraft is a,Functional characteristic,Behavioral characteristic,Temporal characteristic,Sensory characteristic,A,The text cites maximum speed as a functional characteristic.
+8,Total Quality embraces,Quality improvement,Quality neglect,Inspection only,Advertising only,A,Quality improvement is a key component.
+9,Total Quality includes,Quality control,Random control,No control,Financial audit only,A,Quality control is part of Total Quality.
+10,A business improvement activity mentioned in Total Quality is,Just-in-time concept,Mass layoffs,Price fixing,Speculation,A,JIT is explicitly mentioned.
+11,Continuous cost reduction is an,Outcome of Total Quality,Cause of defects,Type of audit,Certification body,A,It is listed as an outcome.
+12,Elimination of variability is a,Total Quality outcome,Quality principle,ISO body,Audit method,A,It is one of the outcomes.
+13,Reduction in plant downtime is associated with,Total Quality outcomes,ISO membership,Sensory quality,Ergonomics only,A,The chapter lists it as an outcome.
+14,Increase in yield is achieved through,Total Quality,Chance,Inspection alone,Marketing,A,Increase in yield is a stated outcome.
+15,Total Quality differs from conventional quality because it focuses on,Prevention of defects,Detection only,Advertising,Warehousing,A,Prevention starts at the beginning of the process.
+16,Defect detection in conventional quality often occurs,At the end of the product line,Before production,At recruitment,During advertising,A,The text contrasts this with TQ.
+17,Total Quality engulfs everybody at,All levels and all stages,Top management only,Workers only,Customers only,A,Everyone participates.
+18,Main objective of Total Quality is,Customer satisfaction,Tax reduction,Inventory growth,Monopoly creation,A,Meeting customer needs is central.
+19,Customer perception is described as the,Essence of Total Quality thinking,Audit report,Cost report,Training plan,A,The chapter uses this phrase.
+20,Real power to Total Quality is given by,Teamwork,Machines alone,Capital,Luck,A,Teamwork is emphasized.
+21,One major element of Total Quality is,Systems,Weather,Geography,Politics,A,Systems is one of four elements.
+22,Which is a major element of Total Quality?,Processes,Imports,Exports,Tariffs,A,Processes are included.
+23,Which is a major element of Total Quality?,Management,Weather,Geology,Demography,A,Management is one of the four elements.
+24,Which is a major element of Total Quality?,People,Taxes,Patents,Licenses,A,People is a core element.
+25,Quality audit is associated with,Systems,People,Leadership only,Marketing,A,Shown under systems.
+26,Process capability belongs to,Processes,People,Finance,Sales,A,It is listed under process elements.
+27,Process control is linked with,Processes,Imports,Recruitment,Sales,A,It is a process activity.
+28,Style and teamwork are associated with,Management,Physical quality,Sensory quality,Exports,A,Management element includes style and teamwork.
+29,Cross functional activity is linked to,Management,Temporal quality,Functional quality,Safety only,A,It appears under management.
+30,Management of people through participation in voluntary improvement activities belongs to,People,Systems,Audits,Inspection,A,This is under the people element.
+31,Quality assurance is associated with,People element,Sensory element,Temporal element,Financial element,A,Quality assurance appears under people.
+32,Process improvement is included under,People element in diagram,Exports,Inventory,Taxes,A,The diagram lists it there.
+33,How many Quality Management Tools are mentioned?,Seven,Five,Six,Ten,A,The chapter names seven tools.
+34,Which tool is one of the seven quality tools?,Pareto Analysis,Linear Programming,PERT,CPM,A,Pareto analysis is listed.
+35,Cause and Defect Diagram is a,Quality management tool,Audit type,ISO clause,Policy,A,Included among seven tools.
+36,Stratification is a,Quality management tool,Tax method,Training scheme,Market survey,A,It is one of the seven tools.
+37,Check Sheet is used as a,Quality management tool,Export permit,Budget tool,Payroll tool,A,Included in the list.
+38,Histogram is one of the,Seven quality management tools,ISO principles,Audit steps,Management styles,A,Histogram is listed.
+39,Scatter Diagram belongs to,Seven quality management tools,Certification bodies,Policies,Departments,A,It is listed.
+40,Graph and Control Chart are,Quality management tools,Export procedures,HR policies,Accounting standards,A,They complete the list.
+41,Total Quality emphasizes,Thorough policy control,Ignoring policies,Ad hoc decisions,Random actions,A,This is one emphasis point.
+42,Organizations should aim at,Priorities,Confusion,Redundancy,Delay,A,Aim at priorities is listed.
+43,Organizations should aim at,Problem solving,Blame assignment,Rumors,Politics,A,Problem solving is emphasized.
+44,Coordination should occur among,Quality cost and production,Sports clubs,Banks only,Suppliers only,A,The chapter specifies these departments.
+45,PDCA cycles should be,Smooth,Avoided,Discontinued,Hidden,A,Smooth PDCA cycles are recommended.
+46,Data cycles support,Fact finding,Guesswork,Speculation,Rumors,A,Fact finding is stated.
+47,A supervisor should first,Study existing cultural pattern,Buy equipment,Hire staff,Expand plants,A,This is the first role listed.
+48,A supervisor should identify,Aspects needing change,Profits only,Taxes,Imports,A,Second role.
+49,Participation should include,Customers,Auditors only,Competitors only,Banks only,A,Customer participation is encouraged.
+50,Implementation should start on,A small scale,A national scale,Global scale,No scale,A,Start small and expand.
+51,Quality improvement should be made,Project by project,Year by year only,Department by department only,Never,A,The chapter explicitly states this.
+52,Available tools should be,Utilized,Ignored,Sold,Hidden,A,Use of available tools is recommended.
+53,Studies should use,Simple to sophisticated SQC tools,No tools,Only intuition,Only audits,A,Supervisor role includes this.
+54,Time should be provided for,Mental change,Machine aging,Tax filing,Exports,A,Mental change is necessary.
+55,Training and self-development programs should be,Carried out as planned,Cancelled,Delayed indefinitely,Outsourced only,A,Role item 9.
+56,Supervisors should,Avoid surprises,Encourage surprises,Ignore changes,Hide information,A,Role item 10.
+57,Quality should be built into products during,Manufacturing,Advertising,Transport,Disposal,A,Role item 11.
+58,ISO stands for,International Organization for Standardization,Indian Standards Organization,International Safety Organization,Industrial Standards Office,A,ISO full form.
+59,ISO is a world body constituted by,National standard making organizations,Banks,Universities,Political parties,A,Described in chapter.
+60,BIS stands for,Bureau of Indian Standards,Board of Industrial Safety,Bureau of International Standards,Business Inspection Service,A,Indian member body.
+61,ISO 9001 is the model for,Quality Management System,Environmental taxation,Payroll management,Export licensing,A,Explicitly stated.
+62,ISO 9001 arose from a need for,World parity in standards,Military alliances,Tax reforms,Patent protection,A,Given in text.
+63,ISO 9001 defines,Minimum quality standards,Maximum tax rates,Import quotas,Production limits,A,Defines minimum acceptable quality standards.
+64,ISO 9001 is the only standard in the family that can be,Certified to,Taxed,Patented,Merged,A,Unique certification standard.
+65,ISO 9001 can be used by,Any organization,Only manufacturers,Only governments,Only exporters,A,Applicable regardless of size or field.
+66,Organizations certified to ISO 9001 exist in over,170 countries,20 countries,50 countries,90 countries,A,Chapter mentions over 170 countries.
+67,ISO 9001 emphasizes,Strong customer focus,Customer avoidance,Inventory growth,Price wars,A,A key principle.
+68,Top management should show,Motivation and implication/commitment,Indifference,Secrecy,Isolation,A,Management involvement is highlighted.
+69,ISO 9001 promotes,Continual improvement,Stagnation,Random change,No review,A,A quality principle.
+70,ISO 9001 helps ensure customers receive,Consistent good-quality products and services,Variable quality,Unregulated products,Only services,A,Core benefit.
+71,Objective of ISO 9001 is to provide,A set of requirements,Tax exemptions,Recruitment rules,Sales quotas,A,Stated objective.
+72,An effective ISO 9001 system gives confidence that suppliers,Consistently provide products and services,Avoid customers,Reduce quality,Ignore regulations,A,Core assurance.
+73,Products and services should,Meet needs and expectations,Meet rumors,Meet competitors,Meet advertisements,A,Requirement stated.
+74,Products and services should,Comply with applicable regulations,Ignore laws,Avoid standards,Reduce compliance,A,Explicit requirement.
+75,ISO 9001 adopts a,Risk-based preventive approach,Reactive-only approach,Political approach,Financial approach,A,Text describes preventive approach.
+76,Risk-based quality covers,Top management commitment,Election management,Tax collection,Marketing campaigns,A,Included topic.
+77,Risk-based quality covers,Employee competence,Currency exchange,Patent filing,Advertising,A,Included topic.
+78,Process management includes,Production and service delivery,Only advertising,Only sales,Only finance,A,Specified in text.
+79,Quality planning is covered by,ISO 9001,Import policy,Labor code,Tax act,A,Included topic.
+80,Design of products and services is addressed in,ISO 9001 requirements,Customs law,Budget rules,Export subsidy,A,Mentioned.
+81,Review of incoming orders is part of,ISO 9001 coverage,Political policy,Environmental law only,Marketing,A,Listed in coverage.
+82,Purchasing is covered under,ISO 9001 quality system,Trade union law,Accounting standards,Patent law,A,Mentioned.
+83,Monitoring and measurement are needed to ensure,Conformity,Popularity,Advertising reach,Market dominance,A,Purpose stated.
+84,Customer complaints should be resolved through,Defined processes,Ignoring them,Deleting records,Random actions,A,ISO requires complaint resolution.
+85,Corrective actions are required for,Improvement and conformity,Advertising,Taxation,Privatization,A,Part of ISO system.
+86,How many Quality Management Principles are listed?,Seven,Five,Eight,Ten,A,Seven principles are listed.
+87,Which principle appears first?,Customer focused organization,Improvement,Leadership,Relationship management,A,Listed first.
+88,Leadership is a,Quality Management Principle,Audit type,Chart type,Control limit,A,One of seven principles.
+89,Engagement of people is a,Quality Management Principle,Certification body,Quality tool,Inspection step,A,One of seven principles.
+90,Process approach is a,Quality Management Principle,Cost method,Export method,Audit agency,A,Listed principle.
+91,Improvement is a,Quality Management Principle,Quality tool,Control chart,Physical characteristic,A,Listed principle.
+92,Evidence based decision making is a,Quality Management Principle,Sensory attribute,Audit method,Export target,A,Listed principle.
+93,Relationship management is a,Quality Management Principle,Chart type,Inspection type,Tax scheme,A,Listed principle.
+94,The quality principles are listed,Not in priority order,In legal order,In financial order,In reverse order,A,Text explicitly states this.
+95,Importance of principles may,Vary among organizations,Remain fixed always,Be identical worldwide,Be legally ranked,A,The chapter notes variation.
+96,All plants and units have,ISO QMS certifications in their area,No certifications,Only EMS certifications,Only export licenses,A,Mentioned under certified areas.
+97,BSP received,Integrated Management System Certificate,Only EMS certificate,Only OHSAS,Only SAMS,A,Stated in text.
+98,The certifying agency mentioned is,DNV,BIS,SAIL,ISO Secretariat,A,M/s DNV is named.
+99,IMS integrates,QMS EMS OHSAS and SAMS,Only QMS,Only EMS,Only OHSAS,A,Integrated system components.
+100,BSP became the first SAIL unit to achieve,This integrated distinction,ISO abolition,Export monopoly,Tax exemption,A,Chapter statement.
+101,SAIL quality policy aims to build and sustain a,World-class organization,Local monopoly,Political body,Research grant,A,Text in image.
+102,In SAIL policy quality is the hallmark of,Every process and activity,Only production,Only marketing,Only inspection,A,Policy statement.
+103,SAIL commits to stakeholder satisfaction through,Innovation and continual improvement,Price cuts only,Advertising,Outsourcing,A,Policy wording.
+104,Human resource involvement and dedication support,Stakeholder satisfaction,Tax reduction,Import substitution,Inventory growth,A,Policy statement.
+105,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+106,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+107,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+108,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+109,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+110,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+111,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+112,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+113,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+114,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+115,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+116,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+117,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+118,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+119,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.
+120,Which concept is most closely associated with Total Quality according to the chapter?,Continuous improvement,Random inspection,Market speculation,Price manipulation,A,Total Quality emphasizes continual and systematic improvement.

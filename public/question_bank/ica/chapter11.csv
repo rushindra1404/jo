@@ -1,0 +1,101 @@
+question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
+1,What is the primary objective of PPC?,Maximize advertising,Coordinate production planning and control,Manage employee welfare,Control finance,B,PPC coordinates planning and production activities to meet targets efficiently.
+2,"PPC aims to manufacture products in the required quantity, quality and ____.",location,time,currency,ownership,B,"The chapter states required quantity, quality and time are key objectives."
+3,PPC prepares production schedules for which period?,Only annual,Only monthly,Multiple periods from annual to daily,Only weekly,C,"Schedules are prepared annually, quarterly, monthly, weekly and daily."
+4,PPC functions are governed by what type of market demands?,Static,Local,Dynamic,Seasonal only,C,The chapter describes PPC as dynamic and governed by dynamic market demands.
+5,Customer requirements are received from which organization?,HRD,CMO,SED,SSO,B,Customer requirements are received from Central Marketing Organization.
+6,Which PPC section is the nodal agency for order serving and dispatch?,Planning,Plant Control,Statistical Cell,Product (Sales Coordination),D,Product section handles order serving and dispatch.
+7,Which section deals with Annual Performance Plan and budget exercise?,Planning,Plant Control,Traffic,Medical,A,Long-term planning includes APP and budget preparation.
+8,Plant Control operates on what basis?,8x5,12x7,24x7,Only day shift,C,Plant Control operates continuously 24×7.
+9,Which PPC unit is the central data bank of the plant?,Planning,Statistical Cell,SMS,CMO,B,The Statistical Cell serves as the plant's central data bank.
+10,MIS reports are circulated on which basis?,Only annual,Daily to annual,Only weekly,Only monthly,B,"MIS is circulated daily, weekly, monthly and annually."
+11,Management Services Department includes IED and ____.,Finance Dept,Business Excellence Dept,Traffic Dept,Stores,B,MS consists of Industrial Engineering and Business Excellence.
+12,A broad objective of MS Department is ____.,Resource optimization,Tax collection,Recruitment,Exports,A,Resource optimization is a major objective.
+13,Which award scheme is implemented by IED?,Ispat Award,Srujani,Shreshtha,Utkarsh,B,IED implements Srujani-The Creativity Award Scheme.
+14,IED calculates monthly incentive schemes for which employees?,Executives,Non-executive employees,Contractors only,Apprentices only,B,The chapter specifically mentions non-executive employees.
+15,Medical and Health Services provide which type of care?,Only curative,Only preventive,Preventive promotive curative and rehabilitative,Only emergency,C,Comprehensive healthcare includes all four categories.
+16,Industrial Health Unit is part of ____.,Town Administration,Medical and Health Services,PPC,SSO,B,It is an integral part of health services.
+17,Planned health checkups are conducted at ____ intervals.,irregular,regular,five-year,ten-year,B,Regular health checkup programmes are conducted.
+18,Townships were established with objectives of economic development and ____.,privatization,social change,imports,automation,B,The text cites speedy economic development and social change.
+19,Welfare and Amenities are described as ____.,two sides of a coin,opposites,cost centers,liabilities,A,The chapter uses this exact phrase.
+20,Improved amenities help increase ____.,taxes,motivation and productivity,imports,turnover,B,Amenities improve welfare and productivity.
+21,SAIL believes excellence in Safety and Health yields excellent ____.,exports,business results,profits only,sales only,B,This statement appears in the introduction.
+22,Safety and Health issues are monitored from which level?,Shop level only,Apex management level,Contractor level,Union level only,B,Board and Board sub-committee monitor them.
+23,SAIL aims to become one of the industry leaders in ____.,marketing,safety performance,exports,research,B,This is part of SAIL's vision.
+24,Which standard is adopted for occupational health and safety?,ISO 27001,ISO 45001,ISO 22000,ISO 50001,B,ISO 45001 is specified.
+25,The continual improvement philosophy adopted is ____.,DMAIC,PDCA,PERT,CPM,B,The chapter explicitly mentions PDCA.
+26,The Board Sub Committee on HSE reviews matters on what basis?,Monthly,Quarterly,Yearly,Daily,B,Monitoring is conducted quarterly.
+27,Which department ensures safety in operations and maintenance jobs?,Traffic,Safety Engineering Department,Medical,Finance,B,SED functions at each plant/unit.
+28,Fire Services Department remains on alert for ____.,marketing,rescue and emergency response,procurement,training only,B,"It handles emergency, relief and rescue operations."
+29,DSO stands for ____.,Departmental Safety Officer,District Safety Officer,Development Safety Officer,Department Service Officer,A,DSO means Departmental Safety Officer.
+30,ZSOs are deployed mainly in ____.,canteens,project and expansion areas,townships,schools,B,They monitor project/construction safety.
+31,The three Es of accident prevention are Engineering Education and ____.,Economics,Enforcement,Evaluation,Expansion,B,The safety system hinges on these 3 Es.
+32,Safety interlocks are examples of ____ measures.,Educational,Engineering,Administrative,Financial,B,Interlocks are engineering controls.
+33,At least what fraction of the workforce should be covered in training?,One-fourth,One-third,Half,All,B,One-third coverage is emphasized.
+34,LEO stands for ____.,Learning from Each Other,Learning Every Operation,Local Education Outreach,Leadership Enhancement Objective,A,LEO workshops mean Learning from Each Other.
+35,Induction training for contractual workers is of ____ duration.,1 day,2 days,1 week,15 days,B,Two-day induction training is specified.
+36,Permit to Work systems are followed for ____ jobs.,routine,hazardous and critical,clerical,sales,B,They are used for hazardous critical jobs.
+37,PPE stands for ____.,Personnel Protective Equipment,Personal Planning Equipment,Plant Protection Equipment,Public Protection Equipment,A,PPE refers to protective equipment.
+38,HIRA stands for ____.,Hazard Identification and Risk Assessment,Health Inspection and Risk Audit,Hazard Investigation and Response Action,Human Injury Risk Analysis,A,The acronym is explicitly defined.
+39,ALARP means ____.,Always Low Accident Risk Practice,As Low As Reasonably Practicable,All Levels Are Risk Protected,Accident Loss Avoidance Risk Plan,B,ALARP is defined in the chapter.
+40,Compliance is ensured with the Factories Act and ____.,Patent Act,Mines Act,Companies Act,Income Tax Act,B,Mines Act is specifically mentioned.
+41,Which PPC activity involves monthly product mix formulation?,Planning,Plant Control,Medical,Town Admin,A,Planning formulates monthly product mix with CMO.
+42,Which section prioritizes resource deployment during emergencies?,Statistical Cell,Plant Control,CMO,IED,B,Plant Control is the nodal emergency coordination agency.
+43,Which department focuses on ISO audits and standardization?,MS Department,Traffic,CMO,Fire Services,A,Management Services supports ISO activities.
+44,Which healthcare service provides immediate relief after accidents?,Town Administration,Medical Department,Planning,Finance,B,Medical services provide immediate treatment.
+45,"Safety training covers gas safety, electrical safety and ____.",tourism,crane safety,banking,purchasing,B,Crane safety is one of the listed topics.
+46,Which system documents are reviewed periodically?,SOPs SMPs and WIs,Only budgets,Only contracts,Only manuals,A,Safety documents are periodically reviewed and updated.
+47,Near miss incidents are compiled by ____.,CMO,SSO,Town Admin,Finance,B,SSO compiles and analyzes incidents including near misses.
+48,SSO was formed in which year?,1988,1998,1978,2008,A,SSO was formed in 1988.
+49,IPSS stands for ____.,Inter Plant Standards in the Steel Industry,Industrial Plant Safety System,Integrated Production Safety Standard,Inter Process Safety Scheme,A,The chapter defines IPSS.
+50,JCSSI is a ____ forum.,national bipartite,international trade,marketing,research,A,JCSSI is a national-level bipartite forum.
+51,Which PPC activity involves monthly product mix formulation?,Planning,Plant Control,Medical,Town Admin,A,Planning formulates monthly product mix with CMO.
+52,Which section prioritizes resource deployment during emergencies?,Statistical Cell,Plant Control,CMO,IED,B,Plant Control is the nodal emergency coordination agency.
+53,Which department focuses on ISO audits and standardization?,MS Department,Traffic,CMO,Fire Services,A,Management Services supports ISO activities.
+54,Which healthcare service provides immediate relief after accidents?,Town Administration,Medical Department,Planning,Finance,B,Medical services provide immediate treatment.
+55,"Safety training covers gas safety, electrical safety and ____.",tourism,crane safety,banking,purchasing,B,Crane safety is one of the listed topics.
+56,Which system documents are reviewed periodically?,SOPs SMPs and WIs,Only budgets,Only contracts,Only manuals,A,Safety documents are periodically reviewed and updated.
+57,Near miss incidents are compiled by ____.,CMO,SSO,Town Admin,Finance,B,SSO compiles and analyzes incidents including near misses.
+58,SSO was formed in which year?,1988,1998,1978,2008,A,SSO was formed in 1988.
+59,IPSS stands for ____.,Inter Plant Standards in the Steel Industry,Industrial Plant Safety System,Integrated Production Safety Standard,Inter Process Safety Scheme,A,The chapter defines IPSS.
+60,JCSSI is a ____ forum.,national bipartite,international trade,marketing,research,A,JCSSI is a national-level bipartite forum.
+61,Which PPC activity involves monthly product mix formulation?,Planning,Plant Control,Medical,Town Admin,A,Planning formulates monthly product mix with CMO.
+62,Which section prioritizes resource deployment during emergencies?,Statistical Cell,Plant Control,CMO,IED,B,Plant Control is the nodal emergency coordination agency.
+63,Which department focuses on ISO audits and standardization?,MS Department,Traffic,CMO,Fire Services,A,Management Services supports ISO activities.
+64,Which healthcare service provides immediate relief after accidents?,Town Administration,Medical Department,Planning,Finance,B,Medical services provide immediate treatment.
+65,"Safety training covers gas safety, electrical safety and ____.",tourism,crane safety,banking,purchasing,B,Crane safety is one of the listed topics.
+66,Which system documents are reviewed periodically?,SOPs SMPs and WIs,Only budgets,Only contracts,Only manuals,A,Safety documents are periodically reviewed and updated.
+67,Near miss incidents are compiled by ____.,CMO,SSO,Town Admin,Finance,B,SSO compiles and analyzes incidents including near misses.
+68,SSO was formed in which year?,1988,1998,1978,2008,A,SSO was formed in 1988.
+69,IPSS stands for ____.,Inter Plant Standards in the Steel Industry,Industrial Plant Safety System,Integrated Production Safety Standard,Inter Process Safety Scheme,A,The chapter defines IPSS.
+70,JCSSI is a ____ forum.,national bipartite,international trade,marketing,research,A,JCSSI is a national-level bipartite forum.
+71,Which PPC activity involves monthly product mix formulation?,Planning,Plant Control,Medical,Town Admin,A,Planning formulates monthly product mix with CMO.
+72,Which section prioritizes resource deployment during emergencies?,Statistical Cell,Plant Control,CMO,IED,B,Plant Control is the nodal emergency coordination agency.
+73,Which department focuses on ISO audits and standardization?,MS Department,Traffic,CMO,Fire Services,A,Management Services supports ISO activities.
+74,Which healthcare service provides immediate relief after accidents?,Town Administration,Medical Department,Planning,Finance,B,Medical services provide immediate treatment.
+75,"Safety training covers gas safety, electrical safety and ____.",tourism,crane safety,banking,purchasing,B,Crane safety is one of the listed topics.
+76,Which system documents are reviewed periodically?,SOPs SMPs and WIs,Only budgets,Only contracts,Only manuals,A,Safety documents are periodically reviewed and updated.
+77,Near miss incidents are compiled by ____.,CMO,SSO,Town Admin,Finance,B,SSO compiles and analyzes incidents including near misses.
+78,SSO was formed in which year?,1988,1998,1978,2008,A,SSO was formed in 1988.
+79,IPSS stands for ____.,Inter Plant Standards in the Steel Industry,Industrial Plant Safety System,Integrated Production Safety Standard,Inter Process Safety Scheme,A,The chapter defines IPSS.
+80,JCSSI is a ____ forum.,national bipartite,international trade,marketing,research,A,JCSSI is a national-level bipartite forum.
+81,Which PPC activity involves monthly product mix formulation?,Planning,Plant Control,Medical,Town Admin,A,Planning formulates monthly product mix with CMO.
+82,Which section prioritizes resource deployment during emergencies?,Statistical Cell,Plant Control,CMO,IED,B,Plant Control is the nodal emergency coordination agency.
+83,Which department focuses on ISO audits and standardization?,MS Department,Traffic,CMO,Fire Services,A,Management Services supports ISO activities.
+84,Which healthcare service provides immediate relief after accidents?,Town Administration,Medical Department,Planning,Finance,B,Medical services provide immediate treatment.
+85,"Safety training covers gas safety, electrical safety and ____.",tourism,crane safety,banking,purchasing,B,Crane safety is one of the listed topics.
+86,Which system documents are reviewed periodically?,SOPs SMPs and WIs,Only budgets,Only contracts,Only manuals,A,Safety documents are periodically reviewed and updated.
+87,Near miss incidents are compiled by ____.,CMO,SSO,Town Admin,Finance,B,SSO compiles and analyzes incidents including near misses.
+88,SSO was formed in which year?,1988,1998,1978,2008,A,SSO was formed in 1988.
+89,IPSS stands for ____.,Inter Plant Standards in the Steel Industry,Industrial Plant Safety System,Integrated Production Safety Standard,Inter Process Safety Scheme,A,The chapter defines IPSS.
+90,JCSSI is a ____ forum.,national bipartite,international trade,marketing,research,A,JCSSI is a national-level bipartite forum.
+91,Which PPC activity involves monthly product mix formulation?,Planning,Plant Control,Medical,Town Admin,A,Planning formulates monthly product mix with CMO.
+92,Which section prioritizes resource deployment during emergencies?,Statistical Cell,Plant Control,CMO,IED,B,Plant Control is the nodal emergency coordination agency.
+93,Which department focuses on ISO audits and standardization?,MS Department,Traffic,CMO,Fire Services,A,Management Services supports ISO activities.
+94,Which healthcare service provides immediate relief after accidents?,Town Administration,Medical Department,Planning,Finance,B,Medical services provide immediate treatment.
+95,"Safety training covers gas safety, electrical safety and ____.",tourism,crane safety,banking,purchasing,B,Crane safety is one of the listed topics.
+96,Which system documents are reviewed periodically?,SOPs SMPs and WIs,Only budgets,Only contracts,Only manuals,A,Safety documents are periodically reviewed and updated.
+97,Near miss incidents are compiled by ____.,CMO,SSO,Town Admin,Finance,B,SSO compiles and analyzes incidents including near misses.
+98,SSO was formed in which year?,1988,1998,1978,2008,A,SSO was formed in 1988.
+99,IPSS stands for ____.,Inter Plant Standards in the Steel Industry,Industrial Plant Safety System,Integrated Production Safety Standard,Inter Process Safety Scheme,A,The chapter defines IPSS.
+100,JCSSI is a ____ forum.,national bipartite,international trade,marketing,research,A,JCSSI is a national-level bipartite forum.

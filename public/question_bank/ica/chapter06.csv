@@ -1,0 +1,156 @@
+question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
+1,India's crude steel production CAGR between 2021 and 2025 was approximately,8–9%,4–5%,12–15%,20%,A,The chapter states crude steel production grew at about 8–9% CAGR from 2021 to 2025.
+2,Crude steel production increased from 119 Mnt to about,165 Mnt,140 Mnt,180 Mnt,150 Mnt,A,Production rose from 119 to 165 million tonnes.
+3,Hot metal share in India's metallic mix remained around,54–55%,30–35%,70–75%,40–45%,A,Hot metal share stayed broadly stable at about 54–55%.
+4,Which route continues to anchor India's steelmaking backbone?,BF-BOF,EAF only,IF only,Open Hearth,A,The chapter notes BF-BOF remains the backbone.
+5,Scrap usage share improved from about,19% to 22%,10% to 12%,22% to 30%,5% to 15%,A,Scrap share gradually improved from ~19% to ~22%.
+6,Scrap usage grew at roughly what CAGR?,12%,3%,6%,20%,A,Scrap usage grew at a higher relative pace of about 12% CAGR.
+7,Growth in scrap usage indicates increasing participation of,EAF/IF,BOF only,Open hearth,Blooming mills,A,The chapter links scrap growth with EAF/IF participation.
+8,SAIL plans to expand hot metal capacity from about 20 MT to,37 MT,25 MT,30 MT,50 MT,A,Expansion target is around 37 MT by 2032-33.
+9,A major decarbonization initiative envisaged by SAIL is enhanced use of,Pellets,Limestone,Dolomite,Manganese,A,Enhanced pellet usage is highlighted.
+10,SAIL has the second largest mining outfit in the country spread across,"Jharkhand, Odisha, Chhattisgarh and MP","Punjab, Haryana, Delhi and UP",Gujarat and Maharashtra only,Kerala and Tamil Nadu,A,These states are specifically listed.
+11,What is the capacity of Kiriburu iron ore mine (MTPA)?,5.5,6.5,4.5,7.5,A,The table lists Kiriburu capacity as 5.5 MTPA.
+12,What was the 2024-25 production of Kiriburu mine?,3.81,3.62,4.05,4.81,A,The production in 2024-25 was 3.81 MTPA.
+13,What is the capacity of Meghahatuburu iron ore mine (MTPA)?,6,7,5,8,A,The table lists Meghahatuburu capacity as 6 MTPA.
+14,What was the 2024-25 production of Meghahatuburu mine?,2.5,3.24,3.67,3.5,A,The production in 2024-25 was 2.5 MTPA.
+15,What is the capacity of Gua iron ore mine (MTPA)?,4.35,5.35,3.3499999999999996,6.35,A,The table lists Gua capacity as 4.35 MTPA.
+16,What was the 2024-25 production of Gua mine?,4.02,4.16,3.96,5.02,A,The production in 2024-25 was 4.02 MTPA.
+17,What is the capacity of Chiria (Manoharpur) iron ore mine (MTPA)?,0.75,1.75,0,2.75,A,The table lists Chiria (Manoharpur) capacity as 0.75 MTPA.
+18,What was the 2024-25 production of Chiria (Manoharpur) mine?,0.41,0.49,0.34,1.41,A,The production in 2024-25 was 0.41 MTPA.
+19,What is the capacity of Bolani iron ore mine (MTPA)?,10,11,9,12,A,The table lists Bolani capacity as 10 MTPA.
+20,What was the 2024-25 production of Bolani mine?,7.41,7.2,7.11,8.41,A,The production in 2024-25 was 7.41 MTPA.
+21,What is the capacity of Barsua iron ore mine (MTPA)?,3,4,2,5,A,The table lists Barsua capacity as 3 MTPA.
+22,What was the 2024-25 production of Barsua mine?,1.85,2.48,2.29,2.85,A,The production in 2024-25 was 1.85 MTPA.
+23,What is the capacity of Taldih iron ore mine (MTPA)?,2,3,1,4,A,The table lists Taldih capacity as 2 MTPA.
+24,What was the 2024-25 production of Taldih mine?,1.76,1.34,1.34,2.76,A,The production in 2024-25 was 1.76 MTPA.
+25,What is the capacity of Kalta iron ore mine (MTPA)?,4,5,3,6,A,The table lists Kalta capacity as 4 MTPA.
+26,What was the 2024-25 production of Kalta mine?,3.37,3.19,3.19,4.37,A,The production in 2024-25 was 3.37 MTPA.
+27,What is the capacity of Rowghat iron ore mine (MTPA)?,8,9,7,10,A,The table lists Rowghat capacity as 8 MTPA.
+28,What was the 2024-25 production of Rowghat mine?,1.01,0.46,0.07,2.01,A,The production in 2024-25 was 1.01 MTPA.
+29,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+30,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+31,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+32,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+33,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+34,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+35,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+36,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+37,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+38,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+39,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+40,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+41,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+42,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+43,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+44,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+45,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+46,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+47,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+48,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+49,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+50,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+51,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+52,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+53,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+54,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+55,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+56,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+57,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+58,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+59,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+60,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+61,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+62,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+63,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+64,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+65,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+66,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+67,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+68,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+69,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+70,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+71,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+72,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+73,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+74,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+75,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+76,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+77,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+78,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+79,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+80,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+81,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+82,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+83,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+84,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+85,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+86,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+87,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+88,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+89,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+90,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+91,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+92,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+93,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+94,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+95,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+96,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+97,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+98,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+99,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+100,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+101,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+102,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+103,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+104,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+105,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+106,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+107,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+108,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+109,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+110,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+111,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+112,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+113,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+114,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+115,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+116,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+117,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+118,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+119,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+120,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+121,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+122,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+123,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+124,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+125,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+126,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+127,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+128,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+129,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+130,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+131,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+132,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+133,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+134,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+135,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+136,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+137,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+138,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+139,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+140,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+141,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+142,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+143,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+144,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+145,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
+146,Kuteshwar limestone mine is located in,Madhya Pradesh,Odisha,Jharkhand,West Bengal,A,Kuteshwar is in Madhya Pradesh.
+147,Hirri mine is associated with production of,Dolomite,Iron ore,Coal,Manganese,A,Hirri is a dolomite mine.
+148,National Steel Policy 2017 envisages steel capacity of,300 MTPA by FY2030-31,200 MTPA by FY2025-26,500 MTPA by FY2040,150 MTPA by FY2030,A,NSP 2017 target is 300 MTPA by FY2030-31.
+149,Which mine has the highest listed iron ore capacity?,Bolani,Barsua,Taldih,Chiria,A,"Bolani has 10 MTPA capacity, the highest among listed mines."
+150,Which coal mine produces non-coking thermal coal?,Ramnagore,Tasra,Chasnalla,Jitpur,A,Ramnagore produces thermal coal.
+151,SAIL imports about what percentage of its coking coal requirement?,80–85%,20–25%,40–50%,100%,A,Limited domestic availability necessitates imports of 80–85%.
+152,Chasnalla and Tasra are located in,"Jharia, Jharkhand","Raniganj, WB","Korba, Chhattisgarh","Talcher, Odisha",A,Both are located in Jharia.
+153,Washed coking coal produced at Chasnalla Washery has ash content of about,18%,5%,30%,40%,A,The chapter specifies 18% ash.
+154,Tasra Coal Block under development has capacity of,4 MTPA,1 MTPA,2 MTPA,8 MTPA,A,Tasra Coal Block is being developed at 4 MTPA.
+155,Associated coking coal washery capacity planned through MDO is,3.5 MTPA,1.5 MTPA,5 MTPA,7 MTPA,A,A 3.5 MTPA washery is planned.
