@@ -21,7 +21,6 @@ import {
 } from 'lucide-react';
 import type { Question } from '../types';
 
-// ─── Filter types ────────────────────────────────────────────────────────────
 type MistakeFilter = 'all' | 'ica' | 'gpoe' | 'bookmarked';
 
 export const MistakesScreen: React.FC = () => {
@@ -34,21 +33,23 @@ export const MistakesScreen: React.FC = () => {
     saveQuestionNote,
   } = useApp();
 
-  // ── Filter state ────────────────────────────────────────────────────────────
+  // ── Filter state ─────────────────────────────────────────────────────────
   const [activeFilter, setActiveFilter] = useState<MistakeFilter>('all');
 
-  // ── Revision session state ──────────────────────────────────────────────────
+  // ── Revision session state ────────────────────────────────────────────────
   const [isPracticing, setIsPracticing] = useState(false);
   const [practiceQuestions, setPracticeQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [hasRevealed, setHasRevealed] = useState(false);
+  const [sessionCorrect, setSessionCorrect] = useState(0);
+  const [sessionAttempts, setSessionAttempts] = useState(0);
 
-  // ── Notes modal state ───────────────────────────────────────────────────────
+  // ── Notes modal state ─────────────────────────────────────────────────────
   const [showNotes, setShowNotes] = useState(false);
   const [noteInput, setNoteInput] = useState('');
 
-  // ── Derived: all mistake questions ─────────────────────────────────────────
+  // ── Derived: all mistake questions ────────────────────────────────────────
   const allMistakeQuestions = useMemo(
     () => questions.filter(q => progress.mistakes.includes(q.uniqueId)),
     [questions, progress.mistakes]
@@ -56,62 +57,55 @@ export const MistakesScreen: React.FC = () => {
 
   const totalMistakes = allMistakeQuestions.length;
   const resolvedCount = progress.resolvedMistakesCount || 0;
-  const [sessionAttempts, setSessionAttempts] = useState(0);
-  const [sessionCorrect, setSessionCorrect] = useState(0);
+  const icaCount = allMistakeQuestions.filter(q => q.material === 'ica').length;
+  const gpoeCount = allMistakeQuestions.filter(q => q.material === 'gpoe').length;
 
-  // ── Filtered list for the list view ────────────────────────────────────────
+  // ── Filtered list for the list view ──────────────────────────────────────
   const filteredMistakes = useMemo(() => {
     switch (activeFilter) {
-      case 'ica':
-        return allMistakeQuestions.filter(q => q.material === 'ica');
-      case 'gpoe':
-        return allMistakeQuestions.filter(q => q.material === 'gpoe');
-      case 'bookmarked':
-        return allMistakeQuestions.filter(q => progress.bookmarks.includes(q.uniqueId));
-      default:
-        return allMistakeQuestions;
+      case 'ica':       return allMistakeQuestions.filter(q => q.material === 'ica');
+      case 'gpoe':      return allMistakeQuestions.filter(q => q.material === 'gpoe');
+      case 'bookmarked':return allMistakeQuestions.filter(q => progress.bookmarks.includes(q.uniqueId));
+      default:          return allMistakeQuestions;
     }
   }, [allMistakeQuestions, activeFilter, progress.bookmarks]);
 
-  // ── Reset per-question state when index changes ─────────────────────────────
+  // ── Reset per-question state when index changes ───────────────────────────
   useEffect(() => {
     setSelectedOption(null);
     setHasRevealed(false);
     setShowNotes(false);
   }, [currentIndex]);
 
-  // ── Start practice session ──────────────────────────────────────────────────
-  const handleStartPractice = (questions: Question[]) => {
-    if (questions.length === 0) return;
-    const shuffled = [...questions].sort(() => Math.random() - 0.5);
+  // ── Start practice session ────────────────────────────────────────────────
+  const handleStartPractice = (qs: Question[]) => {
+    if (qs.length === 0) return;
+    const shuffled = [...qs].sort(() => Math.random() - 0.5);
     setPracticeQuestions(shuffled);
     setCurrentIndex(0);
     setSelectedOption(null);
     setHasRevealed(false);
-    setSessionAttempts(0);
     setSessionCorrect(0);
+    setSessionAttempts(0);
     setIsPracticing(true);
   };
 
-  // ── Answer reveal ───────────────────────────────────────────────────────────
-  const handleRevealAnswer = () => {
-    if (!selectedOption) return;
+  // ── Tap an option → immediately evaluate ─────────────────────────────────
+  const handleSelectAndReveal = (key: string) => {
+    if (hasRevealed) return;
     const q = practiceQuestions[currentIndex];
-    const isCorrect = selectedOption === q.correct_answer;
-    recordAttempt(q.uniqueId, isCorrect);
+    const isCorrect = key === q.correct_answer;
+    setSelectedOption(key);
     setHasRevealed(true);
+    recordAttempt(q.uniqueId, isCorrect);
     setSessionAttempts(prev => prev + 1);
-    if (isCorrect) {
-      setSessionCorrect(prev => prev + 1);
-    }
+    if (isCorrect) setSessionCorrect(prev => prev + 1);
   };
 
-  // ── Navigation ──────────────────────────────────────────────────────────────
+  // ── Navigation ────────────────────────────────────────────────────────────
   const handleNext = () => {
     if (currentIndex < practiceQuestions.length - 1) {
       setCurrentIndex(prev => prev + 1);
-    } else {
-      // Session complete — stay on last card, show finish
     }
   };
 
@@ -122,47 +116,36 @@ export const MistakesScreen: React.FC = () => {
   };
 
   const handleExitPractice = () => {
-    if (!hasRevealed && sessionAttempts === 0) {
-      setIsPracticing(false);
-      return;
-    }
-    if (window.confirm('Exit revision session? Your progress so far has been saved.')) {
+    if (sessionAttempts === 0) { setIsPracticing(false); return; }
+    if (window.confirm('Exit revision? Progress so far is saved.')) {
       setIsPracticing(false);
     }
   };
 
-  const handleFinish = () => {
-    setIsPracticing(false);
-  };
+  const handleFinish = () => setIsPracticing(false);
 
-  // ── Option styling ──────────────────────────────────────────────────────────
+  // ── Option colour helper ──────────────────────────────────────────────────
   const getOptionStyle = (key: string, correctAnswer: string) => {
-    if (hasRevealed) {
-      if (key === correctAnswer) {
-        return 'border-emerald-500 bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300';
-      }
-      if (key === selectedOption && selectedOption !== correctAnswer) {
-        return 'border-rose-500 bg-rose-50 text-rose-800 dark:bg-rose-950/40 dark:text-rose-300';
-      }
-      return 'border-slate-200 dark:border-slate-800 opacity-40 text-slate-500 dark:text-slate-500';
+    if (!hasRevealed) {
+      return 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200';
     }
-    if (selectedOption === key) {
-      return 'border-cyan-600 bg-cyan-50 dark:bg-cyan-950/20 text-cyan-800 dark:text-cyan-300';
-    }
-    return 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200';
+    if (key === correctAnswer)
+      return 'border-emerald-500 bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300';
+    if (key === selectedOption)
+      return 'border-rose-500 bg-rose-50 text-rose-800 dark:bg-rose-950/40 dark:text-rose-300';
+    return 'border-slate-200 dark:border-slate-800 opacity-40 text-slate-500 dark:text-slate-500';
   };
 
-  // ════════════════════════════════════════════════════════════════════════════
-  // REVISION SESSION VIEW
-  // ════════════════════════════════════════════════════════════════════════════
+  // ══════════════════════════════════════════════════════════════════════════
+  //  REVISION SESSION VIEW
+  // ══════════════════════════════════════════════════════════════════════════
   if (isPracticing && practiceQuestions.length > 0) {
-    const currentQ = practiceQuestions[currentIndex];
+    const currentQ  = practiceQuestions[currentIndex];
     const isCorrect = selectedOption === currentQ.correct_answer;
-    const chapterInfo = getChaptersByMaterial(currentQ.material)
-      .find(c => c.id === currentQ.chapterId);
+    const chapterInfo  = getChaptersByMaterial(currentQ.material).find(c => c.id === currentQ.chapterId);
     const isBookmarked = progress.bookmarks.includes(currentQ.uniqueId);
-    const isLastCard = currentIndex === practiceQuestions.length - 1;
-    const progressPct = ((currentIndex + 1) / practiceQuestions.length) * 100;
+    const isLastCard   = currentIndex === practiceQuestions.length - 1;
+    const progressPct  = ((currentIndex + 1) / practiceQuestions.length) * 100;
 
     const options = [
       { key: 'A', text: currentQ.option_a },
@@ -174,8 +157,8 @@ export const MistakesScreen: React.FC = () => {
     return (
       <div className="flex-1 flex flex-col overflow-hidden bg-slate-50 dark:bg-slate-950">
 
-        {/* ── Header ─────────────────────────────────────────────────────── */}
-        <div className="bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800">
+        {/* ── Header ──────────────────────────────────────────────────────── */}
+        <div className="bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 shrink-0">
           <div className="px-4 pt-3 pb-2 flex items-center justify-between">
             <button
               onClick={handleExitPractice}
@@ -184,35 +167,23 @@ export const MistakesScreen: React.FC = () => {
               <ArrowLeft size={16} /> Exit
             </button>
             <div className="text-center">
-              <p className="text-[9px] font-black uppercase tracking-widest text-rose-500">
-                Mistakes Revision
-              </p>
+              <p className="text-[9px] font-black uppercase tracking-widest text-rose-500">Mistakes Revision</p>
               <p className="text-xs font-black text-slate-700 dark:text-slate-200">
                 Question {currentIndex + 1} of {practiceQuestions.length}
               </p>
             </div>
             <div className="flex items-center gap-2">
-              {/* Notes button */}
               <button
-                onClick={() => {
-                  setNoteInput(progress.notes?.[currentQ.uniqueId] || '');
-                  setShowNotes(true);
-                }}
+                onClick={() => { setNoteInput(progress.notes?.[currentQ.uniqueId] || ''); setShowNotes(true); }}
                 className="p-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-500 cursor-pointer active:scale-95 transition-all"
-                title="Add note"
               >
                 <FileText size={15} />
               </button>
-              {/* Bookmark button */}
               <button
                 onClick={() => toggleBookmark(currentQ.uniqueId)}
                 className="p-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-500 cursor-pointer active:scale-95 transition-all"
-                title="Bookmark"
               >
-                <Bookmark
-                  size={15}
-                  className={isBookmarked ? 'fill-amber-500 text-amber-500' : ''}
-                />
+                <Bookmark size={15} className={isBookmarked ? 'fill-amber-500 text-amber-500' : ''} />
               </button>
             </div>
           </div>
@@ -225,7 +196,7 @@ export const MistakesScreen: React.FC = () => {
             />
           </div>
 
-          {/* Session stats row */}
+          {/* Stats row */}
           <div className="px-4 py-1.5 flex items-center justify-between text-[9px] font-black uppercase tracking-wider text-slate-400">
             <span>{currentQ.material.toUpperCase()} • Ch {chapterInfo?.num}</span>
             <div className="flex items-center gap-3">
@@ -235,19 +206,17 @@ export const MistakesScreen: React.FC = () => {
           </div>
         </div>
 
-        {/* ── Question Card ───────────────────────────────────────────────── */}
+        {/* ── Scrollable Content ───────────────────────────────────────────── */}
         <div className="flex-1 px-4 py-4 overflow-y-auto flex flex-col gap-4">
-          
-          {/* Question box */}
+
+          {/* Question */}
           <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 shadow-sm">
-            <div className="flex items-center gap-2 mb-3">
+            <div className="flex items-center gap-2 mb-3 flex-wrap">
               <span className="text-[9px] font-black uppercase tracking-widest text-rose-500 bg-rose-50 dark:bg-rose-950/30 px-2 py-0.5 rounded-full border border-rose-100 dark:border-rose-900">
                 ❌ Mistake Review
               </span>
               {chapterInfo && (
-                <span className="text-[9px] font-bold text-slate-400">
-                  {chapterInfo.title}
-                </span>
+                <span className="text-[9px] font-bold text-slate-400">{chapterInfo.title}</span>
               )}
             </div>
             <h3 className="text-base font-bold text-slate-800 dark:text-slate-100 leading-relaxed">
@@ -255,14 +224,16 @@ export const MistakesScreen: React.FC = () => {
             </h3>
           </div>
 
-          {/* Options */}
+          {/* Options — tap to instantly evaluate */}
           <div className="space-y-2.5">
             {options.map(opt => (
               <button
                 key={opt.key}
-                onClick={() => { if (!hasRevealed) setSelectedOption(opt.key); }}
+                onClick={() => handleSelectAndReveal(opt.key)}
                 disabled={hasRevealed}
-                className={`w-full px-4 py-3.5 rounded-2xl border text-left text-sm font-semibold transition-all flex items-start gap-3 cursor-pointer leading-normal active:scale-[0.99] ${getOptionStyle(opt.key, currentQ.correct_answer)}`}
+                className={`w-full px-4 py-3.5 rounded-2xl border text-left text-sm font-semibold transition-all flex items-start gap-3 leading-normal active:scale-[0.99] ${
+                  hasRevealed ? 'cursor-default' : 'cursor-pointer'
+                } ${getOptionStyle(opt.key, currentQ.correct_answer)}`}
                 style={{ minHeight: '52px' }}
               >
                 <span className={`flex items-center justify-center w-6 h-6 rounded-lg text-xs shrink-0 font-extrabold transition-all ${
@@ -272,9 +243,7 @@ export const MistakesScreen: React.FC = () => {
                       : opt.key === selectedOption
                         ? 'bg-rose-500 text-white'
                         : 'bg-slate-100 dark:bg-slate-800 text-slate-400'
-                    : selectedOption === opt.key
-                      ? 'bg-cyan-600 text-white'
-                      : 'bg-slate-100 dark:bg-slate-800 text-slate-500'
+                    : 'bg-slate-100 dark:bg-slate-800 text-slate-500'
                 }`}>
                   {hasRevealed && opt.key === currentQ.correct_answer
                     ? <Check size={12} />
@@ -288,7 +257,7 @@ export const MistakesScreen: React.FC = () => {
             ))}
           </div>
 
-          {/* Result panel — shown after reveal */}
+          {/* Result feedback — shown immediately after tap */}
           {hasRevealed && (
             <div className={`p-4 rounded-2xl border space-y-3 ${
               isCorrect
@@ -299,23 +268,19 @@ export const MistakesScreen: React.FC = () => {
                 isCorrect ? 'text-emerald-700 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'
               }`}>
                 {isCorrect
-                  ? <><CheckCircle2 size={18} /> ✅ Correct! Removed from mistakes.</>
-                  : <><XCircle size={18} /> ❌ Incorrect. Still in your mistakes list.</>
+                  ? <><CheckCircle2 size={18} /> Correct! ✅ Removed from mistakes.</>
+                  : <><XCircle size={18} /> Incorrect ❌ — stays in your mistakes.</>
                 }
               </div>
-              <div className={`flex items-center gap-3 text-xs font-bold ${
-                isCorrect ? 'text-emerald-700 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'
-              }`}>
-                <span>Your answer: <strong>{selectedOption}</strong></span>
+              <div className="flex items-center gap-3 text-xs font-bold text-slate-600 dark:text-slate-400">
+                <span>Your answer: <strong className={isCorrect ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'}>{selectedOption}</strong></span>
                 <span>•</span>
                 <span>Correct: <strong className="text-emerald-600 dark:text-emerald-400">{currentQ.correct_answer}</strong></span>
               </div>
               {currentQ.explanation && (
-                <div className="pt-2 border-t border-current/20">
-                  <p className="text-[10px] font-black uppercase tracking-wider opacity-60 mb-1">Explanation</p>
-                  <p className={`text-xs leading-relaxed font-medium ${
-                    isCorrect ? 'text-emerald-800 dark:text-emerald-300' : 'text-rose-800 dark:text-rose-300'
-                  }`}>
+                <div className="pt-2 border-t border-slate-200 dark:border-slate-700">
+                  <p className="text-[10px] font-black uppercase tracking-wider text-slate-400 mb-1">Explanation</p>
+                  <p className="text-xs leading-relaxed font-medium text-slate-700 dark:text-slate-300">
                     {currentQ.explanation}
                   </p>
                 </div>
@@ -324,10 +289,10 @@ export const MistakesScreen: React.FC = () => {
           )}
         </div>
 
-        {/* ── Footer Controls ─────────────────────────────────────────────── */}
-        <div className="px-4 pb-6 pt-3 bg-white dark:bg-slate-900 border-t border-slate-100 dark:border-slate-800 safe-padding-bottom">
+        {/* ── Fixed Footer — always visible ────────────────────────────────── */}
+        <div className="px-4 pb-6 pt-3 bg-white dark:bg-slate-900 border-t border-slate-100 dark:border-slate-800 shrink-0">
           {!hasRevealed ? (
-            /* Before reveal: Prev | Reveal Answer */
+            /* Waiting for answer */
             <div className="grid grid-cols-2 gap-3">
               <button
                 onClick={handlePrev}
@@ -340,20 +305,12 @@ export const MistakesScreen: React.FC = () => {
               >
                 <ChevronLeft size={18} /> Prev
               </button>
-              <button
-                onClick={handleRevealAnswer}
-                disabled={!selectedOption}
-                className={`py-4 rounded-2xl text-xs font-black uppercase tracking-wider flex items-center justify-center gap-1.5 min-h-[52px] transition-all ${
-                  selectedOption
-                    ? 'bg-gradient-to-b from-rose-500 to-rose-600 text-white shadow-lg shadow-rose-500/30 cursor-pointer active:scale-95'
-                    : 'bg-slate-100 dark:bg-slate-800 text-slate-300 dark:text-slate-600 cursor-not-allowed'
-                }`}
-              >
-                Reveal Answer ↑
-              </button>
+              <div className="py-4 rounded-2xl bg-slate-100 dark:bg-slate-800 text-slate-400 dark:text-slate-600 text-xs font-black uppercase tracking-wider flex items-center justify-center min-h-[52px]">
+                ↑ Tap an option
+              </div>
             </div>
           ) : isLastCard ? (
-            /* Last card after reveal: Prev | Finish */
+            /* Last question answered */
             <div className="grid grid-cols-2 gap-3">
               <button
                 onClick={handlePrev}
@@ -369,7 +326,7 @@ export const MistakesScreen: React.FC = () => {
               </button>
             </div>
           ) : (
-            /* After reveal (not last): Prev | Next Question */
+            /* Question answered, navigate next */
             <div className="grid grid-cols-2 gap-3">
               <button
                 onClick={handlePrev}
@@ -386,13 +343,13 @@ export const MistakesScreen: React.FC = () => {
                 onClick={handleNext}
                 className="py-4 rounded-2xl bg-gradient-to-b from-cyan-600 to-cyan-700 text-white text-xs font-black uppercase tracking-wider flex items-center justify-center gap-1.5 min-h-[52px] shadow-lg shadow-cyan-600/30 cursor-pointer active:scale-95 transition-all"
               >
-                Next <ChevronRight size={18} />
+                Next Question <ChevronRight size={18} />
               </button>
             </div>
           )}
         </div>
 
-        {/* ── Notes Modal ─────────────────────────────────────────────────── */}
+        {/* ── Notes Modal ──────────────────────────────────────────────────── */}
         {showNotes && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-sm">
             <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 w-full max-w-sm shadow-2xl space-y-4">
@@ -413,21 +370,15 @@ export const MistakesScreen: React.FC = () => {
               />
               <div className="flex gap-2">
                 <button
-                  onClick={() => {
-                    saveQuestionNote(currentQ.uniqueId, noteInput);
-                    setShowNotes(false);
-                  }}
+                  onClick={() => { saveQuestionNote(currentQ.uniqueId, noteInput); setShowNotes(false); }}
                   className="flex-1 py-3 bg-cyan-600 text-white font-black text-xs uppercase rounded-xl cursor-pointer active:scale-95 transition-all"
                 >
                   Save Note
                 </button>
                 {noteInput && (
                   <button
-                    onClick={() => {
-                      saveQuestionNote(currentQ.uniqueId, '');
-                      setNoteInput('');
-                    }}
-                    className="px-3 py-3 bg-rose-50 dark:bg-rose-950/30 text-rose-600 font-black text-xs uppercase rounded-xl cursor-pointer active:scale-95 transition-all"
+                    onClick={() => { saveQuestionNote(currentQ.uniqueId, ''); setNoteInput(''); }}
+                    className="px-4 py-3 bg-rose-50 dark:bg-rose-950/30 text-rose-600 font-black text-xs uppercase rounded-xl cursor-pointer active:scale-95 transition-all"
                   >
                     Clear
                   </button>
@@ -440,30 +391,21 @@ export const MistakesScreen: React.FC = () => {
     );
   }
 
-  // ════════════════════════════════════════════════════════════════════════════
-  // SESSION COMPLETE — Summary Screen
-  // ════════════════════════════════════════════════════════════════════════════
-  // (Not used — we close inline)
-
-  // ════════════════════════════════════════════════════════════════════════════
-  // MISTAKES LIST VIEW (default)
-  // ════════════════════════════════════════════════════════════════════════════
-  const icaCount = allMistakeQuestions.filter(q => q.material === 'ica').length;
-  const gpoeCount = allMistakeQuestions.filter(q => q.material === 'gpoe').length;
+  // ══════════════════════════════════════════════════════════════════════════
+  //  MISTAKES LIST VIEW
+  // ══════════════════════════════════════════════════════════════════════════
   const bookmarkedCount = allMistakeQuestions.filter(q => progress.bookmarks.includes(q.uniqueId)).length;
 
   return (
     <div className="flex-1 overflow-y-auto pb-24 bg-slate-50 dark:bg-slate-950">
 
-      {/* ── Stats Header ──────────────────────────────────────────────────── */}
+      {/* Stats Header */}
       <div className="bg-gradient-to-br from-rose-600 via-rose-500 to-pink-600 px-4 pt-5 pb-6 text-white relative overflow-hidden">
         <div className="absolute right-0 top-0 opacity-10 translate-x-4 -translate-y-2">
           <AlertTriangle size={120} />
         </div>
         <p className="text-[10px] font-black uppercase tracking-widest text-rose-200 mb-1">Revision Queue</p>
         <h1 className="text-2xl font-black font-sans mb-4">My Mistakes</h1>
-
-        {/* 4 stat tiles */}
         <div className="grid grid-cols-2 gap-2.5">
           <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-3 text-center">
             <p className="text-xl font-black">{totalMistakes}</p>
@@ -484,7 +426,7 @@ export const MistakesScreen: React.FC = () => {
         </div>
       </div>
 
-      {/* ── Practice CTA ──────────────────────────────────────────────────── */}
+      {/* Practice CTA */}
       <div className="px-4 -mt-3 space-y-2.5">
         {totalMistakes > 0 ? (
           <>
@@ -517,14 +459,14 @@ export const MistakesScreen: React.FC = () => {
         )}
       </div>
 
-      {/* ── Filters ───────────────────────────────────────────────────────── */}
+      {/* Filters */}
       {totalMistakes > 0 && (
         <div className="px-4 mt-5">
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-hide">
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-1">
             {([
-              { id: 'all', label: `All (${totalMistakes})` },
-              { id: 'ica', label: `ICA (${icaCount})` },
-              { id: 'gpoe', label: `GPOE (${gpoeCount})` },
+              { id: 'all',        label: `All (${totalMistakes})` },
+              { id: 'ica',        label: `ICA (${icaCount})` },
+              { id: 'gpoe',       label: `GPOE (${gpoeCount})` },
               { id: 'bookmarked', label: `⭐ Saved (${bookmarkedCount})` },
             ] as { id: MistakeFilter; label: string }[]).map(f => (
               <button
@@ -543,12 +485,12 @@ export const MistakesScreen: React.FC = () => {
         </div>
       )}
 
-      {/* ── Mistake Questions List ─────────────────────────────────────────── */}
+      {/* Mistake question list */}
       {totalMistakes > 0 && (
         <div className="px-4 mt-4 space-y-3 pb-4">
           <div className="flex items-center justify-between">
             <h2 className="text-[10px] font-black uppercase tracking-widest text-slate-400">
-              {activeFilter === 'all' ? 'All Mistakes' : activeFilter === 'ica' ? 'ICA Mistakes' : activeFilter === 'gpoe' ? 'GPOE Mistakes' : 'Bookmarked Mistakes'} ({filteredMistakes.length})
+              {filteredMistakes.length} Questions
             </h2>
             <span className="text-[9px] text-slate-400 font-semibold flex items-center gap-1">
               <TrendingUp size={10} /> {resolvedCount} resolved total
@@ -570,23 +512,16 @@ export const MistakesScreen: React.FC = () => {
                   key={q.uniqueId}
                   className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm space-y-3"
                 >
-                  {/* Top row */}
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 flex-wrap">
                       <span className="text-[9px] font-black uppercase tracking-wider bg-rose-50 dark:bg-rose-950/30 text-rose-600 dark:text-rose-400 px-2 py-0.5 rounded-full border border-rose-100 dark:border-rose-900">
                         {q.material.toUpperCase()}
                       </span>
-                      <span className="text-[9px] font-bold text-slate-400">
-                        Ch {ch?.num} • {ch?.title}
-                      </span>
+                      <span className="text-[9px] font-bold text-slate-400">Ch {ch?.num} • {ch?.title}</span>
                     </div>
-                    <div className="flex items-center gap-1.5">
-                      {isBookmarked && (
-                        <Bookmark size={12} className="fill-amber-400 text-amber-400" />
-                      )}
-                      {hasNote && (
-                        <FileText size={12} className="text-cyan-500" />
-                      )}
+                    <div className="flex items-center gap-1.5 shrink-0">
+                      {isBookmarked && <Bookmark size={12} className="fill-amber-400 text-amber-400" />}
+                      {hasNote      && <FileText  size={12} className="text-cyan-500" />}
                       <button
                         onClick={() => removeMistake(q.uniqueId)}
                         className="p-1.5 rounded-lg text-slate-300 dark:text-slate-700 hover:text-rose-500 active:scale-90 transition-all cursor-pointer"
@@ -596,21 +531,15 @@ export const MistakesScreen: React.FC = () => {
                       </button>
                     </div>
                   </div>
-
-                  {/* Question text */}
                   <p className="text-sm font-bold text-slate-800 dark:text-slate-200 leading-relaxed">
                     {q.question}
                   </p>
-
-                  {/* Correct answer */}
                   <div className="flex items-center justify-between bg-slate-50 dark:bg-slate-950 rounded-xl px-3 py-2 border border-slate-100 dark:border-slate-800 text-xs font-bold">
                     <span className="text-slate-400">Correct Answer:</span>
                     <span className="bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 px-2.5 py-0.5 rounded-lg">
                       {q.correct_answer}) {(q as any)[`option_${q.correct_answer.toLowerCase()}`]}
                     </span>
                   </div>
-
-                  {/* Practice this one button */}
                   <button
                     onClick={() => handleStartPractice([q])}
                     className="w-full py-2.5 bg-rose-50 dark:bg-rose-950/20 text-rose-600 dark:text-rose-400 text-[10px] font-black uppercase tracking-wider rounded-xl border border-rose-100 dark:border-rose-900 cursor-pointer active:scale-95 transition-all flex items-center justify-center gap-1.5"
