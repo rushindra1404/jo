@@ -30,7 +30,7 @@ export const BookmarksScreen: React.FC = () => {
   return (
     <div className="flex-1 overflow-y-auto px-4 pb-20 pt-4 space-y-6">
       {/* Bookmarks header */}
-      <div className="bg-gradient-to-br from-amber-500 to-amber-700 dark:from-amber-955/40 dark:to-slate-900/60 rounded-3xl p-5 text-white shadow-premium relative overflow-hidden">
+      <div className="bg-gradient-to-br from-amber-500 to-amber-700 dark:from-amber-950/40 dark:to-slate-900/60 rounded-3xl p-5 text-white shadow-premium relative overflow-hidden">
         <div className="absolute right-0 bottom-0 translate-x-4 translate-y-4 opacity-10">
           <Bookmark size={150} />
         </div>
@@ -140,7 +140,7 @@ export const BookmarksScreen: React.FC = () => {
                   <div className="bg-slate-50 dark:bg-slate-950 rounded-xl p-3 text-xs space-y-1.5 border-l-2 border-amber-500 font-semibold text-slate-700 dark:text-slate-300">
                     <p className="flex items-center gap-1.5">
                       <span className="text-slate-400">Correct Answer:</span>
-                      <span className="bg-emerald-50 text-emerald-700 dark:bg-emerald-955/30 dark:text-emerald-400 px-2 py-0.5 rounded-lg font-bold">
+                      <span className="bg-emerald-50 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400 px-2 py-0.5 rounded-lg font-bold">
                         {q.correct_answer}
                       </span>
                     </p>

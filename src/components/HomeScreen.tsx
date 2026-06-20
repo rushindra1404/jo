@@ -134,7 +134,7 @@ export const HomeScreen: React.FC = () => {
             className="flex items-center justify-between p-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-premium active:scale-[0.99] transition-all cursor-pointer text-left"
           >
             <div className="flex items-center gap-4">
-              <div className="p-3.5 bg-emerald-50 dark:bg-emerald-955/30 text-emerald-600 dark:text-emerald-400 rounded-xl">
+              <div className="p-3.5 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-400 rounded-xl">
                 <BookOpen size={24} />
               </div>
               <div>
@@ -197,7 +197,7 @@ export const HomeScreen: React.FC = () => {
 
       {/* Recent Activity Section */}
       <section className="space-y-3">
-        <h2 className="text-sm font-extrabold uppercase text-slate-400 dark:text-slate-555 tracking-wider">
+        <h2 className="text-sm font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider">
           Recent Activity
         </h2>
         {progress.recentActivity.length === 0 ? (
@@ -215,7 +215,7 @@ export const HomeScreen: React.FC = () => {
                   <div>
                     <h4 className="font-bold text-slate-800 dark:text-slate-200">{act.label}</h4>
                     {act.detail && (
-                      <p className="text-xs text-slate-450 dark:text-slate-500 mt-0.5 font-medium">
+                      <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5 font-medium">
                         {act.detail}
                       </p>
                     )}

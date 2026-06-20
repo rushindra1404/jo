@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-brand-50: #f0f9ff;
   --color-brand-100: #e0f2fe;
@@ -79,3 +81,11 @@
 .tap-bounce:active {
   transform: scale(0.96);
 }
+
+/* Centralized theme transition system */
+body, header, nav, button, input, textarea, select, a, svg, .rounded-xl, .rounded-2xl, .rounded-3xl, .border, .shadow-premium {
+  transition-property: color, background-color, border-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+

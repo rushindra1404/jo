@@ -1,5 +1,6 @@
 import React from 'react';
 import { AppProvider, useApp } from './context/AppContext';
+import { ThemeProvider } from './context/ThemeContext';
 import { TopBar } from './components/TopBar';
 import { BottomNav } from './components/BottomNav';
 import { HomeScreen } from './components/HomeScreen';
@@ -21,7 +22,7 @@ const MainAppContent: React.FC = () => {
         <div className="flex-1 flex flex-col items-center justify-center p-6 text-center bg-slate-50 dark:bg-slate-950 transition-colors duration-200">
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-cyan-600"></div>
           <p className="text-sm font-bold text-slate-700 dark:text-slate-300 mt-4">Loading question bank...</p>
-          <p className="text-xs text-slate-450 mt-1">Caching chapters for offline study.</p>
+          <p className="text-xs text-slate-400 mt-1">Caching chapters for offline study.</p>
         </div>
       );
     }
@@ -84,8 +85,11 @@ const MainAppContent: React.FC = () => {
 
 export default function App() {
   return (
-    <AppProvider>
-      <MainAppContent />
-    </AppProvider>
+    <ThemeProvider>
+      <AppProvider>
+        <MainAppContent />
+      </AppProvider>
+    </ThemeProvider>
   );
 }
+

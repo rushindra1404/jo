@@ -199,7 +199,7 @@ export const StudyModeScreen: React.FC = () => {
             {/* Front Card Face */}
             <div className="absolute inset-0 w-full h-full backface-hidden bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-5 flex flex-col justify-between overflow-y-auto">
               <div>
-                <div className="flex justify-between items-center text-xs text-slate-400 dark:text-slate-555 uppercase tracking-widest font-bold">
+                <div className="flex justify-between items-center text-xs text-slate-400 dark:text-slate-500 uppercase tracking-widest font-bold">
                   <span className="flex items-center gap-1">
                     <HelpCircle size={14} /> Question
                   </span>
@@ -277,7 +277,7 @@ export const StudyModeScreen: React.FC = () => {
                   </button>
                 </div>
 
-                <div className="bg-slate-100 dark:bg-slate-955/20 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 space-y-2.5">
+                <div className="bg-slate-100 dark:bg-slate-950/20 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 space-y-2.5">
                   <h4 className="text-xs uppercase tracking-wider font-extrabold opacity-95">Answers</h4>
                   <div className="text-sm font-semibold flex flex-col gap-1.5">
                     <p className="flex items-center gap-1.5">
@@ -321,7 +321,7 @@ export const StudyModeScreen: React.FC = () => {
           disabled={studyQuestionIndex === 0}
           className={`py-3.5 rounded-2xl border text-center font-bold text-sm uppercase tracking-wider flex items-center justify-center gap-1 min-h-[48px] ${
             studyQuestionIndex === 0
-              ? 'border-slate-200 dark:border-slate-850 text-slate-300 dark:text-slate-750 cursor-not-allowed opacity-50'
+              ? 'border-slate-200 dark:border-slate-800 text-slate-300 dark:text-slate-750 cursor-not-allowed opacity-50'
               : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer'
           }`}
         >
@@ -332,7 +332,7 @@ export const StudyModeScreen: React.FC = () => {
           disabled={studyQuestionIndex === totalQuestions - 1}
           className={`py-3.5 rounded-2xl border text-center font-bold text-sm uppercase tracking-wider flex items-center justify-center gap-1 min-h-[48px] ${
             studyQuestionIndex === totalQuestions - 1
-              ? 'border-slate-200 dark:border-slate-850 text-slate-300 dark:text-slate-750 cursor-not-allowed opacity-50'
+              ? 'border-slate-200 dark:border-slate-800 text-slate-300 dark:text-slate-750 cursor-not-allowed opacity-50'
               : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer'
           }`}
         >

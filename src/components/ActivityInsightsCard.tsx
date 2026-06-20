@@ -15,23 +15,8 @@ export const ActivityInsightsCard: React.FC = () => {
 
     const today = new Date();
 
-    // 1. Streak / Consecutive Days studied this week
-    let consecutiveDays = 0;
-    for (let i = 0; i < 7; i++) {
-      const d = new Date(today);
-      d.setDate(today.getDate() - i);
-      const dateStr = d.toISOString().split('T')[0];
-      if (logs[dateStr] && logs[dateStr].questionsAttempted > 0) {
-        consecutiveDays += 1;
-      }
-    }
-    if (consecutiveDays >= 3) {
-      insightsList.push(`You studied on ${consecutiveDays} consecutive days this week. Excellent discipline!`);
-    } else {
-      insightsList.push(`Aim to study at least 5 minutes daily to build consistent learning habits.`);
-    }
+    // 1. Most Productive Day
 
-    // 2. Most Productive Day
     const sortedByAttempt = [...logEntries].sort((a, b) => b.questionsAttempted - a.questionsAttempted);
     const mostProductive = sortedByAttempt[0];
     if (mostProductive && mostProductive.questionsAttempted > 0) {
@@ -109,14 +94,14 @@ export const ActivityInsightsCard: React.FC = () => {
     <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 shadow-premium space-y-4">
       <div className="flex items-center gap-2 border-b border-slate-100 dark:border-slate-800 pb-3">
         <TrendingUp size={16} className="text-cyan-600 dark:text-cyan-400" />
-        <h3 className="text-xs font-extrabold uppercase text-slate-404 dark:text-slate-500 tracking-wider">
+        <h3 className="text-xs font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider">
           Advisor Insights Engine
         </h3>
       </div>
 
       <div className="space-y-3.5">
         {insights.map((insight, index) => (
-          <div key={index} className="flex gap-3 items-start text-xs font-semibold text-slate-700 dark:text-slate-355 bg-slate-50 dark:bg-slate-955 p-3 rounded-2xl border border-slate-100 dark:border-slate-800 leading-relaxed">
+          <div key={index} className="flex gap-3 items-start text-xs font-semibold text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-950 p-3 rounded-2xl border border-slate-100 dark:border-slate-800 leading-relaxed">
             <div className="p-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-600 dark:text-cyan-400 rounded-lg shrink-0 mt-0.5">
               <Info size={12} />
             </div>

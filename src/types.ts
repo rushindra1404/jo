@@ -24,7 +24,7 @@ export interface RecentActivity {
   id: string;
   timestamp: number;
   type: 'study' | 'exam' | 'mistake' | 'bookmark';
-  material: 'ica' | 'gpoe';
+  material: 'ica' | 'gpoe' | 'all';
   chapterId?: string;
   label: string;
   detail?: string;

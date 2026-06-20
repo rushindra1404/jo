@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
+import { useTheme } from '../context/ThemeContext';
 import { ArrowLeft, Eye, Type, Sun, Moon } from 'lucide-react';
 import type { FontSizeOption } from '../types';
 
@@ -11,6 +12,7 @@ export const TopBar: React.FC = () => {
     settings,
     updateSettings,
   } = useApp();
+  const { theme, toggleTheme } = useTheme();
 
   const [showFontMenu, setShowFontMenu] = useState(false);
   const isSubScreen = ['chapter-select', 'study', 'exam', 'random-revision'].includes(activeRoute);
@@ -125,12 +127,16 @@ export const TopBar: React.FC = () => {
 
           {/* Theme Toggle */}
           <button
-            onClick={() => updateSettings({ darkMode: !settings.darkMode })}
-            className="p-2 rounded-xl text-slate-600 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 min-w-[40px] min-h-[40px] flex items-center justify-center cursor-pointer transition-colors"
-            title="Toggle Light/Dark Theme"
-            aria-label="Toggle Light/Dark Theme"
+            onClick={toggleTheme}
+            className="p-2 rounded-xl text-slate-600 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 min-w-[40px] min-h-[40px] flex items-center justify-center cursor-pointer transition-colors tap-bounce"
+            title={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
+            aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
           >
-            {settings.darkMode ? <Sun size={20} /> : <Moon size={20} />}
+            {theme === 'light' ? (
+              <Sun size={20} className="text-amber-500 animate-pulse" />
+            ) : (
+              <Moon size={20} className="text-cyan-400" />
+            )}
           </button>
         </div>
       </div>

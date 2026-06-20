@@ -1,20 +1,23 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
-import { Home, Search, Bookmark, AlertTriangle, BarChart2 } from 'lucide-react';
+import { useExamStore } from '../store/examStore';
+import { LayoutDashboard, BookOpen, ClipboardList, Bookmark, AlertTriangle } from 'lucide-react';
 
 export const BottomNav: React.FC = () => {
   const { activeRoute, navigate } = useApp();
+  const examMode = useExamStore(state => state.examMode);
 
   const navItems = [
-    { id: 'home', label: 'Home', icon: Home },
-    { id: 'search', label: 'Search', icon: Search },
+    { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
+    { id: 'home', label: 'Study Materials', icon: BookOpen },
+    { id: 'exam', label: 'Exam Mode', icon: ClipboardList },
     { id: 'bookmarks', label: 'Bookmarks', icon: Bookmark },
     { id: 'mistakes', label: 'Mistakes', icon: AlertTriangle },
-    { id: 'dashboard', label: 'Stats', icon: BarChart2 },
   ];
 
-  // Don't show bottom nav inside active study or exam sessions to maximize screen area and prevent accidental clicks
-  const hideBottomNav = ['study', 'exam', 'random-revision'].includes(activeRoute);
+  // Don't show bottom nav inside active study or active exam running sessions to maximize screen area and prevent accidental clicks
+  const isExamRunning = activeRoute === 'exam' && examMode === 'running';
+  const hideBottomNav = ['study', 'random-revision'].includes(activeRoute) || isExamRunning;
 
   if (hideBottomNav) return null;
 

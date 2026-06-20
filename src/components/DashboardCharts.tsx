@@ -56,7 +56,7 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({
 
     return (
       <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 shadow-premium space-y-3.5">
-        <h4 className="text-xs font-extrabold uppercase text-slate-404 dark:text-slate-500 tracking-wider">
+        <h4 className="text-xs font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider">
           Accuracy Trend
         </h4>
         <div className="relative w-full h-[140px] flex items-center justify-center">
@@ -90,13 +90,13 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({
   const renderMaterialPerformance = () => {
     return (
       <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 shadow-premium space-y-4">
-        <h4 className="text-xs font-extrabold uppercase text-slate-404 dark:text-slate-500 tracking-wider">
+        <h4 className="text-xs font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider">
           Material Performance
         </h4>
         <div className="space-y-4 pt-1">
           <div className="space-y-1.5">
             <div className="flex justify-between items-center text-xs font-bold">
-              <span className="text-slate-700 dark:text-slate-305 flex items-center gap-2">
+              <span className="text-slate-700 dark:text-slate-300 flex items-center gap-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
                 ICA Progress
               </span>
@@ -104,13 +104,13 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({
                 {icaProgress}%
               </span>
             </div>
-            <div className="w-full bg-slate-100 dark:bg-slate-955 h-5 rounded-xl overflow-hidden p-0.5 border border-slate-200 dark:border-slate-800">
+            <div className="w-full bg-slate-100 dark:bg-slate-950 h-5 rounded-xl overflow-hidden p-0.5 border border-slate-200 dark:border-slate-800">
               <div className="bg-emerald-500 h-full rounded-lg transition-all duration-500" style={{ width: `${icaProgress}%` }} />
             </div>
           </div>
           <div className="space-y-1.5">
             <div className="flex justify-between items-center text-xs font-bold">
-              <span className="text-slate-700 dark:text-slate-305 flex items-center gap-2">
+              <span className="text-slate-700 dark:text-slate-300 flex items-center gap-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-indigo-500" />
                 GPOE Progress
               </span>
@@ -118,7 +118,7 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({
                 {gpoeProgress}%
               </span>
             </div>
-            <div className="w-full bg-slate-100 dark:bg-slate-955 h-5 rounded-xl overflow-hidden p-0.5 border border-slate-200 dark:border-slate-800">
+            <div className="w-full bg-slate-100 dark:bg-slate-950 h-5 rounded-xl overflow-hidden p-0.5 border border-slate-200 dark:border-slate-800">
               <div className="bg-indigo-500 h-full rounded-lg transition-all duration-500" style={{ width: `${gpoeProgress}%` }} />
             </div>
           </div>
@@ -144,7 +144,7 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({
 
     return (
       <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 shadow-premium space-y-3">
-        <h4 className="text-xs font-extrabold uppercase text-slate-404 dark:text-slate-500 tracking-wider">
+        <h4 className="text-xs font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider">
           Chapter Performance Distribution
         </h4>
         <div className="relative w-full h-[140px] flex items-center justify-center">
@@ -160,7 +160,7 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({
                   <text x={x + barWidth / 2} y={y - 6} textAnchor="middle" className="text-[10px] font-black fill-slate-700 dark:fill-slate-300 font-sans">
                     {item.count}
                   </text>
-                  <text x={x + barWidth / 2} y={134} textAnchor="middle" className="text-[10px] font-bold fill-slate-404 dark:fill-slate-550 font-sans">
+                  <text x={x + barWidth / 2} y={134} textAnchor="middle" className="text-[10px] font-bold fill-slate-400 dark:fill-slate-550 font-sans">
                     {item.label}
                   </text>
                 </g>
@@ -197,7 +197,7 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({
 
     return (
       <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 shadow-premium space-y-3.5">
-        <h4 className="text-xs font-extrabold uppercase text-slate-404 dark:text-slate-500 tracking-wider">
+        <h4 className="text-xs font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider">
           Completion Curve
         </h4>
         <div className="relative w-full h-[120px] flex items-center justify-center">

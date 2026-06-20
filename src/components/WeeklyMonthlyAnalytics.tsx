@@ -80,77 +80,78 @@ export const WeeklyMonthlyAnalytics: React.FC = () => {
       
       {/* Weekly Analytics Card */}
       <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 shadow-premium space-y-4">
-        <h4 className="text-xs font-extrabold uppercase text-slate-404 dark:text-slate-500 tracking-wider flex items-center gap-1.5">
+        <h4 className="text-xs font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider flex items-center gap-1.5">
           <BarChart2 size={14} className="text-cyan-600 dark:text-cyan-400" /> Weekly Analytics
         </h4>
 
         <div className="grid grid-cols-2 gap-3 text-center text-xs font-bold">
           <div className="bg-slate-50 dark:bg-slate-950 p-3 rounded-2xl">
-            <span className="text-[10px] text-slate-404 font-bold block uppercase tracking-wider">Attempted</span>
+            <span className="text-[10px] text-slate-400 font-bold block uppercase tracking-wider">Attempted</span>
             <span className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans">{weekAttempted}</span>
           </div>
-          <div className="bg-slate-50 dark:bg-slate-955 p-3 rounded-2xl">
-            <span className="text-[10px] text-slate-404 font-bold block uppercase tracking-wider">Accuracy</span>
+          <div className="bg-slate-50 dark:bg-slate-950 p-3 rounded-2xl">
+            <span className="text-[10px] text-slate-400 font-bold block uppercase tracking-wider">Accuracy</span>
             <span className="text-2xl font-black text-cyan-600 dark:text-cyan-400 font-sans">{weekAccuracy}%</span>
           </div>
         </div>
 
         <div className="space-y-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
-          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-955 px-3 py-2 rounded-xl">
+          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-950 px-3 py-2 rounded-xl">
             <span className="text-slate-400 flex items-center gap-1">
               <Check size={14} className="text-emerald-500" /> Correct:
             </span>
-            <span className="font-extrabold text-slate-805 dark:text-slate-100">{weekCorrect}</span>
+            <span className="font-extrabold text-slate-800 dark:text-slate-100">{weekCorrect}</span>
           </div>
-          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-955 px-3 py-2 rounded-xl">
+          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-950 px-3 py-2 rounded-xl">
             <span className="text-slate-400 flex items-center gap-1">
               <X size={14} className="text-rose-500" /> Wrong:
             </span>
-            <span className="font-extrabold text-slate-805 dark:text-slate-100">{weekWrong}</span>
+            <span className="font-extrabold text-slate-800 dark:text-slate-100">{weekWrong}</span>
           </div>
-          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-955 px-3 py-2 rounded-xl">
+          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-950 px-3 py-2 rounded-xl">
             <span className="text-slate-400 flex items-center gap-1">
               <Calendar size={14} className="text-cyan-500" /> Study Days:
             </span>
-            <span className="font-extrabold text-slate-805 dark:text-slate-100">{weekStudyDays} / 7 days</span>
+            <span className="font-extrabold text-slate-800 dark:text-slate-100">{weekStudyDays} / 7 days</span>
           </div>
         </div>
       </div>
 
       {/* Monthly Analytics Card */}
       <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 shadow-premium space-y-4">
-        <h4 className="text-xs font-extrabold uppercase text-slate-404 dark:text-slate-500 tracking-wider flex items-center gap-1.5">
+        <h4 className="text-xs font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider flex items-center gap-1.5">
           <Award size={14} className="text-amber-500" /> Monthly Analytics Summary
         </h4>
 
         <div className="grid grid-cols-2 gap-3 text-center text-xs font-bold">
-          <div className="bg-slate-50 dark:bg-slate-955 p-3 rounded-2xl">
-            <span className="text-[10px] text-slate-404 font-bold block uppercase tracking-wider">
+          <div className="bg-slate-50 dark:bg-slate-950 p-3 rounded-2xl">
+            <span className="text-[10px] text-slate-400 font-bold block uppercase tracking-wider">
               {monthName} {currentYear}
             </span>
             <span className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans">{monthAttempted}</span>
-            <span className="text-[8px] text-slate-404 block font-bold uppercase mt-0.5">Attempted</span>
+            <span className="text-[8px] text-slate-400 block font-bold uppercase mt-0.5">Attempted</span>
           </div>
-          <div className="bg-slate-50 dark:bg-slate-955 p-3 rounded-2xl">
-            <span className="text-[10px] text-slate-404 font-bold block uppercase tracking-wider">Avg Per Day</span>
+          <div className="bg-slate-50 dark:bg-slate-950 p-3 rounded-2xl">
+            <span className="text-[10px] text-slate-400 font-bold block uppercase tracking-wider">Avg Per Day</span>
             <span className="text-2xl font-black text-cyan-600 dark:text-cyan-400 font-sans">{avgQuestionsPerDay}</span>
-            <span className="text-[8px] text-slate-404 block font-bold uppercase mt-0.5">Questions</span>
+            <span className="text-[8px] text-slate-400 block font-bold uppercase mt-0.5">Questions</span>
           </div>
         </div>
 
         <div className="space-y-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
-          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-955 px-3 py-2 rounded-xl">
-            <span className="text-slate-404">Total Study Days:</span>
-            <span className="font-extrabold text-slate-805 dark:text-slate-100">
+          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-950 px-3 py-2 rounded-xl">
+            <span className="text-slate-400">Total Study Days:</span>
+            <span className="font-extrabold text-slate-800 dark:text-slate-100">
               {monthStudyDays} of {totalDaysPassedThisMonth} passed
             </span>
           </div>
-          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-955 px-3 py-2 rounded-xl">
-            <span className="text-slate-404">Average Accuracy:</span>
-            <span className="font-extrabold text-slate-805 dark:text-slate-100">{monthAccuracy}%</span>
+          <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-950 px-3 py-2 rounded-xl">
+            <span className="text-slate-400">Average Accuracy:</span>
+            <span className="font-extrabold text-slate-800 dark:text-slate-100">{monthAccuracy}%</span>
           </div>
         </div>
       </div>
+
 
     </div>
   );

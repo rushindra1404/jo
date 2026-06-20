@@ -23,7 +23,7 @@ interface AppContextProps {
   removeMistake: (uniqueId: string) => void;
   addRecentActivity: (
     type: 'study' | 'exam' | 'mistake' | 'bookmark',
-    material: 'ica' | 'gpoe',
+    material: 'ica' | 'gpoe' | 'all',
     label: string,
     detail?: string,
     chapterId?: string,
@@ -192,18 +192,13 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     localStorage.setItem('sail_revision_settings', JSON.stringify(settings));
     
     const root = window.document.documentElement;
-    if (settings.darkMode) {
-      root.classList.add('dark');
-    } else {
-      root.classList.remove('dark');
-    }
-
     if (settings.highContrast) {
       root.classList.add('high-contrast');
     } else {
       root.classList.remove('high-contrast');
     }
   }, [settings]);
+
 
   // Seed study history data if dailyLogs is empty, and track streaks
   useEffect(() => {
@@ -266,44 +261,28 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
             totalQuestionsReviewed: totalQuestionsReviewed,
             totalSessionTime: totalTime,
             averageDuration: Math.round(totalTime / Math.max(1, studyDaysCount)),
-            streakDays: 4, 
-            longestStreak: 12, 
+            streakDays: 0, 
+            longestStreak: 0, 
             questionsPerDay: questionsPerDayMap,
             lastActiveDate: today,
           }
         };
       }
 
-      // 2. Otherwise update standard daily streak count
+      // 2. Otherwise update standard daily session count
       if (lastActive === today) {
         return prev; 
       }
 
-      let streak = stats.streakDays || 1;
-      let longest = stats.longestStreak || 1;
       const sessions = (stats.sessionsCount || 0) + 1;
-
-      const lastDateObj = new Date(lastActive);
-      const todayDateObj = new Date(today);
-      const diffTime = Math.abs(todayDateObj.getTime() - lastDateObj.getTime());
-      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-
-      if (diffDays === 1) {
-        streak += 1;
-        if (streak > longest) {
-          longest = streak;
-        }
-      } else if (diffDays > 1) {
-        streak = 1; // streak broken
-      }
 
       return {
         ...prev,
         sessionStats: {
           ...stats,
           sessionsCount: sessions,
-          streakDays: streak,
-          longestStreak: longest,
+          streakDays: 0,
+          longestStreak: 0,
           lastActiveDate: today,
         }
       };
@@ -487,7 +466,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const addRecentActivity = (
     type: 'study' | 'exam' | 'mistake' | 'bookmark',
-    material: 'ica' | 'gpoe',
+    material: 'ica' | 'gpoe' | 'all',
     label: string,
     detail?: string,
     chapterId?: string,

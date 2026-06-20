@@ -64,7 +64,7 @@ export const SearchScreen: React.FC = () => {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search keywords, questions, explanations..."
-            className="w-full pl-10 pr-10 py-3 bg-slate-50 dark:bg-slate-955 border border-slate-200 dark:border-slate-800 rounded-2xl text-sm font-semibold outline-none focus:border-cyan-600 focus:bg-white dark:focus:bg-slate-900 text-slate-800 dark:text-slate-202 placeholder-slate-404"
+            className="w-full pl-10 pr-10 py-3 bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-2xl text-sm font-semibold outline-none focus:border-cyan-600 focus:bg-white dark:focus:bg-slate-900 text-slate-800 dark:text-slate-200 placeholder-slate-400"
             aria-label="Search questions"
           />
           
@@ -109,7 +109,7 @@ export const SearchScreen: React.FC = () => {
             </div>
           ) : (
             <div className="space-y-4 pb-4">
-              <div className="text-xs font-semibold text-slate-404 px-1">
+              <div className="text-xs font-semibold text-slate-400 px-1">
                 Showing {limitedResults.length} of {results.length} matches
               </div>
 
@@ -140,7 +140,7 @@ export const SearchScreen: React.FC = () => {
                       </button>
                     </div>
 
-                    <p className="text-sm font-bold text-slate-800 dark:text-slate-202 leading-relaxed">
+                    <p className="text-sm font-bold text-slate-800 dark:text-slate-200 leading-relaxed">
                       {q.question}
                     </p>
 
@@ -159,10 +159,10 @@ export const SearchScreen: React.FC = () => {
                       </p>
                     </div>
 
-                    <div className="bg-slate-50 dark:bg-slate-955 rounded-xl p-3 text-xs space-y-1.5 border-l-2 border-cyan-600 font-semibold">
+                    <div className="bg-slate-50 dark:bg-slate-950 rounded-xl p-3 text-xs space-y-1.5 border-l-2 border-cyan-600 font-semibold">
                       <p className="flex items-center gap-1.5 text-slate-700 dark:text-slate-300">
-                        <span className="text-slate-404">Correct Option:</span>
-                        <span className="bg-emerald-50 text-emerald-700 dark:bg-emerald-955/30 dark:text-emerald-400 px-2 py-0.5 rounded-lg font-extrabold">
+                        <span className="text-slate-400">Correct Option:</span>
+                        <span className="bg-emerald-50 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400 px-2 py-0.5 rounded-lg font-extrabold">
                           {q.correct_answer}
                         </span>
                       </p>

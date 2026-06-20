@@ -149,8 +149,8 @@ export const MistakesScreen: React.FC = () => {
               <div
                 className={`p-4 rounded-2xl text-xs space-y-2 transition-all ${
                   isCorrectChoice
-                    ? 'bg-emerald-50 dark:bg-emerald-955/20 text-emerald-800 dark:text-emerald-300'
-                    : 'bg-rose-50 dark:bg-rose-955/20 text-rose-800 dark:text-rose-350'
+                    ? 'bg-emerald-50 dark:bg-emerald-950/20 text-emerald-800 dark:text-emerald-300'
+                    : 'bg-rose-50 dark:bg-rose-950/20 text-rose-800 dark:text-rose-350'
                 }`}
               >
                 <div className="flex items-center gap-1 font-bold">
@@ -265,7 +265,7 @@ export const MistakesScreen: React.FC = () => {
                   </p>
                   <div className="bg-slate-50 dark:bg-slate-950 rounded-xl p-3 text-xs flex justify-between items-center font-bold">
                     <span className="text-slate-400">Correct answer:</span>
-                    <span className="bg-emerald-50 text-emerald-700 dark:bg-emerald-955/30 dark:text-emerald-400 px-2 py-0.5 rounded-lg">
+                    <span className="bg-emerald-50 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400 px-2 py-0.5 rounded-lg">
                       {q.correct_answer}) {q[`option_${q.correct_answer.toLowerCase()}` as keyof typeof q]}
                     </span>
                   </div>
