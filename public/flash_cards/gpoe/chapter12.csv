@@ -1,0 +1,191 @@
+point_id,category,priority,title,point
+1,Definition,5,Mining,"Mining is the process of extracting valuable minerals or geological materials from the earth. "
+2,Definition,5,Mining Sequence,Mining sequence is the ordered set of stages involved in mining.
+3,Important Point,5,Mining Sequence,Mining sequence includes prospecting analysis extraction and land restoration.
+4,Concept,5,Geology,Understanding geology is essential for mine development.
+5,Definition,5,Ore,Ore is an aggregation of minerals from which metal can be recovered economically.
+6,Exam Point,5,Ore Condition,A rock ceases to be ore when valuable content becomes too low for profitable recovery.
+7,Definition,5,Mineral,A mineral is a naturally occurring chemical compound with definite composition and crystal structure.
+8,Important Point,4,Mineral Processing,Physical properties of minerals govern economic ore processing.
+9,Classification,5,Physical Properties,Transparency is a physical property of minerals.
+10,Classification,5,Physical Properties,Luster is a physical property of minerals.
+11,Classification,5,Physical Properties,Colour is a physical property of minerals.
+12,Classification,4,Physical Properties,Specific gravity is a physical property of minerals.
+13,Classification,4,Physical Properties,Hardness is a physical property of minerals.
+14,Classification,3,Physical Properties,Cleavage fracture magnetic electrical radioactive and optical properties are mineral properties.
+15,Definition,5,Transparency,Transparency describes how easily light passes through a mineral.
+16,Classification,5,Opaque Minerals,Opaque minerals do not transmit visible light.
+17,Classification,5,Transparent Minerals,Transparent minerals can be seen through clearly.
+18,Classification,5,Translucent Minerals,Translucent minerals allow only partial light transmission.
+19,Definition,5,Luster,Luster is the amount and quality of light reflected from a mineral surface.
+20,Definition,4,Colour,Colour results from selective absorption of light wavelengths.
+21,Definition,4,Luminescence,Luminescence is emission of light not caused by incandescence.
+22,Fact,4,Fluorescent Minerals,Minerals glowing under UV light or X rays are fluorescent.
+23,Definition,5,Specific Gravity,Specific gravity of a mineral is nearly constant.
+24,Important Point,5,Specific Gravity Use,Difference in specific gravity helps separate minerals.
+25,Exam Point,5,Gold Separation,Gold grains can be separated from quartz sand using gravity differences.
+26,Exam Point,5,Coal Separation,Heavy liquids separate lighter coal from heavier shale.
+27,Definition,5,Gravity Concentration,Gravity concentration is based on differences in specific gravity.
+28,Definition,5,Hardness,Hardness is the ability of a mineral to resist scratching.
+29,Comparison,4,Hardness vs Strength,Hardness differs from resistance to breaking.
+30,Fact,4,Diamond,Diamond is extremely hard but can shatter.
+31,Fact,5,Mohs Scale,Mohs Scale measures relative mineral hardness from 1 to 10.
+32,Fact,5,Mohs Creator,Mohs scale was developed by Austrian mineralogist F Mohs.
+33,Exam Point,5,Mohs Rank 1,Talc has hardness 1.
+34,Memory Hook,4,Talc,Talc is associated with talcum powder.
+35,Exam Point,5,Mohs Rank 2,Gypsum has hardness 2.
+36,Fact,4,Gypsum,Gypsum is used in plaster of Paris.
+37,Fact,4,Gypsum Formation,Gypsum forms when seawater evaporates.
+38,Exam Point,5,Mohs Rank 3,Calcite has hardness 3.
+39,Fact,4,Calcite,Calcite occurs in limestone and shells.
+40,Exam Point,5,Mohs Rank 4,Fluorite has hardness 4.
+41,Fact,4,Fluorite,Fluorine in fluorite helps prevent tooth decay.
+42,Exam Point,5,Mohs Rank 5,Apatite has hardness 5.
+43,Fact,3,Apatite,Apatite aids calcium absorption according to the chapter.
+44,Exam Point,5,Mohs Rank 6,Orthoclase feldspar has hardness 6.
+45,Fact,4,Orthoclase,Orthoclase belongs to the feldspar group.
+46,Exam Point,5,Mohs Rank 7,Quartz has hardness 7.
+47,Important Point,5,Quartz,Quartz is the most common mineral on Earths surface.
+48,Fact,4,Quartz,Quartz is natural silicon dioxide.
+49,Exam Point,5,Mohs Rank 8,Topaz has hardness 8.
+50,Fact,4,Topaz,Topaz is the November birthstone.
+51,Exam Point,5,Mohs Rank 9,Corundum has hardness 9.
+52,Fact,4,Corundum,Ruby and sapphire are varieties of corundum.
+53,Exam Point,5,Mohs Rank 10,Diamond has hardness 10.
+54,Fact,5,Diamond Use,Diamond is used in jewellery and cutting tools.
+55,Definition,5,Exploration,Exploration determines ore body thickness and quality.
+56,Procedure,5,Core Drilling,Exploration commonly uses boreholes and core drilling.
+57,Procedure,4,Core Recovery,Recovered core is preserved carefully in core boxes.
+58,Definition,5,Logging,Systematic recording of drill cores is called logging.
+59,Important Point,4,Logging Data,Physical properties are recorded in the logbook.
+60,Procedure,4,Laboratory Analysis,Ore and coal samples are analyzed in laboratories.
+61,Important Point,4,Database,Exploration data forms geological and assay databases.
+62,Concept,4,Reserve Estimation,Geological databases support reserve estimation.
+63,Concept,4,Ore Modelling,Exploration data is used for ore modelling.
+64,Concept,4,Mine Scheduling,Exploration supports mine scheduling and quality control.
+65,Definition,5,Bench Wise Excavation Plan,Bench wise plans target production and quality.
+66,Important Point,4,Blending,Ore from different benches can be blended for desired quality.
+67,Rule,5,Bench Parameters,Bench height width and gradient must follow DGMS permission.
+68,Definition,5,Mine Surface Plan,Mine surface plan depicts topography and surface features.
+69,Procedure,4,Excavation Planning,Excavation plans are normally prepared monthly.
+70,Fact,4,Mining Scheme,Annual excavation follows the approved mining scheme.
+71,Rule,5,IBM Permission,Annual quantity cannot exceed mining scheme limits without IBM approval.
+72,Definition,5,Long Term Plan,Long term plans align with mine plan and mining scheme.
+73,Definition,5,Progressive Mine Closure Plan,Closure planning aims to restore land as close as possible to original form.
+74,Definition,5,Mine Plan,Mine plan is systematic excavation planning for the lease period.
+75,Fact,4,Mine Plan Duration,Mine plans are normally prepared for 20 years.
+76,Important Point,4,Mine Plan Objectives,Environmental protection and mineral conservation are key objectives.
+77,Definition,5,Mining Scheme,A mining scheme accommodates deviations from the original mine plan.
+78,Fact,5,Mining Scheme Cycle,Mining schemes are prepared every 5 years.
+79,Fact,4,Vision 2025,Vision 2025 targeted 100 million tonnes of steel production in India.
+80,Definition,5,Short Term Plan,Short term plans cover annual and monthly excavation activities.
+81,Definition,5,Waste Dump,Waste dump is stacking of uneconomic waste material.
+82,Rule,5,Waste Dump Location,Waste dumps should be placed on non mineralized firm ground.
+83,Rule,5,Waste Dump Planning,Rehandling of waste should be minimized.
+84,Warning,5,Hill Slope Dumping,Dumping on hill slopes is generally not permitted.
+85,Concept,4,Backfilling,Old mined areas should be backfilled where possible.
+86,Rule,5,Dump Height,Waste dumps may be developed in 30 metre segments.
+87,Rule,5,Angle of Repose,Typical waste dump angle of repose is 33.5 degrees from vertical.
+88,Safety,5,Dump Monitoring,Dumps are monitored by mining supervisory personnel.
+89,Procedure,4,Berm Construction,Berms should be provided along dump edges.
+90,Procedure,4,Dust Control,Regular water sprinkling suppresses dust.
+91,Warning,5,Rainwater Control,Waste should not enter rivers or natural watercourses.
+92,Rule,5,Topsoil Management,Topsoil should be stored separately for rehabilitation.
+93,Rule,5,Illumination,Minimum illumination level is 3.5 lux during night operations.
+94,Definition,5,Equipment Selection,Equipment selection depends on ore body size shape and reserves.
+95,Concept,4,Selective Mining,Erratic deposits may require manual mining.
+96,Important Point,4,Large Deposits,Large deposits favor high capacity equipment.
+97,Classification,5,Equipment Combination,Excavator dumper combination is commonly used.
+98,Classification,4,Equipment Combination,In pit crusher belt conveyor combination is used in some mines.
+99,Classification,4,Equipment Combination,Bucket wheel excavators are used in soft formations.
+100,Classification,4,Equipment Combination,Draglines are used for overburden removal.
+101,Definition,5,Bucket Wheel Excavator,It is a continuous high capacity excavator.
+102,Definition,5,Dragline,Dragline is a giant excavator capable of side casting.
+103,Fact,4,Excavator Types,Rope shovels and hydraulic excavators are common.
+104,Fact,4,Dumper Capacities,Dumpers may range from 35 tonnes to 120 tonnes.
+105,Fact,3,Support Equipment,Dozers graders and water sprinklers support mining.
+106,Fact,4,Manufacturers,BEML Caterpillar TELCON L&T Komatsu and Atlas Copco are major manufacturers.
+107,Important Point,4,Dust Suppression,Dust suppression is essential for mine operations.
+108,Definition,5,Drilling Block,Drilling blocks should support at least one week of production.
+109,Definition,5,Burden,Burden is the distance from free face to first row of holes.
+110,Definition,5,Spacing,Spacing is the distance between holes in a row.
+111,Definition,5,Sub Grade Drilling,Sub grade drilling is drilling below bench height.
+112,Procedure,4,Hole Marking,Drill holes are physically marked before drilling.
+113,Rule,5,Hard Rock Drilling,Hard rock requires smaller burden and spacing.
+114,Rule,5,Soft Rock Drilling,Soft rock permits larger burden and spacing.
+115,Formula,5,Burden Rule,Burden equals about 200 to 300 times hole diameter.
+116,Formula,5,Spacing Rule,Spacing is approximately 1.2 times burden.
+117,Formula,5,Subgrade Rule,Sub grade drilling is about 10 percent of bench height.
+118,Classification,4,Drill Patterns,Drill holes may follow square or staggered patterns.
+119,Definition,4,Square Pattern,Rows align vertically to form squares.
+120,Definition,4,Staggered Pattern,Second row holes lie between first row holes.
+121,Rule,5,Hole Length,Hole length should exceed bench height by at least 10 percent.
+122,Warning,5,Toes Formation,Insufficient drilling creates toes at bench foot.
+123,Definition,5,Blasting,Blasting fragments rock for excavation.
+124,Important Point,5,Blasting Importance,Blasting efficiency affects all downstream operations.
+125,Classification,4,Explosive Types,High prime charge is an explosive charge category.
+126,Classification,4,Explosive Types,Prime charge is an explosive charge category.
+127,Classification,4,Explosive Types,Base charge is an explosive charge category.
+128,Classification,4,Explosive Types,Column charge is an explosive charge category.
+129,Classification,5,Explosive Types,SME explosive is a bulk emulsion explosive.
+130,Definition,5,Explosive,An explosive rapidly decomposes after ignition.
+131,Fact,5,Explosion Effect,Explosives release heat and high pressure gases.
+132,Classification,5,Blast Effects,Rock fragmentation is a blasting effect.
+133,Classification,4,Blast Effects,Rock displacement is a blasting effect.
+134,Classification,4,Blast Effects,Ground vibration is a blasting effect.
+135,Classification,4,Blast Effects,Air blast is a blasting effect.
+136,Definition,5,Site Mixed Explosive,SME is an on site mixed emulsion explosive.
+137,Fact,4,SME Composition,SME contains ammonium nitrate water emulsifier oil phase and sensitizer.
+138,Advantage,4,SME,Easier transport handling and storage.
+139,Advantage,4,SME,Provides accurate explosive consumption count.
+140,Advantage,4,SME,Offers shorter charging times.
+141,Advantage,4,SME,Provides excellent water resistance.
+142,Definition,5,Blasting Circuit,Blasting circuit controls initiation sequence and timing.
+143,Fact,4,Detonating Fuse,Plain detonators are commonly connected with detonating fuse.
+144,Fact,4,Delay Timing,Typical row delays are 17 25 or 42 milliseconds.
+145,Principle,5,Free Face,Creating a free face improves fragmentation.
+146,Definition,5,Electric Detonator,Electric detonators use delay circuits and an exploder.
+147,Warning,5,Electric Detonators,Electric systems are vulnerable to stray currents.
+148,Definition,5,NONEL,NONEL is a non electric shock tube initiation system.
+149,Important Point,5,NONEL Safety,NONEL is largely immune to stray electrical currents.
+150,Advantage,5,NONEL,Allows hole to hole delays.
+151,Advantage,5,NONEL,Hole to hole delays improve fragmentation.
+152,Advantage,4,NONEL,Produces lower vibration.
+153,Advantage,4,NONEL,Produces less rock throw.
+154,Advantage,4,NONEL,Improves muck pile formation.
+155,Advantage,5,NONEL,Reduces chances of misfire.
+156,Fact,5,PESO Guideline,Electric detonators are being phased out.
+157,Fact,5,Deadline,Elimination target for electric detonators is before 30 June 2025.
+158,Definition,5,Electronic Detonator,Electronic detonators provide highly precise delays.
+159,Important Point,4,Operation Schedule,Operation schedules synchronize quality and production targets.
+160,Important Point,4,Monitoring,Bench wise shovel deployment must be monitored.
+161,Fact,4,Transport,Transport arrangements are vital for men and materials.
+162,Rule,4,Quality Control,Ore winning should begin after blasting.
+163,Rule,4,Quality Control,Extraneous materials should be removed before blasting.
+164,Definition,5,Primary Crusher,Primary crusher is usually a gyratory crusher.
+165,Fact,4,Jaw Crusher,Jaw crushers may also be used as primary crushers.
+166,Fact,5,Primary Crushing Size,Primary crushing reduces ore to about 300 mm.
+167,Definition,5,Secondary Crusher,Secondary crushing commonly uses cone crushers.
+168,Fact,5,Secondary Crushing Size,Secondary crushing produces material of 40 mm and below.
+169,Definition,5,Screening Plant,Screening separates lumps and fines.
+170,Fact,5,Lump Size,Lumps are typically minus 40 mm plus 10 mm.
+171,Fact,5,Fine Size,Fines are below 10 mm.
+172,Procedure,4,Wet Screening,Wet screening washes ore during monsoon.
+173,Definition,5,Beneficiation,Beneficiation improves ore quality by removing impurities.
+174,Fact,5,Impurities,Silica and alumina are removed during beneficiation.
+175,Fact,4,Hydrocyclone,Hydrocyclones are key beneficiation equipment.
+176,Fact,4,Magnetic Separator,Magnetic separators recover iron ore fines.
+177,Definition,5,Ore Handling Plant,Ore handling plant feeds wagon loaders.
+178,Fact,4,Bucket Wheel Reclaimer,Bucket wheel excavators reclaim stockpiled ore.
+179,Important Point,4,Loading Challenge,Avoiding demurrage is a major dispatch challenge.
+180,Important Point,4,Loading Accuracy,Correct wagon loading avoids penal freight.
+181,Definition,5,Mine Safety,Safety of workers and equipment is a statutory responsibility.
+182,Fact,5,DGMS,DGMS provides mine safety guidelines.
+183,Fact,4,Statutory Personnel,Mining mates foremen managers and engineers ensure safety.
+184,Warning,5,Mining Hazards,Blasting transportation and electricity pose major hazards.
+185,Rule,5,PPE,All mine workers must wear personal protective equipment.
+186,Rule,5,Dust Control,Airborne dust should be suppressed at its source.
+187,Procedure,4,Water Sprinkling,Water sprinkling is used for dust suppression.
+188,Rule,5,Equipment Safety,Equipment must be kept at safe distances during blasting.
+189,Fact,4,Protection Goal,Safe distances prevent damage from flying fragments.
+190,Revision Point,5,Exam Recall,"Mohs Scale order: Talc Gypsum Calcite Fluorite Apatite Orthoclase Quartz Topaz Corundum Diamond."

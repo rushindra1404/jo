@@ -1,0 +1,306 @@
+point_id,category,priority,title,point
+1,Definition,5,Steel,Steel is the backbone of modern industrial society.
+2,Fact,5,Steel Property,Steel is 100% recyclable without loss of quality.
+3,Important Point,5,Steel Lifecycle,Steel has a potentially endless life cycle.
+4,Concept,5,Green Economy,Steel is at the core of a green economy.
+5,Fact,4,Steel Advantage,Steel offers strength availability durability and affordability.
+6,Fact,4,Steel Advantage,Steel provides high formability and recyclability.
+7,Concept,5,Steelmaking Impact,Steelmaking consumes significant materials and resources.
+8,Important Point,5,Environmental Impact,Steelmaking generates emissions effluents and wastes.
+9,Fact,4,Environmental Receptors,Air water and land are affected by steelmaking operations.
+10,Principle,5,Sustainable Consumption,Efficient processes reduce resource wastage.
+11,Principle,5,Resource Optimization,Resource optimization mitigates waste generation.
+12,Principle,5,Pollution Control,Wastes emissions and effluents must be properly treated.
+13,Exam Point,5,Key Concern,Air pollution is a major environmental concern in steel plants.
+14,Exam Point,5,Key Concern,Greenhouse gas generation is a major concern.
+15,Exam Point,5,Key Concern,Solid waste management is a major concern.
+16,Exam Point,5,Key Concern,Hazardous waste management is a major concern.
+17,Important Point,5,SAIL Focus,SAIL emphasizes environmental protection along with profitability.
+18,Fact,4,Corporate Policy,Environmental responsibility is central to SAIL operations.
+19,Definition,5,Corporate Sustainability Policy 2026,SAIL reaffirms commitment to a sustainable future.
+20,Concept,5,Environmental Stewardship,Environmental stewardship focuses on continual performance improvement.
+21,Fact,4,Resource Optimization,Resource optimization is a sustainability objective.
+22,Fact,4,Emission Reduction,Emission reduction is a sustainability objective.
+23,Fact,4,Waste Management,Waste management supports environmental stewardship.
+24,Fact,4,Biodiversity Conservation,Biodiversity conservation is part of sustainability efforts.
+25,Fact,4,Energy Efficiency,Energy efficiency projects improve environmental performance.
+26,Fact,4,Digitalization,Digitalization supports environmental stewardship.
+27,Fact,4,Best Technologies,Best available technologies are encouraged.
+28,Important Point,5,Decarbonization,SAIL follows a progressive pathway toward decarbonization.
+29,Important Point,5,Circular Economy,Circular economy is a sustainability objective.
+30,Concept,5,Social Responsibility,SAIL seeks a positive footprint in society.
+31,Fact,4,Social Sustainability,Health rights and equal opportunities are emphasized.
+32,Fact,4,Community Engagement,Community engagement is a social responsibility pillar.
+33,Fact,4,Safety Standards,Strong safety standards are promoted.
+34,Fact,4,Workplace Safety,Reducing workplace incidents is a sustainability goal.
+35,Concept,5,Ethical Governance,Business should be conducted with integrity.
+36,Fact,4,Transparency,Ethical governance requires transparency.
+37,Fact,4,Stakeholders,Governance aims to meet stakeholder interests.
+38,Concept,5,Economic Sustainability,Long-term business viability is essential.
+39,Fact,4,Innovation,Innovation supports economic sustainability.
+40,Fact,4,Risk Management,Effective risk management supports sustainability.
+41,Fact,4,Continuous Improvement,Continuous improvement is encouraged.
+42,Fact,4,Capacity Building,Capacity building supports economic sustainability.
+43,Definition,5,Sustainable Sourcing,Procurement must be responsible safe and sustainable.
+44,Concept,5,Integrated Steel Plant,Steel production starts with iron ore coal and flux.
+45,Fact,4,Hot Metal,Hot metal is processed into steel.
+46,Fact,4,Rolling Mills,Steel is rolled into finished products in rolling mills.
+47,Exam Point,5,Major Emissions,CO2 is a major steel plant emission.
+48,Exam Point,5,Major Emissions,SOx is a major steel plant emission.
+49,Exam Point,5,Major Emissions,NOx is a major steel plant emission.
+50,Exam Point,5,Major Emissions,Dust is a major steel plant emission.
+51,Fact,4,Water Use,Water is used for cooling operations.
+52,Fact,4,Water Use,Water is used for heat transfer.
+53,Fact,4,Water Use,Water is used for descaling.
+54,Fact,4,Water Use,Water is used for dust scrubbing.
+55,Fact,4,Water Use,Water is used for quenching.
+56,Important Point,5,Noise Pollution,Plant machinery generates noise pollution.
+57,Exam Point,5,Solid Waste,BF slag is a major steel plant waste.
+58,Exam Point,5,Solid Waste,BOF slag is a major steel plant waste.
+59,Fact,4,Solid Waste,BF flue dust is generated during steelmaking.
+60,Fact,4,Solid Waste,BF sludge is generated during steelmaking.
+61,Fact,4,Solid Waste,BOF sludge is generated during steelmaking.
+62,Fact,4,Solid Waste,Mill scale is generated during steelmaking.
+63,Fact,4,Solid Waste,Waste refractory bricks are generated during steelmaking.
+64,Classification,5,Pollutants,Air emissions are one category of pollutants.
+65,Classification,5,Pollutants,Effluent discharge is one category of pollutants.
+66,Classification,5,Pollutants,Noise is one category of pollutants.
+67,Classification,5,Pollutants,Solid waste is one category of pollutants.
+68,Fact,4,Pollution Variation,Pollution quantity varies among steel plants.
+69,Definition,5,Environment Management,SAIL follows a multi-layered environment management process.
+70,Important Point,5,Environmental Programmes,Programmes address resource optimization and protection.
+71,Fact,5,EMD Establishment,EMD was established on 23 June 1988.
+72,Fact,5,EMD Headquarters,EMD headquarters is located in Kolkata.
+73,Fact,4,EMD Office,EMD has a unit office at Delhi.
+74,Fact,5,QMS Certification,EMD is certified to ISO 9001:2015.
+75,Concept,5,EMD Role,EMD informs management about environmental activities.
+76,Fact,4,EMD Function,EMD promotes environment protection efforts.
+77,Fact,4,EMD Function,EMD supports resource optimization efforts.
+78,Fact,4,EMD Activity,EMD interfaces with regulatory agencies.
+79,Fact,4,EMD Activity,EMD conducts monitoring and assessment.
+80,Fact,4,EMD Activity,EMD supports technology dissemination.
+81,Fact,4,EMD Activity,EMD conducts awareness campaigns.
+82,Fact,4,EMD Activity,EMD coordinates environmental compliance.
+83,Fact,4,EMD Activity,EMD develops environmental MIS.
+84,Fact,4,EMD Activity,EMD appraises project proposals.
+85,Fact,4,Sustainability Reporting,EMD supports sustainability reporting.
+86,Fact,4,ESG Risks,EMD manages ESG-related risks.
+87,Fact,4,SD Projects,EMD facilitates sustainable development projects.
+88,Fact,4,Policy Development,EMD develops environmental vision and policies.
+89,Fact,4,Board Reporting,EMD reports deviations to the Board.
+90,Fact,4,Awards,EMD facilitates participation in environmental awards.
+91,Fact,4,Performance Review,EMD reviews environmental performance.
+92,Fact,4,Statutory Clearance,EMD facilitates Environmental Clearance.
+93,Fact,4,Statutory Clearance,EMD facilitates Consent to Operate.
+94,Fact,4,Authorisation,EMD facilitates statutory authorisations.
+95,Fact,4,Environmental Activities,EMD supports water conservation.
+96,Fact,4,Environmental Activities,EMD supports plantation programmes.
+97,Fact,4,Climate Action,EMD addresses climate change issues.
+98,Fact,4,LCA,EMD facilitates life cycle assessment.
+99,Fact,4,EMS,EMD supports ISO 14001 implementation.
+100,Fact,4,Training,EMD organizes workshops and training programmes.
+101,Fact,4,Industry Coordination,EMD coordinates with WSA and ISA.
+102,Fact,4,Parliament Queries,EMD compiles environmental information for Parliament.
+103,Definition,5,ECD,Environment Control Department operates at plant level.
+104,Definition,5,Environment Cell,Environment Cells operate at mine level.
+105,Fact,4,Monitoring,ECD monitors stack emissions.
+106,Fact,4,Monitoring,ECD monitors effluents.
+107,Fact,4,Monitoring,ECD monitors ambient air quality.
+108,Fact,4,Regulators,MoEFCC issues environmental guidelines.
+109,Fact,4,Regulators,CPCB issues environmental guidelines.
+110,Fact,4,Regulators,SPCB issues environmental guidelines.
+111,Fact,4,Compliance,ECD obtains environmental clearances and consents.
+112,Fact,4,Compliance,ECD submits compliance reports.
+113,Fact,4,Coordination,ECD coordinates with statutory authorities.
+114,Fact,4,Action Plans,ECD implements environmental improvement plans.
+115,Exam Point,5,Water Act,The Water Act was enacted in 1974.
+116,Exam Point,5,Water Rules,Water Rules were issued in 1975.
+117,Exam Point,5,Air Act,The Air Act was enacted in 1981.
+118,Exam Point,5,Air Rules,Air Rules were issued in 1982.
+119,Exam Point,5,Environment Act,Environment Protection Act was enacted in 1986.
+120,Exam Point,5,Environment Rules,Environment Protection Rules were issued in 1986.
+121,Exam Point,5,Noise Rules,Noise Pollution Rules were issued in 2000.
+122,Exam Point,5,EIA Notification,EIA Notification was issued in 2006.
+123,Exam Point,5,Hazardous Waste Rules,Hazardous Waste Rules were issued in 2016.
+124,Exam Point,5,Bio Medical Waste Rules,Bio Medical Waste Rules were issued in 2016.
+125,Exam Point,5,Solid Waste Rules,Solid Waste Management Rules were issued in 2016.
+126,Exam Point,5,Plastic Waste Rules,Plastic Waste Rules were issued in 2016.
+127,Exam Point,5,Construction Waste Rules,Construction and Demolition Waste Rules were issued in 2016.
+128,Exam Point,5,E-Waste Rules,E-Waste Management Rules were issued in 2022.
+129,Exam Point,5,Battery Waste Rules,Battery Waste Management Rules were issued in 2022.
+130,Important Point,5,Environmental Clearance,New projects require prior EC.
+131,Fact,4,EC Requirement,Expansion and modernization require EC.
+132,Definition,5,CtE,Consent to Establish is required before establishment.
+133,Definition,5,CtO,Consent to Operate is required before operation.
+134,Fact,4,Hazardous Waste Authorisation,Authorization is needed for hazardous waste handling.
+135,Fact,4,Bio Medical Waste Authorisation,Authorization is needed for biomedical waste handling.
+136,Classification,5,Air Pollution Control,Bag filters are air pollution control devices.
+137,Classification,5,Air Pollution Control,Electrostatic precipitators control particulate emissions.
+138,Classification,5,Air Pollution Control,Multi cyclones are pollution control devices.
+139,Classification,5,Air Pollution Control,Venturi scrubbers control emissions.
+140,Classification,5,Air Pollution Control,Dedusting systems control particulate matter.
+141,Classification,5,Air Pollution Control,Defuming systems control emissions.
+142,Classification,5,Air Pollution Control,Covered conveying systems reduce pollution.
+143,Principle,5,SO2 Control,Use low sulphur coal to reduce SO2.
+144,Principle,5,SO2 Control,Use desulphurized coke oven gas to reduce SO2.
+145,Principle,5,NOx Control,Special ignition burners reduce NOx.
+146,Fact,4,NOx Control,Optimized process parameters reduce NOx.
+147,Exam Point,5,CDQ,Coke Dry Quenching is an energy efficient technology.
+148,Exam Point,5,CDI,Coal Dust Injection improves efficiency.
+149,Exam Point,5,TRT,Top Gas Pressure Recovery Turbine recovers energy.
+150,Exam Point,5,WHR,Waste Heat Recovery improves efficiency.
+151,Fact,4,Continuous Casting,Continuous casting is an energy-efficient technology.
+152,Fact,4,Walking Beam Furnace,Walking beam reheating furnace improves efficiency.
+153,Fact,4,Torpedo Ladle,Torpedo ladles are used for hot metal handling.
+154,Fact,4,By-product Gas,By-product gases are used for captive power generation.
+155,Definition,5,ETP,ETP stands for Effluent Treatment Plant.
+156,Definition,5,STP,STP stands for Sewage Treatment Plant.
+157,Important Point,5,Water Recycling,Treated industrial wastewater is recirculated.
+158,Important Point,5,ZLD,Long-term goal is Zero Liquid Discharge.
+159,Fact,4,Water Auditing,Third-party water auditing is practiced.
+160,Fact,4,Rainwater Harvesting,RWH is an integral water conservation measure.
+161,Fact,4,Catch the Rain,RWH aligns with Catch the Rain campaign.
+162,Fact,4,Noise Control,Acoustic enclosures reduce noise.
+163,Fact,4,Noise Control,Acoustic hoods reduce noise.
+164,Fact,4,Noise Control,Acoustic lagging reduces noise.
+165,Fact,4,Noise Control,Silencers are used on ID and FD fans.
+166,Fact,4,Noise Control,Noise-proof control rooms protect operators.
+167,Principle,5,4R Principle,Reduce Reuse Recycle Recover.
+168,Important Point,5,Waste Goal,SAIL targets maximum waste utilization.
+169,Fact,4,BF Slag Use,Granulated BF slag is sold to cement industries.
+170,Fact,4,BOF Slag Processing,Metallic iron is separated before recycling.
+171,Fact,4,BOF Slag Use,BOF slag can replace limestone in blast furnaces.
+172,Fact,4,BOF Slag Use,BOF slag is used in sinter making.
+173,Fact,4,BF Flue Dust,BF flue dust is reused or sold.
+174,Fact,4,Mill Scale,Mill scale is reused or sold.
+175,Fact,4,Refractory Waste,Refractory waste is reused or sold.
+176,Concept,5,Waste to Wealth,SAIL explores value addition from wastes.
+177,Fact,4,R&D,R&D supports BOF slag utilization.
+178,Fact,4,Fertilizer Project,Steel slag fertilizer project involved ICAR-IARI.
+179,Fact,4,Road Construction,Steel slag is used for internal roads.
+180,Fact,4,PMGSY,BOF slag is promoted in PMGSY roads.
+181,Fact,4,Hazardous Waste,Used oil is a hazardous waste.
+182,Fact,4,Hazardous Waste,Benzol acid tar sludge is hazardous.
+183,Fact,4,Hazardous Waste,ETP sludge can be hazardous.
+184,Fact,4,SLF,Secured Landfill Facility is used for disposal.
+185,Fact,4,Authorized Agency,Hazardous waste may be handled by authorized agencies.
+186,Important Point,5,Renewable Energy,SAIL is accelerating renewable energy transition.
+187,Exam Point,5,Solar Capacity,Installed solar capacity is 27.8 MW.
+188,Fact,4,Solar Heating,Solar water heaters are used in facilities.
+189,Fact,4,Solar Lighting,Solar lighting systems are widely adopted.
+190,Exam Point,5,Bagasse Power,Salem Steel Plant procures about 7 MW bagasse power.
+191,Exam Point,5,Green Power,FY25 green power sourcing reached 44.1 MW.
+192,Fact,4,DVC Green Power,DSP and ISP source 50% grid power from DVC green supply.
+193,Exam Point,5,Renewable Target,Renewable capacity target is 384 MW by 2028-29.
+194,Fact,4,LED Initiative,LED adoption aligns with UJALA scheme.
+195,Exam Point,5,LED Replacement,More than 1.2 million conventional lights were replaced.
+196,Fact,4,FY25 LEDs,1.72 lakh new LED installations occurred in FY25.
+197,Fact,4,Plantation,SAIL conducts annual plantation programmes.
+198,Exam Point,5,Saplings FY25,Three lakh saplings were planted in FY25.
+199,Exam Point,5,Cumulative Plantation,Cumulative plantation reached 22.4 million saplings.
+200,Important Point,5,Biodiversity,Biodiversity underpins human survival on Earth.
+201,Fact,4,Biodiversity Components,Plants animals and microbes are biodiversity resources.
+202,Fact,4,Conservation,Zoological and botanical parks are maintained.
+203,Exam Point,5,Vasundhara Park,Vasundhara Biodiversity Park covers 409 acres.
+204,Fact,4,Vasundhara Purpose,Park supports ecology biodiversity and environment management.
+205,Fact,4,Kiriburu FY25,1.5 ha restored in FY25.
+206,Fact,4,Kiriburu Total,8.0 ha cumulatively rehabilitated.
+207,Fact,4,Kiriburu Plantation,2562 saplings planted with IFP Ranchi.
+208,Fact,4,Meghahatuburu Plantation,5 ha backfilled area planted in FY25.
+209,Fact,4,Meghahatuburu Total,15.2 ha rehabilitated cumulatively.
+210,Fact,4,Meghahatuburu Solar,20 kW rooftop solar plant installed.
+211,Fact,4,Orchard Development,0.5 ha fruit orchard developed.
+212,Fact,4,Environment Day,Plantation included Amla Jackfruit and Jamun.
+213,Fact,4,Soil Conservation,CAT structures reduce runoff erosion.
+214,Fact,4,Bolani Restoration,4 ha restored in FY25.
+215,Fact,4,Bolani Total,219 ha restored cumulatively.
+216,Fact,4,Barsua Plantation,5100 saplings planted in FY25.
+217,Fact,4,Barsua Backfilling,7.8 ha covered through backfilling.
+218,Fact,4,Purnapani Lease,Purnapani quarry area is 230.525 ha.
+219,Fact,4,Mining Suspension,Mining suspended on 01.03.2004.
+220,Fact,4,Forest Restoration,200-acre degraded site restored into tropical forest.
+221,Fact,4,Pandridalli Rajhara,24.48 ha rehabilitated through dense plantation.
+222,Fact,4,Rajhara Hills,9 ha restored using geo-textile coir matting.
+223,Fact,4,Dalli Forest Range,8.7 ha rehabilitated through plantation.
+224,Fact,4,Mahamaya Dulki,2 ha rehabilitated through plantation.
+225,Exam Point,5,PCB Project,PCB disposal project was first of its kind in India.
+226,Fact,4,Partnership,Project involved BSP MoEFCC and UNIDO.
+227,Definition,5,Stockholm Convention,Global treaty protecting health and environment from POPs.
+228,Exam Point,5,PCB Ban,PCB use prohibited by 31 December 2025.
+229,Fact,4,PCB Use,PCBs are used as transformer dielectric fluids.
+230,Fact,4,PCB Use,PCBs are used as cleaning solvents.
+231,Fact,4,National PCB Plan,Plan aims to eliminate industrial PCBs.
+232,Definition,5,EMS,Environmental Management System manages environmental impacts.
+233,Fact,4,ISO 14001,EMS is linked with ISO 14001.
+234,Fact,4,Leadership,SAIL pioneered EMS implementation in Indian steel.
+235,Fact,4,Salem Steel Plant,EMS implementation started at Salem Steel Plant.
+236,Fact,4,Compliance,All major plants comply with ISO 14001 EMS.
+237,Concept,5,ESG,ESG stands for Environmental Social and Governance.
+238,Important Point,5,ESG Importance,ESG is a strategic imperative for organizations.
+239,Fact,4,Stakeholders,Investors regulators employees drive ESG focus.
+240,Principle,5,ESG Environment,ESG requires pollution reduction.
+241,Principle,5,ESG Environment,ESG requires lower CO2 emissions.
+242,Principle,5,ESG Environment,ESG requires waste reduction.
+243,Principle,5,ESG Social,ESG promotes diversity and inclusion.
+244,Fact,4,ESG Cost,ESG may be costly and time-consuming.
+245,Fact,4,ESG Benefit,ESG can create long-term rewards.
+246,Fact,4,WEF Risk Report,Climate risks ranked among top global risks.
+247,Fact,4,Social Factors,Economic disparities intensified ESG focus.
+248,Fact,4,CSR,CSR preceded the rise of ESG emphasis.
+249,Concept,5,IRM,ESG is a forward-looking integrated risk management approach.
+250,Concept,5,ESG Goal,Prosper without harming people and planet.
+251,Important Point,5,Carbon Footprint,Steel industry faces pressure to reduce carbon footprint.
+252,Exam Point,5,Global CO2 Share,Global steel industry contributes about 8% CO2 emissions.
+253,Exam Point,5,India CO2 Share,Indian steel sector contributes about 12% CO2 emissions.
+254,Exam Point,5,SAIL CO2 Intensity,SAIL FY25 CO2 intensity was 2.54 tCO2/TCS.
+255,Exam Point,5,BSP CO2 Intensity,BSP FY25 CO2 intensity was 2.62 tCO2/TCS.
+256,Exam Point,5,DSP CO2 Intensity,DSP FY25 CO2 intensity was 2.48 tCO2/TCS.
+257,Exam Point,5,RSP CO2 Intensity,RSP FY25 CO2 intensity was 2.53 tCO2/TCS.
+258,Exam Point,5,BSL CO2 Intensity,BSL FY25 CO2 intensity was 2.62 tCO2/TCS.
+259,Exam Point,5,ISP CO2 Intensity,ISP FY25 CO2 intensity was 2.36 tCO2/TCS.
+260,Exam Point,5,India Emission Intensity,India steel emission intensity is 2.55 tCO2 per tonne crude steel.
+261,Exam Point,5,Global Emission Intensity,Global average is 1.85 tCO2 per tonne crude steel.
+262,Fact,4,Annual Emissions,Steel industry emits around 240 million tonnes CO2 annually.
+263,Fact,4,2030 Projection,Steel emissions may double by 2030.
+264,Classification,5,Decarbonization Pathway,Green hydrogen is a low-emission pathway.
+265,Classification,5,Decarbonization Pathway,Renewable energy is a low-emission pathway.
+266,Classification,5,Decarbonization Pathway,CCUS is a low-emission pathway.
+267,Fact,4,Cleanest Route,Green hydrogen route is the cleanest steelmaking method.
+268,Fact,4,Challenge,Green hydrogen remains expensive.
+269,Exam Point,5,Net Zero,Ministry of Steel targets net zero by 2070.
+270,Fact,4,Short Term Focus,FY2030 focus is energy and resource efficiency.
+271,Fact,4,Short Term Focus,Renewable energy is a FY2030 focus area.
+272,Fact,4,Medium Term Focus,Green hydrogen is a 2030-2047 focus.
+273,Fact,4,Medium Term Focus,CCUS is a 2030-2047 focus.
+274,Fact,4,Long Term Focus,Disruptive technologies support 2047-2070 transition.
+275,Fact,4,Green Steel Taxonomy,Green steel taxonomy is under development.
+276,Exam Point,5,Steel Scrap Policy,Steel Scrap Recycling Policy was launched in 2019.
+277,Fact,4,Scrap Benefit,Scrap availability reduces coal consumption.
+278,Exam Point,5,Green Hydrogen Mission,National Green Hydrogen Mission supports green hydrogen.
+279,Fact,4,Stakeholder,Steel sector is a stakeholder in the mission.
+280,Fact,4,CCUS Push,Government supports CCUS pilots and R&D.
+281,Exam Point,5,Vehicle Scrapping Rules,Vehicle scrapping rules were issued in September 2021.
+282,Fact,4,Scrap Availability,Scrapping rules increase steel scrap availability.
+283,Exam Point,5,National Solar Mission,National Solar Mission launched in January 2010.
+284,Fact,4,Solar Benefit,Solar energy helps reduce steel sector emissions.
+285,Exam Point,5,PAT Scheme,PAT means Perform Achieve and Trade.
+286,Fact,4,PAT Objective,PAT incentivizes energy efficiency improvements.
+287,Fact,4,BAT,Steel sector adopts Best Available Technologies.
+288,Exam Point,5,NEDO,Japan NEDO projects improved energy efficiency.
+289,Comparison,4,World vs India,World steel CO2 contribution is 8%.
+290,Comparison,4,World vs India,India steel CO2 contribution is 10-12%.
+291,Comparison,4,World vs India,World emission intensity is about 1.9 tCO2/TCS.
+292,Comparison,4,World vs India,India emission intensity is about 2.5 tCO2/TCS.
+293,Comparison,4,World vs India,World scrap use is 31%.
+294,Comparison,4,World vs India,India scrap use is 21%.
+295,Comparison,4,World vs India,World natural gas availability is high.
+296,Comparison,4,World vs India,India natural gas availability is low.
+297,Comparison,4,World vs India,World ore quality is high.
+298,Comparison,4,World vs India,India ore quality is low.
+299,Comparison,4,World vs India,World grid carbon intensity is low.
+300,Important Point,5,Green Steel Challenge,Green electricity availability is a transition challenge.
+301,Important Point,5,Green Steel Challenge,Availability of high-grade ore and scrap is a challenge.
+302,Important Point,5,Green Steel Challenge,Hydrogen infrastructure is a challenge.
+303,Important Point,5,Green Steel Challenge,Scaling new technologies is a challenge.
+304,Important Point,5,Green Steel Challenge,CAPEX and OPEX are major challenges.
+305,Important Point,5,Green Steel Challenge,Green steel premium remains a challenge.

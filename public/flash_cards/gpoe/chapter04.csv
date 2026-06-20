@@ -1,0 +1,201 @@
+point_id,category,priority,title,point
+1,Definition,5,Blast Furnace,BF is a counter-current heat and mass exchanger.
+2,Concept,5,Counter Current Flow,Gas ascends while burden and coke descend.
+3,Important Point,5,Heat Transfer,Heat transfers from gas to burden.
+4,Important Point,5,Oxygen Transfer,Oxygen transfers from burden to gas.
+5,Principle,5,BF Efficiency,Counter-current reactions make BF highly efficient.
+6,Fact,4,Coke Development,Large BF growth became possible with high-strength coke.
+7,Definition,5,Raw Materials,Iron ore and coke are major BF raw materials.
+8,Classification,5,BF Raw Materials,Iron ore is a primary iron-bearing material.
+9,Classification,5,BF Raw Materials,Limestone is used as flux.
+10,Classification,4,BF Raw Materials,Dolomite is a BF additive.
+11,Classification,4,BF Raw Materials,Quartzite is a BF additive.
+12,Classification,4,BF Raw Materials,Manganese ore is a BF additive.
+13,Classification,5,BF Raw Materials,Sinter is an iron-bearing material.
+14,Classification,5,BF Raw Materials,Coke is fuel and reducing agent.
+15,Classification,4,BF Raw Materials,Pellets are iron-bearing materials.
+16,Classification,4,BF Raw Materials,Scrap can be charged in BF.
+17,Classification,4,BF Raw Materials,Coal dust acts as auxiliary fuel.
+18,Fact,5,Iron Ore Form,Hematite is the most used iron ore in SAIL plants.
+19,Fact,5,Hematite,Hematite is red in colour.
+20,Fact,5,Iron Ore Grade,BF iron ore typically contains 62–66% Fe.
+21,Fact,4,Iron Ore Fines,Natural fines may reach about 20%.
+22,Important Point,5,Gangue,High alumina and silica are common gangue materials.
+23,Warning,5,Alumina Effect,High alumina increases slag viscosity.
+24,Cause-Effect,5,Viscous Slag,High slag viscosity causes unstable furnace operation.
+25,Definition,5,Limestone,Limestone acts as flux in BF.
+26,Concept,5,Flux Action,Flux lowers gangue melting point.
+27,Concept,5,Slag Formation,Limestone combines with acidic impurities to form slag.
+28,Fact,4,LD Slag,LD slag can substitute limestone.
+29,Important Point,4,LD Slag Benefit,LD slag utilization reduces production cost.
+30,Important Point,4,Waste Utilization,LD slag usage promotes waste utilization.
+31,Definition,4,Quartzite,Quartzite is primarily silica.
+32,Fact,4,Quartzite Composition,Quartzite contains about 96–97% SiO₂.
+33,Concept,4,Quartzite Role,Quartzite counteracts high alumina effects.
+34,Important Point,4,Slag Basicity,Quartzite helps maintain optimum slag basicity.
+35,Definition,4,Manganese Ore,Manganese ore supplies Mn to hot metal.
+36,Fact,4,Manganese Content,Mn ore typically contains 28–32% Mn.
+37,Warning,3,Mn Ore Quality,High alkali Mn ore should be used judiciously.
+38,Definition,5,Coke,Coke acts as reducing agent and fuel.
+39,Important Point,5,Coke Function,Coke supports burden inside furnace.
+40,Important Point,5,Coke Function,Coke maintains burden permeability.
+41,Fact,4,Indian Coal,Indian coal generally has 25–30% ash.
+42,Warning,4,Coal Quality,Indian coal shows wide ash fluctuations.
+43,Warning,4,Poor Coke Strength,Poor coke strength generates excess fines.
+44,Fact,4,Coke Improvement,Imported coal is blended with indigenous coal.
+45,Fact,4,Imported Coal Share,Imported coal share may reach 75–95%.
+46,Fact,4,Coke Ash,Coke ash is maintained at 13–16%.
+47,Definition,5,Sinter,Sinter is an agglomerated iron-bearing material.
+48,Important Point,4,Sinter Use,Sinter utilizes plant and mine fines.
+49,Concept,4,Sinter Benefit,Sinter supplies additional lime requirement.
+50,Definition,5,Sintering,Sintering is agglomeration by incipient fusion.
+51,Fact,4,Sinter Product,Sinter is a porous lumpy mass.
+52,Definition,4,Scrap,Scrap is generated during steel production.
+53,Important Point,4,Scrap Recycling,Scrap is recycled through BF charging.
+54,Cause-Effect,4,Scrap Benefit,Scrap increases furnace productivity.
+55,Cause-Effect,4,Scrap Benefit,Scrap reduces production cost.
+56,Definition,4,Pellets,Pellets are iron-bearing agglomerates.
+57,Important Point,4,Pellet Feed,Micro-fines unsuitable for sinter are pelletized.
+58,Definition,4,CDI,Coal dust injection is auxiliary fuel injection.
+59,Important Point,5,CDI Benefit,CDI reduces coke consumption.
+60,Fact,4,CDI Location,Coal dust is injected through tuyeres.
+61,Fact,5,Iron Ore Fe Spec,Iron ore lumps require minimum 61% Fe.
+62,Fact,4,Iron Ore SiO₂,Iron ore contains about 2.5 ± 0.5% SiO₂.
+63,Fact,4,Iron Ore P,Maximum phosphorus is 0.10%.
+64,Fact,4,Iron Ore Ratio,Al₂O₃/SiO₂ ratio should be ≤0.70.
+65,Fact,4,Iron Ore Size,Iron ore lump size is 10–40 mm.
+66,Fact,5,Iron Ore Softening,Softening-melting range is 1100–1400°C.
+67,Fact,5,Sinter Fe,Sinter contains 50–58% Fe.
+68,Fact,4,Sinter FeO,Sinter contains 7–10% FeO.
+69,Fact,4,Sinter SiO₂,Sinter contains 4–6% SiO₂.
+70,Fact,4,Sinter Al₂O₃,Sinter contains 2–3% Al₂O₃.
+71,Fact,4,Sinter CaO,Sinter contains 9–13% CaO.
+72,Fact,4,Sinter MgO,Sinter contains 2–3% MgO.
+73,Fact,4,Sinter Size,Sinter size is 5–40 mm.
+74,Exam Point,5,RDI Value,Sinter RDI should be below 30.
+75,Exam Point,5,RI Value,Sinter reducibility index should exceed 65.
+76,Exam Point,5,Tumbler Index,Sinter tumbler index should exceed 70.
+77,Fact,4,Sinter Softening,Sinter softening range is 1200–1450°C.
+78,Fact,5,Coke Ash,Coke ash specification is 13–15%.
+79,Fact,4,Coke VM,Coke volatile matter should be below 1%.
+80,Fact,4,Coke Size,Coke size is 25–80 mm.
+81,Exam Point,5,CRI,Coke reactivity index is 21–23.
+82,Exam Point,5,CSR,Coke strength after reduction exceeds 64.
+83,Fact,4,Coke Moisture,Coke moisture is 5 ± 0.5%.
+84,Fact,4,Coke Sulphur,Coke sulphur is 0.5–0.6%.
+85,Fact,4,Coke Fixed Carbon,Coke contains 82–85% fixed carbon.
+86,Exam Point,4,M40,M40 value should exceed 80%.
+87,Exam Point,4,M10,M10 value should be below 6%.
+88,Fact,4,Limestone CaO,Limestone requires minimum 38% CaO.
+89,Fact,4,Limestone SiO₂,Limestone contains 6.5 ±1% SiO₂.
+90,Fact,4,Limestone MgO,Limestone contains 8.5 ±0.5% MgO.
+91,Fact,4,Limestone Size,Limestone size is 10–40 mm.
+92,Fact,4,LD Slag CaO,LD slag contains 40.8 ±1% CaO.
+93,Fact,4,LD Slag MgO,LD slag contains 10.5 ±0.5% MgO.
+94,Fact,4,LD Slag SiO₂,LD slag contains about 15.5% SiO₂.
+95,Fact,4,Mn Ore Mn,Manganese ore contains minimum 30% Mn.
+96,Fact,4,Mn Ore SiO₂,Mn ore SiO₂ should not exceed 30%.
+97,Fact,4,Mn Ore Al₂O₃,Mn ore Al₂O₃ should not exceed 5%.
+98,Fact,4,Mn Ore P,Mn ore phosphorus should not exceed 0.30%.
+99,Fact,4,Mn Ore Size,Mn ore size is 25–50 mm.
+100,Fact,4,CDI Fixed Carbon,CDI coal contains 60–70% fixed carbon.
+101,Fact,4,CDI VM,CDI coal contains 20–25% volatile matter.
+102,Fact,4,CDI Ash,CDI coal ash is 9–11%.
+103,Fact,4,CDI Fineness,80% CDI coal is below 90 microns.
+104,Fact,4,Quartzite SiO₂,Quartzite contains minimum 96% SiO₂.
+105,Fact,4,Quartzite Al₂O₃,Quartzite contains maximum 1.5% Al₂O₃.
+106,Fact,4,Quartzite Size,Quartzite size is 25–50 mm.
+107,Definition,5,High Lines,High lines receive and transport BF raw materials.
+108,Process,4,RMHP,Raw materials are unloaded at RMHP.
+109,Process,4,Ore Yard,Ore yard is used for stocking and averaging.
+110,Fact,4,Material Handling,Wagon tipplers transport BF raw materials.
+111,Fact,4,Material Handling,Conveyors are used for BF material transport.
+112,Fact,4,Material Handling,Stackers are used in ore yard handling.
+113,Fact,4,Material Handling,Reclaimers recover stored materials.
+114,Process,4,Sinter Handling,Sinter is screened in stock house.
+115,Important Point,4,Sinter Fines,Sinter fines are returned through conveyors.
+116,Fact,4,Coke Supply,Coke comes from Coke Sorting Plant.
+117,Fact,4,Coke Screening,Undersize coke is returned through conveyors.
+118,Definition,4,Stock House,Stock house contains raw material bunkers.
+119,Fact,4,Vibro Feeder,Vibro feeder feeds material to conveyor.
+120,Process,4,Charging Route,Bunker → Vibro feeder → Conveyor → Hopper → Skip.
+121,Definition,5,Hoist House,Hoist house lifts burden to furnace top.
+122,Fact,4,Skip Hoist,Two-way skip hoist uses two skips.
+123,Fact,4,Weighing Systems,Load cells can be used for weighing.
+124,Concept,5,Burden Distribution,Alternate coke and ore layers are formed.
+125,Definition,5,Blast Furnace Structure,BF consists of two truncated cones base-to-base.
+126,Classification,5,BF Sections,Throat is the top section.
+127,Classification,5,BF Sections,Stack is the shaft region.
+128,Classification,5,BF Sections,Belly is the bosh parallel region.
+129,Classification,5,BF Sections,Bosh completes reduction and melting.
+130,Classification,5,BF Sections,Hearth collects hot metal and slag.
+131,Definition,5,Throat,Top burden surface is located at throat.
+132,Definition,5,Stack,Reduction starts in stack.
+133,Definition,5,Belly,Softening and melting begin in belly.
+134,Definition,5,Bosh,Reduction completes in bosh.
+135,Definition,5,Hearth,Hearth stores molten metal and slag.
+136,Important Point,5,Refractory,BF is lined with refractory materials.
+137,Important Point,4,Water Coolers,Water coolers increase furnace life.
+138,Fact,4,Charging Systems,BF uses double bell or bell-less top charging.
+139,Fact,4,Tap Hole,Hearth contains tap hole for hot metal tapping.
+140,Concept,5,Indirect Reduction,Indirect reduction occurs below 900°C with CO/H₂.
+141,Concept,5,Direct Reduction,Direct reduction occurs above 900°C using carbon.
+142,Fact,4,Taphole Position,Tapholes are 3–4 m below tuyeres.
+143,Fact,4,Modern BF,Modern furnaces may have 2–4 tap holes.
+144,Fact,5,Tuyeres,Tuyeres are water-cooled copper constructions.
+145,Fact,5,Hot Blast Temperature,Hot blast temperature is 850–1200°C.
+146,Fact,4,Blast Pressure,Blast pressure may reach 1.8–4.5 kg/cm².
+147,Process,5,Hot Blast Path,Bustle pipe → Gooseneck → Blowpipe → Tuyere.
+148,Classification,5,BF Products,Hot metal is a major BF product.
+149,Classification,5,BF Products,Slag is a major BF product.
+150,Classification,5,BF Products,BF gas is a major BF product.
+151,Fact,5,BF Gas CO,BF gas contains 20–24% CO.
+152,Fact,5,BF Gas CO₂,BF gas contains 18–20% CO₂.
+153,Fact,5,BF Gas N₂,BF gas contains 48–52% N₂.
+154,Fact,4,BF Gas H₂,BF gas contains 4–5% H₂.
+155,Fact,4,BF Gas O₂,BF gas contains 0.1–0.3% O₂.
+156,Fact,4,Top Gas Temperature,Top gas temperature is 100–200°C.
+157,Important Point,4,BF Gas Use,Cleaned BF gas is used for stove heating.
+158,Important Point,4,BF Gas Use,BF gas is used in coke ovens.
+159,Important Point,4,BF Gas Use,BF gas is used in rolling mill reheating furnaces.
+160,Process,5,Tapping,Tap hole is opened using drill and oxygen lancing.
+161,Process,4,Slag Separation,Skimmer plate separates slag from metal.
+162,Definition,5,Top Charging Equipment,Top charging controls burden distribution.
+163,Classification,5,Charging Systems,Double bell is a charging system.
+164,Classification,5,Charging Systems,RCU is a charging system.
+165,Classification,5,Charging Systems,Paul-Wurth BLT is a charging system.
+166,Fact,4,BLT,Bells are replaced by bins and valves.
+167,Fact,4,BLT Feature,Rotating chute distributes burden.
+168,Important Point,5,Burden Control,Charging pattern controls furnace efficiency.
+169,Fact,4,Charging Sequence,CCOO is common in bell-less top furnaces.
+170,Definition,5,FFCR,FFCR controls BF operations.
+171,Fact,4,Automation,Modern BF uses Level-0, Level-1 and Level-2 automation.
+172,Fact,4,HMI,HMI means Human Machine Interface.
+173,Fact,4,SCADA,SCADA means Supervisory Control and Data Acquisition.
+174,Classification,4,Auxiliary Sections,LRS = Ladle Repair Shop.
+175,Classification,4,Auxiliary Sections,PCM = Pig Casting Machine.
+176,Classification,4,Auxiliary Sections,CPY = Cold Pig Yard.
+177,Classification,4,Auxiliary Sections,CMS = Clay Mass Shop.
+178,Classification,4,Auxiliary Sections,CDI = Coal Dust Injection.
+179,Classification,4,Auxiliary Sections,CHSGP = Cast House Slag Granulation Plant.
+180,Classification,4,Auxiliary Sections,SDY = Slag Dump Yard.
+181,Fact,4,PCM,PCM is a double strand pig casting machine.
+182,Fact,4,PCM,Lime coating prevents pig sticking to moulds.
+183,Definition,4,Cold Pig Yard,Cold pigs are stacked by quality.
+184,Definition,4,Clay Mass Shop,Produces mud gun clay and runner mass.
+185,Definition,4,CHSGP,CHSGP granulates blast furnace slag.
+186,Important Point,4,Granulated Slag,Granulated slag is sold to cement industries.
+187,Definition,5,Auxiliary Fuel Injection,Used to lower BF operating cost.
+188,Fact,4,Auxiliary Fuels,Coal dust can be injected fuel.
+189,Fact,4,Auxiliary Fuels,Natural gas can be auxiliary fuel.
+190,Fact,4,Auxiliary Fuels,Coal tar can be auxiliary fuel.
+191,Important Point,5,CDI Benefit,CDI reduces expensive coking coal consumption.
+192,Important Point,5,CDI Benefit,CDI extends coke oven life.
+193,Important Point,5,CDI Benefit,CDI increases BF productivity.
+194,Important Point,5,CDI Benefit,CDI improves hot metal consistency.
+195,Important Point,5,CDI Benefit,CDI reduces overall emissions.
+196,Process,5,Gas Cleaning,BF gas passes through dust catcher.
+197,Process,5,Gas Cleaning,Gas then passes through venturi washer.
+198,Process,5,Gas Cleaning,Gas then passes through scrubber.
+199,Process,5,Gas Cleaning,Final cleaning uses ESP.
+200,Fact,5,ESP,ESP means Electrostatic Precipitator.

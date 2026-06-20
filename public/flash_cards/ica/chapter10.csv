@@ -1,0 +1,16 @@
+point_id,category,priority,title,point
+1,Definition,5,Foundry,Foundry produces metal objects by melting metal and pouring into moulds.
+2,Concept,5,Casting,Casting is a fundamental metal forming method.
+3,Fact,4,Steel Plants,Integrated steel plants maintain captive foundries.
+4,Important Point,5,Repair Shops,Centralized workshops support repairs and reconditioning.
+5,Definition,5,Welding,Welding is a material joining process.
+6,Definition,5,Forging,Forging shapes metal using force with or without heat.
+7,Definition,5,Machining,Machining removes extra material as chips.
+8,Definition,5,Oxygen Plant,"Produces oxygen, nitrogen and argon."
+9,Fact,5,Oxygen Purity,Liquid and gaseous oxygen purity exceeds 99.55%.
+10,Definition,5,Protective Gas,Protective gas contains 95% nitrogen and 5% hydrogen.
+11,Definition,5,Water Management,Handles water supply and disposal systems.
+12,Definition,5,RCL,Research and Control Laboratory maintains product quality.
+13,Classification,5,RCL Wings,"Metallurgical, Chemical, Mechanical, Inspection and R&D wings."
+14,Definition,5,RED,Refractory Engineering Department manages refractory maintenance.
+15,Definition,5,Capital Repair Group,Plans and supervises capital repairs.

@@ -15,6 +15,8 @@ import { StudyLibraryScreen } from './components/StudyLibraryScreen';
 import { PDFViewer } from './components/PDFViewer';
 import { LearnScreen } from './components/LearnScreen';
 import { FlashCardsPracticeScreen } from './components/FlashCardsPracticeScreen';
+import { FlashCardsLandingScreen } from './components/FlashCardsLandingScreen';
+import { FlashCardsChaptersScreen } from './components/FlashCardsChaptersScreen';
 import { ExamTabScreen } from './components/ExamTabScreen';
 import { ProgressScreen } from './components/ProgressScreen';
 import { MoreScreen } from './components/MoreScreen';
@@ -54,6 +56,11 @@ const MainAppContent: React.FC = () => {
         return <DashboardScreen />;
       case 'learn':
         return <LearnScreen />;
+      case 'flashcards-landing':
+        return <FlashCardsLandingScreen />;
+      case 'flashcards-chapters':
+        return <FlashCardsChaptersScreen />;
+      case 'flashcards-viewer':
       case 'flashcards-practice':
         return <FlashCardsPracticeScreen />;
       case 'exam-tab':

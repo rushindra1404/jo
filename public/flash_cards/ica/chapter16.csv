@@ -1,0 +1,151 @@
+point_id,category,priority,title,point
+1,Important Point,5,Chapter Title,Chapter 16 focuses on Human Resources.
+2,Fact,5,Organization,The chapter analyzes Human Resources in SAIL.
+3,Exam Point,5,Time Reference,Manpower profile is reported as on 01.02.2026.
+4,Fact,5,FY16 Manpower,SAIL manpower in FY16 was 88,655.
+5,Fact,5,FY17 Manpower,SAIL manpower in FY17 was 82,964.
+6,Fact,5,FY18 Manpower,SAIL manpower in FY18 was 76,870.
+7,Fact,5,FY19 Manpower,SAIL manpower in FY19 was 72,339.
+8,Fact,5,FY20 Manpower,SAIL manpower in FY20 was 69,379.
+9,Fact,5,FY21 Manpower,SAIL manpower in FY21 was 65,564.
+10,Fact,5,FY22 Manpower,SAIL manpower in FY22 was 62,181.
+11,Fact,5,FY23 Manpower,SAIL manpower in FY23 was 59,186.
+12,Fact,5,FY24 Manpower,SAIL manpower in FY24 was 55,989.
+13,Fact,5,FY25 Manpower,SAIL manpower in FY25 was 53,159.
+14,Fact,5,FY16 Labour Productivity,Labour productivity in FY16 was 315.
+15,Fact,5,FY17 Labour Productivity,Labour productivity in FY17 was 320.
+16,Fact,5,FY18 Labour Productivity,Labour productivity in FY18 was 344.
+17,Fact,5,FY19 Labour Productivity,Labour productivity in FY19 was 389.
+18,Fact,5,FY20 Labour Productivity,Labour productivity in FY20 was 400.
+19,Fact,5,FY21 Labour Productivity,Labour productivity in FY21 was 396.
+20,Fact,5,FY22 Labour Productivity,Labour productivity in FY22 was 474.
+21,Fact,5,FY23 Labour Productivity,Labour productivity in FY23 was 521.
+22,Fact,5,FY24 Labour Productivity,Labour productivity in FY24 was 579.
+23,Fact,5,FY25 Labour Productivity,Labour productivity in FY25 was 615.
+24,Comparison,5,Manpower Trend,Manpower declined continuously over the decade.
+25,Comparison,5,Productivity Trend,Labour productivity increased significantly over the decade.
+26,Important Point,5,Manpower Reduction,Manpower reduced by approximately 40% from FY16 to FY25.
+27,Important Point,5,Productivity Growth,Labour productivity nearly doubled from 315 to 615.
+28,Cause-Effect Relationship,5,Rationalisation Impact,Workforce rationalisation contributed to productivity gains.
+29,Cause-Effect Relationship,5,Retirement Impact,Employee retirements supported manpower optimization.
+30,Cause-Effect Relationship,5,Efficiency Gains,Efficiency-led optimization improved output per employee.
+31,Important Point,5,Capacity Utilization,Better capacity utilization improved labour productivity.
+32,Important Point,5,Modernization,Modernization benefits supported productivity growth.
+33,Important Point,5,Automation,Process automation increased operational efficiency.
+34,Concept,5,Labour Productivity,Higher labour productivity means higher output per employee.
+35,Exam Point,5,FY21 Exception,FY21 recorded a slight productivity dip.
+36,Fact,5,FY22 Recovery,Strong productivity gains resumed after FY22.
+37,Revision Point,4,Long-Term Trend,Overall productivity trajectory remained positive.
+38,Important Point,5,Workforce Structure,SAIL maintains a leaner workforce base.
+39,Fact,5,Total Manpower,Total manpower was approximately 50,246 employees.
+40,Fact,5,Executives Count,Executive strength was 10,195 employees.
+41,Fact,5,Non-Executives Count,Non-executive strength was 40,051 employees.
+42,Fact,5,Executive Share,Executives constituted 20% of manpower.
+43,Fact,5,Non-Executive Share,Non-executives constituted 80% of manpower.
+44,Concept,5,Workforce Profile,SAIL has a production-heavy workforce structure.
+45,Important Point,5,Operational Focus,Workforce is concentrated in operational activities.
+46,Fact,5,Works Area Share,84% of employees are deployed in works areas.
+47,Fact,5,Non-Works Share,16% of employees are deployed in non-works areas.
+48,Concept,5,Manufacturing Orientation,High works deployment reflects manufacturing orientation.
+49,Concept,4,Administrative Overhead,Low non-works share indicates limited administrative overhead.
+50,Fact,5,Average Age,Average employee age is 48 years.
+51,Important Point,5,Ageing Workforce,SAIL has an experienced but ageing workforce.
+52,Exam Point,5,Succession Planning,Age profile highlights need for succession planning.
+53,Important Point,5,Skill Renewal,Ageing workforce requires skill renewal initiatives.
+54,Fact,5,Gender Diversity,Gender diversity stands at 6%.
+55,Important Point,5,Diversity Challenge,Gender diversity remains relatively low.
+56,Fact,5,Current Labour Productivity,Labour productivity reached 637 TCS/man/year.
+57,Comparison,5,Historical Comparison,Current productivity exceeds historical productivity levels.
+58,Cause-Effect Relationship,5,Rationalisation Link,Workforce rationalisation aligns with productivity improvement.
+59,Fact,5,Manpower Cost,Manpower cost is ₹6,080 per tonne of steel.
+60,Fact,5,Expenditure Share,Manpower cost forms 11.62% of expenditure.
+61,Concept,5,Cost Competitiveness,Manpower cost is a key competitiveness lever.
+62,Fact,5,Contract Labour,Contract labour strength is 72,933.
+63,Comparison,5,Contract vs Permanent,Contract labour exceeds permanent manpower.
+64,Concept,5,Operational Flexibility,Contract labour provides operational flexibility.
+65,Concept,5,Cost Optimization,Outsourcing supports cost optimization.
+66,Important Point,5,Non-Core Activities,Contract labour is used for non-core activities.
+67,Important Point,5,Variable Activities,Contract labour supports variable workload management.
+68,Concept,5,Efficiency Driven Structure,SAIL follows efficiency-driven manpower rationalisation.
+69,Concept,5,Operational Concentration,Workforce is concentrated in operational functions.
+70,Concept,5,Contract Workforce Dependence,SAIL increasingly relies on contract labour.
+71,Important Point,5,Future Focus,Rejuvenation is a future HR focus area.
+72,Important Point,5,Future Focus,Skill upgradation is a future HR focus area.
+73,Important Point,5,Future Focus,Diversity enhancement is a future HR focus area.
+74,Fact,5,Certification Achievement,SAIL earned Great Place to Work certification.
+75,Fact,5,Certification Period,Certification covers February 2026 to February 2027.
+76,Fact,5,Consecutive Recognition,Certification was earned for the third consecutive time.
+77,Exam Point,5,Organization Status,SAIL is a Maharatna company.
+78,Exam Point,5,Industry Position,SAIL is India's largest public sector steelmaker.
+79,Concept,5,Workplace Culture,Certification reflects strong workplace culture.
+80,Important Point,5,Cultural Objective,SAIL promotes a contemporary workplace culture.
+81,Important Point,5,Agility,SAIL emphasizes an agile work environment.
+82,Important Point,5,Employee Growth,Workplace culture supports professional growth.
+83,Important Point,5,Personal Growth,Workplace culture supports personal growth.
+84,Fact,5,Trust Index,SAIL improved its TRUST INDEX© score.
+85,Definition,5,Trust Index,TRUST INDEX measures positive employee feedback percentage.
+86,Fact,5,Survey Basis,Certification was based on a company-wide survey.
+87,Fact,5,Evaluation Agency,Assessment was conducted by Great Place To Work Institute India.
+88,Definition,5,Great Place To Work Institute,Global authority on workplace culture.
+89,Concept,5,Evaluation Process,Certification follows rigorous evaluation.
+90,Important Point,5,Employee Experience,Recognition honors exceptional employee experience.
+91,Fact,5,HR Initiatives,SAIL has implemented progressive HR initiatives.
+92,Fact,5,SAIL DARPAN,SAIL DARPAN is a major HR initiative.
+93,Definition,5,SAIL DARPAN,Performance-driven and transparent workplace initiative.
+94,Concept,5,Transparency,SAIL DARPAN promotes transparency.
+95,Concept,5,Performance Management,DARPAN emphasizes performance-driven evaluation.
+96,Important Point,5,Objectivity,Evaluation under DARPAN focuses on objectivity.
+97,Important Point,5,Goal Alignment,Targets are aligned with organizational goals.
+98,Concept,5,Employee Ownership,DARPAN encourages employees to own their growth.
+99,Fact,5,Domain Change Opportunity,Executives can pursue domain-change opportunities.
+100,Fact,5,Training Support,Domain changes are supported through specialized training.
+101,Fact,5,MoU Institutions,Training is conducted through institutional MoUs.
+102,Fact,5,IIM Kozhikode,IIM Kozhikode is a training partner.
+103,Fact,5,IIM Bangalore,IIM Bangalore is a training partner.
+104,Fact,5,IIM Jammu,IIM Jammu is a training partner.
+105,Fact,5,IIM Raipur,IIM Raipur is a training partner.
+106,Fact,5,IIM Ranchi,IIM Ranchi is a training partner.
+107,Fact,5,XLRI,XLRI is a training partner institution.
+108,Fact,5,ASCI,ASCI is a training partner institution.
+109,Fact,5,Training Domain,Training programs focus on marketing.
+110,Fact,5,Training Domain,Training programs focus on HR.
+111,Classification,4,Employee Categories,Employees are classified into executives and non-executives.
+112,Classification,4,Work Areas,Workforce is divided into works and non-works areas.
+113,Comparison,4,Works Dominance,Works employees significantly outnumber non-works employees.
+114,Comparison,4,Executive Ratio,Non-executives outnumber executives by nearly four times.
+115,Memory Hook,4,80-20 Rule,80% non-executives and 20% executives.
+116,Memory Hook,4,84-16 Rule,84% works and 16% non-works deployment.
+117,Memory Hook,4,48 Rule,Average workforce age equals 48 years.
+118,Memory Hook,4,6 Rule,Gender diversity equals 6%.
+119,Memory Hook,4,637 Rule,Labour productivity equals 637 TCS/man/year.
+120,Memory Hook,4,6080 Rule,Manpower cost equals ₹6,080 per tonne.
+121,Memory Hook,4,11.62 Rule,Manpower cost share equals 11.62%.
+122,Exam Point,5,Largest Workforce Group,Non-executives form the largest workforce segment.
+123,Exam Point,5,Largest Deployment Area,Works area has the highest employee deployment.
+124,Important Point,5,Lean Workforce,SAIL operates with a lean workforce structure.
+125,Important Point,5,Output Focus,Higher productivity achieved with fewer employees.
+126,Concept,5,Optimization Goal,Workforce optimization aims at efficiency improvement.
+127,Cause-Effect Relationship,5,Automation Benefit,Automation reduces manpower requirement.
+128,Cause-Effect Relationship,5,Modernization Benefit,Modernization improves output efficiency.
+129,Revision Point,4,Productivity Insight,Productivity increased despite manpower decline.
+130,Revision Point,4,Strategic Direction,Focus shifted from workforce size to efficiency.
+131,Viva Point,5,Key HR Challenge,Ageing workforce is a major HR challenge.
+132,Viva Point,5,Key HR Opportunity,Skill upgradation is a major HR opportunity.
+133,Viva Point,5,Diversity Challenge,Gender diversity needs improvement.
+134,Interview Point,5,Cost Management,Manpower cost affects steel competitiveness.
+135,Interview Point,5,Flexibility Strategy,Contract labour improves flexibility.
+136,Interview Point,5,Performance Management,DARPAN links performance with organizational goals.
+137,Frequently Asked,5,Certification Body,Great Place To Work Institute granted certification.
+138,Frequently Asked,5,Certification Duration,Certification valid from Feb 2026 to Feb 2027.
+139,Frequently Asked,5,Consecutive Awards,Certification earned three times consecutively.
+140,Frequently Asked,5,Workforce Age,Average employee age is 48 years.
+141,Frequently Asked,5,Gender Diversity,Gender diversity level is 6%.
+142,Frequently Asked,5,Labour Productivity,Current productivity is 637 TCS/man/year.
+143,Frequently Asked,5,Contract Labour,Contract labour exceeds permanent workforce.
+144,Exam Point,5,Rationalisation Outcome,Rationalisation improved efficiency and productivity.
+145,Exam Point,5,Operational Strategy,Operational concentration supports manufacturing goals.
+146,Exam Point,5,Administrative Strategy,Limited administrative overhead improves efficiency.
+147,Revision Point,4,Core Theme,Human resource strategy emphasizes efficiency.
+148,Revision Point,4,Core Theme,Operational productivity is a key HR outcome.
+149,Revision Point,4,Core Theme,Workforce optimization supports competitiveness.
+150,Revision Point,5,Chapter Essence,SAIL achieved higher productivity with a leaner workforce while strengthening HR systems and workplace culture.

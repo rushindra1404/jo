@@ -1,0 +1,238 @@
+point_id,category,priority,title,point
+1,Revision Point,4,Steel Making,Steel making purifies hot metal.
+2,Revision Point,4,Steel Making,Hot metal is molten pig iron.
+3,Revision Point,4,Steel Making,Hot metal contains about 4% carbon.
+4,Revision Point,4,Steel Making,Carbon is the main impurity in hot metal.
+5,Revision Point,4,Steel Making,Steel requires carbon below 0.10%.
+6,Revision Point,4,Steel Making,Phosphorus is removed during steelmaking.
+7,Revision Point,4,Steel Making,Sulphur is removed during steelmaking.
+8,Revision Point,4,Steel Making,Silicon is removed during steelmaking.
+9,Revision Point,4,Steel Making,Manganese may be added as alloy.
+10,Revision Point,4,Steel Making,Chromium may be added as alloy.
+11,Revision Point,4,Steel Making,HMDS means Hot Metal Desulphurisation.
+12,Revision Point,4,Steel Making,BOF means Basic Oxygen Furnace.
+13,Revision Point,4,Steel Making,LF means Ladle Furnace.
+14,Revision Point,4,Steel Making,RH means Ruhrstahl-Heraeus process.
+15,Revision Point,4,Steel Making,VAD means Vacuum Arc Degasser.
+16,Revision Point,4,Steel Making,VOD means Vacuum Oxygen Decarburisation.
+17,Revision Point,4,Steel Making,CCS means Continuous Casting Shop.
+18,Revision Point,4,Steel Making,Bessemer process preceded Open Hearth.
+19,Revision Point,4,Steel Making,LD converter succeeded Open Hearth.
+20,Revision Point,4,Steel Making,Sulphur mainly comes from ore and coal.
+21,Revision Point,4,Steel Making,HMDS can reduce sulphur below 0.005%.
+22,Revision Point,4,Steel Making,Lime is used in desulphurisation.
+23,Revision Point,4,Steel Making,Calcium carbide is used in desulphurisation.
+24,Revision Point,4,Steel Making,Magnesium is used in desulphurisation.
+25,Revision Point,4,Steel Making,Injection is done through a lance.
+26,Revision Point,4,Steel Making,HMDS duration is 5–10 minutes.
+27,Revision Point,4,Steel Making,Sulphur forms magnesium sulphide.
+28,Revision Point,4,Steel Making,BOF replaced Open Hearth Furnace.
+29,Revision Point,4,Steel Making,Twin Hearth Furnace has two hearths.
+30,Revision Point,4,Steel Making,Twin hearths share a common roof.
+31,Revision Point,4,Steel Making,One hearth can be cold while other is hot.
+32,Revision Point,4,Steel Making,Cold period includes charging.
+33,Revision Point,4,Steel Making,Cold period includes fettling.
+34,Revision Point,4,Steel Making,Hot period includes melting.
+35,Revision Point,4,Steel Making,Hot period includes refining.
+36,Revision Point,4,Steel Making,LD process originated in Austria.
+37,Revision Point,4,Steel Making,LD stands for Linz and Donawitz.
+38,Revision Point,4,Steel Making,BOF uses basic refractory lining.
+39,Revision Point,4,Steel Making,BOF is energy efficient.
+40,Revision Point,4,Steel Making,BOF tap-to-tap time is 45–50 minutes.
+41,Revision Point,4,Steel Making,Scrap is charged before hot metal.
+42,Revision Point,4,Steel Making,Oxygen blowing is key refining step.
+43,Revision Point,4,Steel Making,Deoxidisers are added during tapping.
+44,Revision Point,4,Steel Making,Nitrogen slag splashing follows tapping.
+45,Revision Point,4,Steel Making,Scrap acts as coolant.
+46,Revision Point,4,Steel Making,BOF is exothermic.
+47,Revision Point,4,Steel Making,Lime is the principal flux.
+48,Revision Point,4,Steel Making,Slag absorbs impurities.
+49,Revision Point,4,Steel Making,Oxygen purity should exceed 99.5%.
+50,Revision Point,4,Steel Making,Nitrogen is used for purging.
+51,Revision Point,4,Steel Making,Nitrogen is used for slag splashing.
+52,Revision Point,4,Steel Making,Ferro-alloys are added during tapping.
+53,Revision Point,4,Steel Making,Hot metal temperature is around 1300°C.
+54,Revision Point,4,Steel Making,Blowing pressure is 14–20 kg/cm².
+55,Revision Point,4,Steel Making,Carbon leaves as CO and CO₂.
+56,Revision Point,4,Steel Making,Blowing lasts 15–17 minutes.
+57,Revision Point,4,Steel Making,End blow temperature is 1650–1690°C.
+58,Revision Point,4,Steel Making,Typical end carbon is 0.07%.
+59,Revision Point,4,Steel Making,Typical end phosphorus is 0.020%.
+60,Revision Point,4,Steel Making,Tapping transfers steel to ladle.
+61,Revision Point,4,Steel Making,Slag-free tapping is preferred.
+62,Revision Point,4,Steel Making,Nitrogen splashing increases lining life.
+63,Revision Point,4,Steel Making,Fe + O forms FeO.
+64,Revision Point,4,Steel Making,C + O forms CO/CO₂.
+65,Revision Point,4,Steel Making,Si + 2O forms SiO₂.
+66,Revision Point,4,Steel Making,Mn + O forms MnO.
+67,Revision Point,4,Steel Making,2P + 5O forms P₂O₅.
+68,Revision Point,4,Steel Making,BOF reactions are exothermic.
+69,Revision Point,4,Steel Making,Basic slag aids dephosphorisation.
+70,Revision Point,4,Steel Making,Typical slag CaO is 45–50%.
+71,Revision Point,4,Steel Making,Typical slag MgO is 4–8%.
+72,Revision Point,4,Steel Making,Typical slag FeO is 18–22%.
+73,Revision Point,4,Steel Making,Basicity ratio CaO/SiO₂ ≥ 3.
+74,Revision Point,4,Steel Making,Slag transfers oxygen.
+75,Revision Point,4,Steel Making,Slag removes phosphorus.
+76,Revision Point,4,Steel Making,Slag removes sulphur.
+77,Revision Point,4,Steel Making,Refractory protects vessel shell.
+78,Revision Point,4,Steel Making,Refractory retains heat.
+79,Revision Point,4,Steel Making,Converters use magnesia-carbon bricks.
+80,Revision Point,4,Steel Making,Mixers use high alumina bricks.
+81,Revision Point,4,Steel Making,Hot metal ladles use high alumina lining.
+82,Revision Point,4,Steel Making,Steel ladles use magnesia-carbon lining.
+83,Revision Point,4,Steel Making,Mixer stores hot metal.
+84,Revision Point,4,Steel Making,Mixer homogenises hot metal.
+85,Revision Point,4,Steel Making,Converter is pear shaped.
+86,Revision Point,4,Steel Making,Converter rotates 360°.
+87,Revision Point,4,Steel Making,Charging occurs through mouth.
+88,Revision Point,4,Steel Making,Tapping occurs through tap hole.
+89,Revision Point,4,Steel Making,Lance has three concentric tubes.
+90,Revision Point,4,Steel Making,Water flows through outer tubes.
+91,Revision Point,4,Steel Making,Oxygen flows through inner tube.
+92,Revision Point,4,Steel Making,Lance tip is copper.
+93,Revision Point,4,Steel Making,Five or six-hole lances are common.
+94,Revision Point,4,Steel Making,GCP means Gas Cleaning Plant.
+95,Revision Point,4,Steel Making,GCP removes dust from gases.
+96,Revision Point,4,Steel Making,Water cools BOF gases.
+97,Revision Point,4,Steel Making,CO gas can be recovered as fuel.
+98,Revision Point,4,Steel Making,ID fan draws gases upward.
+99,Revision Point,4,Steel Making,Movable skirt controls air ingress.
+100,Revision Point,4,Steel Making,No liquid slag before charging.
+101,Revision Point,4,Steel Making,Avoid standing before converter.
+102,Revision Point,4,Steel Making,Slag pots must be dry.
+103,Revision Point,4,Steel Making,PPE is mandatory in steel shop.
+104,Revision Point,4,Steel Making,Do not blow with water leakage.
+105,Revision Point,4,Steel Making,Water logging requires shutdown.
+106,Revision Point,4,Steel Making,Metal splashes are dangerous.
+107,Revision Point,4,Steel Making,Good slag gives good steel.
+108,Revision Point,4,Steel Making,Slag carryover must be minimized.
+109,Revision Point,4,Steel Making,Dust can be recycled to sinter plant.
+110,Revision Point,4,Steel Making,Steelmaking slag can be recycled.
+111,Revision Point,4,Steel Making,Tapping temperature is 1660–1680°C.
+112,Revision Point,4,Steel Making,Tap hole life target exceeds 110 heats.
+113,Revision Point,4,Steel Making,Coke improves slag splashing.
+114,Revision Point,4,Steel Making,Secondary steelmaking improves cleanliness.
+115,Revision Point,4,Steel Making,Secondary refining controls composition.
+116,Revision Point,4,Steel Making,Secondary refining controls temperature.
+117,Revision Point,4,Steel Making,Hydrogen can be reduced below 2 ppm.
+118,Revision Point,4,Steel Making,Deoxidation products include Al₂O₃.
+119,Revision Point,4,Steel Making,Desulphurisation target can be <0.008%.
+120,Revision Point,4,Steel Making,Killed steel is deoxidised steel.
+121,Revision Point,4,Steel Making,High oxygen causes blowholes.
+122,Revision Point,4,Steel Making,Aluminium is a strong deoxidiser.
+123,Revision Point,4,Steel Making,Silicon is a common deoxidiser.
+124,Revision Point,4,Steel Making,EMF probes measure dissolved oxygen.
+125,Revision Point,4,Steel Making,Argon stirring homogenises steel.
+126,Revision Point,4,Steel Making,Argon stirring removes inclusions.
+127,Revision Point,4,Steel Making,Bottom purging uses porous plugs.
+128,Revision Point,4,Steel Making,Ladle furnace reheats steel.
+129,Revision Point,4,Steel Making,LF improves composition control.
+130,Revision Point,4,Steel Making,LF permits high ferro-alloy additions.
+131,Revision Point,4,Steel Making,LF exhaust is cleaned by ESP.
+132,Revision Point,4,Steel Making,Degassing initially targeted hydrogen removal.
+133,Revision Point,4,Steel Making,Vacuum treatment produces clean steel.
+134,Revision Point,4,Steel Making,RH is a circulation degasser.
+135,Revision Point,4,Steel Making,Tank degasser places ladle under vacuum.
+136,Revision Point,4,Steel Making,Millibar measures vacuum.
+137,Revision Point,4,Steel Making,Steam creates vacuum.
+138,Revision Point,4,Steel Making,RH-OB enables deep decarburisation.
+139,Revision Point,4,Steel Making,Vacuum treatment lowers hydrogen.
+140,Revision Point,4,Steel Making,Vacuum treatment improves cleanliness.
+141,Revision Point,4,Steel Making,Vacuum treatment loses 50–100°C.
+142,Revision Point,4,Steel Making,Gentle stirring aids inclusion removal.
+143,Revision Point,4,Steel Making,Violent stirring aids degassing.
+144,Revision Point,4,Steel Making,Steelmaking is an oxidation refining process.
+145,Revision Point,4,Steel Making,Tap steel may contain 400–1000 ppm oxygen.
+146,Revision Point,4,Steel Making,Liquid steel oxygen solubility is 0.16%.
+147,Revision Point,4,Steel Making,Solid steel oxygen solubility is 0.003%.
+148,Revision Point,4,Steel Making,Vacuum removes oxygen as CO.
+149,Revision Point,4,Steel Making,[C]+[O]=CO is decarburisation reaction.
+150,Revision Point,4,Steel Making,Argon flow affects decarburisation.
+151,Revision Point,4,Steel Making,Ferro-alloys may cause recarburisation.
+152,Revision Point,4,Steel Making,Graphite electrodes may cause recarburisation.
+153,Revision Point,4,Steel Making,High basicity favours desulphurisation.
+154,Revision Point,4,Steel Making,Fluid slag improves sulphur removal.
+155,Revision Point,4,Steel Making,Low FeO+MnO favours desulphurisation.
+156,Revision Point,4,Steel Making,2[H]=H₂ is hydrogen removal.
+157,Revision Point,4,Steel Making,2[N]=N₂ is nitrogen removal.
+158,Revision Point,4,Steel Making,Nitrogen removal is slower than hydrogen removal.
+159,Revision Point,4,Steel Making,Continuous casting forms billets.
+160,Revision Point,4,Steel Making,Continuous casting forms blooms.
+161,Revision Point,4,Steel Making,Continuous casting forms slabs.
+162,Revision Point,4,Steel Making,Continuous casting emerged in 1950s.
+163,Revision Point,4,Steel Making,Continuous casting improves yield.
+164,Revision Point,4,Steel Making,Continuous casting improves productivity.
+165,Revision Point,4,Steel Making,Copper mould is water cooled.
+166,Revision Point,4,Steel Making,Pouring rate equals withdrawal rate.
+167,Revision Point,4,Steel Making,Ladle sits on turret.
+168,Revision Point,4,Steel Making,Tundish receives steel from ladle.
+169,Revision Point,4,Steel Making,Solidification starts in mould.
+170,Revision Point,4,Steel Making,Near-net-shape casting improves efficiency.
+171,Revision Point,4,Steel Making,Tundish distributes steel to moulds.
+172,Revision Point,4,Steel Making,Casting steel should be killed.
+173,Revision Point,4,Steel Making,High oxygen causes nozzle clogging.
+174,Revision Point,4,Steel Making,Celox measures oxygen in steel.
+175,Revision Point,4,Steel Making,Cold tundish practice exists.
+176,Revision Point,4,Steel Making,Hot tundish practice exists.
+177,Revision Point,4,Steel Making,Tundish is refractory lined.
+178,Revision Point,4,Steel Making,SEN means Submerged Entry Nozzle.
+179,Revision Point,4,Steel Making,Dummy bar starts casting.
+180,Revision Point,4,Steel Making,Copper provides high heat extraction.
+181,Revision Point,4,Steel Making,Soft water cools mould.
+182,Revision Point,4,Steel Making,Monitor mould water temperature difference.
+183,Revision Point,4,Steel Making,Shroud prevents atmospheric contact.
+184,Revision Point,4,Steel Making,Casting powder is continuously added.
+185,Revision Point,4,Steel Making,Secondary cooling uses sprays.
+186,Revision Point,4,Steel Making,Vertical casters may not need unbending.
+187,Revision Point,4,Steel Making,Tundish enhances inclusion separation.
+188,Revision Point,4,Steel Making,Tundish maintains continuous casting during ladle exchange.
+189,Revision Point,4,Steel Making,Tundish maintains metal head.
+190,Revision Point,4,Steel Making,Chemistry affects tundish performance.
+191,Revision Point,4,Steel Making,Fluid flow affects tundish performance.
+192,Revision Point,4,Steel Making,Temperature affects tundish performance.
+193,Revision Point,4,Steel Making,SEN clogging disturbs mould flow.
+194,Revision Point,4,Steel Making,SEN clogging reduces pouring rate.
+195,Revision Point,4,Steel Making,Argon injection affects SEN clogging.
+196,Revision Point,4,Steel Making,Mould forms strong shell.
+197,Revision Point,4,Steel Making,Copper moulds may be chromium plated.
+198,Revision Point,4,Steel Making,Copper moulds may be nickel plated.
+199,Revision Point,4,Steel Making,Mould oscillation reduces sticking.
+200,Revision Point,4,Steel Making,Negative strip oscillation is common.
+201,Revision Point,4,Steel Making,Mould powder provides insulation.
+202,Revision Point,4,Steel Making,Mould powder prevents reoxidation.
+203,Revision Point,4,Steel Making,Mould powder absorbs inclusions.
+204,Revision Point,4,Steel Making,Mould powder lubricates mould-shell interface.
+205,Revision Point,4,Steel Making,Secondary cooling controls solidification.
+206,Revision Point,4,Steel Making,Heat transfer occurs by radiation.
+207,Revision Point,4,Steel Making,Heat transfer occurs by conduction.
+208,Revision Point,4,Steel Making,Heat transfer occurs by convection.
+209,Revision Point,4,Steel Making,Containment rolls guide strand.
+210,Revision Point,4,Steel Making,Unbending places tension on outer radius.
+211,Revision Point,4,Steel Making,Excess strain causes cracks.
+212,Revision Point,4,Steel Making,Multi-point unbending reduces strain.
+213,Revision Point,4,Steel Making,Torches cut cast products.
+214,Revision Point,4,Steel Making,Mechanical shears cut cast products.
+215,Revision Point,4,Steel Making,Choking interrupts steel flow.
+216,Revision Point,4,Steel Making,Freezing occurs in SEN.
+217,Revision Point,4,Steel Making,Breakout is a major casting hazard.
+218,Revision Point,4,Steel Making,Surface cracks are casting defects.
+219,Revision Point,4,Steel Making,Internal cracks are casting defects.
+220,Revision Point,4,Steel Making,Blowholes are casting defects.
+221,Revision Point,4,Steel Making,Superheat control reduces defects.
+222,Revision Point,4,Steel Making,Casting speed affects quality.
+223,Revision Point,4,Steel Making,Ingot casting uses teeming ladle.
+224,Revision Point,4,Steel Making,Slide gate controls flow.
+225,Revision Point,4,Steel Making,Stopper rods were used earlier.
+226,Revision Point,4,Steel Making,High teeming temperature causes stickers.
+227,Revision Point,4,Steel Making,Low teeming temperature causes choking.
+228,Revision Point,4,Steel Making,Centre pouring is preferred.
+229,Revision Point,4,Steel Making,Bottom pouring used for special steels.
+230,Revision Point,4,Steel Making,Ingot yield may be 80%.
+231,Revision Point,4,Steel Making,Continuous casting yield often exceeds 95%.
+232,Revision Point,4,Steel Making,CO monitoring is essential near converter.
+233,Revision Point,4,Steel Making,Argon purging can splash metal.
+234,Revision Point,4,Steel Making,Ladle furnace presents electrocution risk.
+235,Revision Point,4,Steel Making,Vacuum stations present suction hazards.
+236,Revision Point,4,Steel Making,Carbon monoxide hazard exists in vacuum units.
+237,Revision Point,4,Steel Making,Stop arcing if red spot appears on ladle.

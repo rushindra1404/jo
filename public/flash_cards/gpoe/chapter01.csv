@@ -1,0 +1,281 @@
+point_id,category,priority,title,point
+1,Definition,5,RMHP,RMHP stands for Raw Material Handling Plant.
+2,Definition,5,OHP,OHP stands for Ore Handling Plant.
+3,Definition,5,OBBP,OBBP stands for Ore Bedding and Blending Plant.
+4,Important Point,5,Steel Plant Role,RMHP is the starting point of an integrated steel plant.
+5,Fact,5,Coal Exception,RMHP handles all major raw materials except coal.
+6,Classification,5,Major Raw Material,Iron ore is a major raw material in integrated steel plants.
+7,Classification,4,Major Raw Material,Limestone is a major raw material in integrated steel plants.
+8,Classification,4,Major Raw Material,Dolomite is a major raw material in integrated steel plants.
+9,Classification,4,Major Raw Material,Manganese ore is a major raw material in integrated steel plants.
+10,Classification,3,Major Raw Material,Ferro manganese is used as a raw material.
+11,Classification,3,Major Raw Material,Silico manganese is used as a raw material.
+12,Classification,3,Major Raw Material,Quartzite is used as a raw material.
+13,Classification,4,Major Raw Material,Coal is a major steel plant raw material.
+14,Process,5,Material Handling,RMHP performs unloading operations.
+15,Process,5,Material Handling,RMHP performs stacking operations.
+16,Process,5,Material Handling,RMHP performs screening operations.
+17,Process,5,Material Handling,RMHP performs crushing operations.
+18,Process,5,Material Handling,RMHP performs bedding operations.
+19,Process,5,Material Handling,RMHP performs blending operations.
+20,Process,5,Material Handling,RMHP performs reclamation operations.
+21,Classification,5,BF Raw Material,Iron ore lump is a blast furnace raw material.
+22,Classification,5,BF Raw Material,BF grade limestone is a blast furnace raw material.
+23,Classification,5,BF Raw Material,BF grade dolomite is a blast furnace raw material.
+24,Classification,5,BF Raw Material,Coke is a blast furnace raw material.
+25,Classification,5,BF Raw Material,Sinter is a blast furnace raw material.
+26,Classification,4,BF Raw Material,Scrap is a blast furnace raw material.
+27,Classification,4,BF Raw Material,LD slag is a blast furnace raw material.
+28,Classification,4,BF Raw Material,Mn ore is a blast furnace raw material.
+29,Classification,4,BF Raw Material,Quartzite is a blast furnace raw material.
+30,Important Point,5,Blending Objective,Blending homogenizes materials from different sources.
+31,Important Point,5,Supply Objective,RMHP supplies consistent quality raw materials.
+32,Important Point,5,Continuity Objective,RMHP ensures uninterrupted raw material supply.
+33,Important Point,4,Buffer Stock,RMHP maintains buffer stock of raw materials.
+34,Rule,5,Wagon Unloading,Rakes must be unloaded within railway time norms.
+35,Process,5,Preparation,RMHP prepares raw materials through crushing and screening.
+36,Process,5,Function,Unloading and stacking are primary RMHP functions.
+37,Process,5,Function,Iron ore lump screening is a primary RMHP function.
+38,Process,5,Function,Coke crushing is a primary RMHP function.
+39,Process,5,Function,Flux crushing is a primary RMHP function.
+40,Process,5,Function,Processed materials are dispatched to customer units.
+41,Fact,4,Raw Material Source,SAIL mines supply major raw materials.
+42,Fact,4,External Source,Raw materials may also be purchased externally.
+43,Fact,4,IOL Source,Barsua supplies iron ore lumps.
+44,Fact,4,IOL Source,Kalta supplies iron ore lumps.
+45,Fact,4,IOL Source,Taldih supplies iron ore lumps.
+46,Fact,4,IOL Source,Kiriburu supplies iron ore lumps.
+47,Fact,4,IOL Source,Meghahatuburu supplies iron ore lumps.
+48,Fact,4,IOL Source,Bolani supplies iron ore lumps.
+49,Fact,4,IOL Source,Manoharpur supplies iron ore lumps.
+50,Fact,4,IOL Source,Gua supplies iron ore lumps.
+51,Fact,4,IOL Source,Dalli Rajhara supplies iron ore lumps.
+52,Fact,4,IOL Source,Rowghat supplies iron ore lumps.
+53,Fact,4,IOF Source,Iron ore fines are sourced from Manoharpur.
+54,Fact,4,IOF Source,Iron ore fines are sourced from Gua.
+55,Fact,4,IOF Source,Iron ore fines are sourced from Rowghat.
+56,Fact,4,BF Limestone Source,Kuteshwar supplies BF limestone.
+57,Fact,4,BF Limestone Source,Nandini supplies BF limestone.
+58,Fact,4,BF Dolomite Source,Birmitrapur supplies BF dolomite.
+59,Fact,4,BF Dolomite Source,Sonakhan supplies BF dolomite.
+60,Fact,4,BF Dolomite Source,Bhawanathpur supplies BF dolomite.
+61,Fact,4,BF Dolomite Source,Tulsidamar supplies BF dolomite.
+62,Fact,4,BF Dolomite Source,Bhutan supplies BF dolomite.
+63,Fact,4,SMS Limestone Source,Jaisalmer supplies SMS limestone.
+64,Fact,4,SMS Limestone Source,SMS limestone is imported from Dubai.
+65,Fact,4,SMS Limestone Source,SMS limestone is imported from Oman.
+66,Fact,4,SMS Dolomite Source,Belha supplies SMS dolomite.
+67,Fact,4,SMS Dolomite Source,Baraduar supplies SMS dolomite.
+68,Fact,4,SMS Dolomite Source,Hiri supplies SMS dolomite.
+69,Fact,4,SMS Dolomite Source,Bhutan supplies SMS dolomite.
+70,Fact,5,Quartzite Source,Quartzite source is Bobbili in Andhra Pradesh.
+71,Fact,4,Mn Ore Source,Barjamunda supplies manganese ore.
+72,Fact,4,Mn Ore Source,Gua Ore Mines supply manganese ore.
+73,Fact,4,Mn Ore Source,MOIL supplies purchased manganese ore.
+74,Fact,4,Mixed Breeze Coke,Mixed breeze coke is generated inside the plant.
+75,Fact,4,Mill Scale,Mill scale is generated inside the plant.
+76,Fact,4,Flue Dust,Flue dust is generated inside the plant.
+77,Fact,4,LD Slag,LD slag is generated inside the plant.
+78,Important Point,5,Pellet Usage,Low-grade ores and fines are utilized through pelletization.
+79,Concept,5,Fines Generation,Mechanized mining generates large quantities of fines.
+80,Important Point,5,Fines Limitation,Fines cannot be directly charged into blast furnaces.
+81,Concept,4,Beneficiation,Low-grade ores are beneficiated after crushing and grinding.
+82,Fact,4,Blue Dust,Blue dust deposits remain largely unused due to fineness.
+83,Classification,5,Agglomeration Method,Sintering is an agglomeration method.
+84,Classification,5,Agglomeration Method,Pelletization is an agglomeration method.
+85,Classification,4,Agglomeration Method,Briquetting is an agglomeration method.
+86,Classification,4,Agglomeration Method,Nodulizing is an agglomeration method.
+87,Definition,5,Agglomeration,Agglomeration forms larger bodies from smaller particles.
+88,Principle,5,Agglomeration Goal,Agglomeration improves utilization of mineral fines.
+89,Principle,4,Energy Saving,Agglomeration improves reduction efficiency.
+90,Principle,4,Coke Saving,Agglomeration reduces coke rate.
+91,Principle,4,Environment Benefit,Agglomeration utilizes waste in-plant fines.
+92,Definition,5,Pelletization,Pelletization is an agglomeration process by balling.
+93,Fact,5,Pellet Size,Typical pellet size is 8–20 mm.
+94,Fact,4,Additive,Bentonite is used during pelletization.
+95,Fact,4,Additive,Lime may be used during pelletization.
+96,Fact,5,Firing Temperature,Green pellets are fired at 1200–1350°C.
+97,Classification,4,Pellet Type,Pellets may be acidic.
+98,Classification,4,Pellet Type,Pellets may be basic.
+99,Important Point,5,Pelletization Need,Pelletization is the only practical route for fine concentrates.
+100,Fact,5,Pellet Advantage,Pellets have better tumbling index than parent ore.
+101,Fact,5,Pellet Advantage,Pellets substitute lump ore in blast furnaces.
+102,Important Point,5,Future Technology,Pelletization is expected to dominate Indian steel industry.
+103,Fact,5,Reducibility,Pellets possess good reducibility.
+104,Fact,5,Porosity,Pellet porosity is typically 25–30%.
+105,Cause-Effect,5,Reducibility Benefit,High porosity causes faster reduction.
+106,Fact,4,Permeability,Pellets possess good bed permeability.
+107,Warning,3,Drawback,Low angle of repose is a pellet drawback.
+108,Cause-Effect,4,Metallization,High porosity increases metallization.
+109,Fact,5,Heat Requirement,Pellets require 35–40% less heat than sintering.
+110,Fact,5,Chemical Uniformity,Pellets have uniform chemical composition.
+111,Fact,4,LOI,Pellets have very low loss on ignition.
+112,Fact,4,Handling Benefit,Pellets are easy to handle and transport.
+113,Fact,4,Strength,Pellets possess high strength.
+114,Fact,4,Transport Benefit,Pellets can be transported over long distances.
+115,Fact,4,Disintegration,Pellets resist disintegration.
+116,Exam Point,5,Pellet Fe,Minimum Fe in BF pellet is 65%.
+117,Exam Point,5,SiO2+Al2O3,Maximum SiO2+Al2O3 in pellet is 5%.
+118,Exam Point,5,Al2O3 Limit,Maximum Al2O3 in pellet is 0.60%.
+119,Exam Point,5,Na2O Limit,Maximum Na2O in pellet is 0.05%.
+120,Exam Point,5,K2O Limit,Maximum K2O in pellet is 0.05%.
+121,Exam Point,5,TiO2 Limit,Maximum TiO2 in pellet is 0.10%.
+122,Exam Point,5,Mn Limit,Maximum Mn in pellet is 0.10%.
+123,Exam Point,5,P Limit,Maximum phosphorus in pellet is 0.04%.
+124,Exam Point,5,S Limit,Maximum sulfur in pellet is 0.02%.
+125,Exam Point,5,V Limit,Maximum vanadium in pellet is 0.05%.
+126,Formula,5,Basicity Ratio,Basicity=(CaO+MgO)/(SiO2+Al2O3).
+127,Exam Point,5,Basicity Value,Pellet basicity is 0.40.
+128,Exam Point,5,Moisture Limit,Fair season pellet moisture maximum is 4%.
+129,Exam Point,5,Moisture Limit,Monsoon pellet moisture maximum is 6%.
+130,Exam Point,5,Screen Analysis,+16 mm pellet fraction maximum is 5%.
+131,Exam Point,5,Screen Analysis,-16 mm +9 mm pellet fraction minimum is 85%.
+132,Exam Point,5,Screen Analysis,-9 mm +6.35 mm pellet fraction maximum is 7%.
+133,Exam Point,5,Screen Analysis,-5 mm pellet fraction maximum is 5%.
+134,Exam Point,5,Tumble Index,Minimum tumble index is 94%.
+135,Exam Point,5,Abrasion Index,Maximum abrasion index is 5%.
+136,Exam Point,5,Swelling,Maximum swelling is 20%.
+137,Exam Point,5,Compression Strength,Minimum compression strength is 250 kg per pellet.
+138,Exam Point,5,Porosity Requirement,Minimum pellet porosity is 25%.
+139,Exam Point,5,Reducibility Requirement,Minimum pellet reducibility is 60%.
+140,Important Point,5,Raw Material Quality,Right quality raw material ensures maximum output.
+141,Important Point,5,Cost Reduction,Good raw material quality lowers operating cost.
+142,Procedure,4,Sampling,Incremental samples are collected from consignments.
+143,Procedure,4,Sampling Unit,Samples are collected using auto samplers.
+144,Procedure,4,Sample Preparation,Quartering and coning are used for sample preparation.
+145,Exam Point,5,Iron Ore Lump Fe,Iron ore lump Fe content is 62.3–63.2%.
+146,Exam Point,5,Iron Ore Lump SiO2,Iron ore lump SiO2 is 1.8–2.8%.
+147,Exam Point,5,Iron Ore Lump Al2O3,Iron ore lump Al2O3 is 2.6–3.0%.
+148,Exam Point,5,Iron Ore Lump Size,-10 mm fraction maximum is 5%.
+149,Exam Point,5,Iron Ore Lump Size,+40 mm fraction maximum is 5%.
+150,Exam Point,5,Iron Ore Fines Fe,Iron ore fines Fe content is 62–63%.
+151,Exam Point,5,Iron Ore Fines SiO2,Iron ore fines SiO2 is 2.3–3.6%.
+152,Exam Point,5,Iron Ore Fines Al2O3,Iron ore fines Al2O3 is 2.8–3.3%.
+153,Exam Point,5,Iron Ore Fines Size,+10 mm fraction maximum is 5%.
+154,Exam Point,5,Iron Ore Fines Size,-1 mm fraction maximum is 30%.
+155,Exam Point,5,BF Limestone CaO,BF limestone contains 43–50% CaO.
+156,Exam Point,5,BF Limestone MgO,BF limestone contains 2.25–5% MgO.
+157,Exam Point,5,BF Limestone SiO2,BF limestone contains 3.5–6.5% SiO2.
+158,Exam Point,5,BF Dolomite CaO,BF dolomite contains 30% CaO.
+159,Exam Point,5,BF Dolomite MgO,BF dolomite contains 18% MgO.
+160,Exam Point,5,BF Dolomite SiO2,BF dolomite contains 5% SiO2.
+161,Exam Point,5,SMS Limestone CaO,SMS limestone contains 52% CaO.
+162,Exam Point,5,SMS Limestone MgO,SMS limestone contains 1% MgO.
+163,Exam Point,5,SMS Limestone SiO2,SMS limestone contains maximum 1.5% SiO2.
+164,Exam Point,5,SMS Dolomite CaO,SMS dolomite contains 29% CaO.
+165,Exam Point,5,SMS Dolomite MgO,SMS dolomite contains 23.5% MgO.
+166,Exam Point,5,SMS Dolomite SiO2,SMS dolomite contains 2.5% SiO2.
+167,Exam Point,5,Mn Ore Quality,Manganese ore contains minimum 30% Mn.
+168,Exam Point,5,Coke Breeze Quality,Fixed carbon in coke breeze exceeds 70%.
+169,Exam Point,5,Coke Breeze SiO2,Coke breeze contains 12–15% SiO2.
+170,Exam Point,5,Coke Breeze Moisture,Coke breeze moisture is 10–15% maximum.
+171,Exam Point,5,Coke Breeze Size,Coke breeze size is less than 15 mm.
+172,Process,5,RMHP Flow,Raw materials arrive from mines.
+173,Process,5,RMHP Flow,Materials are unloaded by wagon tippler or track hopper.
+174,Process,5,RMHP Flow,Materials undergo sampling.
+175,Process,5,RMHP Flow,Materials are stacked in designated beds.
+176,Process,5,RMHP Flow,Materials pass through screening units.
+177,Process,5,RMHP Flow,Materials undergo bedding and blending.
+178,Process,5,RMHP Flow,Processed material is dispatched to customers.
+179,Definition,5,Wagon Tippler,Wagon tippler mechanizes wagon unloading.
+180,Definition,5,Car Pusher,Car pusher positions wagons in tipplers.
+181,Definition,5,Track Hopper,Track hopper enables manual wagon unloading.
+182,Definition,5,Stacker,Stacker forms storage beds.
+183,Definition,5,SCR,Stacker-cum-reclaimer performs stacking and reclaiming.
+184,Definition,4,Bucket Wheel,Bucket wheel reclaims materials from beds.
+185,Definition,4,Transfer Car,Transfer car shifts equipment between beds.
+186,Definition,4,Screens,Screens separate desired material sizes.
+187,Definition,4,Crushers,Crushers reduce material size.
+188,Definition,4,Belt Conveyor,Belt conveyors transport materials.
+189,Important Point,5,Logistics Planning,Raw material planning is essential for smooth operation.
+190,Important Point,5,Advance Planning,Raw material requirements must be communicated early.
+191,Fact,4,Agency,Traffic and Raw Material Department participates in planning.
+192,Fact,4,Agency,RMD participates in planning.
+193,Fact,4,Agency,PPC participates in planning.
+194,Fact,4,Agency,Finance participates in planning.
+195,Fact,4,Agency,Materials Management participates in planning.
+196,Fact,4,Agency,Railways participate in planning.
+197,Important Point,5,Railway Role,Indian Railways is the major transport link.
+198,Exam Point,5,Wagon Type,BOXN wagons are unloaded by wagon tippler.
+199,Exam Point,5,Wagon Type,BOXC wagons are unloaded by wagon tippler.
+200,Exam Point,5,Wagon Type,BOST wagons are unloaded by wagon tippler.
+201,Exam Point,5,Wagon Type,NBOY wagons are unloaded by wagon tippler.
+202,Exam Point,5,Wagon Type,BOBS wagons are unloaded by track hopper.
+203,Exam Point,5,Wagon Type,NBOBS wagons are unloaded by track hopper.
+204,Concept,5,Bed Formation,Bed formation occurs through stacker to-and-fro movement.
+205,Concept,5,Layer Control,Stacker speed controls number of layers.
+206,Cause-Effect,5,Homogeneity,More layers improve bed homogeneity.
+207,Cause-Effect,5,Standard Deviation,More layers reduce standard deviation.
+208,Definition,5,Blending,Blending homogenizes raw materials mechanically.
+209,Exam Point,5,Homogenization,Homogenization rises rapidly beyond 400 layers.
+210,Exam Point,5,Layer Effect,Homogenization becomes nearly constant after 580 layers.
+211,Important Point,5,Screening Need,Iron ore lump screening protects blast furnace performance.
+212,Cause-Effect,5,Undersize Effect,-10 mm fraction adversely affects blast furnace operation.
+213,Exam Point,5,Incoming Lump,Incoming lump ore may contain 15–20% fines.
+214,Exam Point,5,Screen Mesh,Vibratory screen mesh size is 10×10 mm.
+215,Definition,5,Sized Ore,Screened iron ore lump is called sized ore.
+216,Definition,5,Base Mix,Base mix is a near homogeneous mixture.
+217,Fact,5,Base Mix Material,Iron ore fines are used in base mix.
+218,Fact,4,Base Mix Material,Crushed limestone is used in base mix.
+219,Fact,4,Base Mix Material,Crushed dolomite is used in base mix.
+220,Fact,4,Base Mix Material,Crushed coke is used in base mix.
+221,Fact,4,Base Mix Material,LD slag fines are used in base mix.
+222,Fact,4,Base Mix Material,Mill scale is used in base mix.
+223,Fact,4,Base Mix Material,Flue dust is used in base mix.
+224,Fact,4,Base Mix Material,Return sinter is used in base mix.
+225,Definition,4,Proportioning Bin,Individual storage bunkers are called proportioning bins.
+226,Exam Point,5,Base Mix Ratio,Iron ore fines constitute 70–80% of base mix.
+227,Exam Point,5,Iron Ore Fines Fe,Iron ore fines Fe content is around 62–64%.
+228,Definition,5,Flux,Flux is a mixture of limestone and dolomite.
+229,Exam Point,5,Flux Size,Crushed flux contains over 90% minus 3 mm fraction.
+230,Important Point,5,Flux Function,Flux neutralizes gangue in blast furnace.
+231,Important Point,4,Flux Function,Flux improves slag formation reactions.
+232,Important Point,4,Flux Function,Flux acts as a binder in sinter making.
+233,Exam Point,5,Flux Share,Flux constitutes 12–16% of base mix.
+234,Exam Point,5,Crusher Type,Hammer crushers crush limestone and dolomite.
+235,Exam Point,5,Coke Size Requirement,Coke for base mix requires 85% minus 3 mm fraction.
+236,Fact,4,Mixed Breeze Coke,Coke is received from coke ovens and blast furnace.
+237,Exam Point,5,Nut Coke,+12.5 mm coke fraction becomes nut coke.
+238,Exam Point,5,Crusher Type,Two-stage roll crushers process coke breeze.
+239,Exam Point,5,Coke Share,Coke share in base mix is 5–6%.
+240,Exam Point,5,BOF Slag Share,BOF slag share in base mix is 3.5–4%.
+241,Exam Point,5,Waste Share,Metallurgical waste share in base mix is about 1%.
+242,Classification,5,Metallurgical Waste,Mill scale is a metallurgical waste.
+243,Classification,5,Metallurgical Waste,Flue dust is a metallurgical waste.
+244,Classification,5,Metallurgical Waste,Sludge is a metallurgical waste.
+245,Classification,5,Metallurgical Waste,Spillage is a metallurgical waste.
+246,Classification,5,Customer,Blast Furnace is a RMHP customer.
+247,Classification,5,Customer,Sinter Plant is a RMHP customer.
+248,Classification,4,Customer,Calcining/Refractory Plant is a RMHP customer.
+249,Fact,5,Blast Furnace Supply,Blast furnace receives sized ore.
+250,Fact,4,Blast Furnace Supply,Blast furnace receives quartzite.
+251,Fact,5,Sinter Plant Supply,Sinter plant receives base mix.
+252,Fact,5,Sinter Plant Supply,Sinter plant receives crushed flux.
+253,Fact,5,Sinter Plant Supply,Sinter plant receives crushed coke.
+254,Fact,4,Sinter Plant Supply,Sinter plant receives nut coke.
+255,Fact,5,Calcining Supply,Calcining plant receives SMS limestone.
+256,Fact,5,Calcining Supply,Calcining plant receives SMS dolomite.
+257,Important Point,5,RMHP Benefit,RMHP provides consistent raw material quality.
+258,Important Point,4,Centralization,RMHP provides centralized raw material facilities.
+259,Important Point,4,Fast Unloading,RMHP enables mechanized faster unloading.
+260,Important Point,4,Sizing Benefit,RMHP provides sizing facilities.
+261,Important Point,5,Screening Benefit,Screening minimizes undersize in lump ore.
+262,Important Point,5,Blending Benefit,Bedding and blending improve consistency.
+263,Important Point,4,Quality Tracking,Input quality can be tracked over time.
+264,Important Point,5,Base Mix Benefit,RMHP prepares base mix for sinter plants.
+265,Important Point,4,Waste Utilization,RMHP promotes metallurgical waste utilization.
+266,Warning,5,Dust Hazard,RMHP is highly dust prone.
+267,Rule,5,PPE,Dust masks are mandatory in RMHP.
+268,Rule,5,PPE,Safety goggles are essential in RMHP.
+269,Rule,5,PPE,Safety helmets are essential in RMHP.
+270,Rule,5,PPE,Safety shoes are essential in RMHP.
+271,Fact,4,Dust Control,Dust extraction systems are installed.
+272,Fact,4,Dust Control,Dust suppression systems are installed.
+273,Fact,4,DFDS,Dry Fog Dust Suppression systems are used in some plants.
+274,Important Point,4,Housekeeping,Housekeeping is a major operational challenge.
+275,Important Point,4,Reuse,Spillage material is collected and reused.
+276,Important Point,4,Scrap Disposal,Scrap conveyor belts require proper disposal.
+277,Cause-Effect,4,Safety Benefit,Good housekeeping improves equipment safety.
+278,Cause-Effect,4,Safety Benefit,Good housekeeping improves personal safety.
+279,Memory Hook,5,RMHP Core,Unload–Stack–Screen–Blend–Dispatch.
+280,Memory Hook,5,Flow Sequence,Mines→Unload→Sample→Bed→Screen→Blend→Customer.

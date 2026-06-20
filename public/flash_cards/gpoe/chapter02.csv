@@ -1,0 +1,221 @@
+point_id,category,priority,title,point
+1,Definition,5,Coke Making,Conversion of coking coal into metallurgical coke.
+2,Process,5,Coke Making Chain,Starts at wagon tippler unloading and ends at coke sizing.
+3,Fact,4,Coal Formation,Buried vegetation under heat and pressure forms coal.
+4,Process,4,Peat Formation,Initial decay of vegetation produces peat.
+5,Process,4,Lignite Formation,Peat converts to lignite after water removal.
+6,Process,4,Bituminous Coal,Continuous compaction converts lignite to bituminous coal.
+7,Fact,3,Coal Formation Time,Coal formation takes millions of years.
+8,Classification,5,Coal Types,Coals are classified into coking and non-coking coals.
+9,Classification,5,PCC,Prime Coking Coal is an indigenous coking coal.
+10,Classification,5,MCC,Medium Coking Coal is an indigenous coking coal.
+11,Classification,5,HCC,Hard Coking Coal is an imported coking coal.
+12,Classification,5,SCC,Soft Coking Coal is an imported coking coal.
+13,Fact,4,PCC Source,Bhojudih is a source of PCC.
+14,Fact,4,PCC Source,Sudamdih is a source of PCC.
+15,Fact,4,PCC Source,Munidih is a source of PCC.
+16,Fact,4,PCC Source,Patherdih is a source of PCC.
+17,Fact,4,PCC Source,Dugda is a source of PCC.
+18,Fact,4,PCC Source,Mahuda is a source of PCC.
+19,Fact,4,PCC Source,Chasnala is a source of PCC.
+20,Fact,4,PCC Source,Jamadoba is a source of PCC.
+21,Fact,4,PCC Source,Bhelatand is a source of PCC.
+22,Fact,4,PCC Source,Madhuban is a source of PCC.
+23,Fact,4,MCC Source,Kathara is a source of MCC.
+24,Fact,4,MCC Source,Swang is a source of MCC.
+25,Fact,4,MCC Source,Rajrappa is a source of MCC.
+26,Fact,4,MCC Source,Kedla is a source of MCC.
+27,Fact,4,MCC Source,Nandan is a source of MCC.
+28,Fact,4,Hard Coal Source,Australia supplies hard coking coal.
+29,Fact,4,Hard Coal Source,USA supplies hard coking coal.
+30,Fact,4,Hard Coal Source,Mozambique Benga supplies hard coking coal.
+31,Fact,4,Hard Coal Source,Indonesia supplies hard coking coal.
+32,Fact,4,Soft Coal Source,Australia supplies soft coking coal.
+33,Fact,4,Soft Coal Source,USA supplies soft coking coal.
+34,Fact,4,Soft Coal Source,Russia supplies soft coking coal.
+35,Important Point,5,Ash Rule,Lower ash percentage indicates better coal.
+36,Fact,4,Indian Coal,Indian coal generally contains high ash.
+37,Process,4,Coal Beneficiation,Washeries reduce ash content before coke making.
+38,Definition,5,Volatile Matter,Volatile matter escapes as gas during carbonization.
+39,Definition,5,FSI,Free Swelling Index measures volume increase on heating.
+40,Fact,4,FSI Alias,FSI is also called Crucible Swelling Number.
+41,Definition,4,LTGK,Assesses caking properties and by-product yield.
+42,Definition,5,Gieseler Fluidity,Measures rheological properties of coal.
+43,Fact,4,Gieseler Output,Provides initial softening temperature.
+44,Fact,4,Gieseler Output,Provides maximum fluidity temperature.
+45,Fact,4,Gieseler Output,Provides plastic range information.
+46,Fact,4,Gieseler Output,Provides resolidification temperature.
+47,Fact,4,Gieseler Unit,Expressed in DDPM.
+48,Important Point,5,Fluidity Use,Used to judge compatibility of blend coals.
+49,Definition,4,Inherent Moisture,Indicates maturity of coal.
+50,Fact,4,Moisture Trend,Inherent moisture decreases with increasing coal rank.
+51,Definition,5,MMR,Mean Max Reflectance determines coal rank.
+52,Rule,5,MMR Relation,MMR is directly proportional to coke strength.
+53,Fact,4,PCC Ash,19 to 23 percent.
+54,Fact,4,MCC Ash,20 to 25 percent.
+55,Fact,4,Imported Soft Ash,8 to 10 percent.
+56,Fact,4,Australian Hard Ash,8 to 10 percent.
+57,Fact,4,USA Hard Ash,8 to 10 percent.
+58,Fact,4,Benga Ash,12 to 14 percent.
+59,Fact,4,Indonesia Hard Ash,10 to 12 percent.
+60,Fact,4,PCC MMR,1.10.
+61,Fact,4,MCC MMR,0.85.
+62,Fact,4,Imported Soft MMR,0.90.
+63,Fact,4,Australian Hard MMR,1.25.
+64,Fact,4,USA Hard MMR,1.10.
+65,Fact,4,Benga MMR,1.15.
+66,Fact,4,Indonesia Hard MMR,1.10.
+67,Important Point,5,Coke Importance,Coke is a major raw material for iron extraction.
+68,Important Point,5,Coke Quality,Blast furnace success depends on coke quality.
+69,Important Point,5,Coal Handling Plant,Controls pre-carbonization technique.
+70,Fact,4,Rake Size,A rake generally contains 59 wagons.
+71,Fact,4,Wagon Tippler,Wagons are rotated up to 172 degrees.
+72,Warning,5,Coal Segregation,Different coal grades must be stacked separately.
+73,Warning,5,Coal Mix-Up,Mixing coal grades is highly detrimental.
+74,Process,4,Coal Reclaiming,Coal yard material is reclaimed by reclaimer.
+75,Comparison,4,RSP Practice,RSP crushes before blending.
+76,Comparison,4,Other SAIL Plants,Most blend before crushing.
+77,Definition,4,Coal Crushing,Performed using hammer crushers.
+78,Principle,5,Crushing Purpose,Fine crushing homogenizes coal constituents.
+79,Fact,4,Large Particles,Ash-rich particles are usually greater than 5 mm.
+80,Rule,5,Crushing Index,Target is 80 to 82 percent below 3.2 mm.
+81,Definition,4,Bulk Density,Compactness of coal charge in oven.
+82,Rule,5,Bulk Density Effect,Higher bulk density gives stronger coke.
+83,Warning,5,Over Crushing,Reduces bulk density.
+84,Warning,5,Over Crushing,Increases microfines.
+85,Warning,5,Over Crushing,Can jam gas off-take system.
+86,Definition,5,Blending,Mixing different coals to obtain desired quality.
+87,Important Point,5,Blending Need,Combines advantages of indigenous and imported coals.
+88,Fact,4,Blend Ash Maximum,11.5 percent.
+89,Fact,4,Blend VM,23 to 25 percent.
+90,Fact,4,Blend MMR,1.15 to 1.20.
+91,Fact,4,Blend Sulphur,Less than 0.7 percent.
+92,Fact,4,Blend FSI,5 to 6.
+93,Fact,4,Blend Fluidity,300 to 600.
+94,Fact,4,Blend Moisture,7 to 9 percent.
+95,Definition,5,Carbonization,Heating coal in absence of air.
+96,Fact,5,Destructive Distillation,Another name for carbonization.
+97,Fact,4,Tall Battery Height,7.0 m.
+98,Fact,4,Small Battery Height,4.3 m.
+99,Comparison,5,Recovery Battery,Gas is collected and cleaned.
+100,Comparison,5,Non-Recovery Battery,Generated gas acts as fuel.
+101,Definition,4,Top Charge Battery,Coal charged from oven top.
+102,Definition,4,Stamp Charge Battery,Rammed coal cake pushed into oven.
+103,Process,5,Drying Stage,Coal dries up to 250°C.
+104,Process,5,Softening Stage,Begins around 300°C.
+105,Process,5,Plastic Stage,Occurs between 350°C and 550°C.
+106,Process,5,Gas Evolution Stage,Occurs between 400°C and 700°C.
+107,Fact,4,COG CV,Around 4300 kcal per cubic meter.
+108,Fact,4,Gas Cooling,Gas cooled to about 80°C.
+109,Process,5,Resolidification,Occurs beyond 700°C.
+110,Fact,4,Coke Formation,Hard porous coke forms around 1000°C.
+111,Definition,5,Coking Time,Total time required for carbonization.
+112,Definition,5,Quenching,Cooling of hot coke after pushing.
+113,Fact,4,Wet Quenching Time,About 90 seconds.
+114,Fact,4,Charging Car Function,Charges coal into ovens.
+115,Fact,4,Pusher Car Function,Levels coal and pushes coke.
+116,Fact,4,Coke Guide Function,Guides coke to quenching car.
+117,Fact,4,Quenching Car Function,Carries coke to quenching tower.
+118,Fact,3,Automation,Machines use PLC control systems.
+119,Fact,3,Automation,Machines use VVFD drives.
+120,Classification,5,Quenching Types,Wet and dry quenching.
+121,Definition,4,Wet Quenching,Cooling by water spray.
+122,Fact,4,Wet Coke Moisture,Around 5 percent.
+123,Definition,4,Dry Quenching,Cooling by inert gas circulation.
+124,Fact,4,Dry Quenching Gas,Mainly nitrogen.
+125,Fact,4,Dry Coke Moisture,0.3 to 0.4 percent.
+126,Important Point,5,Dry Quenching Advantage,Recovers sensible heat as steam.
+127,Definition,4,Wharf,Inclined bed for quenched coke.
+128,Fact,4,Retention Time,About 20 minutes on wharf.
+129,Definition,4,Spot Quenching,Manual cooling of remaining hot coke.
+130,Warning,4,Spot Quenching Effect,Increases coke moisture.
+131,Fact,4,Screen Size,80 mm screen used initially.
+132,Fact,4,Blast Furnace Coke Size,More than 25 mm and less than 80 mm.
+133,Fact,4,Nut Coke Size,15 to 25 mm.
+134,Fact,4,Coke Breeze Size,Less than 15 mm.
+135,Definition,5,Coke Ash,Inert material contributing to slag.
+136,Rule,5,Desired Coke Ash,Less than 15 percent.
+137,Rule,5,Desired Coke VM,Less than 1 percent.
+138,Definition,5,Micum Index,Indicates cold strength of coke.
+139,Definition,5,M10,Measures abrasion resistance.
+140,Rule,5,Good M10,Around 8.
+141,Definition,5,M40,Measures impact strength.
+142,Rule,5,Good M40,Greater than 80.
+143,Definition,5,CRI,Weight loss under CO2 at 1100°C.
+144,Rule,5,Good CRI,21 to 24.
+145,Definition,5,CSR,Strength after reaction.
+146,Rule,5,Good CSR,64 to 66.
+147,Fact,4,Hot Strength,CRI and CSR indicate hot strength.
+148,Rule,5,Coke Size Control,Maintain between +25 mm and -80 mm.
+149,Cause-Effect,5,Undersize Coke,Reduces permeability.
+150,Cause-Effect,5,Oversize Coke,Reduces reaction surface area.
+151,Important Point,5,Coke Role,Acts as fuel.
+152,Important Point,5,Coke Role,Acts as reducing agent.
+153,Important Point,5,Coke Role,Supports burden.
+154,Important Point,5,Coke Role,Provides permeability.
+155,Definition,5,Coal Chemicals,By-products recovered from coke oven gas.
+156,Fact,4,Carbonization Temperature,1000 to 1200°C.
+157,Fact,4,Major By-products,Tar ammonia and crude benzol.
+158,Fact,4,COG Impurities,Tar fog ammonia naphthalene H2S benzol.
+159,Process,4,Gas Cleaning,Uses coolers condensers washers and scrubbers.
+160,Fact,4,Costliest Tar Product,Naphthalene.
+161,Fact,4,Ammonium Sulphate Use,Fertilizer.
+162,Fact,4,Tar Use,Road making and furnace fuel.
+163,Fact,4,Pitch Use,Electrode making.
+164,Definition,4,Tar and Liquor Plant,Processes flushing liquor and wastewater.
+165,Important Point,4,Flushing Liquor,Cools hot oven exit gas.
+166,Definition,4,Primary Gas Cooler,Lowers gas temperature.
+167,Definition,4,Electrostatic Tar Precipitator,Removes tar aerosols electrostatically.
+168,Definition,5,Exhauster,Maintains suction and gas pressure.
+169,Warning,5,Exhauster Failure,Causes raw gas venting to atmosphere.
+170,Definition,5,ASP,Removes ammonia using sulphuric acid.
+171,Rule,4,Saturator Acidity,3 to 5 percent.
+172,Definition,4,BRP,Benzol Recovery Plant.
+173,Fact,4,BRP Solvent,Wash oil or solar oil.
+174,Fact,4,Benzol Products,Benzene toluene xylene solvent oil.
+175,Fact,4,TDP Products,Tar pitch PCM naphthalene anthracene oil.
+176,Definition,4,DCDA,Double Conversion Double Absorption process.
+177,Fact,4,Acid Plant Catalyst,Vanadium pentoxide.
+178,Definition,4,PETP,Treats contaminated coke plant water.
+179,Rule,4,Treated Ammonia Limit,50 ppm.
+180,Rule,4,Treated Phenol Limit,1 ppm.
+181,Rule,4,Treated Cyanide Limit,0.2 ppm.
+182,Rule,4,Tar and Oil Limit,10 ppm.
+183,Fact,5,COG Hydrogen,50 to 60 percent.
+184,Fact,5,COG Methane,25 to 28 percent.
+185,Fact,4,COG Carbon Monoxide,6 to 8 percent.
+186,Fact,4,COG Carbon Dioxide,3 to 4 percent.
+187,Fact,4,COG Other Hydrocarbons,2 to 2.5 percent.
+188,Fact,4,COG Nitrogen,2 to 7 percent.
+189,Fact,4,COG Oxygen,0.2 to 0.4 percent.
+190,Fact,5,COG Calorific Value,4300 kcal per cubic meter.
+191,Rule,5,PLD New Battery,5 percent.
+192,Rule,5,PLD Existing Battery,10 percent.
+193,Rule,4,PLL Limit,1 percent.
+194,Rule,4,PLO Limit,4 percent.
+195,Rule,4,SO2 Norm,800 mg per Nm3.
+196,Rule,4,Stack Emission Norm,50 mg per Nm3.
+197,Rule,4,Charging Emission New Battery,16 seconds per charge.
+198,Rule,4,Charging Emission Existing Battery,50 seconds per charge.
+199,Definition,5,ISO 14001:2004,Environmental management system standard.
+200,Concept,4,ISO 14001 Aim,Pollution-free land air and water.
+201,Important Point,5,PPE Usage,Mandatory on shop floor.
+202,Fact,4,PPE Examples,Helmet shoes gloves masks goggles.
+203,Warning,5,Gas Work,EMD clearance required.
+204,Definition,4,Seiri,Sort and remove unwanted items.
+205,Definition,4,Seiton,Systematic arrangement of items.
+206,Definition,4,Seiso,Cleaning and housekeeping.
+207,Definition,4,Seiketsu,Standardization.
+208,Definition,4,Shitsuke,Discipline and adherence.
+209,Definition,5,ISO 45001:2018,Occupational Health and Safety Management System.
+210,Concept,5,OHSMS,Identifies hazards and applies controls.
+211,Fact,4,OHSMS Benefit,Supports legal compliance.
+212,Fact,4,OHSMS Benefit,Ensures emergency preparedness.
+213,Comparison,4,ISO 45001 Scope,Not focused on end-user product safety.
+214,Fact,4,Compatibility,Compatible with ISO 9001 and ISO 14001.
+215,Fact,4,OHSMS Impact,Reduces risks and losses.
+216,Fact,4,OHSMS Impact,Reduces accidents and costs.
+217,Fact,4,OHSMS Impact,Improves reliability.
+218,Fact,4,OHSMS Impact,Improves company image and reputation.
+
+

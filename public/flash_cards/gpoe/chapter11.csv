@@ -1,0 +1,151 @@
+point_id,category,priority,title,point
+1,Definition,5,Digital Computer,Digital computer works on binary number system.
+2,Definition,5,Binary Digit,Bit is the smallest unit of storage.
+3,Fact,5,Byte,1 Byte = 8 bits.
+4,Fact,5,Kilobyte,1 KB = 1024 Bytes.
+5,Fact,4,Terabyte,1 TB = 1024 GB.
+6,Fact,4,Petabyte,1 PB = 1024 TB.
+7,Important Point,5,Clock Speed,Computer clock speed is measured in GHz.
+8,Concept,4,Multimedia,Computers support text image audio video and interactive content.
+9,Definition,5,Computer,Computer is an electronic device operating under stored instructions.
+10,Definition,5,Computer Function,Computer accepts data processes it and produces output.
+11,Definition,5,Computer Function,Computer stores results in temporary or permanent media.
+12,Classification,4,Personal Computer,Desktop and laptop are standard personal computers.
+13,Classification,4,Mobile Computing,Tablet and smartphone are touch-based computing devices.
+14,Fact,3,Mobile OS,Android and iOS are common mobile operating systems.
+15,Definition,4,Workstation,Workstation is a powerful computer for engineering applications.
+16,Fact,4,Workstation Use,CAD CAM simulation and 3D modelling use workstations.
+17,Definition,4,Server,Server provides services to other computers over a network.
+18,Classification,4,Server Types,Database server is a type of server.
+19,Classification,4,Server Types,Application server is a type of server.
+20,Classification,4,Server Types,Web server is a type of server.
+21,Classification,4,Server Types,Mail server is a type of server.
+22,Classification,4,Server Types,File server is a type of server.
+23,Classification,4,Server Types,Virtualization server is a type of server.
+24,Definition,4,Edge Computing,Edge devices process data close to production systems.
+25,Concept,4,Edge Computing,Edge computing reduces latency.
+26,Definition,4,Mainframe,Mainframes handle bulk transaction processing.
+27,Fact,3,Mainframe Usage,Banking and insurance use mainframes.
+28,Definition,5,Supercomputer,Supercomputer uses many processors working in parallel.
+29,Exam Point,5,Indian Supercomputer,PARAM Siddhi-AI is among Asia's fastest supercomputers.
+30,Fact,4,Supercomputer Uses,Weather forecasting uses supercomputers.
+31,Fact,4,Supercomputer Uses,AI research uses supercomputers.
+32,Fact,4,Supercomputer Uses,Material science simulation uses supercomputers.
+33,Important Point,5,Computer Characteristics,Speed is a key characteristic of computers.
+34,Important Point,5,Computer Characteristics,Accuracy is a key characteristic of computers.
+35,Important Point,5,Computer Characteristics,Automation is a key characteristic of computers.
+36,Important Point,5,Computer Characteristics,Versatility is a key characteristic of computers.
+37,Important Point,4,Computer Characteristics,Computers do not suffer fatigue.
+38,Exam Point,4,Digital Literacy,Computer knowledge is essential in modern jobs.
+39,Concept,4,Analytics,Computers support predictive analytics.
+40,Fact,4,Communication,Email replaced much paper-based communication.
+41,Fact,4,Communication,Video conferencing enables real-time connectivity.
+42,Important Point,4,Automation Benefit,Automation improves productivity.
+43,Important Point,4,Automation Benefit,Automation reduces errors.
+44,Important Point,4,Automation Benefit,Automation lowers operating cost.
+45,Classification,5,First Generation,First generation used vacuum tubes.
+46,Exam Point,5,ENIAC,ENIAC was the first general-purpose electronic computer.
+47,Fact,4,ENIAC Year,ENIAC was introduced in 1945.
+48,Classification,5,Second Generation,Second generation used transistors.
+49,Comparison,5,Second Generation,Transistors were smaller and more reliable than vacuum tubes.
+50,Fact,4,Second Generation,Assembly language emerged during second generation.
+51,Classification,5,Third Generation,Third generation introduced integrated circuits.
+52,Fact,4,Third Generation,Operating systems emerged during third generation.
+53,Fact,4,Third Generation,Time-sharing emerged during third generation.
+54,Classification,5,Fourth Generation,Fourth generation introduced microprocessors.
+55,Exam Point,5,Intel 1971,Microprocessor was invented in 1971.
+56,Fact,4,Fourth Generation,Personal computers emerged in fourth generation.
+57,Classification,5,Fifth Generation,Fifth generation focuses on AI computing.
+58,Fact,4,Fifth Generation,GPU is associated with fifth generation computing.
+59,Fact,4,Fifth Generation,NPU is associated with fifth generation computing.
+60,Fact,4,Fifth Generation,TPU is associated with fifth generation computing.
+61,Fact,4,Fifth Generation,Quantum computing is linked to fifth generation.
+62,Classification,5,Level I,Level I contains PLC DCS and instrumentation.
+63,Definition,5,PLC,PLC stands for Programmable Logic Controller.
+64,Definition,5,DCS,DCS stands for Distributed Control System.
+65,Fact,4,Level I,Level I performs direct process control.
+66,Classification,5,Level II,Level II performs supervisory monitoring.
+67,Fact,4,Level II,Level II optimizes process parameters.
+68,Exam Point,4,Digital Twin,Digital Twin applications exist at Level II.
+69,Classification,5,Level III,Level III includes MES.
+70,Definition,5,MES,MES stands for Manufacturing Execution System.
+71,Fact,4,Level III,Level III handles maintenance management.
+72,Fact,4,Level III,Level III handles quality management.
+73,Classification,5,Level IV,Level IV contains corporate business systems.
+74,Exam Point,5,SAP S4HANA,SAP S/4HANA operates at Level IV.
+75,Fact,4,Level IV,Level IV manages finance and HR.
+76,Definition,5,Hardware,Hardware refers to physical computer components.
+77,Definition,5,Software,Software is a collection of programs.
+78,Classification,4,System Software,Operating system is system software.
+79,Classification,4,Application Software,MS Office is application software.
+80,Definition,5,CPU,CPU executes program instructions.
+81,Fact,4,CPU Architecture,Modern CPUs use multi-core architecture.
+82,Classification,4,CPU Types,Dual-core is a multi-core processor.
+83,Classification,4,CPU Types,Quad-core is a multi-core processor.
+84,Classification,4,CPU Types,Hexa-core is a multi-core processor.
+85,Classification,4,CPU Types,Octa-core is a multi-core processor.
+86,Fact,4,CPU Performance,Clock speed affects CPU performance.
+87,Fact,4,CPU Performance,Cache size affects CPU performance.
+88,Fact,4,CPU Performance,Core count affects CPU performance.
+89,Fact,4,ARM Processors,ARM processors provide high performance per watt.
+90,Definition,5,ROM,ROM is non-volatile memory.
+91,Fact,4,ROM,ROM stores firmware permanently.
+92,Definition,5,UEFI,UEFI replaced traditional BIOS.
+93,Classification,4,ROM Types,MPROM is factory programmed ROM.
+94,Classification,4,ROM Types,PROM can be programmed once.
+95,Classification,4,ROM Types,EPROM is erased using ultraviolet light.
+96,Classification,4,ROM Types,EEPROM is electrically erasable.
+97,Classification,4,ROM Types,Flash ROM is electrically reprogrammable.
+98,Definition,5,RAM,RAM is volatile memory.
+99,Fact,4,RAM,Data is lost when power is removed.
+100,Fact,4,RAM Usage,RAM stores active applications and data.
+101,Classification,5,SRAM,SRAM is used in CPU cache.
+102,Comparison,5,SRAM vs DRAM,SRAM is faster than DRAM.
+103,Definition,5,DRAM,DRAM requires periodic refresh.
+104,Fact,4,DRAM,DRAM is used as main memory.
+105,Exam Point,5,DDR4,DDR4 speed range is 2133–3200 MT/s.
+106,Exam Point,5,DDR5,DDR5 offers up to 6400 MT/s.
+107,Comparison,5,DDR5 vs DDR4,DDR5 provides double bandwidth.
+108,Definition,5,SSD,SSD uses NAND flash memory.
+109,Comparison,5,SSD vs HDD,SSD is faster than HDD.
+110,Comparison,4,SSD vs HDD,SSD consumes less power than HDD.
+111,Definition,4,HDD,HDD stores data on magnetic platters.
+112,Fact,4,HDD Capacity,HDD capacities exceed 20 TB.
+113,Definition,4,NAS,NAS provides centralized network storage.
+114,Definition,4,SAN,SAN provides enterprise shared storage.
+115,Definition,4,Cloud Storage,Cloud storage stores data on remote servers.
+116,Exam Point,4,Cloud Storage Examples,AWS S3 is cloud storage.
+117,Exam Point,4,Cloud Storage Examples,Azure Blob Storage is cloud storage.
+118,Definition,4,Pen Drive,Pen drive uses flash memory.
+119,Fact,3,Optical Media,CD and DVD are legacy storage media.
+120,Definition,5,Input Device,Input devices feed data into computers.
+121,Fact,4,Input Device,Keyboard is an input device.
+122,Fact,4,Input Device,Mouse is an input device.
+123,Fact,4,Input Device,Barcode scanner is an input device.
+124,Fact,4,Input Device,Biometric reader is an input device.
+125,Fact,4,Input Device,Microphone is an input device.
+126,Fact,4,Industrial Input,RFID reader is an industrial input device.
+127,Fact,4,Industrial Input,IoT sensors provide automated input.
+128,Concept,4,Voice Input,Speech-to-text supports hands-free data entry.
+129,Definition,5,Output Device,Output devices present processed information.
+130,Fact,4,Output Device,Monitor is an output device.
+131,Fact,4,Output Device,Printer is an output device.
+132,Fact,4,Output Device,Plotter is an output device.
+133,Fact,4,Monitor Technology,OLED is used in modern monitors.
+134,Fact,4,Monitor Technology,LED-backlit LCD is common display technology.
+135,Exam Point,5,Full HD Resolution,Full HD resolution is 1920×1080.
+136,Exam Point,5,4K Resolution,4K resolution is 3840×2160.
+137,Classification,4,Printer Types,Laser printer is suitable for high-volume printing.
+138,Classification,4,Printer Types,Inkjet printer provides high-quality colour output.
+139,Definition,5,Device Driver,Device driver enables OS-hardware communication.
+140,Fact,4,Windows 11,Windows 11 auto-installs many device drivers.
+141,Exam Point,5,Integer Storage,Integers are stored in 32-bit or 64-bit blocks.
+142,Exam Point,5,Floating Point,IEEE 754 defines floating-point representation.
+143,Definition,5,ASCII,ASCII stores basic English characters.
+144,Definition,5,Unicode,Unicode supports multilingual text.
+145,Fact,4,Unicode,UTF-8 is a Unicode encoding.
+146,Fact,4,Unicode,UTF-16 is a Unicode encoding.
+147,Definition,5,ERP,ERP integrates enterprise-wide business functions.
+148,Exam Point,5,SAP S4HANA,SAIL uses SAP S/4HANA ERP.
+149,Definition,5,Operating System,OS manages hardware resources.
+150,Important Point,5,Operating System,OS performs memory management.

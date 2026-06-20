@@ -19,7 +19,11 @@ export const LearnScreen: React.FC = () => {
   const startFlashcards = (mat: 'ica' | 'gpoe', chId: string) => {
     setActiveMaterial(mat);
     setActiveChapterId(chId);
-    navigate('flashcards-practice');
+    navigate('flashcards-viewer');
+  };
+
+  const openFlashCardsHub = () => {
+    navigate('flashcards-landing');
   };
 
   const startRevision = (mat: 'ica' | 'gpoe', chId: string) => {
@@ -167,7 +171,7 @@ export const LearnScreen: React.FC = () => {
               🔄 MCQ Revision Mode
             </button>
             <button
-              onClick={() => setActiveTab('flashcards')}
+              onClick={openFlashCardsHub}
               className={`flex-1 py-3 text-center text-xs font-black uppercase rounded-xl transition-all cursor-pointer ${
                 activeTab === 'flashcards'
                   ? 'bg-rose-500 text-white shadow-md'

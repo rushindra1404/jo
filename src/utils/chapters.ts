@@ -25,9 +25,9 @@ export const ICA_CHAPTERS: Chapter[] = [
   { id: 'chapter10', num: 10, title: 'Major Services in Steel Plants & Their Roles', fileName: 'chapter10.csv', material: 'ica' },
   { id: 'chapter11', num: 11, title: 'Major Functions in Steel Plants & Their Roles', fileName: 'chapter11.csv', material: 'ica' },
   { id: 'chapter12', num: 12, title: 'Safety & Health Management in SAIL', fileName: 'chapter12.csv', material: 'ica' },
-  { id: 'chapter13', num: 13, title: 'Total Quality Process', fileName: 'Chapter13.csv', material: 'ica' }, // Capital C as in file
-  { id: 'chapter14', num: 14, title: 'Suggestion Scheme & Quality Circles', fileName: 'Chapter14.csv', material: 'ica' }, // Capital C as in file
-  { id: 'chapter15', num: 15, title: 'Financial Performance of SAIL', fileName: 'Chapter15.csv', material: 'ica' }, // Capital C as in file
+  { id: 'chapter13', num: 13, title: 'Total Quality Process', fileName: 'chapter13.csv', material: 'ica' },
+  { id: 'chapter14', num: 14, title: 'Suggestion Scheme & Quality Circles', fileName: 'Chapter14.csv', material: 'ica' },
+  { id: 'chapter15', num: 15, title: 'Financial Performance of SAIL', fileName: 'chapter15.csv', material: 'ica' },
   { id: 'chapter16', num: 16, title: 'Human Resource', fileName: 'chapter16.csv', material: 'ica' }
 ];
 

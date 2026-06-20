@@ -1,0 +1,301 @@
+point_id,category,priority,title,point
+1,Definition,5,Hydraulics,Transmission and control of forces and movements by fluids
+2,Definition,5,Pneumatics,System using air as working medium
+3,Definition,5,Hydraulic System,System using oil or water as working medium
+4,Fact,4,Hydraulic Medium,Oil is the most commonly used hydraulic fluid
+5,Fact,3,Water Usage,Water is rarely used in present-day hydraulic applications
+6,Definition,5,Velocity,Average speed of fluid particles past a point
+7,Important Point,4,Low Velocity,Low fluid velocity reduces friction losses
+8,Important Point,4,Low Velocity,Low fluid velocity reduces turbulence
+9,Definition,5,Laminar Flow,Fluid particles move parallel to flow path
+10,Exam Point,5,Laminar Flow,Laminar flow minimizes energy losses
+11,Definition,5,Turbulent Flow,Fluid particles move haphazardly and non-parallel
+12,Warning,5,Turbulent Flow,Turbulent flow wastes energy as heat
+13,Definition,5,Flow Rate,Volume of liquid passing a point per unit time
+14,Fact,4,Flow Rate Unit,Flow rate commonly measured in LPM
+15,Fact,4,Flow Rate Unit,Flow rate commonly measured in GPM
+16,Concept,5,Flow Rate,Flow rate determines actuator speed
+17,Definition,5,Pressure,Force exerted per unit area
+18,Formula,5,Pressure Formula,P = F/A
+19,Fact,4,Pressure Units,Pressure measured in psi
+20,Fact,4,Pressure Units,Pressure measured in kg/cm²
+21,Fact,4,Pressure Units,Pressure measured in bar
+22,Fact,4,Pressure Units,Pressure measured in MPa
+23,Fact,5,Pressure Conversion,1 MPa = 10 bar
+24,Definition,5,Atmospheric Pressure,Pressure exerted by atmospheric air
+25,Fact,5,Atmospheric Pressure,Atmospheric pressure at sea level is 14.7 psi
+26,Fact,5,Atmospheric Pressure,Atmospheric pressure at sea level is 1.03 kg/cm²
+27,Formula,5,Pressure Conversion,1 Atmospheric Pressure = 1 bar
+28,Formula,5,Pressure Conversion,1 Atmospheric Pressure = 14.7 psi
+29,Formula,5,Pressure Conversion,1 Atmospheric Pressure = 1.03 kg/cm²
+30,Concept,5,Flow and Pressure,Flow and pressure are interrelated
+31,Concept,4,Flow,Flow causes piston motion in a cylinder
+32,Concept,4,Flow,Flow occurs due to pressure difference
+33,Fact,4,Pump Function,Pump usually produces flow in hydraulic systems
+34,Concept,5,Load Movement,Insufficient pressure cannot move the load
+35,Fact,4,Hydraulic Oil,Hydraulic oil acts as a lubricant
+36,Fact,3,Oil Density,Hydraulic oil weighs about 55–58 lb/ft³
+37,Fact,4,Oil Pressure,One foot oil column produces about 0.4 psi
+38,Fact,5,Water Pressure,10 m water column produces about 1 kg/cm²
+39,Rule,5,Flow Requirement,Pressure drop across restriction is necessary for flow
+40,Rule,5,Flow Relation,No flow means no pressure drop
+41,Formula,5,Cylinder Force,Cylinder force depends on pressure and piston area
+42,Formula,5,Cylinder Speed,Cylinder speed depends on flow rate and piston area
+43,Rule,4,Pipe Velocity,Fluid velocity varies inversely with square of pipe diameter
+44,Fact,4,Friction,Friction in pipes causes pressure drop
+45,Comparison,5,Air vs Oil,Air is compressible while oil is practically incompressible
+46,Concept,5,Pump,Pump transfers fluid only
+47,Concept,5,Pressure Generation,Resistance to flow develops pressure
+48,Exam Point,5,Suction Principle,Atmospheric pressure pushes oil into pump suction
+49,Rule,5,Flow Path,Flow takes path of least resistance
+50,Rule,5,Flow Direction,Flow moves from higher pressure to lower pressure
+51,Rule,4,Series Resistance,Resistance in series adds up
+52,Rule,5,Flow Rate,Flow rate directly proportional to pressure difference
+53,Rule,4,Pipe Diameter,Larger pipe diameter reduces pressure drop
+54,Principle,5,Pascal Law,Pressure applied on confined fluid is transmitted undiminished
+55,Principle,5,Pascal Law,Pressure acts equally in all directions
+56,Principle,5,Pascal Law,Pressure acts at right angles to surfaces
+57,Formula,5,Pascal Law,P = F/A
+58,Definition,5,Hydraulic Press,Application of Pascal's law for force multiplication
+59,Concept,5,Hydraulic Press,Pressure remains uniform throughout confined fluid
+60,Formula,5,Hydraulic Press,F₀ = P × A₀
+61,Formula,5,Force Ratio,F₀/Fi = A₀/Ai
+62,Formula,5,Displacement Ratio,d₀/di = Ai/A₀
+63,Concept,5,Hydraulic Press,Forces proportional to piston areas
+64,Concept,5,Hydraulic Press,Work done remains same on both pistons
+65,Principle,5,Bernoulli Principle,Total energy remains constant in flowing fluid
+66,Concept,4,Bernoulli Principle,Sum of pressure kinetic and potential energy is constant
+67,Fact,4,Hydraulic Advantage,Hydraulics transmit large forces over long distances
+68,Fact,4,Hydraulic Advantage,Hydraulics provide quick response
+69,Fact,4,Hydraulic Advantage,Hydraulics provide infinitely variable speeds
+70,Fact,4,Hydraulic Advantage,Hydraulics require low maintenance
+71,Exam Point,5,Power Density,Hydraulic systems have high power-to-weight ratio
+72,Fact,5,Motor Comparison,Hydraulic motor weighs about one-seventh equivalent electric motor
+73,Fact,5,Precise Control,Hydraulics provide precise speed control
+74,Fact,5,Precise Control,Hydraulics provide precise force control
+75,Fact,5,Precise Control,Hydraulics provide precise position control
+76,Concept,5,Overload Protection,Relief valve provides built-in overload protection
+77,Concept,4,Load Holding,Pilot-operated check valve holds suspended load
+78,Fact,4,Design Flexibility,Hydraulic circuits can be modified easily
+79,Fact,4,Maintenance,Contamination control is key maintenance task
+80,Fact,5,Variable Speed,Hydraulics provide infinitely variable speed control
+81,Fact,4,Stalling,Loads can be stalled without equipment damage
+82,Fact,4,Cooling,Hydraulic fluid carries away heat automatically
+83,Fact,4,Wear,Hydraulic components have low wear due to lubrication
+84,Fact,5,Accumulator,Accumulator enables energy storage
+85,Fact,5,Compressibility,Fluid volume reduces about 0.7% at 100 bar increase
+86,Warning,5,Air Entrapment,Entrapped air causes noise vibration and jerky motion
+87,Fact,4,Viscosity,Viscosity decreases with increasing temperature
+88,Fact,4,High Pressure,Viscosity may double around 400 bar
+89,Warning,4,System Design,Pressure and flow losses must be considered
+90,Warning,4,Leakage,Leakage problems require proper attention
+91,Definition,5,Reservoir,Stores supplies returns and protects hydraulic oil
+92,Fact,4,Reservoir,Reservoir allows oil cooling
+93,Fact,4,Reservoir,Reservoir allows contaminants to settle
+94,Fact,4,Reservoir,Reservoir allows air separation
+95,Fact,4,Reservoir Equipment,Reservoir may house cooler
+96,Fact,4,Reservoir Equipment,Reservoir may house return filters
+97,Fact,4,Reservoir Equipment,Reservoir may house air breather
+98,Fact,4,Reservoir Equipment,Reservoir may contain level indicators
+99,Fact,4,Reservoir Equipment,Reservoir may contain float switches
+100,Fact,4,Baffle Plates,Baffle plates help cooling and settling of oil
+101,Definition,5,Suction Line,Pipeline connecting tank to pump
+102,Rule,5,Suction Valve,Suction valve must be opened before pump start
+103,Fact,4,Suction Line,Hose compensates minor misalignment and vibration
+104,Definition,5,Pump,Element that provides flow
+105,Concept,5,Pump,Pump does not create pressure directly
+106,Fact,5,Hydraulic Pumps,Only positive displacement pumps are used
+107,Definition,5,Positive Displacement Pump,Transfers fixed volume per revolution
+108,Fact,4,Pump Leakage,Internal leakage is normally negligible
+109,Definition,5,Pump Displacement,Volume transferred per revolution
+110,Formula,5,Pump Flow,Displacement × Speed = Discharge
+111,Comparison,5,Centrifugal Pump,Centrifugal pump is non-positive displacement type
+112,Fact,4,Centrifugal Pump,Safety valve generally not required
+113,Classification,5,Pump Types,Gear vane and piston pumps are common
+114,Warning,5,Pump Operation,Never start positive displacement pump with closed suction
+115,Warning,5,Aeration,Air entry damages pump rapidly
+116,Definition,5,Aeration,Air entering pump causing noise and damage
+117,Fact,5,Pump Accessories,Pump delivery followed by relief valve
+118,Fact,5,Pump Accessories,Pump delivery followed by pressure gauge
+119,Fact,5,Pump Accessories,Pump delivery followed by check valve
+120,Definition,5,Check Valve,Allows flow in one direction only
+121,Fact,4,Check Valve,Check valve prevents reverse pump rotation
+122,Definition,5,Pressure Gauge,Measures pressure at any point
+123,Fact,4,Glycerin Gauge,Glycerin-filled gauges resist vibration damage
+124,Definition,5,Relief Valve,Limits maximum system pressure
+125,Concept,5,Relief Valve,Protects components from bursting
+126,Concept,5,Relief Valve,Protects system from overload
+127,Rule,5,Relief Valve,Opens when pressure exceeds set value
+128,Definition,5,Accumulator,Reservoir of pressurized hydraulic fluid
+129,Fact,5,Accumulator,Accumulator is a pressure vessel
+130,Warning,5,Accumulator,No welding allowed on accumulator
+131,Classification,5,Accumulator Types,Bladder piston dead-weight and direct gas loaded
+132,Fact,5,Accumulator Gas,Nitrogen is normally used
+133,Warning,5,Accumulator Safety,Never use oxygen in accumulator
+134,Warning,5,Accumulator Safety,Drain accumulator before maintenance
+135,Fact,5,Accumulator Use,Smoothens pressure fluctuations
+136,Fact,5,Accumulator Use,Provides emergency power source
+137,Fact,5,Accumulator Use,Holds pressure for long periods
+138,Fact,4,Accumulator Use,Allows smaller pump usage
+139,Definition,5,Directional Control Valve,Controls direction of actuator motion
+140,Fact,4,DC Valve,Can stop start or reverse actuator
+141,Classification,4,DC Valve Actuation,Lever cam solenoid pedal pneumatic hydraulic
+142,Fact,5,Solenoid Valve,Most commonly used DC valve actuation
+143,Fact,4,Two Position Valve,Cylinder moves only between extremes
+144,Definition,5,Flow Control Valve,Controls actuator speed
+145,Fact,4,Flow Control Valve,Usually installed before cylinder
+146,Fact,4,Needle Valve,Can act as flow control valve
+147,Definition,5,Sequence Valve,Ensures sequential operation of actuators
+148,Concept,5,Sequence Valve,Operates based on pressure setting
+149,Example,4,Sequence Application,Clamp first then punch operation
+150,Comparison,5,Sequence vs Relief,Sequence valve is similar but not same as relief valve
+151,Definition,5,Pressure Reducing Valve,Provides lower downstream pressure
+152,Rule,5,Pressure Reducing Valve,Output pressure cannot exceed set value
+153,Comparison,5,Reducing vs Relief Valve,Pressure reducing valve differs from relief valve
+154,Alias,3,Pressure Reducing Valve,Also called pressure regulating valve
+155,Definition,5,Filter,Removes contaminants from hydraulic oil
+156,Fact,5,Contamination,Biggest enemy of hydraulic systems
+157,Fact,4,Filter Media,Paper wire mesh and synthetic fiber used
+158,Classification,4,Filtration,Online and offline filtration methods
+159,Fact,4,Strainer,Coarse suction filter is called strainer
+160,Fact,5,Cleanliness,Contamination control improves reliability
+161,Definition,5,Pressure Switch,Switch actuated by hydraulic pressure
+162,Classification,4,Pressure Switch Types,Plunger type and Bourdon tube type
+163,Definition,5,Float Switch,Operates due to buoyancy in oil
+164,Fact,5,Low Level Switch,Interlocked with pump drive
+165,Fact,5,Hydraulic Problems,More than 80% due to contaminated fluid
+166,Fact,5,Cooler Load,Heat load considered 25–40% of pump kW
+167,Formula,5,Power Conversion,1 kW = 860 kcal/hour
+168,Definition,5,Heat Exchanger,Transfers heat between fluids
+169,Classification,4,Heat Exchanger Principle,Recuperative regenerative evaporative
+170,Classification,4,Heat Exchanger Construction,Shell-and-tube and plate type
+171,Fact,5,Common Exchangers,Shell-and-tube and plate exchangers most common
+172,Definition,5,Actuator,Hydraulic cylinder or hydraulic motor
+173,Fact,4,Hydraulic Motor,Produces rotary output
+174,Classification,4,Motor Types,Gear vane and piston motors
+175,Classification,5,Cylinder Types,Single acting and double acting
+176,Definition,5,Double Acting Cylinder,Can push and pull load
+177,Definition,5,Single Acting Cylinder,Can only push or lift load
+178,Fact,4,Single Acting Cylinder,Retracts by weight spring or load
+179,Definition,5,Seal,Prevents fluid movement in undesired direction
+180,Fact,5,Seal Function,Maintains pressure and prevents leakage
+181,Fact,4,Seal Function,Prevents contamination ingress
+182,Fact,4,Seal Function,Separates two fluids
+183,Fact,5,Seal Importance,Small cost but major effect on efficiency
+184,Fact,4,Viton Seal,Viton preferred for high-temperature applications
+185,Warning,4,Seal Handling,Do not use sharp tools on seals
+186,Fact,4,Piping,Seamless carbon steel pipes commonly used
+187,Fact,4,Modern Piping,Stainless steel piping increasingly preferred
+188,Fact,4,Pipe Joints,Union joints used for small pipes
+189,Fact,4,Pipe Joints,Flange joints used for large pipes
+190,Fact,4,Pipe Clamps,Polypropylene clamps commonly used
+191,Warning,4,Hose Layout,Hoses should not twist rub or entangle
+192,Classification,5,Hydraulic Fluids,Mineral vegetable synthetic oil and water
+193,Fact,5,Mineral Oil,Most common hydraulic fluid base
+194,Fact,4,Vegetable Oil,Biodegradable hydraulic fluid
+195,Fact,4,Synthetic Oil,Used in fire-hazardous zones
+196,Fact,3,Water Use,Pure water seldom used as hydraulic fluid
+197,Classification,5,Fire Resistant Fluids,HFA HFB HFC HFD
+198,Fact,5,HFA Fluid,5% oil and 95% water emulsion
+199,Fact,5,HFB Fluid,60% oil and 40% water emulsion
+200,Fact,5,HFC Fluid,60% glycol and 40% water
+201,Fact,5,HFC Fluid,Offers highest degree of fire resistance
+202,Fact,5,HFD Fluid,Anhydrous synthetic fluid
+203,Classification,5,Fluid Properties,Oxidation stability corrosion protection antiwear
+204,Fact,5,Viscosity Index,High viscosity index preferred
+205,Definition,5,Demulsibility,Ability to resist emulsion formation
+206,Fact,5,Fluid Property,Hydraulic fluid should have anti-foaming characteristics
+207,Fact,5,Fluid Property,Hydraulic fluid should have high flash point
+208,Definition,5,Flash Point,Temperature at which oil just ignites
+209,Definition,5,Fire Point,Temperature at which oil burns continuously
+210,Exam Point,5,Contamination Control,Oil contamination is number one enemy of hydraulics
+211,Fact,4,Contamination Source,Contaminated fresh oil
+212,Fact,4,Contamination Source,Wear of pumps valves and cylinders
+213,Fact,4,Contamination Source,Worn seals and O-rings
+214,Fact,4,Contamination Source,Pipeline wear
+215,Fact,4,Contamination Source,Welding debris
+216,Fact,4,Contamination Source,Cylinder rod entry
+217,Fact,4,Contamination Source,Ambient atmosphere
+218,Fact,4,Contamination Source,Poor filter upkeep
+219,Fact,4,Contamination Source,Cotton waste usage
+220,Fact,5,Cleanliness Standards,NAS1638 and ISO4406 used
+221,Fact,5,Servo Systems,NAS class 4–6 required
+222,Fact,5,Servo Systems,ISO 4406 class 15/11 required
+223,Fact,5,Proportional Valve,NAS class 7–8 required
+224,Fact,5,Medium Pressure,NAS class 7–9 required
+225,Fact,5,Low Pressure,NAS class 9–11 required
+226,Exam Point,5,Fresh Oil,Fresh drum oil may be class 10 or 11
+227,Warning,5,Water Contamination,Water turns oil whitish and foamy
+228,Warning,5,Water Contamination,Causes rusting of components
+229,Warning,5,Water Contamination,Reduces lubricating film strength
+230,Warning,5,Water Contamination,Clogs filters
+231,Fact,5,Leakage Control,Oil is lifeblood of hydraulic system
+232,Warning,5,Leakage,Leakage damages environment
+233,Warning,5,Leakage,Leakage may cause fire hazards
+234,Procedure,4,Leakage Control,Tighten loose connections regularly
+235,Procedure,4,Leakage Control,Replace damaged O-rings and hoses
+236,Fact,4,Hydraulic Symbol,Reservoir represented by tank symbol
+237,Fact,4,Hydraulic Symbol,Check valve represented by one-way flow symbol
+238,Fact,4,Hydraulic Symbol,Accumulator has gas-charged symbol
+239,Fact,4,Hydraulic Symbol,3-position 4-way DC valve widely used
+240,Fact,4,Hydraulic Symbol,Single and double acting cylinders have different symbols
+241,Concept,5,Hydraulic System Block,Hydraulic pump is energy source
+242,Concept,5,Hydraulic System Block,Control valves act as distributor/controller
+243,Concept,5,Hydraulic System Block,Cylinders and motors are users
+244,Fact,5,Pump Arrangement,Pump generally followed by relief valve
+245,Fact,5,Pump Arrangement,Pump generally followed by check valve
+246,Definition,5,Open Circuit,Oil returns to tank after use
+247,Definition,5,Closed Circuit,Oil returns directly to pump suction
+248,Fact,4,Closed Circuit,Used for continuous hydromotor operation
+249,Fact,4,Closed Circuit,Booster pump adds cool oil through flushing valve
+250,Classification,5,Steel Plant Applications,Rolling mills electric arc furnaces cranes coke ovens blast furnaces CCS presses machine tools
+251,Definition,5,Cavitation,Pressure falls to liquid vapor pressure
+252,Fact,5,Cavitation,Produces vapor bubbles
+253,Warning,5,Cavitation,Highly harmful to pumps
+254,Fact,4,Cavitation,Pump produces loud noise
+255,Cause-Effect,5,Cavitation,Small suction pipe can cause cavitation
+256,Definition,5,Aeration,Air entering pump suction line
+257,Warning,5,Aeration,Damages pump
+258,Fact,4,Aeration,Fluid appears milky
+259,Fact,4,Aeration,Causes erratic operation
+260,Definition,5,Compressibility,Volume change per unit pressure change
+261,Definition,5,Decompression,Gradual pressure release of confined fluid
+262,Definition,5,Hydraulic Hammering,Pressure surge due to sudden valve action
+263,Warning,5,Hydraulic Hammering,Can burst pipelines
+264,Definition,5,Cracking Pressure,Pressure at which relief valve starts opening
+265,Definition,5,Pressure Override,Difference between cracking and full-flow pressure
+266,Definition,4,Bypass,Secondary passage for fluid flow
+267,Classification,5,Maintenance Types,Breakdown preventive proactive predictive
+268,Fact,4,Breakdown Maintenance,Includes component replacement
+269,Fact,4,Preventive Maintenance,Includes filter replacement
+270,Fact,4,Preventive Maintenance,Includes heat exchanger cleaning
+271,Fact,4,Preventive Maintenance,Includes accumulator nitrogen filling
+272,Fact,4,Proactive Maintenance,Focuses on contamination control
+273,Fact,4,Predictive Maintenance,Includes temperature monitoring
+274,Fact,4,Predictive Maintenance,Includes vibration monitoring
+275,Fact,4,Predictive Maintenance,Includes oil cleanliness checking
+276,Fact,4,Predictive Maintenance,Includes accumulator pressure checking
+277,Rule,5,Maintenance,Always follow shutdown procedure
+278,Rule,5,Maintenance,System should be kept clean
+279,Rule,5,Maintenance,Regularly inspect and replace filters
+280,Rule,4,Maintenance,Tighten flange joints and clamps
+281,Rule,4,Maintenance,Replace hoses condition-based or time-based
+282,Rule,4,Maintenance,Keep spare component ports capped
+283,Warning,4,Teflon Tape,Avoid Teflon tape in precision systems
+284,Rule,5,Maintenance,Prevent cooling water entry into system
+285,Rule,5,Maintenance,Replace seals on time
+286,Rule,4,Maintenance,Pressure gauges must be functional
+287,Rule,5,Maintenance,Maintain minimum oil level
+288,Rule,5,Maintenance,Low-level switch should be interlocked
+289,Rule,4,Maintenance,Maintain hydraulic fluid condition log
+290,Rule,4,Maintenance,Store seals in cool dry place
+291,Rule,5,Maintenance,Maintain proper system temperature
+292,Rule,4,Maintenance,Prefer unit replacement over field repair
+293,Rule,4,Maintenance,Change all seals when opening components
+294,Rule,5,Maintenance,Keep filter clogging indicators operational
+295,Rule,5,Maintenance,Use Portafilters for oil topping
+296,Rule,5,Accumulator,Check gas pressure periodically
+297,Rule,5,Accumulator,Precharge pressure at least one-fourth working pressure
+298,Rule,5,Accumulator,Nitrogen only for charging
+299,Warning,5,Accumulator Charging,Charge nitrogen slowly
+300,Rule,5,Pump Start,Fill pump with oil and open suction valve before startup 

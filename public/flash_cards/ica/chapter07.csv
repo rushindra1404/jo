@@ -1,0 +1,201 @@
+point_id,category,priority,title,point
+1,Definition,5,Transportation in Steel Industry,Transportation is a critical support system for steel production.
+2,Important Point,5,Steel Production Success,Success of steel production largely depends on transportation efficiency.
+3,Fact,5,Integrated System,Steel making is a very large and integrated system.
+4,Concept,5,Material Movement,Continuous movement of materials is essential in steel plants.
+5,Exam Point,5,Hot Metal Movement,Hot metal must be moved on a scheduled basis.
+6,Exam Point,5,Slag Movement,Slag transportation is an important steel plant activity.
+7,Exam Point,5,Heat Trains,Heat trains require scheduled movement.
+8,Exam Point,5,Finished Steel Movement,Finished steel movement is critical for production continuity.
+9,Exam Point,5,Scrap Movement,Scrap handling requires planned transportation.
+10,Important Point,5,Smooth Production,Smooth production depends on uninterrupted material movement.
+11,Fact,5,Finished Products,Finished products receive priority in dispatch.
+12,Concept,5,Cash Flow,Timely dispatch ensures continuous inflow of money.
+13,Definition,5,Transportation Layout,Transportation layout refers to the arrangement of traffic systems within the plant.
+14,Important Point,5,Traffic Network Design,Traffic networks should support smooth and safe operations.
+15,Rule,5,Layout Planning,Transportation layouts must minimize delays.
+16,Process,4,Layout Design,Incoming raw material volume must be considered during layout design.
+17,Process,4,Monthly Planning,Monthly raw material plans influence transportation layouts.
+18,Process,4,Daily Planning,Daily material plans affect transportation scheduling.
+19,Process,4,Unloading Plan,Unloading plans are important inputs for layout design.
+20,Process,4,Shunting Arrangements,Shunting arrangements must be planned carefully.
+21,Important Point,5,Loading Bays,Loading bays require careful design and planning.
+22,Important Point,5,Shipping Tracks,Shipping bay tracks should support quick loading.
+23,Cause-Effect,5,Loading Delays,Loading delays increase wagon detention.
+24,Cause-Effect,5,Wagon Detention,Increased wagon detention raises turnaround time.
+25,Cause-Effect,5,Turnaround Time,Higher turnaround time leads to demurrage.
+26,Definition,5,Liaison with Railways,Close coordination with Railways is called liaison.
+27,Important Point,5,Railway Coordination,Transportation success depends on railway coordination.
+28,Fact,5,Railways Role,Railways are the key supplier of wagons.
+29,Fact,4,Coal Transport,Railways transport coal to steel plants.
+30,Fact,4,Iron Ore Transport,Railways transport iron ore to steel plants.
+31,Fact,4,Limestone Transport,Railways transport limestone to steel plants.
+32,Fact,4,Dolomite Transport,Railways transport dolomite to steel plants.
+33,Fact,4,Manganese Ore Transport,Railways transport manganese ore to steel plants.
+34,Process,4,Coordination Meetings,Railway-plant meetings are held regularly.
+35,Fact,4,Meeting Frequency,Coordination meetings are conducted monthly or quarterly.
+36,Important Point,5,Requirement Planning,Plant requirements are communicated in advance.
+37,Concept,4,Advance Planning,Advance planning improves wagon availability.
+38,Fact,4,Performance Review,Railway and plant performance are jointly reviewed.
+39,Process,4,Problem Resolution,Transportation problems are discussed in coordination meetings.
+40,Process,4,Strategy Formation,Better movement strategies are finalized in meetings.
+41,Fact,4,Finished Product Dispatch,Finished products are dispatched using rail wagons.
+42,Fact,4,By-product Dispatch,By-products are also transported by rail.
+43,Process,4,Indent Submission,Rake indents are submitted to Railways.
+44,Fact,4,PPC Role,PPC participates in rake planning.
+45,Fact,4,TRM Role,TRM coordinates transportation requirements.
+46,Definition,5,Rake,A rake is a group of wagons moved together.
+47,Important Point,5,Empty Wagon Placement,Railways place empty wagons for loading.
+48,Rule,5,Timely Handover,Rakes must be handed over within stipulated time.
+49,Cause-Effect,5,Quick Handover,Quick handover reduces turnaround time.
+50,Cause-Effect,5,Reduced Turnaround,Reduced turnaround lowers demurrage.
+51,Fact,4,Dispatch Success,Dispatch success depends on coordination.
+52,Fact,4,Loading Coordination,Loading and handover must be synchronized.
+53,Fact,5,BOXN Rake Size,BOXN rake typically contains 59 wagons.
+54,Fact,5,Single Destination Rake,59-wagon BOXN rakes serve a single destination.
+55,Fact,5,Concurred Rake Size,Concurred rake generally contains 43 wagons.
+56,Fact,5,Multiple Destination Rake,43-wagon rakes serve multiple destinations.
+57,Concept,4,Inflow-Outflow,Balanced inflow and outflow of wagons is essential.
+58,Definition,5,Road Transport,Road transport is transportation using trucks and road vehicles.
+59,Fact,4,Primary Mode,Rail is the primary transportation mode in steel plants.
+60,Fact,4,Road Dispatch,Road transport is used to serve customers directly.
+61,Concept,4,Doorstep Delivery,Road transport supports doorstep delivery.
+62,Important Point,5,Sales Target,Road dispatch helps achieve sales targets.
+63,Fact,4,Short Distance Advantage,Road transport is economical over short distances.
+64,Fact,4,Low Quantity Advantage,Road transport is suitable for small consignments.
+65,Comparison,4,Road vs Rail,Road transport is often faster than rail transport.
+66,Fact,4,Railway Limitation,Railways discourage low-volume short-distance movements.
+67,Important Point,4,Road Utility,Road transport provides operational flexibility.
+68,Definition,5,Demurrage,Demurrage is a charge imposed for excess wagon detention.
+69,Fact,5,Demurrage Authority,Railways levy demurrage charges.
+70,Rule,5,Free Time Limit,Wagons must be released within allotted free time.
+71,Fact,5,Demurrage Trigger,Detention beyond free time attracts demurrage.
+72,Cause-Effect,5,Long Detention,Long detention increases demurrage liability.
+73,Concept,4,Turnaround Importance,Turnaround time is a key transportation metric.
+74,Cause-Effect,5,Low Turnaround,Railways earn more freight with lower turnaround time.
+75,Cause-Effect,5,Low Turnaround Benefit,Plants pay less demurrage with low turnaround time.
+76,Definition,5,Demurrage Control,Demurrage control involves minimizing wagon detention.
+77,Rule,5,Quick Unloading,Wagons should be unloaded within free time.
+78,Rule,5,Prompt Return,Empty wagons should be returned quickly.
+79,Process,4,Wagon Marking,Quick wagon marking improves efficiency.
+80,Process,4,Siding Allocation,Wagons should be sent quickly to the correct siding.
+81,Process,4,Unloading Process,Prompt unloading reduces detention.
+82,Process,4,Rake Formation,Empty wagons should be formed into rakes quickly.
+83,Process,4,Railway Handover,Rakes should be handed back promptly.
+84,Fact,4,Large Track Network,Steel plants have extensive track networks.
+85,Fact,4,Daily Inventory,Daily wagon inventory is necessary.
+86,Process,4,Inventory Analysis,Empty wagon data must be analyzed daily.
+87,Process,4,Decision Support,Inventory data supports unloading decisions.
+88,Definition,5,Centralized Inventory Unit,Unit responsible for wagon inventory monitoring.
+89,Definition,5,Demurrage Control Unit,Unit responsible for demurrage management.
+90,Fact,5,Demurrage Nature,Demurrage is an unproductive expenditure.
+91,Cause-Effect,5,High Demurrage,High demurrage affects wagon availability.
+92,Process,4,Review Meetings,Meetings are held to reduce demurrage.
+93,Important Point,5,Transportation Cost Control,Reducing demurrage lowers transportation costs.
+94,Definition,5,Shipping Practices,Activities related to loading and dispatch of products.
+95,Fact,5,Business Completion,Steel plant work is incomplete until products are sold.
+96,Fact,4,Shipping Department,Shipping department manages dispatch operations.
+97,Fact,4,Rolling Plan,Shipping department receives rolling plans.
+98,Fact,4,Loading Plan,Loading plans are provided by marketing departments.
+99,Fact,4,CMO Role,CMO provides loading schedules.
+100,Process,4,Wagon Demand,Shipping requests wagons from traffic department.
+101,Process,4,Documentation,Shipping department organizes loading documentation.
+102,Definition,5,Dispatch Advice,Document issued after loading completion.
+103,Fact,5,Dispatch Advice Contents,Contains consignee information.
+104,Fact,5,Dispatch Advice Contents,Contains material type details.
+105,Fact,5,Dispatch Advice Contents,Contains quantity details.
+106,Fact,5,Dispatch Advice Contents,Contains destination details.
+107,Fact,5,Dispatch Advice Contents,Contains number of pieces.
+108,Fact,5,Dispatch Advice Contents,Contains approximate weight.
+109,Process,4,TXR Certification,Railway TXR certification follows loading.
+110,Process,4,Wagon Removal,Loaded wagons are removed from siding.
+111,Process,4,Weighment,Wagons are weighed after loading.
+112,Definition,5,Forwarding Note,Document submitted before railway invoicing.
+113,Process,4,Goods Clerk Check,Railway goods clerk verifies forwarding note.
+114,Process,4,Railway Invoicing,Railways invoice the wagons after verification.
+115,Process,4,Rake Formation After Loading,Loaded wagons are formed into rakes.
+116,Process,4,Destination Movement,Rakes move to designated destinations.
+117,Important Point,5,Transport System Role,Transportation connects all shops of a steel plant.
+118,Fact,5,Interdependence,All production units depend on transportation.
+119,Cause-Effect,5,Transport Failure,Failure disrupts the entire plant.
+120,Concept,5,Production Coordination,Transport and production schedules must align.
+121,Fact,4,Advance Information,Production units should inform transport department in advance.
+122,Process,4,Movement Scheduling,Transport department prepares movement schedules.
+123,Concept,4,Compact Scheduling,Matched schedules improve operational efficiency.
+124,Cause-Effect,5,Coordinated Scheduling,Coordinated schedules improve production economy.
+125,Fact,4,PPC Consultation,Production schedules are prepared with PPC consultation.
+126,Fact,4,TRM Consultation,Production schedules are prepared with TRM consultation.
+127,Rule,5,Supervisor Responsibility,Supervisors must follow production schedules.
+128,Rule,5,Movement Compliance,Supervisors must follow movement schedules.
+129,Cause-Effect,5,Schedule Adherence,Improves smooth production and dispatch.
+130,Rule,5,Track Upkeep,Railway tracks must be maintained properly.
+131,Rule,5,Wagon Fitness,Wagons must remain fit for operation.
+132,Rule,5,Locomotive Fitness,Locomotives must be maintained properly.
+133,Fact,5,Bhilai Logistics,Bhilai Steel Plant logistics include captive mines and ports.
+134,Fact,5,Dalli Mine,Dalli supplies iron ore to Bhilai Steel Plant.
+135,Fact,5,Dalli Distance,Dalli is 90 km from Bhilai Steel Plant via rail.
+136,Fact,5,Rajhara Mine,Rajhara supplies iron ore to Bhilai Steel Plant.
+137,Fact,5,Rajhara Distance,Rajhara is 86 km from Bhilai Steel Plant.
+138,Fact,5,Nandini Mine,Nandini supplies flux to Bhilai Steel Plant.
+139,Fact,5,Nandini Distance,Nandini is 23 km from Bhilai Steel Plant.
+140,Fact,5,Hirri Mine,Hirri supplies flux to Bhilai Steel Plant.
+141,Fact,5,Hirri Distance,Hirri is 135 km from Bhilai Steel Plant.
+142,Fact,5,Kuteshwar Mine,Kuteshwar supplies flux to Bhilai Steel Plant.
+143,Fact,5,Kuteshwar Distance,Kuteshwar is 496 km from Bhilai Steel Plant.
+144,Fact,5,Rowghat Project,Rowghat supplies iron ore to Bhilai Steel Plant.
+145,Fact,5,Rowghat Distance,Rowghat is approximately 190 km from Bhilai Steel Plant.
+146,Fact,5,Visakhapatnam Port,Visakhapatnam supplies imported coal to Bhilai.
+147,Fact,5,Visakhapatnam Distance,Visakhapatnam is 556 km from Bhilai.
+148,Fact,5,Gangavaram Port,Gangavaram supplies imported coal to Bhilai.
+149,Fact,5,Gangavaram Distance,Gangavaram is 561 km from Bhilai.
+150,Fact,5,Durgapur Logistics,Durgapur logistics depend on captive mines and ports.
+151,Fact,5,Bolani Mine,Bolani supplies iron ore to Durgapur Steel Plant.
+152,Fact,5,Bolani Distance,Bolani is 318 km from Durgapur.
+153,Fact,5,Gua Mine,Gua supplies iron ore to Durgapur.
+154,Fact,5,Gua Distance,Gua is 309 km from Durgapur.
+155,Fact,5,Kuteshwar for DSP,Kuteshwar supplies limestone to Durgapur.
+156,Fact,5,Kuteshwar DSP Distance,Kuteshwar is 873 km from Durgapur.
+157,Fact,5,Birimitrapur Mine,Birimitrapur supplies dolomite to Durgapur.
+158,Fact,5,Birimitrapur Distance,Birimitrapur is 354 km from Durgapur.
+159,Fact,5,Hirri for DSP,Hirri supplies dolomite to Durgapur.
+160,Fact,5,Hirri DSP Distance,Hirri is 640 km from Durgapur.
+161,Fact,5,Dhanbad Area,Dhanbad supplies domestic power/coking coal.
+162,Fact,5,Dhanbad Distance,Dhanbad is 92 km from Durgapur.
+163,Fact,5,Haldia Port,Haldia supplies imported coking coal and limestone.
+164,Fact,5,Haldia Distance DSP,Haldia is 308 km from Durgapur.
+165,Fact,5,Dhamra Port,Dhamra serves Durgapur Steel Plant.
+166,Fact,5,Dhamra Distance DSP,Dhamra is 483 km from Durgapur.
+167,Fact,5,Rourkela Logistics,Rourkela obtains raw materials from multiple captive mines.
+168,Fact,5,Barsuan and Tilda,Barsuan and Tilda supply iron ore to Rourkela.
+169,Fact,5,Barsuan Distance,Barsuan is 73 km from Rourkela.
+170,Fact,5,Kalta Mine,Kalta supplies iron ore to Rourkela.
+171,Fact,5,Kalta Distance,Kalta is 63 km from Rourkela.
+172,Fact,5,Kiriburu Mine,Kiriburu supplies iron ore to Rourkela.
+173,Fact,5,Kiriburu Distance,Kiriburu is 91 km from Rourkela.
+174,Fact,5,Meghataburu Mine,Meghataburu supplies iron ore to Rourkela.
+175,Fact,5,Meghataburu Distance,Meghataburu is 91 km from Rourkela.
+176,Fact,5,Birimatrapur Limestone,Birimatrapur supplies limestone to Rourkela.
+177,Fact,5,Birimatrapur Distance RSP,Birimatrapur is 35 km from Rourkela.
+178,Fact,5,Sonakhan Mine,Sonakhan supplies limestone to Rourkela.
+179,Fact,5,Sonakhan Distance,Sonakhan is 45 km from Rourkela.
+180,Fact,5,Haldia Port RSP,Haldia serves Rourkela Steel Plant.
+181,Fact,5,Haldia Distance RSP,Haldia is 402 km from Rourkela.
+182,Fact,5,Paradip Port RSP,Paradip serves Rourkela Steel Plant.
+183,Fact,5,Paradip Distance RSP,Paradip is 505 km from Rourkela.
+184,Fact,5,Dhamra Port RSP,Dhamra serves Rourkela Steel Plant.
+185,Fact,5,Dhamra Distance RSP,Dhamra is 527 km from Rourkela.
+186,Fact,5,Gopalpur Port,Gopalpur serves Rourkela Steel Plant.
+187,Fact,5,Gopalpur Distance,Gopalpur is 581 km from Rourkela.
+188,Fact,5,Bokaro Logistics,Bokaro Steel Plant relies on captive mines and ports.
+189,Fact,5,Gua Mine Bokaro,Gua supplies iron ore to Bokaro.
+190,Fact,5,Gua Distance Bokaro,Gua is 264 km from Bokaro.
+191,Fact,5,Chiria Mine,Chiria supplies iron ore to Bokaro.
+192,Fact,5,Chiria Distance,Chiria is 240 km from Bokaro.
+193,Fact,5,Kiriburu Bokaro,Kiriburu supplies iron ore to Bokaro.
+194,Fact,5,Kiriburu Distance Bokaro,Kiriburu is 362 km from Bokaro.
+195,Fact,5,Meghataburu Bokaro,Meghataburu supplies iron ore to Bokaro.
+196,Fact,5,Meghataburu Distance Bokaro,Meghataburu is 362 km from Bokaro.
+197,Fact,5,Haldia Bokaro,Haldia supplies coking coal to Bokaro.
+198,Fact,5,Haldia Distance Bokaro,Haldia is 366 km from Bokaro.
+199,Fact,5,Dhamra Bokaro,Dhamra supplies coking coal to Bokaro.
+200,Fact,5,Dhamra Distance Bokaro,Dhamra is 496 km from Bokaro.

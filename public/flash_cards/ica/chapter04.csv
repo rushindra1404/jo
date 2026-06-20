@@ -1,0 +1,151 @@
+point_id,category,priority,title,point
+1,Definition,5,MOU Concept,Memorandum of Understanding (MoU) is a performance agreement between Government and CPSE.
+2,Fact,5,MOU Origin,MoU concept arose from the Arjun Sengupta Committee report.
+3,Exam Point,5,SAIL MOU,SAIL was among the first PSUs to enter into an MoU.
+4,Fact,5,First MOU Year,SAIL entered into its first MoU in 1987-88.
+5,Fact,5,Ministry Link,SAIL signs MoU with the Ministry of Steel.
+6,Definition,5,MOU Purpose,MoU measures organizational performance against agreed targets.
+7,Important Point,5,MOU Objective,MoU improves critical performance indicators.
+8,Concept,5,Performance Measurement,MoU evaluates selected key performance parameters.
+9,Important Point,5,Government Expectation,MoU captures Government of India performance expectations from SAIL.
+10,Concept,4,Operational Freedom,MoU enables efficient commercial operation of SAIL.
+11,Fact,4,Policy Framework,MoU operates within broad government policy objectives.
+12,Fact,4,Accountability,MoU incorporates Parliamentary Accountability requirements.
+13,Exam Point,5,DPE Role,DPE finalizes SAIL's MoU.
+14,Fact,4,Consolidated Basis,SAIL MoU is finalized on a consolidated basis.
+15,Fact,4,Coverage,MoU includes all subsidiaries and joint ventures of SAIL.
+16,Important Point,4,Subsidiary Evaluation,SAIL may evaluate subsidiaries using DPE principles.
+17,Definition,5,MOU Framework,MoU framework consists of market-oriented performance parameters.
+18,Concept,5,Shareholder Focus,MoU parameters reflect shareholder interests.
+19,Fact,4,Revenue Parameter,Growth in revenue is a key MoU parameter.
+20,Fact,4,Net Worth Parameter,Return on net worth is considered under MoU.
+21,Fact,4,Asset Parameter,Asset turnover ratio is a key performance parameter.
+22,Fact,4,Listed CPSEs,Market capitalization applies to listed CPSEs.
+23,Important Point,5,Benchmarking Basis,MoU parameters are indexed to past performance.
+24,Important Point,5,Future Focus,MoU parameters consider future projections.
+25,Fact,4,Administrative Vision,Administrative Ministry vision is considered for benchmarking.
+26,Fact,4,Sectoral Benchmarking,Sectoral benchmarking influences target setting.
+27,Fact,4,Peer Comparison,Peer comparison may be used in evaluation.
+28,Rule,5,Quantifiable Parameters,All MoU parameters must be quantifiable.
+29,Rule,5,Verifiable Parameters,All MoU parameters must be verifiable.
+30,Fact,4,Public Domain,Verification is based on documents in public domain.
+31,Exam Point,5,Government Priority,CSR is included as a compliance parameter.
+32,Fact,4,MSE Procurement,Procurement from MSEs is a compliance parameter.
+33,Rule,5,Compliance Penalty,Non-compliance results in deduction of full marks.
+34,Rule,5,No Partial Deduction,No partial deduction is allowed for specified compliance failures.
+35,Fact,5,Part 1,Part 1 of MoU covers Main Parameters.
+36,Fact,5,Part 2,Part 2 of MoU covers Compliance Parameters.
+37,Exam Point,5,Revenue Parameter,Revenue from Operations is a main parameter.
+38,Fact,4,Revenue Unit,Revenue from Operations is measured in ₹ Crore.
+39,Fact,5,Revenue Weight,Revenue from Operations weight is 7.
+40,Fact,5,Revenue Target,Revenue target for 2025-26 is ₹126667 crore.
+41,Exam Point,5,Finished Steel Parameter,Production of Finished Steel is a main parameter.
+42,Fact,4,Finished Steel Unit,Production of Finished Steel is measured in lakh tonnes.
+43,Fact,5,Finished Steel Weight,Production of Finished Steel weight is 20.
+44,Fact,5,Finished Steel Target,Finished Steel target is 180 lakh tonnes.
+45,Exam Point,5,Specialty Steel Parameter,Supply of Specialty Steel is a main parameter.
+46,Fact,4,Strategic Sectors,Specialty Steel is supplied to Defence sectors.
+47,Fact,4,Strategic Sectors,Specialty Steel is supplied to Nuclear sectors.
+48,Fact,4,Strategic Sectors,Specialty Steel is supplied to Aerospace sectors.
+49,Fact,5,Specialty Steel Weight,Specialty Steel parameter weight is 5.
+50,Fact,5,Specialty Steel Target,Specialty Steel target is 1.00 lakh tonne.
+51,Exam Point,5,Iron Ore Parameter,Production of Iron Ore for non-captive use is a parameter.
+52,Fact,5,Iron Ore Weight,Iron Ore parameter weight is 5.
+53,Fact,5,Iron Ore Target,Iron Ore target is 50 lakh tonnes.
+54,Exam Point,5,Capital Expenditure Parameter,Capital Expenditure is a main parameter.
+55,Fact,5,Capital Expenditure Weight,Capital Expenditure weight is 10.
+56,Fact,5,Capital Expenditure Target,Capital Expenditure target is ₹7500 crore.
+57,Exam Point,5,Fuel Rate Parameter,Fuel Rate is a main performance parameter.
+58,Fact,4,Fuel Rate Unit,Fuel Rate is measured in Kg/THM.
+59,Fact,5,Fuel Rate Weight,Fuel Rate weight is 5.
+60,Fact,5,Fuel Rate Target,Fuel Rate target is 500 Kg/THM.
+61,Exam Point,5,HR Productivity Parameter,HR Productivity is a main parameter.
+62,Fact,4,HR Productivity Unit,HR Productivity is measured in Tonnes per Employee.
+63,Fact,5,HR Productivity Weight,HR Productivity weight is 5.
+64,Fact,5,HR Productivity Target,HR Productivity target is 187.
+65,Exam Point,5,EBITDA Parameter,EBITDA percentage of total income is a parameter.
+66,Fact,5,EBITDA Weight,EBITDA weight is 10.
+67,Fact,5,EBITDA Target,EBITDA target is 16%.
+68,Definition,4,EBITDA,Earnings Before Interest Tax Depreciation and Amortization.
+69,Exam Point,5,ROCE Parameter,Return on Capital Employed is a parameter.
+70,Fact,5,ROCE Weight,ROCE weight is 10.
+71,Fact,5,ROCE Target,ROCE target is 15.46%.
+72,Definition,4,ROCE Meaning,ROCE measures return generated from capital employed.
+73,Exam Point,5,Asset Turnover Parameter,Asset Turnover Ratio is a parameter.
+74,Fact,5,Asset Turnover Weight,Asset Turnover Ratio weight is 4.
+75,Fact,5,Asset Turnover Target,Asset Turnover Ratio target is 85.57.
+76,Concept,4,Asset Utilization,Asset Turnover Ratio reflects asset utilization efficiency.
+77,Exam Point,5,R&D Parameter,R&D expenditure is a MoU parameter.
+78,Fact,5,R&D Weight,R&D expenditure weight is 4.
+79,Fact,5,R&D Target,R&D expenditure target is 6%.
+80,Concept,4,R&D Basis,R&D target is linked to previous 3 years average PBT.
+81,Fact,4,Innovation Inclusion,R&D includes innovation initiatives.
+82,Exam Point,5,Shareholder Return Parameter,Total Return to Shareholders is a parameter.
+83,Fact,5,Shareholder Return Weight,Total Return to Shareholders weight is 15.
+84,Fact,5,Shareholder Return Target,Total Return to Shareholders target is 100%.
+85,Important Point,5,Highest Weight,Production of Finished Steel has weight 20.
+86,Exam Point,5,Second Highest Weight,Total Return to Shareholders weight is 15.
+87,Fact,4,Weight Distribution,Several parameters carry weight 10.
+88,Fact,4,Lowest Weight,Asset Turnover Ratio and R&D carry weight 4.
+89,Fact,4,Main Parameter Count,Part 1 contains 12 main parameters.
+90,Fact,5,Total Weight,Total weight of main parameters equals 100.
+91,Definition,5,Digital Dashboard,DPE developed a centralized digital dashboard.
+92,Fact,4,Dashboard Purpose,Dashboard is used for entering MoU agreements.
+93,Fact,4,Dashboard Purpose,Dashboard is used for signing MoU agreements.
+94,Fact,4,Dashboard Purpose,Dashboard is used for monitoring MoU agreements.
+95,Fact,4,Dashboard Purpose,Dashboard is used for evaluating MoU agreements.
+96,Fact,4,User Roles,CPSEs are onboarded with designated user roles.
+97,Fact,4,User Roles,Administrative Ministries are onboarded with designated user roles.
+98,Definition,5,MoU Evaluation,Evaluation begins after audited data becomes available.
+99,Fact,4,Data Source,Audited Balance Sheet is used for evaluation.
+100,Fact,4,Data Source,P&L Statement is used for evaluation.
+101,Important Point,5,Automatic Scoring,Score is calculated automatically on dashboard.
+102,Rule,5,Benchmark Evaluation,Scoring is done against benchmarked targets.
+103,Rule,5,No Exchange Adjustment,Exchange rate changes do not affect evaluation.
+104,Rule,5,No Raw Material Adjustment,Raw material price changes do not affect evaluation.
+105,Rule,5,No Finished Goods Adjustment,Finished goods price changes do not affect evaluation.
+106,Concept,4,Business Risk,Price changes are treated as normal business activity.
+107,Rule,5,Audited Accounts Prevail,Audited statements are final for evaluation.
+108,Exam Point,5,Achievement Rule,Proportionate marks apply between 50% and 100% achievement.
+109,Rule,5,Minimum Threshold,Achievement below 50% earns no marks.
+110,Fact,4,Aggregate Score,All parameter scores are added together.
+111,Definition,5,Aggregate Score,Aggregate score is sum of all parameter scores.
+112,Rule,5,Final Score,Final score is aggregate score minus compliance deductions.
+113,Exam Point,5,Compliance Impact,Compliance failures reduce final MoU score.
+114,Fact,5,CSR Compliance,CSR expenditure compliance is evaluated.
+115,Fact,4,CSR Deduction,CSR non-compliance attracts 1 mark deduction.
+116,Fact,5,Corporate Governance,Corporate governance provisions are compliance parameters.
+117,Fact,4,Companies Act Link,Companies Act 2013 provisions are considered.
+118,Fact,4,SEBI Link,SEBI LODR regulations apply to listed entities.
+119,Fact,4,Board Composition,Composition of Board is evaluated.
+120,Fact,4,Board Meetings,Board meetings are evaluated.
+121,Fact,4,Committee Meetings,Committee meetings are evaluated.
+122,Fact,4,Related Party Transactions,Related party transactions are reviewed.
+123,Fact,4,Transparency,Disclosure and transparency are compliance requirements.
+124,Fact,5,Corporate Governance Deduction,Corporate governance non-compliance attracts 3 marks deduction.
+125,Fact,4,TReDS Platform,CPSE onboarding on TReDS is evaluated.
+126,Fact,4,TReDS Incentive,TReDS onboarding carries 0.5 mark weight.
+127,Definition,4,TReDS,TReDS stands for Trade Receivables Discounting System.
+128,Fact,5,MSE Payments,Timely payment to MSE vendors is mandatory.
+129,Fact,4,MSE Deduction,Failure in MSE payments attracts 3 marks deduction.
+130,Fact,5,Procurement Compliance,Procurement targets from MSEs are monitored.
+131,Fact,4,MSE Procurement Target,MSE procurement target is 25%.
+132,Fact,4,SC/ST MSE Target,SC/ST owned MSE target is 4%.
+133,Fact,4,Women MSE Target,Women-owned MSE target is 3%.
+134,Fact,4,Procurement Deduction,Procurement non-compliance attracts 2 marks deduction.
+135,Fact,4,Health and Safety,Health and Safety initiatives are compliance parameters.
+136,Fact,4,Human Resource Improvement,HR improvement initiatives are evaluated.
+137,Fact,4,Health and Safety Deduction,Non-compliance attracts 1 mark deduction.
+138,Fact,4,PM Internship Scheme,PM Internship Scheme targets are monitored.
+139,Fact,4,MCA Scheme,PM Internship Scheme is under MCA.
+140,Fact,4,Internship Deduction,Non-compliance attracts 1 mark deduction.
+141,Fact,4,Leadership Development,Leadership Development Plan is a compliance parameter.
+142,Fact,4,Leadership Deduction,Leadership Development non-compliance attracts 1 mark deduction.
+143,Fact,4,Surplus Assets,Monetization of surplus non-core assets is monitored.
+144,Fact,4,Non-Core Assets,Land and buildings are treated as non-core assets.
+145,Fact,4,Asset Monetization Deduction,Non-compliance attracts 1 mark deduction.
+146,Exam Point,5,Excellent Rating,MoU score of 90 or above is Excellent.
+147,Exam Point,5,Very Good Rating,MoU score of 70 or above is Very Good.
+148,Exam Point,5,Good Rating,MoU score of 50 or above is Good.
+149,Exam Point,5,Fair Rating,MoU score of 33 or above is Fair.
+150,Exam Point,5,Poor Rating,MoU score below 33 is Poor.

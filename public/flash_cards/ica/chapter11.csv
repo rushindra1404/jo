@@ -1,0 +1,201 @@
+point_id,category,priority,title,point
+1,Definition,5,PPC,Production Planning & Control coordinates planning activities in manufacturing units.
+2,Important Point,5,PPC Objective,PPC aligns production with plant capability and assigned targets.
+3,Revision Point,5,Production Efficiency,Highest efficiency requires right quantity right quality and right time.
+4,Concept,5,PPC Role,PPC ensures economical production methods are used.
+5,Important Point,5,PPC Service,PPC facilitates execution of market requirements.
+6,Process,4,Planning Scope,PPC plans from raw material requirement to production schedule.
+7,Fact,4,Schedule Periods,Production schedules are annual quarterly monthly weekly and daily.
+8,Exam Point,5,PPC Nature,PPC is a dynamic function.
+9,Concept,4,Market Influence,PPC is governed by dynamic market demands.
+10,Concept,4,Competition Influence,PPC is influenced by competitor policies and strategies.
+11,Process,5,Planning Sequence,Customer requirement analysis is the first PPC activity.
+12,Process,4,Planning Sequence,Raw material planning follows customer requirement analysis.
+13,Process,4,Planning Sequence,Production scheduling follows raw material planning.
+14,Process,4,Planning Sequence,Production monitoring follows scheduling.
+15,Process,4,Planning Sequence,Dispatch monitoring is part of PPC.
+16,Important Point,4,Inventory Management,PPC ensures optimum inventory levels.
+17,Classification,5,PPC Sections,PPC functions are divided into four sections.
+18,Classification,5,PPC Sections,Product Sales Coordination is a PPC section.
+19,Classification,5,PPC Sections,Planning is a PPC section.
+20,Classification,5,PPC Sections,Plant Control is a PPC section.
+21,Classification,5,PPC Sections,Statistical Cell is a PPC section.
+22,Definition,5,Product Section,Product section is the nodal agency for order serving and dispatch.
+23,Fact,4,Order Source,Orders are received from CMO.
+24,Procedure,4,Dispatch Planning,Dispatch planning requires daily interaction with CMO.
+25,Fact,4,Coordination,Product section coordinates with shipping units.
+26,Fact,4,Coordination,Product section coordinates with traffic department.
+27,Fact,4,Road Dispatch,Road dispatches are executed through release orders.
+28,Exam Point,4,IPT Orders,Product section handles IPT orders.
+29,Exam Point,4,Export Orders,Product section handles export orders.
+30,Definition,5,Long Term Planning,Long term planning deals with APP and budget exercise.
+31,Fact,4,APP,APP stands for Annual Performance Plan.
+32,Concept,4,Planning Inputs,APP considers repair plans.
+33,Concept,4,Planning Inputs,APP considers market scenario.
+34,Fact,4,Operational Norms,Major operational norms are finalized during APP exercise.
+35,Definition,5,Planning and Scheduling,Planning and scheduling formulates monthly product mix.
+36,Fact,4,Monthly Product Mix,Monthly product mix is prepared with CMO interaction.
+37,Exam Point,4,Sales Meeting,Monthly sales meetings support product mix planning.
+38,Fact,4,Heat Planning,Daily heat planning is prepared for SMS.
+39,Fact,4,Feed Stock Planning,Feed stock planning is prepared for finishing mills.
+40,Definition,5,Plant Control,Plant Control operates 24×7.
+41,Important Point,5,Plant Control Role,Plant Control monitors production continuously.
+42,Important Point,4,Plant Control Role,Plant Control monitors breakdowns.
+43,Fact,4,Reporting,Plant Control reports to senior officials.
+44,Concept,4,Production Continuity,Plant Control helps keep production uninterrupted.
+45,Definition,5,Apex Control,Plant Control acts as apex control of departmental cells.
+46,Important Point,4,Resource Deployment,Plant Control prioritizes resource deployment.
+47,Important Point,4,Emergency Handling,Plant Control handles emergency situations.
+48,Definition,5,Statistical Cell,Statistical Cell is the central data bank of the plant.
+49,Fact,4,Data Function,Statistical Cell compiles plant data.
+50,Fact,4,MIS,MIS reports are circulated daily.
+51,Fact,4,MIS,MIS reports are circulated weekly.
+52,Fact,4,MIS,MIS reports are circulated monthly.
+53,Fact,4,MIS,MIS reports are circulated annually.
+54,Fact,4,Statutory Reports,Statistical Cell prepares reports for statutory agencies.
+55,Fact,4,Liaison Work,Statistical Cell liaises with corporate office.
+56,Definition,5,Management Services,Management Services consists of IED and Business Excellence Department.
+57,Important Point,4,MS Objective,Management Services improves organizational effectiveness.
+58,Important Point,4,MS Objective,Management Services improves efficiency.
+59,Exam Point,4,ISO Activities,Management Services supports ISO implementation.
+60,Fact,4,5S,Management Services promotes 5S implementation.
+61,Fact,4,ISO Audits,Management Services supports ISO audits.
+62,Concept,4,Waste Reduction,MS helps managers identify wastages.
+63,Concept,4,System Improvement,MS identifies improper work methods.
+64,Concept,4,Organizational Improvement,MS identifies organizational lapses.
+65,Important Point,4,Resource Utilization,MS assists effective resource utilization.
+66,Exam Point,5,MS Objectives,Resource optimization is a key objective.
+67,Exam Point,5,MS Objectives,Productivity improvement is a key objective.
+68,Exam Point,5,MS Objectives,System improvement is a key objective.
+69,Exam Point,4,MS Objectives,Techno-economic parameter standardization is an objective.
+70,Exam Point,4,MS Objectives,ISO certification support is an objective.
+71,Fact,4,IED Role,IED scrutinizes indents online.
+72,Fact,4,IED Role,IED recommends indents as ISC nodal officer.
+73,Fact,4,Srujani,IED implements Srujani Creativity Award Scheme.
+74,Fact,3,AMC,IED handles photocopier AMC.
+75,Fact,3,Procedure Orders,IED formulates ED(W) procedure orders.
+76,Fact,3,DOP,IED revises Delegation of Powers.
+77,Fact,4,Incentive Calculation,IED calculates monthly incentives for non-executives.
+78,Fact,3,Performance Index,IED handles PI schemes.
+79,Fact,3,Committee Work,IED participates in HRPE activities.
+80,Fact,3,Committee Work,IED participates in DRCC activities.
+81,Fact,3,Committee Work,IED participates in CRC activities.
+82,Fact,3,Survey Committee,IED supports AMR related activities.
+83,Fact,3,Equipment Study,IED studies administrative equipment requirements.
+84,Fact,3,Insurance Committee,IED participates in insurance claim committees.
+85,Fact,3,Outsourcing,IED participates in outsourcing committees.
+86,Definition,5,Medical Services,Medical services are an important welfare function.
+87,Classification,5,Healthcare Types,Healthcare includes preventive services.
+88,Classification,5,Healthcare Types,Healthcare includes promotive services.
+89,Classification,5,Healthcare Types,Healthcare includes curative services.
+90,Classification,5,Healthcare Types,Healthcare includes rehabilitative services.
+91,Fact,4,Industrial Health Unit,Industrial Health Unit is part of health services.
+92,Fact,4,Public Health Department,Public Health Department is part of health services.
+93,Important Point,4,Accident Response,Immediate treatment is provided after accidents.
+94,Fact,4,Health Checkups,Regular health checkups are conducted.
+95,Definition,5,Town Administration,Town administration supports welfare and amenities.
+96,Fact,4,Public Sector Objective,Steel plants were established for economic development.
+97,Fact,4,Public Sector Objective,Steel plants were established as instruments of social change.
+98,Fact,4,Infrastructure,Townships required creation of infrastructure facilities.
+99,Concept,4,Unity in Diversity,Township represents social cultural linguistic and religious diversity.
+100,Memory Hook,5,Welfare and Amenities,Welfare and amenities are two sides of a coin.
+101,Cause-Effect,4,Amenities Effect,Better amenities improve employee welfare.
+102,Cause-Effect,4,Welfare Effect,Improved welfare increases motivation.
+103,Cause-Effect,4,Productivity Effect,Higher motivation increases productivity.
+104,Definition,5,SAIL Safety Philosophy,Excellence in safety yields excellent business results.
+105,Important Point,5,Top Priority,Safety and health are the highest priorities in SAIL.
+106,Fact,4,Continuous Improvement,SAIL continually improves safety systems.
+107,Fact,4,Continuous Improvement,SAIL continually improves health management practices.
+108,Fact,4,Apex Monitoring,Safety issues are monitored by the Board.
+109,Fact,4,HSE Oversight,Board Sub-Committee on HSE guides safety activities.
+110,Exam Point,4,Discussion Priority,Safety issues are discussed as opening agenda items.
+111,Definition,5,SAIL Vision,SAIL aims to be an industry leader in safety performance.
+112,Fact,4,Safety Policy,SAIL has a corporate safety policy.
+113,Fact,4,Stakeholders,Safety policy covers employees contractors and stakeholders.
+114,Fact,4,Neighborhood Safety,Policy also considers neighboring communities.
+115,Concept,4,Policy Alignment,Safety activities align with safety policy.
+116,Important Point,4,Objective Setting,Safety objectives are planned in advance.
+117,Important Point,4,OH&S Programmes,OH&S programmes drive safety improvements.
+118,Fact,4,Improvement Trend,SAIL has achieved steady safety growth.
+119,Exam Point,5,ISO 45001,ISO 45001 relates to occupational health and safety.
+120,Exam Point,5,ISO 9001,ISO 9001 relates to quality management.
+121,Exam Point,5,ISO 14001,ISO 14001 relates to environment protection.
+122,Definition,5,PDCA,PDCA means Plan Do Check Act.
+123,Principle,5,Continual Improvement,PDCA supports continual improvement.
+124,Definition,5,Safety Culture,Effective leadership sustains positive safety culture.
+125,Memory Hook,5,Zero Harm,Safety culture supports the goal of zero harm.
+126,Fact,4,Top Monitoring,Safety performance is monitored by Chairman and Directors.
+127,Fact,4,BSC Review,BSC on HSE reviews quarterly.
+128,Fact,4,Daily Monitoring,Directors and Executive Directors monitor safety daily.
+129,Definition,5,SED,Safety Engineering Department ensures operational safety.
+130,Fact,4,Emergency Support,Fire Services supports rescue operations.
+131,Fact,4,Fire Prevention,Fire Services monitors fire prevention.
+132,Definition,5,DSO,DSO means Departmental Safety Officer.
+133,Fact,4,DSO Function,DSOs monitor safety daily.
+134,Fact,4,Coordination,DSOs work closely with SED.
+135,Definition,5,ZSO,ZSO means Zonal Safety Officer.
+136,Fact,4,Project Safety,ZSOs monitor project safety.
+137,Memory Hook,5,Three Es,Engineering Education Enforcement.
+138,Definition,5,Engineering Controls,Safety is built into design through engineering measures.
+139,Fact,4,Engineering Examples,Safety interlocks are engineering controls.
+140,Fact,4,Engineering Examples,Limit switches are engineering controls.
+141,Fact,4,Engineering Examples,Alarms are engineering controls.
+142,Fact,4,Engineering Examples,Detectors are engineering controls.
+143,Fact,4,Engineering Examples,CCTV systems support safety.
+144,Fact,4,Engineering Examples,Fire-retardant cable paint is a safety measure.
+145,Important Point,4,Inspection,Engineering controls are checked periodically.
+146,Definition,5,Education Component,Education builds safety competency.
+147,Fact,4,Training Coverage,At least one-third workforce is covered in training.
+148,Fact,4,Training Topics,Gas safety is a training topic.
+149,Fact,4,Training Topics,Electrical safety is a training topic.
+150,Fact,4,Training Topics,Crane safety is a training topic.
+151,Fact,4,Training Topics,Conveyor safety is a training topic.
+152,Fact,4,Training Topics,Material handling safety is a training topic.
+153,Fact,4,Training Topics,Behavior Based Safety is a training topic.
+154,Fact,4,Training Topics,Occupational hygiene is a training topic.
+155,Fact,4,Training Topics,First aid is a training topic.
+156,Fact,4,Training Topics,Stress management is a training topic.
+157,Definition,5,LEO,LEO means Learning From Each Other.
+158,Fact,4,LEO Benefit,LEO promotes knowledge sharing.
+159,Fact,4,Department Training,Unit training centres conduct safety training.
+160,Fact,4,Contractor Training,Contract workers receive two-day induction training.
+161,Fact,4,Job Specific Training,Training covers hazards risks and controls.
+162,Fact,4,Hazardous Job Training,Practical training is given for work at height.
+163,Fact,4,Feedback System,Training feedback improves programmes.
+164,Definition,5,Enforcement,Enforcement ensures compliance through procedures.
+165,Fact,4,Safety Documents,SOPs support safety management.
+166,Fact,4,Safety Documents,SMPs support safety management.
+167,Fact,4,Safety Documents,WIs support safety management.
+168,Fact,4,Document Review,Safety documents are periodically updated.
+169,Fact,4,KM Portal,Updated documents are available through KM portals.
+170,Definition,5,Permit to Work,Permit systems are mandatory for hazardous jobs.
+171,Fact,4,Protocol System,Protocols are followed for critical jobs.
+172,Fact,4,Emergency Preparedness,Emergency plans are prepared in advance.
+173,Fact,4,Mock Drills,Mock drills assess preparedness.
+174,Classification,5,PPE Examples,Safety shoes are PPE.
+175,Classification,5,PPE Examples,Safety helmets are PPE.
+176,Classification,5,PPE Examples,Ear plugs are PPE.
+177,Classification,5,PPE Examples,Nose masks are PPE.
+178,Classification,5,PPE Examples,Fire-retardant garments are PPE.
+179,Classification,5,PPE Examples,Full body harnesses are PPE.
+180,Classification,5,PPE Examples,Arc flash suits are PPE.
+181,Fact,4,Road Safety,Road safety norms are strictly enforced.
+182,Fact,4,Gas Safety,Gas safety norms are strictly enforced.
+183,Fact,4,Height Safety,Height safety norms are strictly enforced.
+184,Fact,4,Electrical Safety,Electrical safety norms are strictly enforced.
+185,Definition,5,HIRA,Hazard Identification and Risk Assessment.
+186,Exam Point,5,ISO 45001 Requirement,HIRA supports ISO 45001 compliance.
+187,Definition,5,ALARP,As Low As Reasonably Practicable.
+188,Principle,5,Risk Control,Risk must be reduced to ALARP level.
+189,Fact,4,Compliance,Factories Act compliance is ensured.
+190,Fact,4,Compliance,Mines Act compliance is ensured.
+191,Fact,4,Compliance,Electricity Act compliance is ensured.
+192,Fact,4,Compliance,Petroleum Act compliance is ensured.
+193,Fact,4,Compliance,Explosives Act compliance is ensured.
+194,Important Point,4,Incident Investigation,All work incidents are investigated.
+195,Important Point,4,Root Cause Analysis,Root causes are identified to prevent recurrence.
+196,Definition,5,Safety Committees,Joint participation supports safety culture.
+197,Fact,4,Employee Involvement,All employees are covered by safety committees.
+198,Fact,4,Hazard Mitigation,Employees participate in hazard identification.
+199,Fact,4,Central Safety Committee,Central safety committees are bipartite forums.
+200,Fact,4,Department Safety Committee,Department safety committees support OH&S improvement.

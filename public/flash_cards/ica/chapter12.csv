@@ -1,0 +1,182 @@
+point_id,category,priority,title,point
+1,Important Point,5,SAIL Safety Philosophy,Nothing is more important than Safety and Health in SAIL.
+2,Important Point,5,Business Excellence,Excellence in Safety and Health yields excellent business results.
+3,Fact,5,Continuous Improvement,SAIL continuously improves safety and health management systems.
+4,Revision Point,5,Ultimate Goal,Ultimate aim is a safe and healthy workplace.
+5,Exam Point,5,Safety Coverage,Safety is adhered to in all plant and unit operations.
+6,Fact,4,Apex Monitoring,Safety issues are monitored at Board level.
+7,Fact,4,HSE Oversight,Board Sub-committee on Health Safety and Environment oversees safety.
+8,Important Point,4,Opening Agenda,Safety and Health issues are discussed first in management forums.
+9,Important Point,5,SAIL Vision,SAIL aims to become an industry leader in safety performance.
+10,Fact,5,Corporate Safety Policy,SAIL has a Corporate Safety Policy and Guiding Principles.
+11,Important Point,4,Stakeholder Coverage,Safety policy covers employees contractors and stakeholders.
+12,Fact,4,Community Coverage,Safety policy includes neighboring communities around plants and mines.
+13,Concept,5,Policy Alignment,All safety activities are planned in line with Safety Policy.
+14,Important Point,5,OH&S Objectives,Safety and health objectives are planned in advance.
+15,Fact,4,Programme Support,Objectives are achieved through OH&S management programmes.
+16,Revision Point,4,Performance Growth,SAIL has achieved steady improvement in safety performance.
+17,Fact,4,Occupational Health Growth,Occupational health indicators show consistent improvement.
+18,Definition,5,ISO 45001,ISO 45001 relates to Occupational Health and Safety Management.
+19,Definition,4,ISO 9001,ISO 9001 relates to Quality Management.
+20,Definition,4,ISO 14001,ISO 14001 relates to Environmental Management.
+21,Concept,5,PDCA Philosophy,SAIL follows Plan Do Check Act philosophy.
+22,Principle,5,Continual Improvement,PDCA promotes continual improvement.
+23,Important Point,5,Leadership Role,Effective leadership is critical for positive safety culture.
+24,Concept,5,Zero Harm,Positive safety culture supports zero harm objective.
+25,Fact,4,Top-Level Monitoring,Safety performance is monitored by Board Chairman and Directors.
+26,Fact,4,Quarterly Monitoring,BSC on HSE reviews safety quarterly.
+27,Fact,4,Daily Monitoring,Directors and Executive Directors monitor safety daily.
+28,Definition,5,SED,Safety Engineering Department ensures operational safety.
+29,Fact,4,SED Presence,Every plant and unit has a Safety Engineering Department.
+30,Fact,4,SED Function,SED ensures safe operations and maintenance activities.
+31,Fact,4,Fire Services Role,Fire Services Department handles emergency response.
+32,Fact,4,Emergency Readiness,Fire Services remain alert for rescue and relief operations.
+33,Fact,4,Fire Prevention,Fire Services monitor fire prevention measures.
+34,Definition,5,DSO,Departmental Safety Officer monitors shop-level safety.
+35,Fact,4,Safety Steward Role,Safety Steward ensures compliance with safety standards.
+36,Fact,4,Daily Monitoring by DSO,DSOs monitor safety aspects daily.
+37,Important Point,4,SED Coordination,DSOs work closely with Safety Engineering Department.
+38,Definition,4,ZSO,Zonal Safety Officers monitor project safety.
+39,Fact,4,Project Monitoring,ZSOs are deployed in project and expansion areas.
+40,Definition,5,Three Es,Engineering Education and Enforcement are the 3 Es of accident prevention.
+41,Exam Point,5,Accident Prevention Basis,SAIL safety management hinges on the 3 Es.
+42,Definition,5,Engineering Controls,Safety through built-in design features.
+43,Fact,4,Design Stage Safety,Safety features are incorporated during design stage.
+44,Example,3,Safety Interlocks,Interlocks prevent unsafe machine operation.
+45,Example,3,Limit Switches,Limit switches are engineering safety measures.
+46,Example,3,Alarms,Alarms warn against abnormal conditions.
+47,Example,3,Detectors,Detectors identify hazardous situations.
+48,Example,3,CCTV,CCTV supports safety monitoring.
+49,Example,3,Fire Retardant Paint,Fire retardant paint protects cables.
+50,Important Point,4,Engineering Measure Purpose,Engineering controls protect men and machines.
+51,Fact,4,Periodic Checking,Safety devices are periodically checked.
+52,Definition,5,Education Element,Education focuses on competency building.
+53,Fact,4,Training Target,At least one-third workforce is covered in training.
+54,Fact,4,Continuous Training,Safety training is conducted continuously.
+55,Fact,4,CHRD Training,Training programmes are organized through CHRD.
+56,Exam Point,4,Training Coverage,Training includes safety and health topics.
+57,Fact,4,Statutory Training,Statutory requirements are part of training modules.
+58,Fact,4,Gas Safety Training,Gas safety is a regular training topic.
+59,Fact,4,Electrical Safety Training,Electrical safety is a regular training topic.
+60,Fact,4,Crane Safety Training,Crane safety is covered in training.
+61,Fact,4,Conveyor Safety Training,Conveyor safety is included in training.
+62,Fact,4,Material Handling Training,Material handling safety is taught.
+63,Definition,5,BBS,Behavior Based Safety focuses on safe behavior.
+64,Fact,4,Occupational Hygiene Training,Occupational hygiene forms part of training.
+65,Fact,4,First Aid Training,First aid is included in safety programmes.
+66,Fact,4,Stress Management,Stress management training is provided.
+67,Fact,4,Disease Prevention,Occupational disease prevention is covered.
+68,Definition,5,LEO,LEO means Learning From Each Other.
+69,Fact,4,LEO Purpose,LEO workshops encourage sharing and learning.
+70,Fact,4,Industry Participation,LEO workshops include other steel producers.
+71,Fact,4,Large Group Interaction,Large Group Interactions enhance learning.
+72,Fact,4,Departmental Training Centres,Department-level training centres provide technical training.
+73,Fact,5,Contract Worker Training,Contract workers receive induction training.
+74,Exam Point,5,Induction Duration,Contract worker induction lasts two days.
+75,Fact,4,Job-Specific Training,Workers receive job-specific hazard training.
+76,Fact,4,Risk Awareness,Training covers hazards risks and controls.
+77,Fact,4,Height Work Training,Practical training is provided for work at height.
+78,Fact,4,Roof Sheeting Training,Special demonstrations are provided for roof work.
+79,Fact,4,Training Rig,Special training rigs are used for demonstrations.
+80,Fact,4,Feedback System,Training feedback is collected for improvement.
+81,Definition,5,Enforcement Element,Enforcement ensures adherence to procedures.
+82,Fact,4,SOP Integration,Safety requirements are integrated into SOPs.
+83,Definition,5,SOP,Standard Operating Procedure.
+84,Definition,5,SMP,Safe Maintenance Procedure.
+85,Definition,5,WI,Work Instruction.
+86,Fact,4,Technological Discipline,SOPs SMPs and WIs maintain discipline.
+87,Fact,4,Periodic Review,Procedures are reviewed periodically.
+88,Fact,4,Technology Changes,Documents are updated with technology changes.
+89,Fact,4,Incident Learning,Documents are revised after incidents.
+90,Fact,4,KM Portal Access,Updated documents are available on KM portals.
+91,Definition,5,Permit to Work,System for controlling hazardous jobs.
+92,Fact,5,PTW Usage,Permit to Work is mandatory for hazardous work.
+93,Fact,4,Protocol System,Protocols provide safeguards for critical jobs.
+94,Fact,4,Multiple Agency Work,Protocols are used when multiple agencies are involved.
+95,Definition,5,Emergency Preparedness Plan,Plan for handling emergency situations.
+96,Fact,4,Mock Drills,Mock drills assess preparedness.
+97,Fact,4,Multi-Agency Drills,Drills involve several connected departments.
+98,Fact,4,Gas Safety Participation,Gas Safety teams participate in drills.
+99,Fact,4,OHSC Participation,OHSC participates in emergency preparedness drills.
+100,Definition,5,PPE,Personal Protective Equipment.
+101,Exam Point,5,PPE Compliance,PPE use is mandatory for employees and contractors.
+102,Example,3,Safety Shoes,Safety shoes are standard PPE.
+103,Example,3,Safety Helmet,Safety helmet is mandatory PPE.
+104,Example,3,Ear Plugs,Ear protection prevents hearing damage.
+105,Example,3,Nose Mask,Nose masks protect respiratory health.
+106,Example,3,Fire Retardant Garments,Used for fire protection.
+107,Example,3,Full Body Harness,Used during work at height.
+108,Example,3,Arc Flash Suit,Protects against electrical arc hazards.
+109,Fact,4,Road Safety Enforcement,Road safety norms are strictly enforced.
+110,Fact,4,Gas Safety Enforcement,Gas safety norms are strictly enforced.
+111,Fact,4,Height Safety Enforcement,Height safety norms are strictly enforced.
+112,Fact,4,Hot Metal Safety,Special precautions apply to hot metal and slag.
+113,Fact,4,Electrical Safety Enforcement,Electrical safety is continuously monitored.
+114,Fact,4,Material Handling Safety,Material handling norms are enforced.
+115,Definition,5,HIRA,Hazard Identification and Risk Assessment.
+116,Exam Point,5,HIRA Coverage,HIRA covers most operation and maintenance activities.
+117,Concept,5,Risk Control Hierarchy,Risks are controlled using hierarchy of controls.
+118,Definition,5,ALARP,As Low As Reasonably Practicable.
+119,Important Point,5,ALARP Goal,Risks must be reduced to acceptable limits.
+120,Fact,4,Factories Act Compliance,Compliance with Factories Act is ensured.
+121,Fact,4,Mines Act Compliance,Compliance with Mines Act is ensured.
+122,Fact,4,Electricity Act Compliance,Compliance with Electricity Act is ensured.
+123,Fact,4,Petroleum Act Compliance,Compliance with Petroleum Act is ensured.
+124,Fact,4,Explosives Act Compliance,Compliance with Explosives Act is ensured.
+125,Important Point,5,Incident Investigation,All work-related incidents are investigated.
+126,Definition,5,Root Cause Analysis,Investigation seeks underlying causes.
+127,Fact,4,Corrective Action,Corrective actions prevent recurrence.
+128,Fact,4,Preventive Action,Preventive actions reduce future risk.
+129,Concept,5,Control Hierarchy,Controls are selected according to hierarchy.
+130,Important Point,5,Employee Participation,Joint participation supports safety culture.
+131,Fact,4,Committee Coverage,All employees are covered by safety committees.
+132,Fact,4,Hazard Consultation,Employees are consulted on hazards.
+133,Fact,4,Hazard Mitigation,Workers participate in hazard mitigation.
+134,Definition,5,Apex Safety Committee,Statutory bipartite safety forum.
+135,Fact,4,Departmental Safety Committee,Departmental safety issues are reviewed.
+136,Fact,4,Pit Safety Committee,Pit safety committee functions in mines.
+137,Fact,4,Union Participation,Trade unions participate in committees.
+138,Fact,4,Scheduled Meetings,Safety committee meetings are scheduled.
+139,Important Point,5,OH&S Improvement,Committee discussions drive OH&S improvement.
+140,Definition,5,Three-Tier Audit,SAIL uses a three-tier safety audit system.
+141,Fact,4,Internal Audit,Internal audits involve Area Safety Officer and DSO.
+142,Fact,4,SSO Audit,Second tier audit is conducted by SSO.
+143,Fact,4,Third Party Audit,External agencies conduct statutory audits.
+144,Fact,4,Apex Inspection,HODs Sectional Incharges and DSOs conduct apex inspections.
+145,Fact,4,Cross-Functional Inspection,Multiple departments participate in inspections.
+146,Fact,4,Civil Department Role,Civil department participates in safety inspections.
+147,Fact,4,Electrical Department Role,Electrical department participates in inspections.
+148,Fact,4,Crane Engineering Role,Crane Engineering participates in inspections.
+149,Fact,4,Structural Inspection Role,Structural inspection teams participate.
+150,Fact,4,Fire Safety Inspection,Fire Services conduct fire safety inspections.
+151,Definition,5,Behavioural Intervention,Identification of unsafe acts and conditions.
+152,Important Point,5,Safety Review,Periodic safety review occurs at top management level.
+153,Fact,4,Review Participants,DICs Head of Works and HODs review safety.
+154,Fact,4,Strategic Action Plans,Reviews generate action plans.
+155,Fact,4,Continuous Improvement Focus,Reviews aim at continuous improvement.
+156,Definition,5,SSO Formation,SAIL Safety Organization formed in 1988.
+157,Fact,5,SSO Purpose,SSO coordinates safety and fire service activities.
+158,Fact,4,Safety Culture Development,SSO promotes safety culture across plants.
+159,Fact,4,Policy Development,SSO develops safety policies and procedures.
+160,Fact,4,Audit Responsibility,SSO conducts periodic audits.
+161,Fact,4,Training Responsibility,SSO builds employee competence.
+162,Fact,4,Performance Monitoring,SSO organizes review meetings.
+163,Fact,4,Fatal Incident Study,SSO studies fatal and serious incidents.
+164,Fact,4,Data Management,SSO maintains accident databases.
+165,Fact,4,JCSSI Secretariat,SSO performs secretarial functions for JCSSI.
+166,Fact,4,External Liaison,SSO liaises with MoS NSC WSA and others.
+167,Fact,4,Awareness Promotion,SSO spreads safety awareness through publications.
+168,Fact,4,Safety Consultant Deployment,Safety consultants deployed at five integrated steel plants.
+169,Fact,4,Behavior Focus,Consultants address behavioural safety issues.
+170,Definition,5,IPSS,Inter Plant Standards in the Steel Industry.
+171,Fact,4,IPSS Objective,IPSS enhances safety standards.
+172,Fact,4,IPSS Committee,IPSS 1:11 deals with personnel safety appliances and procedures.
+173,Fact,4,IPSS Leadership,IPSS 1:11 is headed by ED SSO.
+174,Fact,4,Industry Representation,IPSS includes SAIL Tata Steel RINL MECON JSPL HEC.
+175,Fact,4,Working at Height Standard,IPSS provides working-at-height standards.
+176,Fact,4,Roof Sheet Standard,IPSS covers roof sheet changing jobs.
+177,Fact,4,Wagon Tippling Standard,IPSS includes wagon tippling standards.
+178,Fact,4,Demolition Standard,IPSS includes demolition safety standards.
+179,Fact,4,Loco Operation Standard,IPSS covers loco operation safety.
+180,Fact,4,Gas Line Standard,IPSS includes gas line job safety.
+181,Fact,4,Hydraulic Safety Standard,IPSS covers hydraulic safety.

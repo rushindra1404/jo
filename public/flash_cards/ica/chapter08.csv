@@ -1,0 +1,141 @@
+point_id,category,priority,title,point
+1,Important Point,5,SAIL Position,SAIL occupies a pre-eminent position in the Indian Iron and Steel Industry.
+2,Fact,5,Product Range,SAIL produces hundreds of plain carbon steel items.
+3,Fact,4,Marketing Network,SAIL markets products largely through a network of stockyards.
+4,Fact,4,By-Products,SAIL plants produce various by-products and coal chemicals.
+5,Fact,5,Steel Types,SAIL supplies alloy steels and stainless steel.
+6,Concept,5,External Relations,Almost every SAIL activity requires interaction with external agencies.
+7,Important Point,5,PSU Obligation,SAIL has high obligations because it is a Public Sector Company.
+8,Fact,4,Government Framework,SAIL operations are influenced by government policies rules and regulations.
+9,Exam Point,4,Government Approval,Government approvals were mandatory in most activities for many years.
+10,Fact,5,Steel Pricing,Pricing of steel was decontrolled.
+11,Definition,5,MOU,MOU stands for Memorandum of Understanding.
+12,Important Point,5,MOU Impact,MOU with the Department of Steel increased SAIL's functional autonomy.
+13,Important Point,5,MOU Responsibility,MOU also increased SAIL's responsibility.
+14,Fact,4,Distribution Policy,Revision of steel distribution policy increased SAIL's autonomy.
+15,Concept,4,Customer Contact,Policy changes brought SAIL into more direct contact with customers.
+16,Exam Point,5,Business Environment,Industrial policy influences SAIL's business environment.
+17,Exam Point,5,Fiscal Policy,Fiscal policy affects SAIL operations.
+18,Exam Point,5,Foreign Trade Policy,Foreign Trade policy affects SAIL's performance.
+19,Exam Point,5,Licensing Policy,Licensing policy influences SAIL activities.
+20,Exam Point,5,Plan Targets,Plan targets affect SAIL's business environment.
+21,Fact,4,Employment Reservation,Reservation in employment affects SAIL activities.
+22,Fact,4,Pollution Control,Pollution control policies influence SAIL performance.
+23,Fact,4,Peripheral Development,Peripheral development policies affect SAIL operations.
+24,Classification,5,Area of Interaction,Investment in capacity creation is a major area of interaction.
+25,Classification,5,Area of Interaction,Organising production is a major area of interaction.
+26,Classification,5,Area of Interaction,Marketing of products is a major area of interaction.
+27,Classification,5,Area of Interaction,Interface with Government and Ministry is a major area of interaction.
+28,Fact,4,Funding Agencies,Various banks act as funding agencies.
+29,Fact,5,MECON,MECON is a design and consultancy organization associated with SAIL.
+30,Fact,4,M N Dastur,M N Dastur and Company is a consultancy organization linked with SAIL.
+31,Fact,4,Foreign Collaboration,Foreign collaborations support capacity creation activities.
+32,Fact,4,BHEL,BHEL is mentioned among important external organizations.
+33,Fact,4,Equipment Suppliers,Foreign equipment suppliers support capacity creation.
+34,Classification,5,Input Sources,Coal India Limited is a key source of inputs.
+35,Fact,4,Power Supply,Public sector power plants provide essential inputs.
+36,Fact,4,Mineral Sources,Public and private mineral companies supply inputs.
+37,Fact,4,Refractories,Suppliers of refractories support production.
+38,Fact,4,Spare Parts,Suppliers of spare parts are important external agencies.
+39,Fact,4,Petroleum Inputs,Oil and petroleum companies are production-support agencies.
+40,Fact,5,SBI Role,State Bank of India provides cash and credit support.
+41,Fact,4,Imported Inputs,Foreign suppliers provide coking coal and refractories.
+42,Fact,4,Employment Exchanges,Employment exchanges support workforce recruitment.
+43,Fact,4,Campus Recruitment,Universities are sources for campus recruitment.
+44,Fact,4,Professional Institutions,Professional institutions support recruitment.
+45,Important Point,4,Employee Representation,Executive and non-executive representative organizations interact with SAIL.
+46,Fact,4,Labour Courts,Labour courts are part of workforce-related interactions.
+47,Fact,4,Tribunals,Tribunals are involved in workforce matters.
+48,Fact,4,Transportation,Railways are critical transportation partners.
+49,Fact,4,Road Transport,Road transport agencies support logistics.
+50,Fact,4,Shipping Lines,Shipping lines handle imported inputs.
+51,Fact,4,Customer Groups,Foundries are important customer groups.
+52,Fact,4,Customer Groups,Re-rollers are important customer groups.
+53,Fact,4,Customer Groups,Tube makers are important customer groups.
+54,Fact,4,Customer Groups,Wire drawing units are important customer groups.
+55,Fact,4,Customer Groups,Automobile manufacturers are major buyers.
+56,Fact,4,Customer Groups,SSICs are listed among customer groups.
+57,Fact,4,Customer Groups,Fertilizer dealers are customer groups.
+58,Fact,4,Conversion Agents,Conversion agents operate for mild steel and stainless steel.
+59,Fact,5,Regulating Agency,CCI and E is a regulating agency.
+60,Fact,5,Regulating Agency,DGTD is a regulating agency.
+61,Fact,4,State Departments,Directorates of Industries regulate certain activities.
+62,Fact,4,Sales Tax,Sales Tax departments are external regulatory agencies.
+63,Fact,4,Weights and Measures,Weights and Measures departments regulate operations.
+64,Fact,4,Local Bodies,Municipalities are regulatory stakeholders.
+65,Important Point,5,Dependence,SAIL remains substantially dependent on external agencies.
+66,Fact,5,Infrastructure Support,Railways provide critical infrastructural support.
+67,Fact,5,CIL Support,CIL is essential for production continuity.
+68,Fact,4,Vendors,Vendors are important production-support stakeholders.
+69,Important Point,5,Consumer Reach,Railways help deliver materials to consumers.
+70,Definition,5,PSU,SAIL is a Public Sector Unit.
+71,Fact,5,Parliamentary Oversight,SAIL is answerable to various government agencies.
+72,Fact,5,Consultative Committee,SAIL Consultative Committee reviews company functioning.
+73,Fact,5,Public Undertakings Committee,Committee on Public Undertakings examines SAIL activities.
+74,Fact,5,Public Accounts Committee,Public Accounts Committee reviews accountability aspects.
+75,Fact,4,Official Language Committee,Committee on Official Languages visits SAIL units.
+76,Fact,5,CAG Audit,CAG audits SAIL from time to time.
+77,Fact,5,Coke Ovens,Director of Explosives regulates transfer and use of coke oven products.
+78,Fact,4,Mechanical Maintenance,Chief Boiler Inspector is linked with mechanical maintenance.
+79,Fact,4,Mechanical Maintenance,Factory Inspector is linked with mechanical maintenance.
+80,Fact,4,Mechanical Maintenance,Inspector of Weights and Measures is linked with maintenance regulation.
+81,Fact,4,Electrical Maintenance,Chief Electrical Inspector is a key authority.
+82,Fact,4,Electrical Maintenance,State Electricity Board interacts with electrical maintenance.
+83,Fact,4,Traffic,Divisional Superintendent Railways is an external authority.
+84,Fact,4,Traffic,Controller of Purchase and Stores is involved in traffic-related coordination.
+85,Fact,4,Traffic,General Manager SE Railway Kolkata is an important authority.
+86,Fact,4,Safety Engineering,DIHS is associated with safety engineering.
+87,Fact,4,Safety Engineering,State Labour Department supports safety oversight.
+88,Fact,4,Safety Engineering,National Safety Council is an important stakeholder.
+89,Fact,5,Pollution Control,Central Pollution Control authorities regulate pollution issues.
+90,Fact,5,Pollution Control,State Pollution Control authorities regulate pollution issues.
+91,Fact,4,Personnel,Registrar of Trade Union interacts with personnel functions.
+92,Fact,4,Personnel,Assistant Labour Commissioner is a personnel-related authority.
+93,Important Point,5,Customer Focus,SAIL increasingly emphasizes direct customer interaction.
+94,Procedure,4,Customer Dialogue,Holding dialogues with customers is a relationship-building method.
+95,Procedure,4,Customer Visits,SAIL visits customer offices and factories.
+96,Procedure,4,Plant Visits,Customers are invited to visit SAIL plants.
+97,Important Point,5,Interaction Level,Customer interaction occurs from highest to branch level.
+98,Cause-Effect,5,Quality Improvement,Customer interaction leads to quality improvement.
+99,Cause-Effect,5,Product Development,Customer interaction supports product development.
+100,Cause-Effect,5,Timely Deliveries,Customer interaction helps improve delivery performance.
+101,Cause-Effect,4,Product Mix,Customer interaction aids product-mix rationalization.
+102,Fact,4,Economic Growth,SAIL contributes to industrial and infrastructural development.
+103,Fact,4,Remote Areas,SAIL supplies steel to remote regions.
+104,Fact,4,Backward Areas,SAIL supplies steel to backward areas.
+105,Fact,4,Strategic Areas,SAIL supplies steel to strategic locations.
+106,Fact,4,Employment Generation,SAIL generates employment opportunities.
+107,Fact,4,Model Employer,SAIL provides workforce amenities expected from a model employer.
+108,Exam Point,4,Profit Criterion,Profit alone does not reflect SAIL's total contribution.
+109,Important Point,5,Workforce Expectations,SAIL seeks workforce contribution toward company objectives.
+110,Principle,5,Participative Management,Participative management is the preferred approach in SAIL.
+111,Fact,4,Executive Body,Executives have an association.
+112,Fact,4,Non-Executive Body,Non-executives are represented through unions.
+113,Fact,5,Negotiating Body,There is one negotiating body at all-India level.
+114,Fact,4,Unit Unions,Each SAIL unit has separate unions and associations.
+115,Fact,4,Corporate Negotiation,Unit unions do not directly negotiate with corporate management.
+116,Process,4,Agreement Adoption,National agreements are adopted at unit level through negotiations.
+117,Fact,4,Executive Process,Executive agreements are directly implemented across units.
+118,Definition,5,Infrastructure,Coal power and rail movement are critical infrastructure inputs.
+119,Important Point,5,Production Continuity,Infrastructure support is vital for uninterrupted production.
+120,Fact,4,Demand Gap,Infrastructure availability lags behind demand.
+121,Fact,4,Monitoring Authority,Cabinet Committee on Industrial Infrastructure monitors critical inputs.
+122,Fact,5,Coking Coal Requirement,One tonne of saleable steel requires about one tonne of coking coal.
+123,Fact,5,Electricity Requirement,One tonne of saleable steel requires about 500 units of electricity.
+124,Fact,5,Rail Traffic Requirement,One tonne of saleable steel requires about five tonnes of rail traffic.
+125,Fact,5,Bulk Consumer,Steel plants are among the largest consumers of infrastructure facilities.
+126,Fact,5,Coking Coal Consumption,Nearly all domestic coking coal is consumed by steel plants.
+127,Fact,5,DVC Power Share,Nearly one-third of DVC power is consumed by SAIL plants in Eastern Region.
+128,Fact,5,Rail Traffic Share,About 15 percent of total railway traffic is linked to SAIL plants.
+129,Important Point,5,Railways Stakeholder,Indian Railways is a very important stakeholder for SAIL.
+130,Fact,5,Blast Furnace Fuel,Hard coke acts as fuel and reductant in blast furnaces.
+131,Fact,5,Global Standard,Coke with less than 10 percent ash is preferred worldwide.
+132,Fact,5,Indian Coal Quality,Indian coking coal often contains nearly 25 percent ash.
+133,Process,5,Coal Washing,Indian coking coal is washed to around 17 percent ash.
+134,Fact,4,Coal Reserves,Coking coal reserves in India are limited.
+135,Fact,4,Coalfield Location,Major reserves are in Jharkhand and Bengal coalfields.
+136,Cause-Effect,4,Supply Constraint,Coal availability is not keeping pace with steel demand.
+137,Fact,5,Major Supplier,Coal India Limited is the major supplier of coking coal.
+138,Fact,5,Power Need,Steel plants require large amounts of power.
+139,Fact,5,DVC Dependence,Steel plants depend heavily on utilities like DVC.
+140,Important Point,5,Grid Requirement,Rolling operations create sudden load surges requiring a large grid system.

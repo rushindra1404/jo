@@ -1,0 +1,201 @@
+point_id,category,priority,title,point
+1,Definition,5,Quality,Quality is the degree to which inherent characteristics fulfill requirements.
+2,Definition,5,Inherent Characteristics,Quality is measured through inherent characteristics of a product or service.
+3,Classification,4,Physical Characteristics,Physical characteristics include mechanical properties.
+4,Classification,4,Physical Characteristics,Physical characteristics include electrical properties.
+5,Classification,4,Physical Characteristics,Physical characteristics include chemical properties.
+6,Classification,4,Physical Characteristics,Physical characteristics include biological properties.
+7,Classification,4,Sensory Characteristics,Sensory characteristics include smell.
+8,Classification,4,Sensory Characteristics,Sensory characteristics include touch.
+9,Classification,4,Sensory Characteristics,Sensory characteristics include taste.
+10,Classification,4,Sensory Characteristics,Sensory characteristics include sight.
+11,Classification,4,Sensory Characteristics,Sensory characteristics include hearing.
+12,Classification,4,Behavioral Characteristics,Behavioral characteristics include courtesy.
+13,Classification,4,Behavioral Characteristics,Behavioral characteristics include honesty.
+14,Classification,4,Behavioral Characteristics,Behavioral characteristics include veracity.
+15,Classification,4,Temporal Characteristics,Temporal characteristics include punctuality.
+16,Classification,4,Temporal Characteristics,Temporal characteristics include reliability.
+17,Classification,4,Temporal Characteristics,Temporal characteristics include availability.
+18,Classification,4,Ergonomic Characteristics,Ergonomic characteristics relate to physiological factors.
+19,Classification,4,Ergonomic Characteristics,Ergonomic characteristics relate to human safety.
+20,Classification,4,Functional Characteristics,Functional characteristics define operational performance.
+21,Fact,4,Aircraft Example,Maximum speed of an aircraft is a functional characteristic.
+22,Definition,5,Total Quality,Total Quality represents the way a company runs its business.
+23,Concept,5,Total Quality Approach,Total Quality requires a structured approach.
+24,Important Point,5,Quality Improvement,Quality improvement is a major component of Total Quality.
+25,Important Point,5,Quality Control,Quality control is a major component of Total Quality.
+26,Important Point,5,Just-in-Time,Just-in-Time concept is part of Total Quality.
+27,Concept,4,Business Improvement Activities,Total Quality includes other business improvement activities.
+28,Concept,4,Organized Change,Total Quality mobilizes organized creation of beneficial change.
+29,Fact,5,Cost Reduction,Continuous cost reduction is an outcome of Total Quality.
+30,Fact,5,Variability Reduction,Elimination of variability is a key outcome of Total Quality.
+31,Fact,4,Plant Downtime,Reduction in plant downtime is a benefit of Total Quality.
+32,Fact,4,Yield Improvement,Increase in yield is a result of Total Quality.
+33,Fact,4,JIT Outcome,Just-in-Time implementation is a Total Quality outcome.
+34,Fact,4,Human Relations,Improved human relations result from Total Quality.
+35,Comparison,5,TQ vs Conventional Quality,Total Quality focuses on defect prevention.
+36,Comparison,5,Conventional Quality,Conventional quality often focuses on defect detection.
+37,Important Point,5,Prevention Philosophy,Defect prevention begins at the start of the process.
+38,Important Point,5,Detection Philosophy,Traditional systems detect defects at the end of production.
+39,Concept,5,Cost of Non-Conformance,Total Quality relies on understanding the cost of non-conformance.
+40,Important Point,5,Universal Participation,Total Quality involves everybody at all levels.
+41,Important Point,5,All Stages Participation,Total Quality involves everyone at all stages of the process.
+42,Concept,4,User Role,Every person acts as a user in quality performance.
+43,Concept,4,Processor Role,Every person acts as a processor in quality performance.
+44,Concept,4,Supplier Role,Every person acts as a supplier in quality performance.
+45,Definition,5,Main Objective of TQ,Satisfying customer needs is the main objective of Total Quality.
+46,Important Point,5,Internal Customers,Total Quality considers internal customers important.
+47,Important Point,5,External Customers,Total Quality considers external customers important.
+48,Principle,5,Customer Perception,Customer perception is the essence of Total Quality thinking.
+49,Concept,4,Quality Improvement Team,Project teams apply Total Quality techniques for improvement.
+50,Important Point,4,Statistical Techniques,Total Quality uses statistical techniques.
+51,Important Point,4,Problem Solving,Problem-solving skills are essential in Total Quality.
+52,Important Point,4,Behavioral Concepts,Behavioral concepts support Total Quality implementation.
+53,Warning,5,TQ Implementation,Introducing Total Quality alone is not sufficient.
+54,Rule,5,Clear Objectives,Clear objectives must be known to all employees.
+55,Principle,5,Teamwork,Teamwork provides real power to Total Quality.
+56,Classification,5,Major Elements,Total Quality consists of four major elements.
+57,Classification,5,Element 1,Systems is a major element of Total Quality.
+58,Classification,5,Element 2,Processes is a major element of Total Quality.
+59,Classification,5,Element 3,Management is a major element of Total Quality.
+60,Classification,5,Element 4,People is a major element of Total Quality.
+61,Classification,4,Systems Component,Quality audit belongs to systems.
+62,Classification,4,Processes Component,Process capability belongs to processes.
+63,Classification,4,Processes Component,Process control belongs to processes.
+64,Classification,4,Management Component,Style belongs to management.
+65,Classification,4,Management Component,Teamwork belongs to management.
+66,Classification,4,Management Component,Cross-functional activity belongs to management.
+67,Concept,5,Power House of TQ,People are the powerhouse of Total Quality.
+68,Concept,4,Participation,People are managed through participation in improvement activities.
+69,Concept,4,Voluntary Activities,Improvement activities should encourage voluntary participation.
+70,Classification,4,People Component,Quality assurance belongs to the people element.
+71,Classification,4,People Component,Process improvement belongs to the people element.
+72,Definition,5,Seven Quality Tools,Total Quality uses seven quality management tools.
+73,Classification,5,Tool 1,Pareto Analysis is a quality management tool.
+74,Classification,5,Tool 2,Cause and Defect Diagram is a quality management tool.
+75,Classification,5,Tool 3,Stratification is a quality management tool.
+76,Classification,5,Tool 4,Check Sheet is a quality management tool.
+77,Classification,5,Tool 5,Histogram is a quality management tool.
+78,Classification,5,Tool 6,Scatter Diagram is a quality management tool.
+79,Classification,5,Tool 7,Graph and Control Chart are quality management tools.
+80,Principle,5,Tool Interaction,Interaction among quality tools makes Total Quality effective.
+81,Rule,5,Policy Control,Organizations should strive for thorough policy control.
+82,Rule,5,Priorities,Organizations should aim at priorities.
+83,Rule,5,Problem Solving,Organizations should aim at problem solving.
+84,Rule,4,Department Coordination,Coordinate quality, cost and production departments.
+85,Rule,4,PDCA Cycle,Smooth PDCA cycles are essential.
+86,Definition,4,PDCA,PDCA stands for Plan-Do-Check-Act.
+87,Rule,4,Data Cycles,Use data cycles for fact finding.
+88,Fact,4,Fact-Based Decisions,Fact finding is essential for quality improvement.
+89,Classification,5,Supervisor Role 1,Study the existing cultural pattern.
+90,Classification,5,Supervisor Role 2,Identify aspects that need change.
+91,Classification,5,Supervisor Role 3,Secure active participation of others involved.
+92,Classification,4,Customer Participation,Include customer participation in improvement activities.
+93,Classification,4,Customer Assistance,Obtain active customer assistance.
+94,Classification,5,Supervisor Role 4,Start quality initiatives on a small scale.
+95,Rule,4,Gradual Expansion,Use results to broaden application.
+96,Classification,5,Supervisor Role 5,Make quality improvement project by project.
+97,Rule,5,Project Approach,Quality improvement should be project-based.
+98,Classification,4,Supervisor Role 6,Use available quality tools.
+99,Classification,4,Supervisor Role 7,Conduct studies using SQC tools.
+100,Definition,4,SQC,Statistical Quality Control is abbreviated as SQC.
+101,Classification,4,Tool Progression,Use simple to sophisticated SQC tools.
+102,Classification,4,Supervisor Role 8,Provide time for mental change.
+103,Concept,4,Mental Change,Behavioral change requires adequate time.
+104,Classification,4,Supervisor Role 9,Carry out training programs as planned.
+105,Classification,4,Supervisor Role 9,Carry out self-development programs as planned.
+106,Classification,4,Supervisor Role 10,Avoid surprises during implementation.
+107,Classification,5,Supervisor Role 11,Build quality into products during manufacturing.
+108,Principle,5,Built-in Quality,Quality should be built into the process.
+109,Definition,5,ISO,ISO stands for International Organization for Standardization.
+110,Fact,5,ISO Nature,ISO is a world body.
+111,Fact,4,ISO Membership,ISO is constituted by national standard-making organizations.
+112,Fact,4,ISO Members,ISO includes BIS from India.
+113,Definition,5,BIS,BIS stands for Bureau of Indian Standards.
+114,Definition,5,ISO 9001,ISO 9001 is the model for a Quality Management System.
+115,Concept,4,World Parity,ISO 9001 emerged from the need for world parity in standards.
+116,Fact,4,Customer Requirements,ISO 9001 supports meeting customer requirements.
+117,Fact,4,Indian Industry,ISO 9001 adoption is important for Indian industry.
+118,Fact,4,European Market,European market functioning increased ISO significance.
+119,Fact,4,Export Boost,Government export promotion increased ISO relevance.
+120,Definition,5,Minimum Standards,ISO 9001 defines minimum quality standards.
+121,Fact,5,International Acceptance,ISO 9001 enables international acceptability.
+122,Fact,5,Certification Standard,ISO 9001 is the only certifiable standard in its family.
+123,Rule,4,Certification Optional,Certification is not mandatory under ISO 9001.
+124,Fact,5,Universal Applicability,ISO 9001 can be used by any organization.
+125,Fact,4,Organization Size,ISO 9001 applies to large organizations.
+126,Fact,4,Organization Size,ISO 9001 applies to small organizations.
+127,Fact,4,Field Independence,ISO 9001 applies regardless of field of activity.
+128,Fact,5,Global Adoption,More than one million organizations are ISO 9001 certified.
+129,Fact,4,Country Coverage,ISO 9001 certification exists in over 170 countries.
+130,Principle,5,Customer Focus,Strong customer focus is a basis of ISO 9001.
+131,Principle,5,Top Management,Top management commitment is vital.
+132,Principle,5,Process Approach,ISO 9001 promotes a process approach.
+133,Principle,5,Continual Improvement,ISO 9001 promotes continual improvement.
+134,Fact,4,Business Benefit,ISO 9001 helps provide consistent quality.
+135,Fact,4,Product Quality,ISO 9001 supports good-quality products.
+136,Fact,4,Service Quality,ISO 9001 supports good-quality services.
+137,Definition,5,Objective of ISO 9001,Provide confidence in supplier capability.
+138,Fact,5,Supplier Consistency,Suppliers should consistently provide products and services.
+139,Rule,5,Customer Needs,Products must meet customer needs.
+140,Rule,5,Customer Expectations,Products must meet customer expectations.
+141,Rule,5,Regulatory Compliance,Products must comply with regulations.
+142,Definition,5,Risk-Based Approach,ISO 9001 adopts a risk-based preventive approach.
+143,Concept,4,Preventive Thinking,Risk-based thinking focuses on prevention.
+144,Fact,4,Quality Coverage,Quality management covers top management commitment.
+145,Fact,4,Customer Focus Coverage,Quality management covers customer focus.
+146,Fact,4,Resource Adequacy,Quality management covers adequacy of resources.
+147,Fact,4,Employee Competence,Quality management covers employee competence.
+148,Fact,4,Process Management,Quality management covers process management.
+149,Fact,4,Production Processes,Production processes are included in process management.
+150,Fact,4,Service Delivery,Service delivery is covered by ISO 9001.
+151,Fact,4,Administrative Processes,Administrative processes are included.
+152,Fact,4,Support Processes,Support processes are included.
+153,Fact,4,Quality Planning,Quality planning is covered by ISO 9001.
+154,Fact,4,Design Control,Product and service design are covered.
+155,Fact,4,Order Review,Incoming order review is covered.
+156,Fact,4,Purchasing,Purchasing processes are covered.
+157,Fact,4,Monitoring,Process monitoring is required.
+158,Fact,4,Measurement,Measurement activities are required.
+159,Fact,4,Conformity,Monitoring ensures conformity.
+160,Fact,4,Complaint Handling,Processes must resolve customer complaints.
+161,Fact,4,Corrective Action,Corrective actions are required.
+162,Fact,4,Continuous Improvement,Improvement is a mandatory requirement.
+163,Definition,5,Quality Management Principles,There are seven Quality Management Principles.
+164,Classification,5,QMP 1,Customer-focused organization.
+165,Classification,5,QMP 2,Leadership.
+166,Classification,5,QMP 3,Engagement of people.
+167,Classification,5,QMP 4,Process approach.
+168,Classification,5,QMP 5,Improvement.
+169,Classification,5,QMP 6,Evidence-based decision making.
+170,Classification,5,QMP 7,Relationship management.
+171,Rule,4,No Priority Order,Quality management principles are not prioritized.
+172,Fact,4,Relative Importance,Importance varies among organizations.
+173,Fact,4,Dynamic Importance,Importance may change over time.
+174,Fact,5,ISO Certified Areas,All plants and units have ISO QMS certifications.
+175,Fact,5,BSP Certification,BSP received Integrated Management System certification.
+176,Fact,4,Certifying Agency,DNV is the certifying agency mentioned.
+177,Fact,5,IMS,IMS stands for Integrated Management System.
+178,Classification,4,IMS Component,QMS is integrated into IMS.
+179,Classification,4,IMS Component,EMS is integrated into IMS.
+180,Classification,4,IMS Component,OHSAS is integrated into IMS.
+181,Classification,4,IMS Component,SAMS is integrated into IMS.
+182,Fact,5,BSP Achievement,BSP became the first SAIL unit with this distinction.
+183,Fact,4,Corporate Achievement,BSP is among few Indian corporate houses with this distinction.
+184,Definition,5,SAIL Quality Policy,SAIL aims to build and sustain a world-class organization.
+185,Fact,5,Quality Hallmark,Quality should be the hallmark of every process.
+186,Fact,5,Quality Hallmark,Quality should be the hallmark of every activity.
+187,Principle,5,Human Resource Involvement,Employee involvement is essential.
+188,Principle,5,Dedication,Dedication of human resources is important.
+189,Fact,5,Stakeholder Satisfaction,SAIL is committed to stakeholder satisfaction.
+190,Principle,5,Innovation,Innovation supports stakeholder satisfaction.
+191,Principle,5,Continual Improvement,Continual improvement supports stakeholder satisfaction.
+192,Memory Hook,5,TQ Structure,TQ = Improvement + Control + JIT + Business Improvement.
+193,Memory Hook,5,TQ Outcomes,Cost↓ Variability↓ Downtime↓ Yield↑ Relations↑.
+194,Memory Hook,5,Four Elements,Systems–Processes–Management–People.
+195,Memory Hook,5,Seven Tools,Pareto-Cause-Stratification-Check-Histogram-Scatter-Control Chart.
+196,Memory Hook,5,Seven Principles,Customer-Leadership-People-Process-Improvement-Evidence-Relationship.
+197,Viva Point,5,TQ Focus,Total Quality focuses on prevention not detection.
+198,Viva Point,5,ISO 9001 Purpose,ISO 9001 establishes a Quality Management System.
+199,Interview Point,5,Key Benefit of ISO,Consistency in products and services.
+200,Revision Point,5,Core Message,Customer satisfaction is the ultimate goal of Total Quality.

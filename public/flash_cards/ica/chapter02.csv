@@ -1,0 +1,151 @@
+point_id,category,priority,title,point
+1,Definition,5,Vision,Vision depicts the aspirations of an organization.
+2,Definition,5,Vision,Vision gives substance to organizational existence.
+3,Important Point,5,Vision,Vision defines boundaries for organizational action.
+4,Important Point,5,Vision,Vision sets strategic direction for the organization.
+5,Memory Hook,4,Vision Analogy,Vision functions like a lighthouse guiding a ship.
+6,Exam Point,5,Vision,Vision is a distant goal.
+7,Fact,4,Vision,Vision continuously faces new marketplace challenges.
+8,Fact,4,Marketplace Challenges,Challenges arise from better technology.
+9,Fact,4,Marketplace Challenges,Challenges arise from improved products.
+10,Fact,4,Marketplace Challenges,Challenges arise from increased competition.
+11,Important Point,5,Vision,Vision is never static.
+12,Revision Point,5,Vision,Continuous focus on long-term vision is essential.
+13,Exam Point,5,Customer Focus,Customer provides context for all organizational endeavors.
+14,Fact,4,SAIL Vision,SAIL Vision was evolved with customer reality in mind.
+15,Fact,4,SAIL Vision,SAIL Vision was articulated at the Directors' Workshop.
+16,Exam Point,5,SAIL Vision Location,SAIL Vision was articulated at Jodhpur.
+17,Important Point,5,SAIL Vision,Vision considers environmental realities.
+18,Important Point,5,SAIL Vision,Vision considers organizational core concerns.
+19,Exam Point,5,Vision 2030,Vision 2030 is SAIL's long-term strategic plan.
+20,Exam Point,5,Vision 2030,Vision 2030 targets 50 million tonnes of hot metal production.
+21,Fact,4,Vision 2030,Vision 2030 aims to maintain leadership in Indian steel sector.
+22,Fact,4,Vision 2030,Vision 2030 seeks a place among top global steel companies.
+23,Important Point,5,SAIL Vision Statement,SAIL aims to be a respected world-class corporation.
+24,Important Point,5,SAIL Vision Statement,SAIL aims to lead Indian steel business.
+25,Important Point,5,SAIL Vision Statement,Leadership is targeted in quality.
+26,Important Point,5,SAIL Vision Statement,Leadership is targeted in productivity.
+27,Important Point,5,SAIL Vision Statement,Leadership is targeted in profitability.
+28,Important Point,5,SAIL Vision Statement,Leadership is targeted in customer satisfaction.
+29,Process,4,Organizational Flow,Mission/Vision leads to strategies.
+30,Process,4,Organizational Flow,Strategies lead to goals.
+31,Process,4,Organizational Flow,Long-term strategy leads to systems.
+32,Process,4,Organizational Flow,Long-term strategy leads to structures.
+33,Process,4,Organizational Flow,Systems and structures are driven by culture.
+34,Process,4,Organizational Flow,Culture is supported by core values.
+35,Important Point,5,Work Culture,Members should share similar values.
+36,Important Point,5,Work Culture,Behavior should align with culture and values.
+37,Definition,5,Credo,Credo reflects organizational beliefs and commitments.
+38,Important Point,5,Customer Relationship,Build lasting relationships with customers.
+39,Exam Point,5,Customer Relationship,Customer relationships should be based on trust.
+40,Exam Point,5,Customer Relationship,Customer relationships should be based on mutual benefit.
+41,Important Point,5,Ethics,Highest ethical standards must be upheld.
+42,Fact,4,Ethics,Ethical conduct applies to business activities.
+43,Important Point,5,Culture,Organization should nurture flexibility.
+44,Important Point,5,Culture,Organization should nurture learning.
+45,Important Point,5,Culture,Organization should be proactive to change.
+46,Fact,4,Career Development,Employees should have challenging careers.
+47,Fact,4,Career Development,Employees should receive advancement opportunities.
+48,Fact,4,Career Development,Employees should receive rewards.
+49,Important Point,5,Social Responsibility,Organization should make meaningful differences in lives.
+50,Definition,5,Culture,Culture broadly means a way of life.
+51,Definition,5,Organizational Culture,Culture includes traditions followed by members.
+52,Definition,5,Organizational Culture,Culture includes attitudes of members.
+53,Definition,5,Organizational Culture,Culture includes beliefs of members.
+54,Definition,5,Organizational Culture,Culture includes organizational practices.
+55,Fact,4,Culture,Culture is acquired as a habit.
+56,Important Point,5,Culture,Culture cannot be directly observed.
+57,Exam Point,5,Culture,Culture is reflected through employee behavior.
+58,Fact,4,Culture Reflection,Culture reflects behavior toward co-workers.
+59,Fact,4,Culture Reflection,Culture reflects behavior toward customers.
+60,Fact,4,Culture Reflection,Culture reflects behavior toward outsiders.
+61,Fact,4,Culture Reflection,Culture reflects behavior toward one's job.
+62,Definition,5,Distinct Culture,Distinct culture requires consistent behavior.
+63,Important Point,5,Distinct Culture,Employees should respond consistently to stimuli.
+64,Definition,5,Organizational Culture,Culture is a consistent behavior pattern.
+65,Fact,4,Culture,Culture becomes part of employee routine.
+66,Fact,4,Culture,Culture is shared by majority of employees.
+67,Important Point,5,Culture,Culture develops over time.
+68,Exam Point,5,Culture,Culture does not change overnight.
+69,Fact,4,Culture,Culture reflects observed attitudes.
+70,Fact,4,Culture,Culture reflects values.
+71,Fact,4,Culture,Culture reflects norms.
+72,Fact,4,Culture,Culture reflects beliefs.
+73,Fact,4,Culture,Culture reflects responses of influential levels.
+74,Important Point,5,SAIL Culture,SAIL promotes creativity among employees.
+75,Important Point,5,SAIL Culture,SAIL promotes involvement among employees.
+76,Important Point,5,SAIL Culture,SAIL promotes innovativeness among employees.
+77,Fact,4,Creativity,Creative potential of employees should be tapped.
+78,Important Point,5,Stakeholders,SAIL builds lasting stakeholder relationships.
+79,Important Point,5,Stakeholders,Stakeholder relationships maximize mutual benefit.
+80,Fact,4,Business Objective,Mutual benefit supports sustained business.
+81,Important Point,5,Ethics,SAIL upholds highest ethical standards.
+82,Fact,4,Social Impact,SAIL seeks meaningful difference in people's lives.
+83,Exam Point,5,Customer Satisfaction,Customer ultimately measures satisfaction.
+84,Warning,5,Customer Satisfaction,Employee opinion alone does not determine satisfaction.
+85,Important Point,5,Culture Review,Culture should be reviewed periodically.
+86,Important Point,5,Culture Alignment,Culture must align with business environment.
+87,Fact,4,Desired Culture,Organizations may need to define desired culture.
+88,Fact,4,Desired Culture,Organizations may need to cultivate desired culture.
+89,Exam Point,5,Core Values,SAIL adopted four core values in 1995.
+90,Classification,5,Core Values,Customer Satisfaction is a core value.
+91,Classification,5,Core Values,Concern for People is a core value.
+92,Classification,5,Core Values,Consistent Profitability is a core value.
+93,Classification,5,Core Values,Commitment to Excellence is a core value.
+94,Important Point,5,Customer Satisfaction,Customer comes first every time.
+95,Exam Point,5,Customer Satisfaction,Customer satisfaction is the first priority of every employee.
+96,Important Point,5,Customer Satisfaction,Customer satisfaction is the purpose of every job.
+97,Fact,4,Customer Satisfaction,Customer satisfaction enables market leadership.
+98,Definition,5,Concern for People,Talent of people is the greatest asset.
+99,Important Point,5,People Development,Competence development is essential.
+100,Important Point,5,People Development,Commitment development is essential.
+101,Fact,4,People Development,People development enhances contribution.
+102,Fact,4,People Development,People development supports customer satisfaction.
+103,Fact,4,People Development,People development supports company prosperity.
+104,Fact,4,People Development,People development supports employee prosperity.
+105,Definition,5,Consistent Profitability,Consistent profitability is essential for growth.
+106,Important Point,5,Profitability,Profitability should result from all activities.
+107,Fact,4,Profitability,Profitability supports modernization.
+108,Fact,4,Profitability,Profitability supports growth.
+109,Fact,4,Profitability,Profitability supports market leadership.
+110,Definition,5,Commitment to Excellence,SAIL does it better.
+111,Important Point,5,Excellence,Harness full potential of resources.
+112,Important Point,5,Excellence,Creativity supports excellence.
+113,Important Point,5,Excellence,Continuous improvement supports excellence.
+114,Important Point,5,Excellence,Teamwork supports excellence.
+115,Fact,4,Excellence,Excellence helps make SAIL the best organization.
+116,Fact,4,Excellence,Customers should feel pride in SAIL.
+117,Fact,4,Excellence,Employees should feel pride in SAIL.
+118,Fact,4,Excellence,Shareholders should feel pride in SAIL.
+119,Important Point,5,Norms of Behaviour,Customer satisfaction has priority over other core values.
+120,Exam Point,5,Norms of Behaviour,Market leadership is achieved through customer satisfaction.
+121,Important Point,5,Norms of Behaviour,Behavior should enhance customer satisfaction.
+122,Fact,4,Customer Focus,Customer satisfaction must be enhanced continuously.
+123,Procedure,4,Customer Satisfaction Example,Marketing branches should communicate orders to PPC.
+124,Exam Point,5,Customer Satisfaction Example,Order booking should be communicated on the same day.
+125,Procedure,4,PPC,PPC stands for Production Planning and Control.
+126,Important Point,5,PPC,PPC should begin with quality commitment.
+127,Important Point,5,PPC,PPC should begin with delivery commitment.
+128,Important Point,5,Concern for People,Safety of employees should guide decisions.
+129,Important Point,5,Concern for People,Health of employees should guide decisions.
+130,Important Point,5,Concern for People,Quality of work-life should guide decisions.
+131,Exam Point,5,Manager Responsibility,Managers must communicate core values.
+132,Fact,4,Manager Responsibility,Core values should be communicated through words.
+133,Fact,4,Manager Responsibility,Core values should be communicated through actions.
+134,Warning,5,Core Values,Behavioral deviations must be discouraged.
+135,Important Point,5,Profitability,Innovation should reduce costs.
+136,Fact,4,Profitability,Cost reduction improves profitability.
+137,Important Point,5,Resource Management,Resources should be used optimally.
+138,Warning,5,Resource Management,Avoid asking for unnecessary resources.
+139,Warning,5,Resource Management,Avoid giving unnecessary resources.
+140,Important Point,5,Commitment to Excellence,Rated capacity is a minimum benchmark.
+141,Warning,5,Commitment to Excellence,Rated capacity is not the maximum limit.
+142,Exam Point,5,Performance Evaluation,Performance should be compared with past performance.
+143,Exam Point,5,Performance Evaluation,Performance should be compared with targets.
+144,Important Point,5,Performance Evaluation,Performance should be evaluated against potential.
+145,Fact,4,Performance Evaluation,Aim for full utilization of potential.
+146,Exam Point,5,Performance Evaluation,Target is 100% achievement of potential.
+147,Comparison,4,Vision vs Mission,Vision provides long-term direction while mission drives strategic action.
+148,Memory Hook,4,Vision Lighthouse,Vision guides organizations like a lighthouse guides ships.
+149,Memory Hook,4,Core Values 1995,Remember core values adopted in 1995.
+150,Revision Point,5,Chapter Essence,Vision, culture and core values collectively drive organizational excellence.

@@ -1,0 +1,201 @@
+point_id,category,priority,title,point
+1,Important Point,5,Chapter Topic,Chapter focuses on Financial Performance of SAIL.
+2,Revision Point,5,Time Horizon,Financial analysis covers a ten-year period.
+3,Fact,5,FY25 Gross Sales,FY25 gross sales reached ₹1,01,716 Cr.
+4,Fact,5,FY24 Gross Sales,FY24 gross sales were ₹1,04,545 Cr.
+5,Fact,4,FY23 Gross Sales,FY23 gross sales were ₹1,03,729 Cr.
+6,Fact,4,FY22 Gross Sales,FY22 gross sales were ₹1,20,805 Cr.
+7,Fact,4,FY21 Gross Sales,FY21 gross sales were ₹68,452 Cr.
+8,Fact,4,FY20 Gross Sales,FY20 gross sales were ₹61,025 Cr.
+9,Fact,4,FY19 Gross Sales,FY19 gross sales were ₹66,267 Cr.
+10,Fact,4,FY18 Gross Sales,FY18 gross sales were ₹58,993 Cr.
+11,Fact,4,FY17 Gross Sales,FY17 gross sales were ₹43,866 Cr.
+12,Fact,4,FY16 Gross Sales,FY16 gross sales were ₹43,294 Cr.
+13,Important Point,5,Revenue Growth,Revenue expanded from about ₹43,000 Cr to over ₹1,01,000 Cr in ten years.
+14,Exam Point,5,Scale Expansion,SAIL achieved significant operational scale-up over the decade.
+15,Fact,5,FY25 Sales,FY25 sales stood at ₹1,01,716 Cr.
+16,Fact,4,FY25 EBITDA,FY25 EBITDA was ₹11,765 Cr.
+17,Fact,4,FY24 EBITDA,FY24 EBITDA was ₹12,280 Cr.
+18,Fact,4,FY23 EBITDA,FY23 EBITDA was ₹9,379 Cr.
+19,Fact,4,FY22 EBITDA,FY22 EBITDA was ₹22,805 Cr.
+20,Fact,4,FY21 EBITDA,FY21 EBITDA was ₹13,740 Cr.
+21,Important Point,5,EBITDA Surge,FY21–FY22 witnessed a sharp EBITDA surge.
+22,Concept,5,Steel Cycle Benefit,EBITDA growth reflected peak steel cycle benefits.
+23,Concept,5,Operating Leverage,Strong operating leverage boosted profitability during the supercycle.
+24,Fact,4,FY25 Depreciation,FY25 depreciation was ₹5,650 Cr.
+25,Fact,4,FY25 Interest Charges,FY25 interest and finance charges were ₹2,793 Cr.
+26,Fact,4,FY25 PBT,FY25 profit before tax was ₹3,009 Cr.
+27,Fact,4,FY25 PAT,FY25 profit after tax was ₹1,148 Cr.
+28,Fact,4,FY25 Dividend,FY25 dividend payout was ₹661 Cr.
+29,Fact,4,FY25 Equity Share Capital,FY25 equity share capital was ₹4,131 Cr.
+30,Fact,4,FY25 Reserves,FY25 reserves and surplus were ₹51,526 Cr.
+31,Fact,5,FY25 Net Worth,FY25 net worth was ₹55,657 Cr.
+32,Important Point,5,Net Worth Trend,Net worth strengthened consistently over the decade.
+33,Fact,5,Net Worth Milestone,Net worth crossed ₹55,000 Cr in FY25.
+34,Concept,5,Retained Earnings Growth,Net worth growth reflects retained earnings accumulation.
+35,Concept,4,Balance Sheet Repair,Balance sheet improved after stressed FY16–FY18 years.
+36,Fact,4,FY25 Total Loans,FY25 total loans were ₹36,933 Cr.
+37,Fact,4,FY25 Net Fixed Assets,FY25 net fixed assets were ₹73,089 Cr.
+38,Fact,4,FY25 Capital Work in Progress,FY25 CWIP stood at ₹7,206 Cr.
+39,Fact,4,FY25 Current Assets,FY25 current assets excluding short-term loans were ₹41,693 Cr.
+40,Fact,4,FY25 Current Liabilities,FY25 current liabilities and provisions were ₹46,159 Cr.
+41,Fact,4,FY25 Working Capital,FY25 working capital was negative ₹4,466 Cr.
+42,Important Point,5,Negative Working Capital,SAIL operated with negative working capital in FY25.
+43,Concept,5,Liquidity Management,Negative working capital reflects tight liquidity management.
+44,Exam Point,5,Current Ratio Status,Current ratio remained below 1.
+45,Fact,4,FY25 Current Ratio,FY25 current ratio was 0.90.
+46,Warning,5,Liquidity Risk,Current ratio below 1 requires monitoring.
+47,Fact,4,FY25 Capital Employed,FY25 capital employed was ₹68,823 Cr.
+48,Important Point,5,Capital Base,Capital employed exceeded ₹68,000 Cr in FY25.
+49,Fact,5,Debt Equity FY25,FY25 debt-equity ratio was 0.66.
+50,Important Point,5,Leverage Control,Leverage remained controlled over recent years.
+51,Concept,5,Prudent Capital Structure,Debt-equity around 0.6–0.7 indicates prudent financing.
+52,Fact,4,FY24 Debt Equity,FY24 debt-equity ratio was 0.67.
+53,Fact,4,FY23 Debt Equity,FY23 debt-equity ratio was 0.59.
+54,Comparison,4,Revenue vs Profitability,Revenue remained strong while margins compressed.
+55,Concept,5,Margin Compression,Recent moderation reflects margin compression rather than volume decline.
+56,Important Point,5,Cyclical Normalization,Profitability normalized after the steel supercycle.
+57,Fact,4,FY25 EBITDA to Average Capital Employed,FY25 ratio was 17.34%.
+58,Fact,4,FY24 EBITDA to Average Capital Employed,FY24 ratio was 19.06%.
+59,Fact,4,FY22 EBITDA to Average Capital Employed,FY22 ratio peaked at 32.74%.
+60,Important Point,5,ROCE Peak,Returns peaked during the steel supercycle.
+61,Fact,4,FY25 PBT to Net Sales,FY25 PBT margin was 2.96%.
+62,Fact,4,FY24 PBT to Net Sales,FY24 PBT margin was 3.53%.
+63,Fact,4,FY22 PBT to Net Sales,FY22 PBT margin was 15.60%.
+64,Fact,4,FY25 PBT to Average Capital Employed,FY25 ratio was 4.44%.
+65,Fact,4,FY24 PBT to Average Capital Employed,FY24 ratio was 5.72%.
+66,Fact,4,FY22 PBT to Average Capital Employed,FY22 ratio was 23.48%.
+67,Fact,4,FY25 Return on Average Net Worth,FY25 ROE was 3.91%.
+68,Fact,4,FY24 Return on Average Net Worth,FY24 ROE was 5.14%.
+69,Fact,4,FY22 Return on Average Net Worth,FY22 ROE was 25.16%.
+70,Important Point,5,ROE Cyclicality,ROE clearly demonstrates steel sector cyclicality.
+71,Fact,4,FY25 Net Worth per Share,FY25 net worth per share was ₹134.74.
+72,Fact,4,FY24 Net Worth per Share,FY24 net worth per share was ₹131.05.
+73,Fact,4,FY23 Net Worth per Share,FY23 net worth per share was ₹126.23.
+74,Important Point,4,Shareholder Value,Net worth per share improved over time.
+75,Fact,4,FY25 EPS,FY25 earnings per share was ₹5.20.
+76,Fact,4,FY24 EPS,FY24 earnings per share was ₹6.62.
+77,Fact,4,FY22 EPS,FY22 earnings per share was ₹29.09.
+78,Important Point,5,EPS Peak,FY22 recorded peak EPS during the supercycle.
+79,Fact,4,FY25 P/E Ratio,FY25 price-earnings ratio was 22.15.
+80,Fact,4,FY24 P/E Ratio,FY24 price-earnings ratio was 20.29.
+81,Fact,4,FY23 P/E Ratio,FY23 price-earnings ratio was 17.95.
+82,Fact,4,FY25 Dividend per Share,FY25 dividend per share was ₹1.50.
+83,Fact,4,FY24 Dividend per Share,FY24 dividend per share was ₹2.00.
+84,Fact,4,FY22 Dividend per Share,FY22 dividend per share was ₹8.75.
+85,Fact,4,FY25 Effective Dividend Rate,FY25 effective dividend rate was 14.8%.
+86,Fact,4,FY24 Effective Dividend Rate,FY24 effective dividend rate was 14.9%.
+87,Fact,4,FY22 Effective Dividend Rate,FY22 effective dividend rate was 88.8%.
+88,Fact,4,FY25 Current Ratio,FY25 current ratio was 0.90 times.
+89,Fact,4,FY25 Quick Ratio,FY25 quick ratio was 1.48.
+90,Fact,4,FY24 Quick Ratio,FY24 quick ratio was 1.56.
+91,Fact,4,FY25 Working Capital Turnover,FY25 working capital turnover was -227.8.
+92,Fact,4,FY25 Interest Coverage,FY25 interest coverage ratio was 1.95.
+93,Fact,4,FY24 Interest Coverage,FY24 interest coverage ratio was 2.64.
+94,Fact,4,FY22 Interest Coverage,FY22 interest coverage ratio was 9.56.
+95,Important Point,5,Interest Coverage Trend,Interest coverage improved significantly versus loss years.
+96,Warning,4,Earnings Sensitivity,Interest coverage remains sensitive to earnings swings.
+97,Fact,4,FY25 Dividend Payout Ratio,FY25 dividend payout ratio was 30.77%.
+98,Fact,4,FY24 Dividend Payout Ratio,FY24 dividend payout ratio was 30.23%.
+99,Fact,4,FY22 Dividend Payout Ratio,FY22 dividend payout ratio was 30.08%.
+100,Important Point,5,Dividend Consistency,Dividend payout ratio remained around 30% in profitable years.
+101,Fact,5,BSP EBITDA FY25,BSP EBITDA in FY25 was ₹5,486 Cr.
+102,Fact,5,BSP EBITDA FY24,BSP EBITDA in FY24 was ₹4,882 Cr.
+103,Important Point,5,BSP Growth,BSP EBITDA improved significantly in FY25.
+104,Fact,4,BSP Margin FY25,BSP EBITDA margin was 17%.
+105,Fact,4,BSP Margin FY24,BSP EBITDA margin was 16%.
+106,Fact,4,BSP TSS FY25,BSP EBITDA per tonne sold was ₹10,859.
+107,Fact,4,BSP TSS FY24,BSP EBITDA per tonne sold was ₹10,776.
+108,Fact,4,BSP PBT FY25,BSP PBT was ₹3,482 Cr.
+109,Fact,4,BSP PBT FY24,BSP PBT was ₹2,343 Cr.
+110,Important Point,5,BSP Contribution,BSP strengthened its share in profitability.
+111,Fact,5,DSP EBITDA FY25,DSP EBITDA was ₹903 Cr.
+112,Fact,4,DSP EBITDA FY24,DSP EBITDA was ₹892 Cr.
+113,Fact,4,DSP Margin FY25,DSP EBITDA margin was 8%.
+114,Fact,4,DSP TSS FY25,DSP EBITDA per tonne sold was ₹4,262.
+115,Fact,4,DSP PBT FY25,DSP PBT was ₹238 Cr.
+116,Important Point,4,DSP Stability,DSP maintained stable profitability.
+117,Fact,5,RSP EBITDA FY25,RSP EBITDA was ₹2,358 Cr.
+118,Fact,5,RSP EBITDA FY24,RSP EBITDA was ₹2,983 Cr.
+119,Important Point,5,RSP Decline,RSP experienced a notable EBITDA decline.
+120,Fact,4,RSP Margin FY25,RSP EBITDA margin was 11%.
+121,Fact,4,RSP Margin FY24,RSP EBITDA margin was 12%.
+122,Fact,4,RSP TSS FY25,RSP EBITDA per tonne sold was ₹5,716.
+123,Fact,4,RSP PBT FY25,RSP PBT was ₹20 Cr.
+124,Warning,5,RSP Pressure,RSP faced margin compression pressures.
+125,Fact,5,BSL EBITDA FY25,BSL EBITDA was ₹1,458 Cr.
+126,Fact,5,BSL EBITDA FY24,BSL EBITDA was ₹2,445 Cr.
+127,Important Point,5,BSL Decline,BSL recorded a sharp EBITDA decline.
+128,Fact,4,BSL Margin FY25,BSL EBITDA margin was 8%.
+129,Fact,4,BSL Margin FY24,BSL EBITDA margin was 11%.
+130,Fact,4,BSL TSS FY25,BSL EBITDA per tonne sold was ₹4,076.
+131,Fact,4,BSL PBT FY25,BSL reported PBT of minus ₹621 Cr.
+132,Warning,5,BSL Loss,BSL incurred a pre-tax loss in FY25.
+133,Fact,5,ISP EBITDA FY25,ISP EBITDA was ₹1,553 Cr.
+134,Fact,5,ISP EBITDA FY24,ISP EBITDA was ₹1,102 Cr.
+135,Important Point,5,ISP Turnaround,ISP performance improved meaningfully in FY25.
+136,Fact,4,ISP Margin FY25,ISP EBITDA margin was 13%.
+137,Fact,4,ISP Margin FY24,ISP EBITDA margin was 9%.
+138,Fact,4,ISP TSS FY25,ISP EBITDA per tonne sold was ₹6,715.
+139,Fact,4,ISP PBT FY25,ISP PBT was ₹521 Cr.
+140,Concept,5,Operational Efficiency,ISP improvement indicates operational efficiency gains.
+141,Concept,5,Product Mix Improvement,ISP benefited from a better product mix.
+142,Concept,4,Modernization Benefit,ISP reflects stabilization after modernization and capex.
+143,Fact,4,Others EBITDA FY25,Other smaller units generated ₹6 Cr EBITDA.
+144,Fact,4,Others EBITDA FY24,Other smaller units generated ₹24 Cr EBITDA.
+145,Important Point,4,Minor Contribution,Smaller units contribute marginally to EBITDA.
+146,Fact,5,SAIL EBITDA FY25,Total SAIL EBITDA was ₹11,764 Cr.
+147,Fact,5,SAIL EBITDA FY24,Total SAIL EBITDA was ₹12,280 Cr.
+148,Fact,4,SAIL Margin FY25,Overall EBITDA margin remained 12%.
+149,Fact,4,SAIL Margin FY24,Overall EBITDA margin remained 12%.
+150,Important Point,5,Profitability Concentration,Large share of EBITDA comes from top 2–3 plants.
+151,Concept,5,Profitability Backbone,SAIL profitability depends heavily on product prices.
+152,Concept,5,Market Dependence,Steel realization strongly affects earnings.
+153,Warning,4,Flat Product Risk,Flat product plants are more sensitive to margin compression.
+154,Concept,4,Cost Pressure Drivers,Raw material costs can compress margins.
+155,Concept,4,Energy Cost Impact,Higher energy costs reduce profitability.
+156,Concept,4,Logistics Cost Impact,Higher logistics costs can pressure EBITDA.
+157,Concept,4,Capacity Utilization Risk,Lower utilization can reduce plant profitability.
+158,Concept,4,Product Mix Challenge,Weak product mix affects margins.
+159,Important Point,5,Uneven Competitiveness,Plants show varying cost competitiveness.
+160,Concept,5,Cyclical Industry,Steel profitability follows commodity cycles.
+161,Fact,4,FY22 Best Year,FY22 represented the supercycle peak.
+162,Fact,4,FY16 Stress Period,FY16 was part of the stressed phase.
+163,Fact,4,FY17 Stress Period,FY17 was part of the stressed phase.
+164,Fact,4,FY18 Stress Period,FY18 was part of the stressed phase.
+165,Important Point,5,Recovery Story,SAIL repaired its balance sheet after stress years.
+166,Revision Point,5,Revenue Milestone,Sales crossed ₹1 lakh crore in recent years.
+167,Revision Point,5,Profitability Normalization,Profitability moderated despite high sales.
+168,Exam Point,5,Margin vs Volume,Declining margins do not imply declining volumes.
+169,Exam Point,5,Net Worth Strength,Net worth exceeded ₹55,000 Cr in FY25.
+170,Viva Point,4,Debt Equity Insight,Debt-equity around 0.6–0.7 indicates manageable leverage.
+171,Viva Point,4,Liquidity Insight,Current ratio below 1 signals tight liquidity.
+172,Viva Point,4,Steel Supercycle,FY21–FY22 was the strongest earnings phase.
+173,Interview Point,4,Key Profit Center,BSP is the strongest profitability contributor.
+174,Interview Point,4,Turnaround Example,ISP demonstrates operational turnaround.
+175,Interview Point,4,Loss-Making Unit,BSL reported negative PBT in FY25.
+176,Memory Hook,3,Revenue Journey,₹43k Cr to ₹101k Cr revenue in a decade.
+177,Memory Hook,3,Net Worth Journey,Net worth crossed ₹55k Cr by FY25.
+178,Memory Hook,3,Debt Discipline,Debt-equity stayed near 0.6–0.7.
+179,Memory Hook,3,Top Performer,BSP leads EBITDA contribution.
+180,Memory Hook,3,Turnaround Plant,Remember ISP for performance improvement.
+181,Memory Hook,3,Pressure Plants,RSP and BSL faced EBITDA decline.
+182,Frequently Asked,5,EBITDA Trend,FY25 EBITDA was lower than FY24.
+183,Frequently Asked,5,Margin Stability,Overall EBITDA margin remained 12%.
+184,Frequently Asked,5,Profit Concentration,Top plants dominate profitability.
+185,Frequently Asked,5,Liquidity Concern,Negative working capital remains a monitoring point.
+186,Frequently Asked,5,Capital Structure,Leverage remains under control.
+187,Revision Point,4,Current Liabilities Exceed Current Assets,Negative working capital results from higher current liabilities.
+188,Revision Point,4,Balance Sheet Health,Net worth growth signals stronger balance sheet.
+189,Revision Point,4,Operating Leverage,Strong operating leverage amplified earnings in FY22.
+190,Revision Point,4,Cost Competitiveness,Different plants exhibit different competitiveness levels.
+191,Exam Point,5,Best EBITDA Plant,BSP generated highest EBITDA in FY25.
+192,Exam Point,5,Highest Margin Plant,BSP achieved 17% EBITDA margin in FY25.
+193,Exam Point,5,Highest EBITDA per Tonne,BSP achieved ₹10,859 EBITDA/TSS.
+194,Exam Point,5,Lowest PBT Plant,BSL reported negative PBT.
+195,Exam Point,5,Best Turnaround,ISP showed strongest improvement.
+196,Concept,4,Integrated Steel Player,Tight liquidity management is common among large integrated steel producers.
+197,Concept,4,Earnings Volatility,Steel company returns are highly cyclical.
+198,Concept,4,Market Realization,Product selling prices significantly affect profitability.
+199,Concept,4,Financial Resilience,Strong net worth improves resilience.
+200,Revision Point,5,Final Takeaway,SAIL combines strong scale, controlled leverage, improving balance sheet and cyclical profitability.

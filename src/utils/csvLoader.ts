@@ -1,6 +1,7 @@
 import Papa from 'papaparse';
 import type { Question } from '../types';
 
+// ─── Question Bank Loader ────────────────────────────────────────────────────
 export const loadChapterQuestions = async (
   material: 'ica' | 'gpoe',
   fileName: string,
@@ -13,7 +14,7 @@ export const loadChapterQuestions = async (
       throw new Error(`Failed to load ${url}: ${response.statusText}`);
     }
     const csvText = await response.text();
-    
+
     return new Promise((resolve, reject) => {
       Papa.parse(csvText, {
         header: true,
@@ -29,9 +30,8 @@ export const loadChapterQuestions = async (
               const optD = row.option_d || row.optionD || row.option4 || '';
               const correct = row.correct_answer || row.correctAnswer || row.correct || '';
               const exp = row.explanation || '';
-              
               const uniqueId = `${material}_${chapterId}_${qId}`;
-              
+
               return {
                 question_id: String(qId).trim(),
                 question: qText.trim(),
@@ -43,17 +43,16 @@ export const loadChapterQuestions = async (
                 explanation: exp.trim(),
                 chapterId,
                 material,
-                uniqueId
+                uniqueId,
               };
             })
-            // Filter out empty rows or row headers
             .filter((q) => q.question_id && q.question && q.correct_answer);
-            
+
           resolve(questions);
         },
         error: (error: any) => {
           reject(error);
-        }
+        },
       });
     });
   } catch (error) {
@@ -62,82 +61,119 @@ export const loadChapterQuestions = async (
   }
 };
 
+// ─── FlashCard Type ──────────────────────────────────────────────────────────
 export interface FlashCard {
   id: string;
-  point: string;
-  explanation: string;
+  title: string;        // Short context label / topic heading
+  point: string;        // Main fact / statement — shown on front face
+  explanation: string;  // Detailed content — shown on back face
+  category: string;     // e.g. "Fact", "Exam Point", "Definition", "Safety"
+  importance: 'High' | 'Medium' | 'Low';
+  example: string;      // Optional worked example (new schema only)
+  notes: string;        // Optional memory hook / notes (new schema only)
   chapterId: string;
   material: 'ica' | 'gpoe';
   uniqueId: string;
 }
 
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+const priorityToImportance = (priority: string | number): FlashCard['importance'] => {
+  const p = Number(priority);
+  if (p >= 5) return 'High';
+  if (p >= 3) return 'Medium';
+  return 'Low';
+};
+
+const textToImportance = (text: string): FlashCard['importance'] => {
+  const t = (text || '').trim().toLowerCase();
+  if (t === 'high') return 'High';
+  if (t === 'medium') return 'Medium';
+  return 'Low';
+};
+
+// ─── FlashCard Loader ─────────────────────────────────────────────────────────
+// Supports two CSV schemas automatically:
+//
+//  Current schema  →  point_id | category | priority | title | point
+//  New schema      →  card_id  | title    | content  | category | importance | example | notes
+//
 export const loadChapterFlashCards = async (
   material: 'ica' | 'gpoe',
   fileName: string,
-  chapterId: string,
-  chapterQuestionsFallback: Question[] = []
+  chapterId: string
 ): Promise<FlashCard[]> => {
   const url = `/flash_cards/${material}/${fileName}`;
   try {
     const response = await fetch(url);
     if (!response.ok) {
-      if (chapterQuestionsFallback.length > 0) {
-        return chapterQuestionsFallback.map((q, idx) => ({
-          id: q.question_id,
-          point: q.question,
-          explanation: `Correct Answer: ${q.correct_answer}\n\n${q.explanation || q[`option_${q.correct_answer.toLowerCase()}` as keyof Question] || ''}`,
-          chapterId,
-          material,
-          uniqueId: `fc_${material}_${chapterId}_${q.question_id || idx}`
-        }));
-      }
+      console.warn(`No flashcard CSV found at ${url}.`);
       return [];
     }
     const csvText = await response.text();
-    
+
     return new Promise((resolve, reject) => {
       Papa.parse(csvText, {
         header: true,
         skipEmptyLines: true,
         complete: (results) => {
-          const cards: FlashCard[] = results.data
+          const rows = results.data as any[];
+
+          // Detect schema from first non-empty row's keys
+          const firstRow = rows[0] || {};
+          const hasNewSchema = 'content' in firstRow || 'card_id' in firstRow;
+
+          const cards: FlashCard[] = rows
             .map((row: any, idx: number) => {
-              const cardId = row.id || row.card_id || String(idx + 1);
-              const point = row.point || row.important_point || row.front || '';
-              const explanation = row.explanation || row.back || row.details || '';
-              
-              const uniqueId = `fc_${material}_${chapterId}_${cardId}`;
-              
+              let id: string, title: string, point: string, explanation: string;
+              let category: string, importance: FlashCard['importance'];
+              let example: string, notes: string;
+
+              if (hasNewSchema) {
+                // ── New schema ──────────────────────────────────────────
+                id          = String(row.card_id || idx + 1).trim();
+                title       = (row.title || '').trim();
+                point       = (row.content || '').trim();
+                explanation = (row.content || '').trim();
+                category    = (row.category || '').trim();
+                importance  = textToImportance(row.importance || '');
+                example     = (row.example || '').trim();
+                notes       = (row.notes || '').trim();
+              } else {
+                // ── Current schema ──────────────────────────────────────
+                // point_id | category | priority | title | point
+                id          = String(row.point_id || row.id || idx + 1).trim();
+                title       = (row.title || '').trim();
+                point       = (row.point || row.important_point || '').trim();
+                explanation = point;
+                category    = (row.category || '').trim();
+                importance  = priorityToImportance(row.priority || 3);
+                example     = '';
+                notes       = '';
+              }
+
               return {
-                id: String(cardId).trim(),
-                point: point.trim(),
-                explanation: explanation.trim(),
+                id,
+                title,
+                point,
+                explanation,
+                category,
+                importance,
+                example,
+                notes,
                 chapterId,
                 material,
-                uniqueId
+                uniqueId: `fc_${material}_${chapterId}_${id}`,
               };
             })
             .filter((c) => c.point);
-            
+
           resolve(cards);
         },
-        error: (error: any) => {
-          reject(error);
-        }
+        error: (error: any) => reject(error),
       });
     });
   } catch (error) {
     console.error(`Error loading flashcards from ${url}:`, error);
-    if (chapterQuestionsFallback.length > 0) {
-      return chapterQuestionsFallback.map((q, idx) => ({
-        id: q.question_id,
-        point: q.question,
-        explanation: `Correct Answer: ${q.correct_answer}\n\n${q.explanation || q[`option_${q.correct_answer.toLowerCase()}` as keyof Question] || ''}`,
-        chapterId,
-        material,
-        uniqueId: `fc_${material}_${chapterId}_${q.question_id || idx}`
-      }));
-    }
     return [];
   }
 };

@@ -1,0 +1,231 @@
+point_id,category,priority,title,point
+1,Definition,5,Sinter Plant,Sinter plant agglomerates iron ore fines into porous sinter
+2,Definition,5,Sintering,Sintering is agglomeration by incipient fusion using heat
+3,Important Point,5,Purpose of Sintering,Converts waste fines into blast furnace burden
+4,Fact,4,Technology Origin,Sintering technology developed in early 20th century
+5,Exam Point,5,Preferred Burden,Sinter is preferred blast furnace burden material
+6,Classification,5,Raw Material,Iron ore fines
+7,Classification,4,Raw Material,Limestone fines
+8,Classification,4,Raw Material,Dolomite fines
+9,Classification,4,Raw Material,Coke breeze fines
+10,Classification,4,Raw Material,BOF sludge
+11,Classification,4,Raw Material,Burnt lime
+12,Classification,4,Raw Material,Mill scale
+13,Classification,4,Raw Material,BOF slag or LD slag
+14,Classification,4,Raw Material,BF return fines
+15,Classification,4,Raw Material,Internal sinter return fines
+16,Process,5,Charge Preparation,Raw materials are proportioned by charge calculation
+17,Process,5,Balling Drum Function,Mixes base mix with water and forms balls
+18,Definition,4,Base Mix,Mixed raw materials before nodulization
+19,Definition,4,Green Mix,Nodulized base mix ready for sintering
+20,Fact,4,Hearth Layer,Hearth layer uses 10–20 mm finished sinter
+21,Process,5,Charging,Green mix is loaded above hearth layer
+22,Process,5,Ignition,Top layer ignited in ignition furnace
+23,Fact,4,Ignition Fuel,Gases are burned for ignition
+24,Concept,5,Air Flow,Air is drawn downward by exhausters
+25,Concept,5,Bonding,Coke combustion bonds particles together
+26,Definition,5,Sinter,Strong porous aggregate formed after sintering
+27,Rule,4,End of Sintering,Sintering ends when bottom coke burning is completed
+28,Process,4,Post Treatment,Sinter cake is crushed cooled and screened
+29,Exam Point,5,Ideal Sinter Size,Blast furnace sinter size is 5–40 mm
+30,Rule,5,Return Fines,-5 mm sinter is recycled to sinter bins
+31,Process,4,Under Grate Suction,Fines are sintered using suction through grates
+32,Fact,4,Fuel Type,Finely crushed coke acts as fuel
+33,Definition,4,Ignition Furnace,Gaseous fuel burner used for ignition
+34,Fact,4,COG,Coke oven gas is used in ignition furnace
+35,Fact,4,Mixed Gas,Mixed gas contains COG and BF gas
+36,Concept,5,Combustion Movement,Combustion front moves downward
+37,Classification,5,Zone 1,Cold sinter zone
+38,Fact,4,Cold Sinter Temperature,60–100°C
+39,Classification,5,Zone 2,Hot sinter zone
+40,Fact,4,Hot Sinter Temperature,100–1000°C
+41,Classification,5,Zone 3,Intensive combustion zone
+42,Fact,5,Combustion Temperature,1000–1350°C
+43,Classification,4,Zone 4,Heating zone
+44,Fact,4,Heating Zone Temperature,1000–700°C
+45,Classification,4,Zone 5,Preheating zone
+46,Fact,4,Preheating Temperature,700–60°C
+47,Classification,4,Zone 6,Moisture recondensation zone
+48,Fact,4,Recondensation Temperature,60–30°C
+49,Comparison,5,Reaction Type,Combustion zone has thermal and chemical reactions
+50,Comparison,4,Reaction Type,Other zones have mainly thermal reactions
+51,Fact,5,Maximum Temperature,1300–1350°C in combustion zone
+52,Concept,4,Zone Movement,Zone speed depends on sintering speed
+53,Concept,4,Heat Transfer,Ready sinter transfers heat to sucked air
+54,Concept,4,High Temperature Formation,Hot air and preheated charge create peak temperature
+55,Important Point,5,Sinter Formation,Physical and chemical changes form sinter
+56,Concept,4,Preheating Zone,Charge heated by combustion products
+57,Concept,4,Moisture Zone,Exhaust gases transfer moisture to charge
+58,Rule,4,Moisture Effect,Temperature stays low until moisture removal
+59,Concept,4,Sinter Growth,Sinter layer grows toward grates
+60,Rule,5,Combustion Disappearance,Marks completion of sintering
+61,Fact,5,Ore Requirement,750–825 kg ore fines per ton sinter
+62,Fact,5,Coke Requirement,65–70 kg coke per ton sinter
+63,Fact,3,Mill Scale Requirement,26 kg per ton sinter
+64,Fact,4,Limestone Requirement,150–180 kg per ton sinter
+65,Fact,3,BOF Sludge Requirement,2 kg per ton sinter
+66,Fact,3,BOF Slag Requirement,20 kg per ton sinter
+67,Fact,3,Dolomite Requirement,30–40 kg per ton sinter
+68,Fact,3,Burnt Lime Requirement,20 kg per ton sinter
+69,Fact,3,BF Return Requirement,100 kg per ton sinter
+70,Fact,3,In Plant Return Requirement,456 kg per ton sinter
+71,Warning,5,+10 mm Ore,+10 mm iron ore should be nil
+72,Rule,5,-1 mm Ore,-1 mm fraction should be maximum 30%
+73,Rule,5,Alumina Limit,Al2O3 should be maximum 2.55%
+74,Rule,5,Silica Limit,SiO2 should be maximum 2.91%
+75,Cause-Effect,5,Coarse Ore,More +10 mm causes weak sinter
+76,Cause-Effect,5,Fine Ore,More -1 mm reduces permeability
+77,Cause-Effect,4,Fine Ore Effect,Reduced permeability lowers productivity
+78,Cause-Effect,5,High Alumina,Increases RDI
+79,Cause-Effect,4,High Alumina,Generates more -5 mm fraction
+80,Cause-Effect,4,High Alumina,Can cause chute jamming
+81,Cause-Effect,4,High Silica,Increases glassy phase in sinter
+82,Cause-Effect,4,Glassy Phase,Makes sinter brittle
+83,Rule,5,Flux Crushing Index,-3 mm flux fraction should be at least 90%
+84,Cause-Effect,4,Poor Flux Crushing,Creates free lime
+85,Cause-Effect,4,Free Lime,Causes weak sinter
+86,Rule,5,Coke Crushing Index,-3 mm coke fraction should be at least 85%
+87,Rule,4,Coke Size,+5 mm coke should be nil
+88,Cause-Effect,4,Coarse Coke,Reduces productivity
+89,Cause-Effect,4,Ultra Fine Coke,Increases coke consumption
+90,Definition,5,Moisture Role,Water acts as binder in base mix
+91,Concept,5,Moisture Importance,Controls bed permeability
+92,Rule,5,Ideal Moisture,7–8% water in base mix
+93,Cause-Effect,4,High Moisture,Reduces permeability
+94,Cause-Effect,4,High Moisture,Lowers sintering speed
+95,Cause-Effect,4,Low Moisture,Reduces balling
+96,Cause-Effect,4,Low Moisture,Lowers productivity
+97,Rule,5,Ignition Temperature,1150–1250°C maintained in hearth
+98,Fact,4,Gas Ratio Example,32.5% CO gas and 67.5% BF gas
+99,Fact,4,Mixed Gas Calorific Value,Approximately 1900 kcal per cubic meter
+100,Fact,4,COG Calorific Value,Approximately 4150 kcal per Nm3
+101,Cause-Effect,5,Very High Hearth Temperature,Fuses top layer
+102,Cause-Effect,4,Fused Layer,Reduces permeability
+103,Cause-Effect,4,Fused Layer,Lowers productivity
+104,Cause-Effect,5,Low Hearth Temperature,Causes improper ignition
+105,Cause-Effect,4,Improper Ignition,Increases -5 mm generation
+106,Definition,5,Coke Rate,Coke percentage in total charge
+107,Rule,5,Normal Coke Rate,3.5–6% of total charge
+108,Cause-Effect,4,High Coke Rate,Fuses top layer
+109,Cause-Effect,4,High Coke Rate,Increases sticker formation
+110,Cause-Effect,4,Low Coke Rate,Leads to incomplete sintering
+111,Definition,5,Machine Speed,Sinter strand operating speed
+112,Definition,5,BTP,Burn Through Point
+113,Concept,5,BTP Significance,Indicates completion of sintering
+114,Fact,5,BTP Location,Usually second last wind box
+115,Fact,5,BTP Temperature,Approximately 400°C
+116,Cause-Effect,4,High Speed Low BTP,Generates more -5 mm
+117,Cause-Effect,4,Low Speed High BTP,Reduces productivity
+118,Process,4,Crushing,Sinter cake crushed to 100 mm
+119,Process,4,Cooling,Cooled by forced draft air blowers
+120,Fact,4,Cooler Discharge Temperature,60–80°C
+121,Rule,4,Cooling Practice,Larger sinter should remain at bottom
+122,Rule,4,Cooling Practice,Smaller sinter should remain at top
+123,Fact,4,Hearth Layer Fraction,15–20 mm fraction reused
+124,Rule,5,+10 mm Requirement,Minimum 65% after screening
+125,Rule,5,-5 mm Requirement,Maximum 6% after screening
+126,Important Point,5,Advantage,Utilizes iron ore fines from mines
+127,Important Point,5,Advantage,Consumes metallurgical wastes
+128,Important Point,4,Advantage,Uses coke breeze productively
+129,Important Point,5,Advantage,Flux calcination saves blast furnace coke
+130,Important Point,5,Advantage,Higher sinter burden improves permeability
+131,Cause-Effect,4,Permeability Improvement,Increases productivity
+132,Cause-Effect,4,Sinter Burden,Reduces blast furnace coke rate
+133,Important Point,4,Advantage,Reduces sulfur phosphorus zinc and alkali effects
+134,Important Point,4,Advantage,Improves hot metal quality
+135,Important Point,4,Advantage,Higher softening temperature than burden materials
+136,Important Point,4,Advantage,Narrow melting zone
+137,Cause-Effect,4,Narrow Cohesive Zone,Improves blast furnace driving rate
+138,Rule,5,FeO Range,8–11%
+139,Rule,5,MgO Range,2.6–3.0%
+140,Rule,5,Available Lime Range,3.4–6%
+141,Rule,5,SiO2 Range,4.8–5.2%
+142,Rule,5,Al2O3 Target,3.0%
+143,Rule,5,Basicity Range,1.6–2.1
+144,Rule,5,Sinter Size Requirement,5–40 mm
+145,Rule,4,Mean Size Requirement,18–21 mm
+146,Rule,5,DTI Requirement,Minimum 70%
+147,Rule,5,RDI Requirement,Maximum 30%
+148,Rule,4,+40 mm Fraction,Maximum 9%
+149,Definition,5,DTI,Tumbler index indicates cold strength
+150,Concept,4,DTI Basis,Measures impact and abrasion resistance
+151,Fact,4,Strength Order,Primary hematite strongest phase
+152,Fact,4,Strength Order,Secondary hematite stronger than magnetite
+153,Fact,4,Strength Order,Magnetite stronger than ferrites
+154,Cause-Effect,4,Cold Strength,Lower fines generation during handling
+155,Definition,5,RDI,Reduction Degradation Index
+156,Fact,5,RDI Test Temperature,550°C
+157,Rule,5,RDI Preference,Lower RDI values are desirable
+158,Concept,4,RDI Use,Predicts degradation in blast furnace stack
+159,Definition,5,Coke Crushing Index,Percentage of -3 mm coke fraction
+160,Rule,5,Good Coke Crushing Index,Greater than 85%
+161,Definition,5,Flux Crushing Index,Percentage of -3 mm flux fraction
+162,Rule,5,Good Flux Crushing Index,Greater than 90%
+163,Definition,5,BTP Temperature,Completion indicator of sintering
+164,Fact,4,BTP Location Detail,Found near discharge end wind box
+165,Classification,4,Sinter Making Equipment,Balling drums
+166,Classification,4,Sinter Making Equipment,Sinter pallets
+167,Classification,4,Sinter Making Equipment,Screens
+168,Classification,4,Sinter Making Equipment,Crushers
+169,Classification,4,Sinter Making Equipment,Coolers
+170,Fact,4,Balling Drum Function,Mixing and pelletizing
+171,Fact,4,Sinter Pallet Function,Sintering occurs on pallets
+172,Fact,4,Screen Function,Separates size fractions
+173,Fact,4,Crusher Function,Crushes sinter cake
+174,Fact,4,Cooler Function,Cools and normalizes sinter
+175,Classification,4,Exhauster Equipment,High capacity fans
+176,Fact,4,Exhauster Function,Sucks air below grates
+177,Fact,4,Battery Cyclone Function,Cleans exhaust air
+178,Fact,4,ESP Function,Cleans exhaust air
+179,Classification,4,Proportioning Equipment,Electronic feeders
+180,Fact,4,Electronic Feeder Function,Controls feed rate
+181,Fact,4,Conveyor Function,Transports charge mix
+182,Fact,4,Bunker Function,Stores raw materials
+183,Classification,4,Coke Preparation Equipment,Roll crushers
+184,Classification,4,Flux Preparation Equipment,Rod mills
+185,Classification,4,Handling Equipment,Grab cranes
+186,Definition,5,Specific Productivity,Sinter produced per square meter per hour
+187,Definition,5,Specific Heat Consumption,Gas consumed per ton sinter
+188,Definition,5,Specific Power Consumption,Power consumed per ton sinter
+189,Definition,5,Specific Coke Consumption,Coke consumed per ton sinter
+190,Definition,5,Specific Flux Consumption,Flux consumed per ton sinter
+191,Rule,5,Economic Target,Maximize specific productivity
+192,Rule,5,Economic Target,Minimize heat consumption
+193,Rule,5,Economic Target,Minimize power consumption
+194,Rule,5,Economic Target,Minimize coke consumption
+195,Rule,5,Economic Target,Minimize flux consumption
+196,Warning,5,Dust Pollution,Fine particles generate heavy dust
+197,Rule,5,Dust Control,Efficient ventilation is essential
+198,Rule,5,PPE,Dust mask must be used
+199,Fact,4,Stack Emission Limit,50 mg per Nm3
+200,Fact,4,Fugitive Emission Limit,2 mg per Nm3
+201,Warning,5,Gas Safety,Mixed gas and COG require strict protocols
+202,Rule,5,Gas Safety PPE,Use gas mask during gas line work
+203,Rule,5,Gas Safety Device,Use CO monitor
+204,Warning,4,Noise Source,Exhauster fans create high noise
+205,Warning,4,Noise Cause,Suction line leakage increases noise
+206,Fact,3,Noise Area,Air compressor area
+207,Fact,3,Noise Area,Chiller unit area
+208,Fact,3,Noise Area,Hammer crusher area
+209,Fact,3,Noise Area,Coke crusher area
+210,Rule,5,Noise Protection,Use ear plugs
+211,Definition,5,ISO 45001:2018,Occupational Health and Safety Management System
+212,Concept,5,OHSMS Purpose,Identifies hazards and controls risks
+213,Concept,4,OHSMS Benefit,Supports legal compliance
+214,Concept,4,OHSMS Benefit,Improves communication and consultation
+215,Concept,4,OHSMS Benefit,Ensures staff competency
+216,Concept,4,OHSMS Benefit,Prepares for emergencies
+217,Important Point,4,Scope Limitation,Not concerned with product safety
+218,Fact,4,Compatibility,Compatible with ISO 9001
+219,Fact,4,Compatibility,Compatible with ISO 14001
+220,Important Point,4,Integration,Supports integrated management systems
+221,Fact,4,OHSMS Impact,Reduces risks and losses
+222,Fact,4,OHSMS Impact,Reduces accidents and incidents
+223,Fact,4,OHSMS Impact,Reduces costs
+224,Fact,4,OHSMS Impact,Improves operational reliability
+225,Fact,4,OHSMS Impact,Ensures compliance with rules
+226,Fact,4,OHSMS Impact,Provides systematic safety approach
+227,Fact,4,OHSMS Impact,Improves company image
+228,Memory Hook,5,Sinter Formula,Fines plus fuel plus heat plus suction equals sinter
+229,Viva Point,5,Hearth Layer Purpose,Protects pallets and improves bed permeability
+230,Interview Point,5,Most Important Control Parameter,BTP indicates sintering completion

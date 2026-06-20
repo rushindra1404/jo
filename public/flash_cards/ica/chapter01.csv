@@ -1,0 +1,101 @@
+point_id,category,priority,title,point
+1,Fact,5,Iron And Steel Usage,Iron and steel have been used by mankind for nearly 6000 years.
+2,Important Point,5,Modern Steel Industry,Modern iron and steel industry emerged during the 19th century.
+3,Fact,5,World Steel Production 1950,World steel production was 189 MT in 1950.
+4,Fact,5,World Steel Production 1970,World steel production reached 595 MT by 1970.
+5,Exam Point,5,Growth Driver Post WWII,Steel industry expanded rapidly after the Second World War.
+6,Fact,4,Slow Growth Period,Steel production growth slowed during 1970–2000.
+7,Cause-Effect,4,Static Demand Impact,Static demand in developed economies reduced steel production growth.
+8,Fact,4,Oil Crisis Impact,1970s oil crisis negatively affected global steel growth.
+9,Fact,4,Afghanistan War Impact,1980s Afghanistan war contributed to slower steel growth.
+10,Fact,4,Asian Crisis Impact,1997 Asian currency crisis impacted steel demand.
+11,Exam Point,5,China Overtakes USA,China overtook the USA in steel production in 1993.
+12,Exam Point,5,China Overtakes Japan,China overtook Japan in steel production in 1996.
+13,Fact,5,China Production 2000,China produced 131 MT crude steel in 2000.
+14,Fact,5,China Production 2022,China produced 1013 MT crude steel in 2022.
+15,Exam Point,5,China Share 2022,China accounted for 54% of world steel production in 2022.
+16,Fact,4,Global Crisis 2008,Steel production dipped during the 2008 global financial crisis.
+17,Fact,4,China Clampdown 2016,Steel production dipped in 2016 due to China's production restrictions.
+18,Fact,5,Global Capacity 2025,Global steelmaking capacity reached 2.55 billion metric tons by 2025.
+19,Exam Point,5,OECD Warning,Global steel overcapacity may exceed 680 million metric tons by 2025.
+20,Fact,4,Steel Demand Recovery,Global steel demand may recover by 1% in 2026.
+21,Fact,4,China Demand Trend,Steel demand in China continues to decline.
+22,Important Point,4,Growth Economies,India and ASEAN nations are expected to sustain steel demand growth.
+23,Fact,4,Ancient Civilizations,Iron was used in Babylon, Egypt, China, India, Greece and Rome.
+24,Fact,4,Archaeological Evidence,Mesopotamia and Egypt provide evidence of ancient iron usage.
+25,Important Point,4,Bronze Preference,Bronze was preferred until iron processing techniques improved.
+26,Fact,4,Early Fuel,Charcoal from wood was initially used for iron smelting.
+27,Fact,4,Coal Discovery,Coal later became a major heat source for iron production.
+28,Fact,4,Coke Development,Coal was converted into coke for efficient smelting.
+29,Exam Point,5,Saugus Works,Saugus Works was the first successful iron works in America.
+30,Fact,5,Saugus Year,Saugus Works was founded in 1646.
+31,Exam Point,5,Bessemer Process,The Bessemer Process was invented in 1856.
+32,Important Point,5,Bessemer Impact,Bessemer Process enabled low-cost mass steel production.
+33,Fact,5,Iron Pillar,The Iron Pillar near New Delhi demonstrates ancient metallurgical excellence.
+34,Fact,4,Konark Temple,Massive iron beams were used in the Sun Temple at Konark.
+35,Fact,5,Rig Veda Reference,Rig Veda contains references to iron usage.
+36,Fact,5,Atharva Veda Reference,Atharva Veda contains references to iron usage.
+37,Exam Point,5,Indian Iron Production,India has produced iron for more than 3000 years.
+38,Fact,5,World Production 2025,World crude steel production was 1849.4 MT in 2025.
+39,Exam Point,5,India Ranking 2025,India was the second-largest steel producer in 2025.
+40,Fact,5,China Production 2025,China produced 960.8 MT crude steel in 2025.
+41,Fact,5,India Production 2025,India produced 164.9 MT crude steel in 2025.
+42,Fact,4,India Growth 2025,India's steel production grew by 10.4% in 2025.
+43,Fact,4,US Production 2025,USA produced 82 MT crude steel in 2025.
+44,Fact,4,Japan Production 2025,Japan produced 80.7 MT crude steel in 2025.
+45,Fact,4,Russia Production 2025,Russia produced 67.8 MT crude steel in 2025.
+46,Fact,4,South Korea Production 2025,South Korea produced 61.9 MT crude steel in 2025.
+47,Fact,4,Germany Production 2025,Germany produced 34.1 MT crude steel in 2025.
+48,Fact,4,Brazil Production 2025,Brazil produced 33.3 MT crude steel in 2025.
+49,Fact,4,Iran Production 2025,Iran produced 31.8 MT crude steel in 2025.
+50,Exam Point,5,Top Producer,China remained the world's largest steel producer in 2025.
+51,Fact,4,World Demand 2025,Global steel demand in 2025 is projected at 1749 MT.
+52,Fact,4,World Demand 2026,Global steel demand in 2026 is projected at 1773 MT.
+53,Important Point,4,Demand Rebound,A modest global steel demand rebound is expected in 2026.
+54,Fact,4,Developing Economies,India Vietnam Egypt and Saudi Arabia support global demand growth.
+55,Fact,4,Europe Demand,Steel demand growth is expected to return in Europe.
+56,Fact,4,Ex-China Growth,Demand excluding China may grow 3.4% in 2025.
+57,Fact,4,Ex-China Growth 2026,Demand excluding China may grow 4.7% in 2026.
+58,Fact,4,Africa Demand Growth,Africa steel demand grew about 5.5% annually.
+59,Fact,4,Africa Demand 2025,Africa steel demand reached around 41 MT in 2025.
+60,Important Point,5,India Capacity Growth,India is expanding steelmaking capacity rapidly.
+61,Exam Point,5,India Global Rank,India ranks second globally in crude steel production.
+62,Fact,5,Capacity 2025,India's crude steel capacity reached 200 MT in 2025.
+63,Exam Point,5,Capacity Target 2030,India targets 300 MT steel capacity by 2030.
+64,Fact,5,FY18 Production,India produced about 103 MT crude steel in FY18.
+65,Fact,5,FY26 Production,India's crude steel production may reach 167 MT by FY26.
+66,Fact,5,FY18 Consumption,India consumed about 92 MT steel in FY18.
+67,Fact,5,FY26 Consumption,India's steel consumption may reach 161 MT by FY26.
+68,Cause-Effect,4,Recovery Driver,Infrastructure construction and manufacturing drove post-FY21 recovery.
+69,Important Point,4,Domestic Absorption,Gap between production and consumption has narrowed.
+70,Exam Point,5,High Growth Market,India is emerging as a major high-growth steel market.
+71,Fact,4,FY25 Production Growth,Crude steel production increased 5.3% in FY25.
+72,Fact,4,FY25 Consumption Growth,Finished steel consumption increased 11.5% in FY25.
+73,Fact,4,FY25 Import Growth,Finished steel imports increased 14.8% in FY25.
+74,Fact,4,FY25 Export Decline,Finished steel exports declined 35.1% in FY25.
+75,Important Point,4,Demand Driven Expansion,Indian steel growth is increasingly demand-driven.
+76,Fact,5,Finished Steel FY25,Finished steel production reached 146.6 MT in FY25.
+77,Fact,5,Consumption FY25,Finished steel consumption reached 152 MT in FY25.
+78,Fact,4,Import FY25,Finished steel imports were 9.6 MT in FY25.
+79,Fact,4,Export FY25,Finished steel exports were 4.9 MT in FY25.
+80,Exam Point,5,Market Leaders,JSW Steel and Tata Steel are market leaders.
+81,Fact,4,JSW Share,JSW Steel held 13.9% market share.
+82,Fact,4,Tata Share,Tata Steel held 13.6% market share.
+83,Fact,4,SAIL Share,SAIL held 10.6% market share.
+84,Fact,4,Other Producers Share,Other producers accounted for 44.5% market share.
+85,Fact,4,Import Share,Imports represented 6.3% market share.
+86,Important Point,4,Market Fragmentation,Indian steel market is highly diversified.
+87,Definition,5,EAF Route,EAF stands for Electric Arc Furnace route.
+88,Definition,5,IF Route,IF stands for Induction Furnace route.
+89,Fact,5,Oxygen Route Share FY25,Oxygen route accounted for 41% of production.
+90,Fact,5,EAF Share FY25,EAF route accounted for 21% of production.
+91,Fact,5,IF Share FY25,IF route accounted for 38% of production.
+92,Comparison,4,IF Route Growth,IF route increased from 35% to 38%.
+93,Comparison,4,Oxygen Route Decline,Oxygen route declined from 43% to 41%.
+94,Comparison,4,EAF Route Decline,EAF route declined from 22% to 21%.
+95,Exam Point,5,BF-BOF Preference,Major steel companies prefer BF-BOF for expansion.
+96,Fact,5,Demand CAGR,India's steel consumption may grow at 5–6% CAGR.
+97,Fact,5,Demand 2035,Steel demand may reach 240–260 MT by 2035.
+98,Fact,5,National Infrastructure Pipeline,India's infrastructure pipeline is valued at $1.4 trillion.
+99,Fact,4,Capacity Addition Plan,Steel companies announced about 70 MT capacity additions.
+100,Important Point,5,Future Demand Drivers,Automotive renewables and defense will drive future steel demand.

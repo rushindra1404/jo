@@ -1,0 +1,195 @@
+point_id,category,priority,title,point
+1,Definition,5,Suggestion Scheme,Promotes creativity through constructive thinking
+2,Important Point,5,Suggestion Scheme,Recognizes individual ingenuity
+3,Important Point,5,Suggestion Scheme,Encourages participation in company development
+4,Definition,5,Suggestion,Idea related to plant improvement
+5,Classification,5,Suggestion Scope,Cost reduction suggestions accepted
+6,Classification,5,Suggestion Scope,Waste reduction suggestions accepted
+7,Classification,5,Suggestion Scope,Spillage reduction suggestions accepted
+8,Classification,5,Suggestion Scope,Maintenance reduction suggestions accepted
+9,Classification,5,Suggestion Scope,Hazard reduction suggestions accepted
+10,Classification,5,Suggestion Scope,Accident prevention suggestions accepted
+11,Classification,5,Suggestion Scope,Utility increase suggestions accepted
+12,Classification,5,Suggestion Scope,Quality improvement suggestions accepted
+13,Classification,5,Suggestion Scope,Yield improvement suggestions accepted
+14,Classification,5,Suggestion Scope,Output increase suggestions accepted
+15,Classification,5,Suggestion Scope,Material conservation accepted
+16,Classification,5,Suggestion Scope,Energy conservation accepted
+17,Classification,5,Suggestion Scope,Power conservation accepted
+18,Classification,5,Suggestion Scope,Time conservation accepted
+19,Classification,5,Suggestion Scope,Product improvement accepted
+20,Classification,5,Suggestion Scope,Product design improvement accepted
+21,Classification,5,Suggestion Scope,Work rationalisation accepted
+22,Classification,5,Suggestion Scope,Material rationalisation accepted
+23,Classification,5,Suggestion Scope,Method rationalisation accepted
+24,Classification,5,Suggestion Scope,Practice simplification accepted
+25,Classification,5,Suggestion Scope,Procedure simplification accepted
+26,Classification,5,Suggestion Scope,Process simplification accepted
+27,Classification,4,Suggestion Scope,Advertising improvement accepted
+28,Classification,4,Suggestion Scope,Sales improvement accepted
+29,Classification,4,Suggestion Scope,New revenue source suggestions accepted
+30,Classification,4,Suggestion Scope,Traffic improvement accepted
+31,Classification,4,Suggestion Scope,Hygiene improvement accepted
+32,Classification,4,Suggestion Scope,Cleanliness improvement accepted
+33,Exception,5,Outside Scope,Organization matters excluded
+34,Exception,5,Outside Scope,Industrial relations matters excluded
+35,Exception,5,Outside Scope,Collective bargaining matters excluded
+36,Exception,5,Outside Scope,Machine replacement excluded
+37,Exception,5,Outside Scope,Equipment replacement excluded
+38,Exception,4,Outside Scope,Extension of existing practices excluded
+39,Exception,4,Outside Scope,Extension of existing equipment excluded
+40,Exception,4,Outside Scope,Pending management items excluded
+41,Exception,5,Outside Scope,Company policy matters excluded
+42,Fact,4,Awards,Cash award possible
+43,Fact,4,Awards,Token gift possible
+44,Fact,4,Awards,Letter of appreciation possible
+45,Fact,4,Awards,Certificate of merit possible
+46,Fact,4,Recognition,Deserving suggestions receive publicity
+47,Exam Point,5,Awards,Prime Minister’s Shram Awards referenced
+48,Exam Point,5,Awards,Viswakarma Rashtriya Puraskar referenced
+49,Important Point,5,Benefits,Develops problem-solving methodology
+50,Important Point,5,Benefits,Increases production
+51,Important Point,5,Benefits,Increases productivity
+52,Important Point,5,Benefits,Enhances motivation
+53,Important Point,5,Benefits,Improves quality
+54,Important Point,5,Benefits,Improves employer-employee relations
+55,Important Point,5,Benefits,Improves employee involvement
+56,Definition,5,Business Excellence,Outstanding management practices
+57,Definition,5,Business Excellence,Focuses on continuous improvement
+58,Concept,4,Business Excellence,Applicable to public organizations
+59,Concept,4,Business Excellence,Applicable to private organizations
+60,Concept,4,Business Excellence,Applicable to small organizations
+61,Concept,4,Business Excellence,Applicable to large organizations
+62,Classification,5,BE,TQM is a BE practice
+63,Classification,5,BE,Six Sigma is a BE practice
+64,Classification,4,BE,Business Improvement is a BE practice
+65,Classification,4,BE,Process Improvement is a BE practice
+66,Classification,4,BE,Business Transformation is a BE practice
+67,Classification,4,BE,Lean Manufacturing is a BE practice
+68,Important Point,5,BE,Focuses on stakeholder needs
+69,Important Point,5,BE,Promotes process optimization
+70,Important Point,5,BE,Supports customer requirements
+71,Important Point,5,BE,Supports regulatory requirements
+72,Fact,4,BE Benefits,Improves operational practices
+73,Fact,4,BE Benefits,Reduces costs
+74,Fact,4,BE Benefits,Minimizes wastage
+75,Fact,4,BE Benefits,Improves yield
+76,Fact,4,BE Benefits,Improves on-time delivery
+77,Cause-Effect,4,BE Impact,Operational excellence improves sales
+78,Cause-Effect,4,BE Impact,Operational excellence improves revenue
+79,Cause-Effect,4,BE Impact,Operational excellence improves profits
+80,Fact,4,BE Impact,Improves employee engagement
+81,Fact,4,BE Impact,Improves employee satisfaction
+82,Fact,4,BE Impact,Improves communication
+83,Fact,4,BE Impact,Encourages innovation
+84,Definition,5,Management System,Manages interrelated business processes
+85,Definition,5,ISO,International Organization for Standardization
+86,Fact,5,ISO,Independent non-governmental organization
+87,Fact,5,ISO,170 member national standard bodies
+88,Fact,5,ISO,BIS is Indian member body
+89,Fact,5,ISO,Frames international standards
+90,Fact,5,ISO,Established in 1947
+91,Fact,5,ISO,Headquartered in Geneva
+92,Fact,5,ISO,Located in Switzerland
+93,Exam Point,5,ISO,Standards agreed by experts
+94,Comparison,5,ISO,Process standards not product standards
+95,Concept,4,ISO,Used by manufacturers
+96,Concept,4,ISO,Used by service providers
+97,Fact,4,ISO,Covers technology to healthcare
+98,Fact,4,ISO,More than 25000 standards
+99,Fact,4,ISO,825 technical committees/subcommittees
+100,Important Point,4,ISO Advantage,Reduces costs
+101,Important Point,4,ISO Advantage,Increases productivity
+102,Important Point,4,ISO Advantage,Access to new markets
+103,Important Point,4,ISO Advantage,Supports regulations
+104,Important Point,4,ISO Advantage,Reduces trade barriers
+105,Important Point,4,ISO Advantage,Promotes self-evaluation
+106,Definition,5,PDCA,Plan Do Check Act
+107,Fact,5,PDCA,Applicable to all processes
+108,Fact,5,PDCA,Continuous improvement methodology
+109,Exam Point,5,PDCA,Also called Deming Cycle
+110,Fact,5,PDCA,Developed by W. Edwards Deming
+111,Procedure,5,Plan,Set objectives
+112,Procedure,5,Plan,Build required processes
+113,Procedure,5,Do,Implement plans
+114,Procedure,5,Check,Monitor processes
+115,Procedure,5,Check,Measure results
+116,Procedure,5,Act,Improve results
+117,Important Point,4,PDCA,Supports systematic planning
+118,Important Point,4,PDCA,Supports systematic execution
+119,Important Point,4,PDCA,Supports systematic evaluation
+120,Important Point,4,PDCA,Supports systematic refinement
+121,Definition,5,HLS,High Level Structure
+122,Fact,5,HLS,Common ISO structure
+123,Exam Point,5,HLS,Contains 10 clauses
+124,Revision Point,5,Clause 1,Scope
+125,Revision Point,5,Clause 2,Normative references
+126,Revision Point,5,Clause 3,Terms and definitions
+127,Revision Point,5,Clause 4,Context of organization
+128,Revision Point,5,Clause 5,Leadership
+129,Revision Point,5,Clause 6,Planning
+130,Revision Point,5,Clause 7,Support
+131,Revision Point,5,Clause 8,Operation
+132,Revision Point,5,Clause 9,Performance evaluation
+133,Revision Point,5,Clause 10,Improvement
+134,Important Point,4,HLS,Enables standard integration
+135,Important Point,4,HLS,Uniform clause structure
+136,Important Point,4,HLS,Easy to understand
+137,Exam Point,5,ISO 9001:2015,Quality Management System
+138,Exam Point,5,ISO 14001:2015,Environmental Management System
+139,Exam Point,5,ISO 45001:2018,Occupational Health and Safety Management System
+140,Exam Point,5,ISO 50001:2018,Energy Management System
+141,Exam Point,5,ISO 27001:2013,Information Security Management System
+142,Exam Point,5,ISO 37001:2016,Anti-Bribery Management System
+143,Exam Point,5,SA 8000:2014,Social Accountability Standard
+144,Fact,4,SAI,Social Accountability International created SA8000
+145,Important Point,4,SA8000,Fairness for workers
+146,Exam Point,5,CE Mark,Required for European exports
+147,Fact,4,Audits,External certification bodies audit ISO systems
+148,Exam Point,5,Recertification,Every three years
+149,Exam Point,5,Surveillance Audit,Conducted annually
+150,Definition,5,Quality Circle,Small volunteer employee group
+151,Fact,5,Quality Circle,Typically 4 to 6 employees
+152,Important Point,4,Quality Circle,Solves departmental problems
+153,Important Point,4,Quality Circle,Uses limited resources
+154,Important Point,4,Quality Circle,Improves quality
+155,Important Point,4,Quality Circle,Improves productivity
+156,Fact,4,Quality Circle,Encourages creativity
+157,Fact,4,Quality Circle,Supports self-development
+158,Fact,4,Quality Circle,Supports mutual development
+159,Fact,4,Quality Circle,Develops personality
+160,Fact,4,Quality Circle,Creates positive work environment
+161,Fact,4,Quality Circle,Builds team spirit
+162,Fact,4,Quality Circle,Improves cohesiveness
+163,Exam Point,5,QC Origin,Originated in Japan
+164,Fact,5,QC History,Early 1960s origin
+165,Fact,4,QC History,Linked to post-war reconstruction
+166,Exam Point,5,JUSE,Japanese Union of Scientists and Engineers
+167,Exam Point,5,QC History,First three circles registered in 1962
+168,Exam Point,5,India QC,BHEL launched first quality circles
+169,Exam Point,5,India QC,Launch year 1980
+170,Procedure,5,QC Step 1,Identification of Problem
+171,Procedure,5,QC Step 2,Selection of Problem
+172,Procedure,5,QC Step 3,Define the Problem
+173,Procedure,5,QC Step 4,Analysis of the Problem
+174,Procedure,5,QC Step 5,Identification of Causes
+175,Procedure,5,QC Step 6,Finding Root Causes
+176,Procedure,5,QC Step 7,Data Analysis
+177,Procedure,5,QC Step 8,Developing Solution
+178,Procedure,5,QC Step 9,Foreseeing Probable Resistance
+179,Procedure,5,QC Step 10,Trial Implementation and Performance Check
+180,Procedure,5,QC Step 11,Regular Implementation
+181,Procedure,5,QC Step 12,Follow-up Review
+182,Classification,4,QC Tool,Flow Diagram
+183,Classification,4,QC Tool,Brainstorming
+184,Classification,4,QC Tool,Data Collection
+185,Classification,4,QC Tool,Graphs
+186,Classification,4,QC Tool,Stratification
+187,Classification,4,QC Tool,Pareto Diagram
+188,Classification,4,QC Tool,Cause and Effect Diagram
+189,Classification,4,QC Tool,Scatter Diagram
+190,Classification,4,QC Tool,Histogram
+191,Classification,4,QC Tool,Control Charts
+192,Fact,4,SAIL,Integrated steel plants have active QCs
+193,Exam Point,5,NCQC,National Convention on Quality Concepts
+194,Exam Point,5,ICQCC,International Convention on Quality Control Circles
