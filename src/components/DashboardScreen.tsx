@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { getChaptersByMaterial, ICA_CHAPTERS, GPOE_CHAPTERS } from '../utils/chapters';
-import { Zap, Award, Calendar, Clock, ListChecks, Bookmark, ChevronRight, List, AlertTriangle, Play } from 'lucide-react';
+import { Zap, Award, Calendar, Clock, ListChecks, Bookmark, ChevronRight, List, AlertTriangle, Play, FileText, BookOpen } from 'lucide-react';
 import { WeeklyMonthlyAnalytics } from './WeeklyMonthlyAnalytics';
 import { ActivityInsightsCard } from './ActivityInsightsCard';
 import { DashboardCharts } from './DashboardCharts';
+import { ICA_MATERIALS, GPOE_MATERIALS } from '../utils/studyMaterials';
+import {
+  getAllStudyProgress,
+  getFavoriteMaterials,
+  getRecentMaterials,
+} from '../utils/indexedDB';
+import type {
+  StudyProgress,
+  StudyFavorite,
+  StudyRecent
+} from '../utils/indexedDB';
 
 
 export const DashboardScreen: React.FC = () => {
@@ -16,7 +27,39 @@ export const DashboardScreen: React.FC = () => {
     setActiveChapterId,
     setStudyQuestionIndex,
     startRandomRevision,
+    setActivePdfMaterial,
+    setActivePdfChapterId
   } = useApp();
+
+  const [recentPdfs, setRecentPdfs] = useState<StudyRecent[]>([]);
+  const [favoritePdfs, setFavoritePdfs] = useState<StudyFavorite[]>([]);
+  const [openedCount, setOpenedCount] = useState<number>(0);
+  const [continueReading, setContinueReading] = useState<StudyProgress | null>(null);
+
+  useEffect(() => {
+    const loadLibraryData = async () => {
+      try {
+        const progressList = await getAllStudyProgress();
+        setOpenedCount(progressList.length);
+
+        if (progressList.length > 0) {
+          const sorted = [...progressList].sort((a, b) => b.timestamp - a.timestamp);
+          setContinueReading(sorted[0]);
+        } else {
+          setContinueReading(null);
+        }
+
+        const recents = await getRecentMaterials();
+        setRecentPdfs(recents);
+
+        const favs = await getFavoriteMaterials();
+        setFavoritePdfs(favs);
+      } catch (err) {
+        console.error('Error fetching library stats in Dashboard:', err);
+      }
+    };
+    loadLibraryData();
+  }, []);
 
   const totalQuestions = questions.length || 3750;
   const attemptedQuestions = Object.keys(progress.attempts).length;
@@ -401,6 +444,188 @@ export const DashboardScreen: React.FC = () => {
             <ChevronRight size={18} className="text-slate-400 shrink-0 ml-1" />
           </button>
         </div>
+      </section>
+
+      {/* Quick Access Section */}
+      <section className="grid grid-cols-2 gap-3">
+        <button
+          onClick={() => navigate('home')}
+          className="p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-left shadow-premium flex items-center gap-3 cursor-pointer"
+        >
+          <div className="p-2.5 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-450 rounded-xl">
+            <BookOpen size={20} />
+          </div>
+          <div>
+            <h4 className="text-xs font-black text-slate-800 dark:text-slate-100">Flashcards</h4>
+            <p className="text-[9px] text-slate-400 font-semibold">Study Mode</p>
+          </div>
+        </button>
+        <button
+          onClick={() => navigate('exam')}
+          className="p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-left shadow-premium flex items-center gap-3 cursor-pointer"
+        >
+          <div className="p-2.5 bg-indigo-50 dark:bg-indigo-950/30 text-indigo-600 dark:text-indigo-450 rounded-xl">
+            <ListChecks size={20} />
+          </div>
+          <div>
+            <h4 className="text-xs font-black text-slate-800 dark:text-slate-100">Quiz Mode</h4>
+            <p className="text-[9px] text-slate-400 font-semibold">CBT Exams</p>
+          </div>
+        </button>
+      </section>
+
+      {continueReading && (
+        <section className="bg-gradient-to-br from-purple-600 to-indigo-700 text-white rounded-3xl p-5 shadow-premium space-y-3 relative overflow-hidden">
+          <div className="flex justify-between items-start">
+            <div>
+              <span className="text-[9px] text-purple-200 font-extrabold uppercase tracking-widest flex items-center gap-1">
+                <BookOpen size={10} fill="currentColor" /> Continue Reading
+              </span>
+              <h4 className="text-sm font-extrabold mt-1 font-sans leading-tight">
+                {continueReading.material.toUpperCase()} Chapter {continueReading.chapterNum}: {continueReading.chapterTitle}
+              </h4>
+              <p className="text-[10px] text-purple-200 mt-1 font-semibold">
+                Page {continueReading.lastPageRead} of {continueReading.totalPages} ({continueReading.percentage}% Completed)
+              </p>
+            </div>
+            <button
+              onClick={() => {
+                setActivePdfMaterial(continueReading.material);
+                setActivePdfChapterId(continueReading.chapterId);
+                navigate('pdf-viewer');
+              }}
+              className="py-2.5 px-4 bg-white text-purple-800 hover:bg-purple-50 font-extrabold rounded-xl text-xs uppercase tracking-wider shadow-sm shrink-0 active:scale-95 transition-all cursor-pointer font-sans"
+            >
+              Continue
+            </button>
+          </div>
+        </section>
+      )}
+
+      {/* Study Materials Library Selection */}
+      <section className="space-y-3">
+        <div>
+          <h3 className="text-xs font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+            📚 Study Materials
+          </h3>
+          <p className="text-[10px] text-slate-450 dark:text-slate-500 font-semibold mt-0.5">
+            Access all ICA and GPOE study material PDFs.
+          </p>
+        </div>
+        <div className="grid grid-cols-2 gap-3">
+          <button
+            onClick={() => {
+              setActivePdfMaterial('ica');
+              navigate('study-library');
+            }}
+            className="p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-left shadow-premium hover:shadow-premium-hover transition-all flex flex-col justify-between h-32 cursor-pointer"
+          >
+            <div className="p-2 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-450 rounded-lg w-fit">
+              <FileText size={18} />
+            </div>
+            <div>
+              <h4 className="text-xs font-black text-slate-800 dark:text-slate-100 leading-tight">ICA Study Material</h4>
+              <p className="text-[9px] text-slate-400 font-semibold mt-0.5">{ICA_MATERIALS.length} Chapters</p>
+            </div>
+          </button>
+
+          <button
+            onClick={() => {
+              setActivePdfMaterial('gpoe');
+              navigate('study-library');
+            }}
+            className="p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-left shadow-premium hover:shadow-premium-hover transition-all flex flex-col justify-between h-32 cursor-pointer"
+          >
+            <div className="p-2 bg-indigo-50 dark:bg-indigo-950/30 text-indigo-600 dark:text-indigo-400 rounded-lg w-fit">
+              <FileText size={18} />
+            </div>
+            <div>
+              <h4 className="text-xs font-black text-slate-800 dark:text-slate-100 leading-tight">GPOE Study Material</h4>
+              <p className="text-[9px] text-slate-400 font-semibold mt-0.5">{GPOE_MATERIALS.length} Chapters</p>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      {/* Study Materials Library Widgets & History */}
+      <section className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-5 shadow-premium space-y-4">
+        <h3 className="text-xs font-extrabold uppercase text-slate-400 dark:text-slate-500 tracking-wider">
+          Library Stats & Widgets
+        </h3>
+        
+        {/* Count widgets grid */}
+        <div className="grid grid-cols-2 gap-2 text-center text-xs font-bold">
+          <div className="bg-slate-50 dark:bg-slate-950 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800">
+            <span className="block text-purple-650 dark:text-purple-400 text-base font-black font-sans">
+              {ICA_MATERIALS.length + GPOE_MATERIALS.length}
+            </span>
+            <span className="text-[8px] text-slate-400 block font-bold uppercase mt-0.5">Chapters Available</span>
+          </div>
+          <div className="bg-slate-50 dark:bg-slate-950 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800">
+            <span className="block text-cyan-600 dark:text-cyan-400 text-base font-black font-sans">
+              {openedCount}
+            </span>
+            <span className="text-[8px] text-slate-400 block font-bold uppercase mt-0.5">PDFs Opened</span>
+          </div>
+        </div>
+
+        {/* Recently Read list */}
+        {recentPdfs.length > 0 && (
+          <div className="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800">
+            <p className="text-[9px] font-extrabold uppercase text-slate-400 tracking-wider">
+              📖 Recently Read
+            </p>
+            <div className="space-y-1.5">
+              {recentPdfs.map(ch => (
+                <button
+                  key={ch.chapterUniqueId}
+                  onClick={() => {
+                    setActivePdfMaterial(ch.material);
+                    setActivePdfChapterId(ch.chapterId);
+                    navigate('pdf-viewer');
+                  }}
+                  className="w-full text-left p-2.5 bg-slate-50 dark:bg-slate-950 hover:bg-slate-105 dark:hover:bg-slate-850 rounded-xl text-xs flex justify-between items-center font-bold text-slate-750 dark:text-slate-250 cursor-pointer"
+                >
+                  <span className="truncate pr-2">
+                    {ch.material.toUpperCase()} Ch {ch.chapterNum}: {ch.chapterTitle}
+                  </span>
+                  <span className="text-[8px] text-purple-600 dark:text-purple-400 uppercase font-bold shrink-0">
+                    Reopen
+                  </span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Favorites list */}
+        {favoritePdfs.length > 0 && (
+          <div className="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800">
+            <p className="text-[9px] font-extrabold uppercase text-slate-400 tracking-wider">
+              ⭐ Favorites
+            </p>
+            <div className="space-y-1.5">
+              {favoritePdfs.map(ch => (
+                <button
+                  key={ch.chapterUniqueId}
+                  onClick={() => {
+                    setActivePdfMaterial(ch.material);
+                    setActivePdfChapterId(ch.chapterId);
+                    navigate('pdf-viewer');
+                  }}
+                  className="w-full text-left p-2.5 bg-slate-50 dark:bg-slate-950 hover:bg-slate-105 dark:hover:bg-slate-850 rounded-xl text-xs flex justify-between items-center font-bold text-slate-750 dark:text-slate-250 cursor-pointer"
+                >
+                  <span className="truncate pr-2">
+                    {ch.material.toUpperCase()} Ch {ch.chapterNum}: {ch.chapterTitle}
+                  </span>
+                  <span className="text-[8px] text-cyan-600 dark:text-cyan-400 uppercase font-bold shrink-0">
+                    Read
+                  </span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Revision Queue Module */}

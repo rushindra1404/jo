@@ -5,7 +5,9 @@ const ASSETS_TO_CACHE = [
   '/index.html',
   '/favicon.svg',
   '/icons.svg',
-  '/manifest.json'
+  '/manifest.json',
+  '/pdf.min.js',
+  '/pdf.worker.min.js'
 ];
 
 // Install Event

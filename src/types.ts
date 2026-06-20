@@ -23,7 +23,7 @@ export interface Chapter {
 export interface RecentActivity {
   id: string;
   timestamp: number;
-  type: 'study' | 'exam' | 'mistake' | 'bookmark';
+  type: 'study' | 'exam' | 'mistake' | 'bookmark' | 'library';
   material: 'ica' | 'gpoe' | 'all';
   chapterId?: string;
   label: string;

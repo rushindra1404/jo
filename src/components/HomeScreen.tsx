@@ -1,6 +1,6 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
-import { Bookmark, AlertTriangle, Award, BookOpen, Play, ChevronRight } from 'lucide-react';
+import { Bookmark, AlertTriangle, Award, BookOpen, Play, ChevronRight, FileText } from 'lucide-react';
 import { getChaptersByMaterial } from '../utils/chapters';
 
 export const HomeScreen: React.FC = () => {
@@ -52,7 +52,7 @@ export const HomeScreen: React.FC = () => {
       : new Date(timestamp).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
   };
 
-  const getActivityIcon = (type: 'study' | 'exam' | 'mistake' | 'bookmark') => {
+  const getActivityIcon = (type: 'study' | 'exam' | 'mistake' | 'bookmark' | 'library') => {
     switch (type) {
       case 'bookmark':
         return <Bookmark size={16} className="text-amber-500" />;
@@ -60,6 +60,8 @@ export const HomeScreen: React.FC = () => {
         return <AlertTriangle size={16} className="text-rose-500" />;
       case 'exam':
         return <Award size={16} className="text-emerald-500" />;
+      case 'library':
+        return <FileText size={16} className="text-cyan-500" />;
       default:
         return <BookOpen size={16} className="text-cyan-500" />;
     }

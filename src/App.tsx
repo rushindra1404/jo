@@ -12,6 +12,8 @@ import { MistakesScreen } from './components/MistakesScreen';
 import { BookmarksScreen } from './components/BookmarksScreen';
 import { SearchScreen } from './components/SearchScreen';
 import { DashboardScreen } from './components/DashboardScreen';
+import { StudyLibraryScreen } from './components/StudyLibraryScreen';
+import { PDFViewer } from './components/PDFViewer';
 
 const MainAppContent: React.FC = () => {
   const { activeRoute, loadingQuestions, settings } = useApp();
@@ -46,6 +48,10 @@ const MainAppContent: React.FC = () => {
         return <SearchScreen />;
       case 'dashboard':
         return <DashboardScreen />;
+      case 'study-library':
+        return <StudyLibraryScreen />;
+      case 'pdf-viewer':
+        return <PDFViewer />;
       default:
         return <HomeScreen />;
     }

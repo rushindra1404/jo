@@ -15,6 +15,10 @@ interface AppContextProps {
   setActiveMaterial: (material: 'ica' | 'gpoe' | null) => void;
   activeChapterId: string | null;
   setActiveChapterId: (chapterId: string | null) => void;
+  activePdfMaterial: 'ica' | 'gpoe' | null;
+  setActivePdfMaterial: (material: 'ica' | 'gpoe' | null) => void;
+  activePdfChapterId: string | null;
+  setActivePdfChapterId: (chapterId: string | null) => void;
   
   // User Progress & Persistence
   progress: UserProgress;
@@ -22,7 +26,7 @@ interface AppContextProps {
   recordAttempt: (uniqueId: string, isCorrect: boolean) => void;
   removeMistake: (uniqueId: string) => void;
   addRecentActivity: (
-    type: 'study' | 'exam' | 'mistake' | 'bookmark',
+    type: 'study' | 'exam' | 'mistake' | 'bookmark' | 'library',
     material: 'ica' | 'gpoe' | 'all',
     label: string,
     detail?: string,
@@ -111,6 +115,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [activeRoute, setActiveRoute] = useState<string>('home');
   const [activeMaterial, setActiveMaterial] = useState<'ica' | 'gpoe' | null>(null);
   const [activeChapterId, setActiveChapterId] = useState<string | null>(null);
+  const [activePdfMaterial, setActivePdfMaterial] = useState<'ica' | 'gpoe' | null>(null);
+  const [activePdfChapterId, setActivePdfChapterId] = useState<string | null>(null);
 
   // Persistence States
   const [progress, setProgress] = useState<UserProgress>(() => {
@@ -465,7 +471,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   };
 
   const addRecentActivity = (
-    type: 'study' | 'exam' | 'mistake' | 'bookmark',
+    type: 'study' | 'exam' | 'mistake' | 'bookmark' | 'library',
     material: 'ica' | 'gpoe' | 'all',
     label: string,
     detail?: string,
@@ -645,6 +651,10 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         setActiveMaterial,
         activeChapterId,
         setActiveChapterId,
+        activePdfMaterial,
+        setActivePdfMaterial,
+        activePdfChapterId,
+        setActivePdfChapterId,
         progress,
         toggleBookmark,
         recordAttempt,

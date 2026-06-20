@@ -15,9 +15,9 @@ export const BottomNav: React.FC = () => {
     { id: 'mistakes', label: 'Mistakes', icon: AlertTriangle },
   ];
 
-  // Don't show bottom nav inside active study or active exam running sessions to maximize screen area and prevent accidental clicks
+  // Don't show bottom nav inside active study, active pdf reader, or active exam running sessions to maximize screen area and prevent accidental clicks
   const isExamRunning = activeRoute === 'exam' && examMode === 'running';
-  const hideBottomNav = ['study', 'random-revision'].includes(activeRoute) || isExamRunning;
+  const hideBottomNav = ['study', 'random-revision', 'pdf-viewer'].includes(activeRoute) || isExamRunning;
 
   if (hideBottomNav) return null;
 
