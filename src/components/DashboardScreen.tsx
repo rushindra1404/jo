@@ -233,51 +233,46 @@ export const DashboardScreen: React.FC = () => {
           {/* Card 1: Flashcards */}
           <button
             onClick={() => {
-              setActiveMaterial('ica');
-              setActiveChapterId('chapter01');
-              navigate('flashcards-practice');
+              navigate('flashcards-landing');
             }}
-            className="w-full p-4 bg-white dark:bg-slate-900 border border-slate-205 dark:border-slate-800 hover:border-cyan-500 rounded-2xl flex items-center gap-3 text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer"
+            className="w-full p-4 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-cyan-500 rounded-2xl flex items-center gap-3 text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer"
           >
             <div className="p-3 bg-rose-50 text-rose-500 dark:bg-rose-950/20 rounded-2xl shrink-0">
               <BookOpen size={20} />
             </div>
             <div>
-              <h4 className="text-xs font-black text-slate-850 dark:text-slate-100 uppercase">📖 Flash Cards</h4>
-              <p className="text-[9px] text-slate-400 font-semibold leading-normal mt-0.5">Important Facts • Key Concepts • Quick Revision</p>
+              <h4 className="text-xs font-black text-slate-900 dark:text-slate-100 uppercase">📖 Flash Cards</h4>
+              <p className="text-[9px] text-slate-500 dark:text-slate-400 font-semibold leading-normal mt-0.5">Important Facts • Key Concepts • Quick Revision</p>
             </div>
           </button>
 
           {/* Card 2: Revision Mode */}
           <button
             onClick={() => {
-              setActiveMaterial('ica');
-              setActiveChapterId('chapter01');
-              setStudyQuestionIndex(0);
-              navigate('study');
+              navigate('chapter-select');
             }}
-            className="w-full p-4 bg-white dark:bg-slate-900 border border-slate-205 dark:border-slate-800 hover:border-cyan-500 rounded-2xl flex items-center gap-3 text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer"
+            className="w-full p-4 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-cyan-500 rounded-2xl flex items-center gap-3 text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer"
           >
             <div className="p-3 bg-cyan-50 text-cyan-600 dark:bg-cyan-950/20 rounded-2xl shrink-0">
               <Sliders size={20} />
             </div>
             <div>
-              <h4 className="text-xs font-black text-slate-850 dark:text-slate-100 uppercase">🔄 Revision Mode</h4>
-              <p className="text-[9px] text-slate-400 font-semibold leading-normal mt-0.5">Practice Questions • Instant Feedback • Explanations</p>
+              <h4 className="text-xs font-black text-slate-900 dark:text-slate-100 uppercase">🔄 Revision Mode</h4>
+              <p className="text-[9px] text-slate-500 dark:text-slate-400 font-semibold leading-normal mt-0.5">Practice Questions • Instant Feedback • Explanations</p>
             </div>
           </button>
 
           {/* Card 3: Exam Mode */}
           <button
             onClick={() => navigate('exam-tab')}
-            className="w-full p-4 bg-white dark:bg-slate-900 border border-slate-205 dark:border-slate-800 hover:border-cyan-500 rounded-2xl flex items-center gap-3 text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer"
+            className="w-full p-4 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-cyan-500 rounded-2xl flex items-center gap-3 text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer"
           >
-            <div className="p-3 bg-slate-100 text-slate-655 dark:bg-slate-800 rounded-2xl shrink-0">
+            <div className="p-3 bg-slate-100 text-slate-700 dark:bg-slate-800 rounded-2xl shrink-0">
               <FileSpreadsheet size={20} />
             </div>
             <div>
-              <h4 className="text-xs font-black text-slate-850 dark:text-slate-100 uppercase">📝 Exam Mode</h4>
-              <p className="text-[9px] text-slate-400 font-semibold leading-normal mt-0.5">Timed Tests • Real Exam Simulation • Results</p>
+              <h4 className="text-xs font-black text-slate-900 dark:text-slate-100 uppercase">📝 Exam Mode</h4>
+              <p className="text-[9px] text-slate-500 dark:text-slate-400 font-semibold leading-normal mt-0.5">Timed Tests • Real Exam Simulation • Results</p>
             </div>
           </button>
 
@@ -422,10 +417,10 @@ export const DashboardScreen: React.FC = () => {
                   <span className="text-[8px] bg-rose-50 dark:bg-rose-950/20 text-rose-500 border border-rose-100 dark:border-rose-900 px-1.5 py-0.5 rounded uppercase font-black">
                     {ch.accuracy}% Accuracy
                   </span>
-                  <h4 className="text-xs font-extrabold text-slate-850 dark:text-slate-150 leading-snug pt-0.5 font-sans">
+                  <h4 className="text-xs font-extrabold text-slate-900 dark:text-slate-100 leading-snug pt-0.5 font-sans">
                     Ch {ch.num}: {ch.title}
                   </h4>
-                  <p className="text-[9px] text-slate-450 font-medium">
+                  <p className="text-[9px] text-slate-500 dark:text-slate-400 font-medium">
                     {ch.material === 'ica' ? 'ICA' : 'GPOE'} Engineering Card
                   </p>
                 </div>

@@ -337,7 +337,7 @@ export const PDFViewer: React.FC = () => {
         <div className="flex items-center gap-2">
           <button
             onClick={handleToggleFavorite}
-            className={`p-2 rounded-xl border border-slate-800 hover:bg-slate-800 cursor-pointer ${
+            className={`w-11 h-11 flex items-center justify-center rounded-xl border border-slate-800 hover:bg-slate-800 cursor-pointer transition-colors ${
               isFavorited ? 'text-amber-500 bg-slate-850' : 'text-slate-400'
             }`}
             title="Favorite Material"
@@ -346,7 +346,7 @@ export const PDFViewer: React.FC = () => {
           </button>
           <button
             onClick={handleClose}
-            className="p-2 text-slate-400 border border-slate-805 hover:bg-slate-800 rounded-xl cursor-pointer"
+            className="w-11 h-11 flex items-center justify-center text-slate-400 border border-slate-800 hover:bg-slate-800 rounded-xl cursor-pointer transition-colors"
             title="Exit Reader"
           >
             <X size={16} />
@@ -377,7 +377,7 @@ export const PDFViewer: React.FC = () => {
           <button
             onClick={handlePrevPage}
             disabled={pageNumber <= 1 || rendering}
-            className="p-3 bg-slate-850 border border-slate-800 rounded-xl text-slate-300 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer active:scale-90 transition-transform"
+            className="w-11 h-11 flex items-center justify-center bg-slate-850 border border-slate-800 rounded-xl text-slate-300 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer active:scale-90 transition-transform"
           >
             <ChevronLeft size={18} />
           </button>
@@ -395,7 +395,7 @@ export const PDFViewer: React.FC = () => {
               min={1}
               max={numPages}
               disabled={rendering}
-              className="w-12 py-1.5 bg-slate-900 border border-slate-800 text-center rounded-lg font-bold text-slate-200"
+              className="w-12 h-9 bg-slate-900 border border-slate-800 text-center rounded-lg font-bold text-slate-200"
             />
             <span className="text-slate-400">of</span>
             <span className="font-bold text-slate-350">{numPages}</span>
@@ -404,7 +404,7 @@ export const PDFViewer: React.FC = () => {
           <button
             onClick={handleNextPage}
             disabled={pageNumber >= numPages || rendering}
-            className="p-3 bg-slate-850 border border-slate-800 rounded-xl text-slate-300 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer active:scale-90 transition-transform"
+            className="w-11 h-11 flex items-center justify-center bg-slate-850 border border-slate-800 rounded-xl text-slate-300 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer active:scale-90 transition-transform"
           >
             <ChevronRight size={18} />
           </button>
@@ -415,7 +415,7 @@ export const PDFViewer: React.FC = () => {
           <div className="flex gap-2">
             <button
               onClick={handleZoomOut}
-              className="p-2.5 bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
+              className="w-11 h-11 flex items-center justify-center bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
               title="Zoom Out"
             >
               <ZoomOut size={16} />
@@ -425,14 +425,14 @@ export const PDFViewer: React.FC = () => {
             </span>
             <button
               onClick={handleZoomIn}
-              className="p-2.5 bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
+              className="w-11 h-11 flex items-center justify-center bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
               title="Zoom In"
             >
               <ZoomIn size={16} />
             </button>
             <button
               onClick={handleFitToWidth}
-              className="px-2.5 py-1.5 bg-slate-900 border border-slate-850 rounded-xl text-[10px] font-black uppercase text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95"
+              className="px-3 h-11 flex items-center justify-center bg-slate-900 border border-slate-850 rounded-xl text-[10px] font-black uppercase text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95"
               title="Auto Fit"
             >
               Fit
@@ -442,21 +442,21 @@ export const PDFViewer: React.FC = () => {
           <div className="flex gap-2">
             <button
               onClick={() => setIsFullscreen(prev => !prev)}
-              className="p-2.5 bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
+              className="w-11 h-11 flex items-center justify-center bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
               title="Toggle Fullscreen"
             >
               {isFullscreen ? <Minimize2 size={16} /> : <Maximize2 size={16} />}
             </button>
             <button
               onClick={handleDownload}
-              className="p-2.5 bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
+              className="w-11 h-11 flex items-center justify-center bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
               title="Download PDF"
             >
               <Download size={16} />
             </button>
             <button
               onClick={handleShare}
-              className="p-2.5 bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
+              className="w-11 h-11 flex items-center justify-center bg-slate-900 border border-slate-850 rounded-xl text-slate-400 hover:text-slate-200 cursor-pointer active:scale-95 transition-transform"
               title="Share Link"
             >
               <Share2 size={16} />

@@ -159,10 +159,10 @@ export const MistakesScreen: React.FC = () => {
 
         {/* ── Header ──────────────────────────────────────────────────────── */}
         <div className="bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 shrink-0">
-          <div className="px-4 pt-3 pb-2 flex items-center justify-between">
+          <div className="px-4 py-2.5 flex items-center justify-between">
             <button
               onClick={handleExitPractice}
-              className="flex items-center gap-1.5 text-xs font-black text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 cursor-pointer active:scale-95 transition-all"
+              className="h-11 px-4 flex items-center justify-center gap-1.5 text-xs font-black text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-xl cursor-pointer active:scale-95 transition-all border border-slate-200/50 dark:border-slate-700/50"
             >
               <ArrowLeft size={16} /> Exit
             </button>
@@ -175,15 +175,19 @@ export const MistakesScreen: React.FC = () => {
             <div className="flex items-center gap-2">
               <button
                 onClick={() => { setNoteInput(progress.notes?.[currentQ.uniqueId] || ''); setShowNotes(true); }}
-                className="p-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-500 cursor-pointer active:scale-95 transition-all"
+                className="w-11 h-11 flex items-center justify-center rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 cursor-pointer active:scale-95 transition-all"
+                title="Notes"
+                aria-label="Notes"
               >
-                <FileText size={15} />
+                <FileText size={16} />
               </button>
               <button
                 onClick={() => toggleBookmark(currentQ.uniqueId)}
-                className="p-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-500 cursor-pointer active:scale-95 transition-all"
+                className="w-11 h-11 flex items-center justify-center rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 cursor-pointer active:scale-95 transition-all"
+                title="Bookmark"
+                aria-label="Bookmark"
               >
-                <Bookmark size={15} className={isBookmarked ? 'fill-amber-500 text-amber-500' : ''} />
+                <Bookmark size={16} className={isBookmarked ? 'fill-amber-500 text-amber-500' : ''} />
               </button>
             </div>
           </div>
@@ -472,10 +476,10 @@ export const MistakesScreen: React.FC = () => {
               <button
                 key={f.id}
                 onClick={() => setActiveFilter(f.id)}
-                className={`shrink-0 px-3 py-1.5 rounded-full text-[10px] font-black uppercase tracking-wider border transition-all cursor-pointer ${
+                className={`shrink-0 px-4 h-12 rounded-xl text-xs font-black uppercase tracking-wider border transition-all cursor-pointer flex items-center justify-center ${
                   activeFilter === f.id
-                    ? 'bg-rose-500 text-white border-rose-500 shadow-sm'
-                    : 'bg-white dark:bg-slate-900 text-slate-500 border-slate-200 dark:border-slate-700'
+                    ? 'bg-rose-600 text-white border-rose-600 shadow-md'
+                    : 'bg-white dark:bg-slate-900 text-slate-650 dark:text-slate-300 border-slate-200 dark:border-slate-800'
                 }`}
               >
                 {f.label}

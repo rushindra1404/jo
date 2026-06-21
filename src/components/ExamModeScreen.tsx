@@ -512,7 +512,7 @@ export const ExamModeScreen: React.FC = () => {
                     This mock exam combines questions from all <strong>{icaChapters.length} ICA chapters</strong> and <strong>{gpoeChapters.length} GPOE chapters</strong>.
                     To ensure balanced coverage, questions are selected in equal quantities from every chapter, with any leftovers randomly distributed.
                   </p>
-                  <div className="bg-slate-50 dark:bg-slate-950 rounded-2xl p-3.5 space-y-2 text-xs font-semibold text-slate-700 dark:text-slate-350">
+                  <div className="bg-slate-50 dark:bg-slate-950 rounded-2xl p-3.5 space-y-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
                     <div className="flex justify-between">
                       <span>Total Chapters:</span>
                       <span className="font-extrabold text-slate-800 dark:text-slate-100">
@@ -565,7 +565,7 @@ export const ExamModeScreen: React.FC = () => {
                             {ch.title}
                           </h4>
                         </div>
-                        <span className="shrink-0 py-1 px-2.5 bg-slate-100 dark:bg-slate-800 text-[10px] font-bold text-slate-600 dark:text-slate-350 rounded-lg">
+                        <span className="shrink-0 py-1 px-2.5 bg-slate-100 dark:bg-slate-800 text-[10px] font-bold text-slate-600 dark:text-slate-300 rounded-lg">
                           {chSize} Qs
                         </span>
                       </button>
@@ -687,7 +687,7 @@ export const ExamModeScreen: React.FC = () => {
                       </p>
                     )}
                   </div>
-                  <div className="text-xs border-t border-slate-100 dark:border-slate-800 pt-2.5 space-y-1 font-medium text-slate-700 dark:text-slate-350">
+                  <div className="text-xs border-t border-slate-100 dark:border-slate-800 pt-2.5 space-y-1 font-medium text-slate-700 dark:text-slate-300 text-slate-600 dark:text-slate-400">
                     <span className="font-extrabold text-slate-400 uppercase tracking-wider text-[10px]">
                       Explanation:
                     </span>
@@ -817,7 +817,7 @@ export const ExamModeScreen: React.FC = () => {
                 />
                 <button
                   onClick={() => setShowCustomTimerInput(false)}
-                  className="px-4 py-3 bg-slate-100 dark:bg-slate-850 text-slate-600 dark:text-slate-350 text-xs font-bold rounded-xl"
+                  className="px-4 py-3 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-xs font-bold rounded-xl"
                 >
                   Preset List
                 </button>
@@ -1059,7 +1059,7 @@ export const ExamModeScreen: React.FC = () => {
               className={`flex-1 py-3 px-1 border rounded-xl text-center text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1 cursor-pointer transition-all ${
                 markedForReview.includes(currentQuestion.uniqueId)
                   ? 'bg-yellow-500 border-yellow-500 text-slate-900'
-                  : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-350 hover:bg-slate-50 dark:hover:bg-slate-850'
+                  : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-605 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800'
               }`}
             >
               <Star size={13} fill={markedForReview.includes(currentQuestion.uniqueId) ? 'currentColor' : 'none'} />
@@ -1069,14 +1069,14 @@ export const ExamModeScreen: React.FC = () => {
             <button
               onClick={() => clearResponse(currentQuestion.uniqueId)}
               disabled={answerMode === 'instant' && userChoice !== undefined}
-              className={`flex-1 py-3 px-1 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-350 hover:bg-slate-50 dark:hover:bg-slate-850 rounded-xl text-center text-xs font-bold uppercase tracking-wider disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer`}
+              className={`flex-1 py-3 px-1 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-605 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl text-center text-xs font-bold uppercase tracking-wider disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer`}
             >
               Clear
             </button>
 
             <button
               onClick={() => setShowPalette(!showPalette)}
-              className="py-3 px-3.5 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-350 hover:bg-slate-50 dark:hover:bg-slate-850 rounded-xl text-center text-xs font-bold uppercase flex items-center justify-center cursor-pointer"
+              className="py-3 px-3.5 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-605 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl text-center text-xs font-bold uppercase flex items-center justify-center cursor-pointer"
               title="Toggle Question Palette"
             >
               <ClipboardList size={16} />
@@ -1183,15 +1183,15 @@ export const ExamModeScreen: React.FC = () => {
 
               {/* Counts grid */}
               <div className="grid grid-cols-3 gap-2 text-center text-xs font-bold text-slate-700 dark:text-slate-300">
-                <div className="bg-slate-50 dark:bg-slate-950 p-2.5 rounded-xl border border-slate-100 dark:border-slate-850">
+                <div className="bg-slate-50 dark:bg-slate-950 p-2.5 rounded-xl border border-slate-150 dark:border-slate-800">
                   <span className="block text-emerald-500 text-base font-black font-sans">{stats.answered}</span>
                   <span className="text-[8px] text-slate-400 block font-bold uppercase mt-0.5">Answered</span>
                 </div>
-                <div className="bg-slate-50 dark:bg-slate-950 p-2.5 rounded-xl border border-slate-100 dark:border-slate-850">
+                <div className="bg-slate-50 dark:bg-slate-950 p-2.5 rounded-xl border border-slate-150 dark:border-slate-800">
                   <span className="block text-rose-500 text-base font-black font-sans">{stats.unanswered}</span>
                   <span className="text-[8px] text-slate-400 block font-bold uppercase mt-0.5">Unanswered</span>
                 </div>
-                <div className="bg-slate-50 dark:bg-slate-950 p-2.5 rounded-xl border border-slate-100 dark:border-slate-850">
+                <div className="bg-slate-50 dark:bg-slate-950 p-2.5 rounded-xl border border-slate-150 dark:border-slate-800">
                   <span className="block text-yellow-500 text-base font-black font-sans">{stats.marked}</span>
                   <span className="text-[8px] text-slate-400 block font-bold uppercase mt-0.5">For Review</span>
                 </div>
@@ -1323,7 +1323,7 @@ export const ExamModeScreen: React.FC = () => {
                     )}
                   </div>
 
-                  <div className="text-xs border-t border-slate-100 dark:border-slate-800 pt-3 space-y-1.5 font-medium text-slate-700 dark:text-slate-350">
+                  <div className="text-xs border-t border-slate-100 dark:border-slate-800 pt-3 space-y-1.5 font-medium text-slate-700 dark:text-slate-300">
                     <span className="font-extrabold text-slate-400 uppercase tracking-wider text-[9px] block">
                       Explanation:
                     </span>
@@ -1366,7 +1366,7 @@ export const ExamModeScreen: React.FC = () => {
                 cy="48"
                 r={radius}
                 stroke="currentColor"
-                className="text-slate-100 dark:text-slate-850"
+                className="text-slate-100 dark:text-slate-800"
                 strokeWidth={7}
                 fill="transparent"
               />

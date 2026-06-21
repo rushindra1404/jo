@@ -48,9 +48,9 @@ export const BookmarksScreen: React.FC = () => {
             <button
               key={mat}
               onClick={() => handleMaterialChange(mat)}
-              className={`py-2 px-1 rounded-xl text-xs font-bold uppercase transition-all cursor-pointer ${
+              className={`h-12 px-1 rounded-xl text-xs font-bold uppercase transition-all cursor-pointer flex items-center justify-center ${
                 selectedMaterial === mat
-                  ? 'bg-amber-600 text-white'
+                  ? 'bg-amber-600 text-white shadow-md'
                   : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'
               }`}
             >
@@ -61,14 +61,14 @@ export const BookmarksScreen: React.FC = () => {
 
         {availableChapters.length > 0 && selectedMaterial !== 'all' && (
           <div className="space-y-1">
-            <label htmlFor="chapter-filter" className="text-[10px] font-extrabold uppercase text-slate-400 dark:text-slate-550 tracking-wider">
+            <label htmlFor="chapter-filter" className="text-[10px] font-extrabold uppercase text-slate-500 dark:text-slate-400 tracking-wider">
               Filter by Chapter
             </label>
             <select
               id="chapter-filter"
               value={selectedChapterId}
               onChange={(e) => setSelectedChapterId(e.target.value)}
-              className="w-full py-2.5 px-3 bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-bold text-slate-700 dark:text-slate-300 outline-none focus:border-amber-500 cursor-pointer"
+              className="w-full h-12 px-3 bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-bold text-slate-700 dark:text-slate-300 outline-none focus:border-amber-500 cursor-pointer"
             >
               <option value="all">All Chapters</option>
               {availableChapters.map((ch) => (
@@ -93,10 +93,10 @@ export const BookmarksScreen: React.FC = () => {
             </div>
             <div className="space-y-1">
               <h4 className="text-sm font-black text-slate-800 dark:text-slate-100 font-sans uppercase">No Bookmarks Yet</h4>
-              <p className="text-[10px] text-cyan-650 dark:text-cyan-400 font-bold uppercase tracking-wider">JO Sphere</p>
-              <p className="text-[9px] text-slate-400 uppercase tracking-widest leading-none pt-0.5">Learn • Revise • Succeed</p>
+              <p className="text-[10px] text-cyan-600 dark:text-cyan-400 font-bold uppercase tracking-wider">JO Sphere</p>
+              <p className="text-[9px] text-slate-400 dark:text-slate-500 uppercase tracking-widest leading-none pt-0.5">Learn • Revise • Succeed</p>
             </div>
-            <p className="text-xs text-slate-450 leading-relaxed max-w-xs mx-auto">
+            <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed max-w-xs mx-auto">
               {bookmarkedQuestions.length === 0
                 ? 'Start learning and bookmark difficult questions to see them here.'
                 : 'No bookmarks match the active filters.'}
@@ -149,7 +149,7 @@ export const BookmarksScreen: React.FC = () => {
                       </span>
                     </p>
                     {q.explanation && (
-                      <p className="text-slate-650 dark:text-slate-400 leading-normal font-medium">
+                      <p className="text-slate-600 dark:text-slate-400 leading-normal font-medium">
                         <strong className="uppercase text-[9px] tracking-wider block opacity-75 mt-1">Explanation:</strong>
                         {q.explanation}
                       </p>

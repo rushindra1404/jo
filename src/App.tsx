@@ -181,7 +181,7 @@ const MainAppContent: React.FC = () => {
   return (
     <div className="h-full flex justify-center bg-slate-100 dark:bg-slate-950/80 transition-colors duration-200">
       <div
-        className={`max-w-md w-full h-full flex flex-col bg-slate-50 dark:bg-slate-900 border-x border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden ${getFontSizeClass()}`}
+        className={`max-w-md w-full h-full flex flex-col bg-white dark:bg-slate-950 border-x border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden ${getFontSizeClass()}`}
       >
         {/* Background Watermark Logo */}
         <div className="absolute inset-0 pointer-events-none flex items-center justify-center opacity-[0.03] dark:opacity-[0.025] z-0 overflow-hidden">

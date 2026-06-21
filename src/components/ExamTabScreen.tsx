@@ -206,15 +206,15 @@ export const ExamTabScreen: React.FC = () => {
 
       {/* Exam Performance Analytics Header */}
       {totalTests > 0 && (
-        <section className="bg-white dark:bg-slate-900 border border-slate-205 dark:border-slate-800 rounded-2xl p-4 shadow-sm space-y-4">
+        <section className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm space-y-4">
           <div className="flex items-center justify-between">
             <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">Mock Exam Statistics</h3>
             <span className="text-[9px] font-bold text-cyan-600 dark:text-cyan-400 flex items-center gap-0.5"><TrendingUp size={10} /> Active Trends</span>
           </div>
 
-          <div className="grid grid-cols-3 gap-2.5 text-center text-xs font-black text-slate-755 dark:text-slate-350">
+          <div className="grid grid-cols-3 gap-2.5 text-center text-xs font-black text-slate-700 dark:text-slate-300">
             <div className="p-3 bg-slate-50 dark:bg-slate-950 rounded-xl">
-              <span className="block text-slate-805 dark:text-slate-150 text-base">{totalTests}</span>
+              <span className="block text-slate-800 dark:text-slate-100 text-base">{totalTests}</span>
               <span className="text-[9px] text-slate-400 font-medium">Tests Taken</span>
             </div>
             <div className="p-3 bg-slate-50 dark:bg-slate-950 rounded-xl">
@@ -268,8 +268,8 @@ export const ExamTabScreen: React.FC = () => {
           </div>
         ) : totalTests === 0 ? (
           <div className="p-8 border border-dashed border-slate-200 dark:border-slate-800 rounded-3xl text-center space-y-2 bg-white dark:bg-slate-900 shadow-sm">
-            <History className="mx-auto text-slate-300 dark:text-slate-700" size={32} />
-            <h4 className="text-xs font-black text-slate-750 dark:text-slate-300 uppercase">No History Found</h4>
+            <History className="mx-auto text-slate-400 dark:text-slate-600" size={32} />
+            <h4 className="text-xs font-black text-slate-700 dark:text-slate-300 uppercase">No History Found</h4>
             <p className="text-[10px] text-slate-400 leading-normal max-w-xs mx-auto">
               Your mock CBT exam runs and detailed review scores will appear here.
             </p>

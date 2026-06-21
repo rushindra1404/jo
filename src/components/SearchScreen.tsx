@@ -55,7 +55,7 @@ export const SearchScreen: React.FC = () => {
         
         {/* Search bar input wrapper */}
         <div className="relative flex items-center">
-          <span className="absolute left-3.5 text-slate-400">
+          <span className="absolute left-3.5 text-slate-400 dark:text-slate-500">
             <Search size={18} />
           </span>
           
@@ -63,15 +63,15 @@ export const SearchScreen: React.FC = () => {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search keywords, questions, explanations..."
-            className="w-full pl-10 pr-10 py-3 bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-2xl text-sm font-semibold outline-none focus:border-cyan-600 focus:bg-white dark:focus:bg-slate-900 text-slate-800 dark:text-slate-200 placeholder-slate-400"
+            placeholder="Search Chapters, Concepts, Questions, Flash Cards..."
+            className="w-full h-13 pl-10 pr-10 bg-slate-50 dark:bg-slate-950 border border-slate-250 dark:border-slate-800 rounded-2xl text-sm font-semibold outline-none focus:border-cyan-600 focus:bg-white dark:focus:bg-slate-900 text-slate-800 dark:text-slate-100 placeholder-slate-450 dark:placeholder-slate-500 transition-all shadow-inner"
             aria-label="Search questions"
           />
           
           {query && (
             <button
               onClick={handleClear}
-              className="absolute right-3.5 p-1 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 cursor-pointer min-w-[28px] min-h-[28px] flex items-center justify-center"
+              className="absolute right-3.5 p-1 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-500 hover:text-slate-700 dark:hover:text-slate-350 cursor-pointer min-w-[28px] min-h-[28px] flex items-center justify-center"
               aria-label="Clear search query"
             >
               <X size={14} />
@@ -85,9 +85,9 @@ export const SearchScreen: React.FC = () => {
             <button
               key={mat}
               onClick={() => setSearchMaterial(mat)}
-              className={`py-2 px-4 rounded-xl text-xs font-bold uppercase transition-all cursor-pointer ${
+              className={`h-12 px-4 rounded-xl text-xs font-bold uppercase transition-all cursor-pointer flex items-center justify-center ${
                 searchMaterial === mat
-                  ? 'bg-cyan-600 text-white shadow-sm'
+                  ? 'bg-cyan-600 text-white shadow-md'
                   : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'
               }`}
             >

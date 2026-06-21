@@ -139,6 +139,7 @@ export const LoginScreen: React.FC = () => {
           <div className="w-full max-w-sm bg-white dark:bg-slate-900 rounded-3xl p-6 shadow-2xl border border-slate-100 dark:border-slate-800 space-y-6 max-h-[85vh] overflow-y-auto animate-in fade-in slide-in-from-bottom duration-300">
             
             {/* Modal Header */}
+            {/* Modal Header */}
             <div className="flex justify-between items-start">
               <div>
                 <h3 className="text-sm font-extrabold text-slate-800 dark:text-slate-100 flex items-center gap-1.5">
@@ -156,7 +157,7 @@ export const LoginScreen: React.FC = () => {
               </div>
               <button
                 onClick={() => setShowMockChooser(false)}
-                className="text-slate-400 hover:text-slate-650 dark:hover:text-slate-200 text-xs font-black p-1 uppercase"
+                className="text-slate-400 hover:text-slate-750 dark:hover:text-slate-200 text-xs font-black p-1 uppercase cursor-pointer"
               >
                 Cancel
               </button>
@@ -214,7 +215,7 @@ export const LoginScreen: React.FC = () => {
                   placeholder="e.g. Rushindra Ram"
                   value={customName}
                   onChange={(e) => setCustomName(e.target.value)}
-                  className="w-full px-3.5 py-3 text-xs bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-850 rounded-xl focus:border-cyan-500 dark:focus:border-cyan-500 text-slate-800 dark:text-slate-150 focus:outline-none"
+                  className="w-full h-12 px-3.5 text-xs bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-850 rounded-xl focus:border-cyan-500 dark:focus:border-cyan-500 text-slate-800 dark:text-slate-150 focus:outline-none"
                 />
               </div>
               <div>
@@ -227,7 +228,7 @@ export const LoginScreen: React.FC = () => {
                   placeholder="e.g. rushindra@sail.co.in"
                   value={customEmail}
                   onChange={(e) => setCustomEmail(e.target.value)}
-                  className="w-full px-3.5 py-3 text-xs bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-850 rounded-xl focus:border-cyan-500 dark:focus:border-cyan-500 text-slate-800 dark:text-slate-150 focus:outline-none"
+                  className="w-full h-12 px-3.5 text-xs bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-850 rounded-xl focus:border-cyan-500 dark:focus:border-cyan-500 text-slate-800 dark:text-slate-150 focus:outline-none"
                 />
               </div>
               <div>
@@ -239,13 +240,13 @@ export const LoginScreen: React.FC = () => {
                   placeholder="Leave empty for initials fallback"
                   value={customPhoto}
                   onChange={(e) => setCustomPhoto(e.target.value)}
-                  className="w-full px-3.5 py-3 text-xs bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-850 rounded-xl focus:border-cyan-500 dark:focus:border-cyan-500 text-slate-800 dark:text-slate-150 focus:outline-none"
+                  className="w-full h-12 px-3.5 text-xs bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-850 rounded-xl focus:border-cyan-500 dark:focus:border-cyan-500 text-slate-800 dark:text-slate-150 focus:outline-none"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full py-3.5 bg-cyan-600 hover:bg-cyan-700 text-white font-bold rounded-2xl text-xs uppercase tracking-widest text-center cursor-pointer shadow-sm mt-3 active:scale-95 transition-all"
+                className="w-full h-13 bg-cyan-600 hover:bg-cyan-700 text-white font-bold rounded-2xl text-xs uppercase tracking-widest text-center cursor-pointer shadow-sm mt-3 active:scale-95 transition-all flex items-center justify-center"
               >
                 Sign In with Custom Profile
               </button>

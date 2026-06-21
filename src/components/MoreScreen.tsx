@@ -74,9 +74,9 @@ export const MoreScreen: React.FC = () => {
         <div className="flex-1 overflow-y-auto px-4 py-4 space-y-3">
           {reviewLaterQuestions.length === 0 ? (
             <div className="p-8 border border-dashed border-slate-200 dark:border-slate-800 rounded-3xl text-center space-y-2 bg-white dark:bg-slate-900 shadow-sm max-w-xs mx-auto mt-10">
-              <Clock className="mx-auto text-slate-300 dark:text-slate-700" size={32} />
-              <h4 className="text-xs font-black text-slate-805 dark:text-slate-350 uppercase">Queue is Empty</h4>
-              <p className="text-[10px] text-slate-400 leading-normal">
+              <Clock className="mx-auto text-slate-350 dark:text-slate-500" size={32} />
+              <h4 className="text-xs font-black text-slate-800 dark:text-slate-200 uppercase">Queue is Empty</h4>
+              <p className="text-[10px] text-slate-500 dark:text-slate-400 leading-normal">
                 You can flag any question for "Review Later" inside MCQ practice screens to see them compiled here.
               </p>
             </div>
@@ -99,10 +99,10 @@ export const MoreScreen: React.FC = () => {
                         <Trash2 size={14} />
                       </button>
                     </div>
-                    <p className="text-xs font-bold text-slate-805 dark:text-slate-200 leading-normal">
+                    <p className="text-xs font-bold text-slate-800 dark:text-slate-200 leading-normal">
                       {q.question}
                     </p>
-                    <div className="bg-slate-50 dark:bg-slate-950 rounded-xl p-3 text-[11px] font-bold border border-slate-100 dark:border-slate-850 flex justify-between items-center">
+                    <div className="bg-slate-50 dark:bg-slate-950 rounded-xl p-3 text-[11px] font-bold border border-slate-100 dark:border-slate-800 flex justify-between items-center">
                       <span className="text-slate-400 font-bold">Correct option:</span>
                       <span className="bg-emerald-50 text-emerald-700 dark:bg-emerald-950/20 dark:text-emerald-400 px-2 py-0.5 rounded-lg">
                         {q.correct_answer}) {q[`option_${q.correct_answer.toLowerCase()}` as keyof typeof q]}
@@ -229,19 +229,19 @@ export const MoreScreen: React.FC = () => {
           {/* Mistakes Log */}
           <button
             onClick={() => navigate('mistakes')}
-            className="w-full px-4 py-3.5 flex items-center justify-between text-xs font-bold text-slate-750 dark:text-slate-250 cursor-pointer active:bg-slate-50/50 dark:active:bg-slate-850"
+            className="w-full px-4 min-h-[56px] flex items-center justify-between text-xs font-bold text-slate-700 dark:text-slate-200 cursor-pointer hover:bg-slate-50 dark:hover:bg-slate-850 active:bg-slate-100 dark:active:bg-slate-800 transition-colors"
           >
             <div className="flex items-center gap-3">
-              <div className="p-2 bg-rose-50 text-rose-550 dark:bg-rose-900/20 rounded-xl">
+              <div className="p-2 bg-rose-50 text-rose-600 dark:bg-rose-950/40 dark:text-rose-400 rounded-xl">
                 <AlertTriangle size={16} />
               </div>
               <div className="text-left">
-                <p className="font-extrabold text-slate-850 dark:text-slate-200">Mistakes Log</p>
-                <p className="text-[9px] text-slate-400 leading-none font-semibold mt-0.5">Incorrect answers folder</p>
+                <p className="font-extrabold text-slate-800 dark:text-slate-200">Mistakes Log</p>
+                <p className="text-[9px] text-slate-450 dark:text-slate-400 leading-none font-semibold mt-0.5">Incorrect answers folder</p>
               </div>
             </div>
             <div className="flex items-center gap-1.5 text-slate-400 font-extrabold">
-              <span className="bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-400 px-2 py-0.5 rounded-lg text-[9px] font-black">{totalMistakes}</span>
+              <span className="bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-450 px-2 py-0.5 rounded-lg text-[9px] font-black">{totalMistakes}</span>
               <ChevronRight size={16} />
             </div>
           </button>
@@ -249,15 +249,15 @@ export const MoreScreen: React.FC = () => {
           {/* Bookmarks */}
           <button
             onClick={() => navigate('bookmarks')}
-            className="w-full px-4 py-3.5 flex items-center justify-between text-xs font-bold text-slate-750 dark:text-slate-250 cursor-pointer active:bg-slate-50/50 dark:active:bg-slate-850"
+            className="w-full px-4 min-h-[56px] flex items-center justify-between text-xs font-bold text-slate-700 dark:text-slate-200 cursor-pointer hover:bg-slate-50 dark:hover:bg-slate-850 active:bg-slate-100 dark:active:bg-slate-800 transition-colors"
           >
             <div className="flex items-center gap-3">
-              <div className="p-2 bg-amber-50 text-amber-500 dark:bg-amber-950/20 rounded-xl">
+              <div className="p-2 bg-amber-50 text-amber-500 dark:bg-amber-950/40 rounded-xl">
                 <Bookmark size={16} />
               </div>
               <div className="text-left">
-                <p className="font-extrabold text-slate-855 dark:text-slate-200">Bookmarked Cards</p>
-                <p className="text-[9px] text-slate-400 leading-none font-semibold mt-0.5">Flagged review points</p>
+                <p className="font-extrabold text-slate-800 dark:text-slate-200">Bookmarked Cards</p>
+                <p className="text-[9px] text-slate-450 dark:text-slate-400 leading-none font-semibold mt-0.5">Flagged review points</p>
               </div>
             </div>
             <div className="flex items-center gap-1.5 text-slate-400 font-extrabold">
@@ -269,15 +269,15 @@ export const MoreScreen: React.FC = () => {
           {/* Review Later */}
           <button
             onClick={() => setActiveSubView('review-later')}
-            className="w-full px-4 py-3.5 flex items-center justify-between text-xs font-bold text-slate-750 dark:text-slate-250 cursor-pointer active:bg-slate-50/50 dark:active:bg-slate-850"
+            className="w-full px-4 min-h-[56px] flex items-center justify-between text-xs font-bold text-slate-700 dark:text-slate-200 cursor-pointer hover:bg-slate-50 dark:hover:bg-slate-850 active:bg-slate-100 dark:active:bg-slate-800 transition-colors"
           >
             <div className="flex items-center gap-3">
-              <div className="p-2 bg-cyan-50 text-cyan-600 dark:bg-cyan-950/20 rounded-xl">
+              <div className="p-2 bg-cyan-50 text-cyan-600 dark:bg-cyan-950/40 rounded-xl">
                 <Clock size={16} />
               </div>
               <div className="text-left">
-                <p className="font-extrabold text-slate-850 dark:text-slate-200">Review Later</p>
-                <p className="text-[9px] text-slate-400 leading-none font-semibold mt-0.5">Flagged study queue</p>
+                <p className="font-extrabold text-slate-800 dark:text-slate-200">Review Later</p>
+                <p className="text-[9px] text-slate-450 dark:text-slate-400 leading-none font-semibold mt-0.5">Flagged study queue</p>
               </div>
             </div>
             <div className="flex items-center gap-1.5 text-slate-400 font-extrabold">
@@ -298,11 +298,11 @@ export const MoreScreen: React.FC = () => {
           <div className="flex justify-between items-center text-xs font-bold text-slate-800 dark:text-slate-200">
             <div>
               <p className="font-extrabold">Appearance Mode</p>
-              <p className="text-[9px] text-slate-405 font-medium mt-0.5">Toggle light and dark themes</p>
+              <p className="text-[9px] text-slate-450 dark:text-slate-400 font-medium mt-0.5">Toggle light and dark themes</p>
             </div>
             <button
               onClick={handleToggleTheme}
-              className="p-2.5 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700/80 active:scale-95 transition-all cursor-pointer text-slate-700 dark:text-slate-300"
+              className="w-11 h-11 flex items-center justify-center bg-slate-100 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700/80 active:scale-95 transition-all cursor-pointer text-slate-700 dark:text-slate-300"
               title="Toggle Theme"
             >
               {settings.darkMode ? <Sun size={16} /> : <Moon size={16} />}
@@ -313,15 +313,11 @@ export const MoreScreen: React.FC = () => {
           <div className="flex justify-between items-center text-xs font-bold text-slate-800 dark:text-slate-200 pt-2 border-t border-slate-100 dark:border-slate-800/80">
             <div>
               <p className="font-extrabold">High Contrast Mode</p>
-              <p className="text-[9px] text-slate-405 font-medium mt-0.5">Increases accessibility borders</p>
+              <p className="text-[9px] text-slate-455 dark:text-slate-400 font-medium mt-0.5">Increases accessibility borders</p>
             </div>
             <button
               onClick={handleToggleContrast}
-              className={`px-3 py-1.5 text-[9px] font-black uppercase rounded-lg border transition-all cursor-pointer ${
-                settings.highContrast
-                  ? 'bg-cyan-600 text-white border-cyan-700 shadow-sm'
-                  : 'bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700/80'
-              }`}
+              className="h-11 px-4 text-xs font-black uppercase rounded-xl border transition-all cursor-pointer flex items-center justify-center bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700/80"
             >
               {settings.highContrast ? 'ON' : 'OFF'}
             </button>
@@ -331,7 +327,7 @@ export const MoreScreen: React.FC = () => {
           <div className="space-y-2 pt-2 border-t border-slate-100 dark:border-slate-800/80">
             <div>
               <p className="text-xs font-extrabold text-slate-800 dark:text-slate-200">Typography Scale</p>
-              <p className="text-[9px] text-slate-405 font-medium mt-0.5">Set the question reading size</p>
+              <p className="text-[9px] text-slate-455 dark:text-slate-400 font-medium mt-0.5">Set the question reading size</p>
             </div>
             <div className="grid grid-cols-2 gap-2 text-left">
               {fontSizes.map((f) => {
@@ -361,14 +357,14 @@ export const MoreScreen: React.FC = () => {
       <section className="space-y-3">
         <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">3. Danger Zone</h3>
         <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm">
-          <div className="flex justify-between items-center text-xs font-bold text-slate-805 dark:text-slate-200">
+          <div className="flex justify-between items-center text-xs font-bold text-slate-800 dark:text-slate-200">
             <div>
               <p className="font-extrabold">Reset Study Records</p>
-              <p className="text-[9px] text-slate-400 leading-none font-semibold mt-1">Erase all scores, stats, bookmarks</p>
+              <p className="text-[9px] text-slate-450 dark:text-slate-400 leading-none font-semibold mt-1">Erase all scores, stats, bookmarks</p>
             </div>
             <button
               onClick={resetProgress}
-              className="p-2.5 bg-rose-50 hover:bg-rose-100 text-rose-600 rounded-xl border border-rose-100 dark:border-rose-900 active:scale-95 transition-all cursor-pointer"
+              className="w-11 h-11 flex items-center justify-center bg-rose-50 hover:bg-rose-100 text-rose-600 rounded-xl border border-rose-100 dark:border-rose-900 active:scale-95 transition-all cursor-pointer"
               title="Reset progress"
             >
               <Trash2 size={16} />

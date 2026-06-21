@@ -198,7 +198,7 @@ export const FlashCardsPracticeScreen: React.FC = () => {
           The CSV file for this chapter hasn't been uploaded yet. Check back later.
         </p>
         <button
-          onClick={() => navigate('flashcards-chapters')}
+          onClick={() => navigate('flashcards-landing')}
           className="px-5 py-3 bg-rose-500 text-white text-xs font-black rounded-2xl active:scale-95 transition-all cursor-pointer"
         >
           ← Back to Chapters
@@ -218,8 +218,8 @@ export const FlashCardsPracticeScreen: React.FC = () => {
       <div className="bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800">
         <div className="px-4 pt-3 pb-2 flex items-center justify-between">
           <button
-            onClick={() => navigate('flashcards-chapters')}
-            className="flex items-center gap-1.5 text-xs font-black text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 cursor-pointer active:scale-95 transition-all"
+            onClick={() => navigate('flashcards-landing')}
+            className="flex items-center gap-1.5 text-xs font-black text-slate-500 hover:text-slate-700 dark:hover:text-slate-350 cursor-pointer active:scale-95 transition-all"
           >
             <ArrowLeft size={16} /> Back
           </button>

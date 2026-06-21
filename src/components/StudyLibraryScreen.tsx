@@ -103,7 +103,7 @@ export const StudyLibraryScreen: React.FC = () => {
       <div className="flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-3">
         <button
           onClick={handleBack}
-          className="p-2 -ml-2 rounded-xl text-slate-600 dark:text-slate-350 hover:bg-slate-105 dark:hover:bg-slate-800 cursor-pointer animate-in fade-in"
+          className="w-11 h-11 flex items-center justify-center rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer transition-colors"
           aria-label="Back to dashboard"
         >
           <ChevronLeft size={20} />
@@ -119,8 +119,8 @@ export const StudyLibraryScreen: React.FC = () => {
       </div>
 
       {/* Search Input Box */}
-      <div className="relative">
-        <span className="absolute inset-y-0 left-3 flex items-center text-slate-400">
+      <div className="relative flex items-center">
+        <span className="absolute left-3.5 flex items-center text-slate-400 dark:text-slate-500">
           <Search size={16} />
         </span>
         <input
@@ -128,12 +128,12 @@ export const StudyLibraryScreen: React.FC = () => {
           placeholder="Search by chapter name or file name..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full pl-10 pr-4 py-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl text-xs font-semibold outline-none focus:border-cyan-600 text-slate-800 dark:text-slate-100 shadow-premium focus:ring-1 focus:ring-cyan-600"
+          className="w-full h-13 pl-10 pr-10 bg-white dark:bg-slate-900 border border-slate-250 dark:border-slate-800 rounded-2xl text-xs font-semibold outline-none focus:border-cyan-600 text-slate-800 dark:text-slate-100 shadow-premium focus:ring-1 focus:ring-cyan-600 placeholder-slate-450 dark:placeholder-slate-500"
         />
         {searchQuery && (
           <button
             onClick={() => setSearchQuery('')}
-            className="absolute inset-y-0 right-3 flex items-center text-slate-400 hover:text-slate-600"
+            className="absolute right-3.5 flex items-center justify-center p-1 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-500 hover:text-slate-700 dark:hover:text-slate-300 cursor-pointer min-w-[28px] min-h-[28px]"
           >
             <X size={14} className="lucide-lucide-icon" />
           </button>

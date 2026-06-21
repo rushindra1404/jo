@@ -13,17 +13,11 @@ import {
 export const LearnScreen: React.FC = () => {
   const { navigate, setActiveMaterial, setActiveChapterId, setStudyQuestionIndex, questions } = useApp();
   const [searchQuery, setSearchQuery] = useState<string>('');
-  const [activeTab, setActiveTab] = useState<'flashcards' | 'revision'>('revision');
-  const [materialFilter, setMaterialFilter] = useState<'ica' | 'gpoe'>('ica');
 
   const startFlashcards = (mat: 'ica' | 'gpoe', chId: string) => {
     setActiveMaterial(mat);
     setActiveChapterId(chId);
     navigate('flashcards-viewer');
-  };
-
-  const openFlashCardsHub = () => {
-    navigate('flashcards-landing');
   };
 
   const startRevision = (mat: 'ica' | 'gpoe', chId: string) => {
@@ -57,30 +51,30 @@ export const LearnScreen: React.FC = () => {
       <div className="flex justify-between items-center">
         <div>
           <h2 className="text-xs font-black uppercase text-cyan-600 dark:text-cyan-400 tracking-wider">JO Sphere Learning Hub</h2>
-          <p className="text-2xl font-black text-cyan-600 dark:text-cyan-400 font-sans mt-0.5">Learn • Revise • Succeed</p>
+          <p className="text-2xl font-black text-slate-800 dark:text-white font-sans mt-0.5">Choose Mode</p>
         </div>
         <button
           onClick={() => navigate('study-library')}
-          className="flex items-center gap-1 text-[10px] uppercase font-black tracking-wider bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-400 px-3 py-1.5 rounded-xl border border-cyan-100 dark:border-cyan-900 active:scale-95 transition-all cursor-pointer"
+          className="flex items-center gap-1.5 text-xs uppercase font-extrabold tracking-wider bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-300 px-3.5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 active:scale-95 transition-all cursor-pointer min-h-[44px]"
         >
-          <FileText size={12} /> Open Library <ArrowRight size={10} />
+          <FileText size={14} /> Open Library <ArrowRight size={10} />
         </button>
       </div>
 
       {/* Global Search Bar */}
-      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-3.5 shadow-premium flex items-center gap-2">
-        <Search size={16} className="text-slate-400 shrink-0" />
+      <div className="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm flex items-center gap-3 min-h-[52px]">
+        <Search size={18} className="text-slate-400 dark:text-slate-500 shrink-0" />
         <input
           type="text"
-          placeholder="Search chapters, concepts, or questions..."
+          placeholder="Search chapters, concepts, questions, or flash cards..."
           value={searchQuery}
           onChange={e => setSearchQuery(e.target.value)}
-          className="w-full bg-transparent border-none text-xs font-semibold text-slate-700 dark:text-slate-300 focus:outline-none placeholder-slate-400"
+          className="w-full bg-transparent border-none text-sm font-semibold text-slate-800 dark:text-slate-200 focus:outline-none placeholder-slate-400 dark:placeholder-slate-500"
         />
         {searchQuery && (
           <button
             onClick={() => setSearchQuery('')}
-            className="text-[10px] text-slate-400 font-bold hover:text-slate-600 cursor-pointer"
+            className="text-xs text-slate-400 dark:text-slate-500 font-bold hover:text-slate-600 dark:hover:text-slate-350 cursor-pointer px-1 py-0.5"
           >
             Clear
           </button>
@@ -92,27 +86,27 @@ export const LearnScreen: React.FC = () => {
         <div className="space-y-4 animate-fade-in">
           {filteredChapters.length > 0 && (
             <div className="space-y-2">
-              <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">Chapters Found ({filteredChapters.length})</h3>
+              <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-405 dark:text-slate-500">Chapters Found ({filteredChapters.length})</h3>
               <div className="space-y-2">
                 {filteredChapters.map(ch => (
                   <div
                     key={`${ch.material}_${ch.id}`}
-                    className="p-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl flex items-center justify-between text-xs font-semibold"
+                    className="p-4 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl flex items-center justify-between text-xs font-semibold gap-3"
                   >
-                    <div>
-                      <span className="text-[8px] bg-slate-100 dark:bg-slate-800 text-slate-500 px-1.5 py-0.5 rounded uppercase font-black">{ch.material}</span>
-                      <p className="text-slate-800 dark:text-slate-250 mt-1 font-bold">Ch {ch.num}: {ch.title}</p>
+                    <div className="min-w-0">
+                      <span className="text-[9px] bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400 px-2 py-0.5 rounded font-black uppercase tracking-wider">{ch.material}</span>
+                      <p className="text-slate-900 dark:text-white mt-1.5 font-extrabold leading-snug">Ch {ch.num}: {ch.title}</p>
                     </div>
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 shrink-0">
                       <button
                         onClick={() => startFlashcards(ch.material, ch.id)}
-                        className="px-2.5 py-1 bg-rose-50 dark:bg-rose-950/20 text-rose-600 dark:text-rose-400 text-[10px] font-black rounded-lg border border-rose-100 dark:border-rose-900 active:scale-95"
+                        className="h-10 px-3.5 bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/30 dark:hover:bg-rose-900/40 text-rose-600 dark:text-rose-400 text-xs font-black rounded-xl border border-rose-150 dark:border-rose-900/60 active:scale-95 transition-all cursor-pointer flex items-center gap-1"
                       >
                         Cards
                       </button>
                       <button
                         onClick={() => startRevision(ch.material, ch.id)}
-                        className="px-2.5 py-1 bg-cyan-50 dark:bg-cyan-950/20 text-cyan-600 dark:text-cyan-400 text-[10px] font-black rounded-lg border border-cyan-100 dark:border-cyan-900 active:scale-95"
+                        className="h-10 px-3.5 bg-cyan-50 hover:bg-cyan-100 dark:bg-cyan-950/30 dark:hover:bg-cyan-900/40 text-cyan-600 dark:text-cyan-400 text-xs font-black rounded-xl border border-cyan-150 dark:border-cyan-900/60 active:scale-95 transition-all cursor-pointer flex items-center gap-1"
                       >
                         Practice
                       </button>
@@ -125,7 +119,7 @@ export const LearnScreen: React.FC = () => {
 
           {filteredQuestions.length > 0 && (
             <div className="space-y-2">
-              <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-400">Questions Found ({filteredQuestions.length})</h3>
+              <h3 className="text-[10px] font-black uppercase tracking-wider text-slate-405 dark:text-slate-500">Questions Found ({filteredQuestions.length})</h3>
               <div className="space-y-2.5">
                 {filteredQuestions.map(q => {
                   const ch = getChaptersByMaterial(q.material).find(c => c.id === q.chapterId);
@@ -133,13 +127,13 @@ export const LearnScreen: React.FC = () => {
                     <div
                       key={q.uniqueId}
                       onClick={() => startRevision(q.material, q.chapterId)}
-                      className="p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-sm space-y-2 cursor-pointer hover:border-cyan-500 active:scale-[0.99] transition-all"
+                      className="p-4 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-sm space-y-2 cursor-pointer hover:border-cyan-500 dark:hover:border-cyan-500 active:scale-[0.99] transition-all"
                     >
-                      <div className="flex justify-between items-center text-[9px] font-black uppercase text-slate-400">
+                      <div className="flex justify-between items-center text-[9px] font-black uppercase text-slate-400 dark:text-slate-500">
                         <span>{q.material.toUpperCase()} • Ch {ch?.num}</span>
-                        <span className="text-cyan-600">Start Chapter MCQ <ChevronRight size={10} className="inline" /></span>
+                        <span className="text-cyan-600 dark:text-cyan-400">Start Chapter MCQ <ChevronRight size={10} className="inline ml-0.5" /></span>
                       </div>
-                      <p className="text-xs font-bold text-slate-800 dark:text-slate-200 leading-normal line-clamp-2">{q.question}</p>
+                      <p className="text-xs font-bold text-slate-850 dark:text-slate-200 leading-normal line-clamp-2">{q.question}</p>
                     </div>
                   );
                 })}
@@ -148,7 +142,7 @@ export const LearnScreen: React.FC = () => {
           )}
 
           {filteredChapters.length === 0 && filteredQuestions.length === 0 && (
-            <div className="text-center p-8 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-slate-400 font-semibold text-xs">
+            <div className="text-center p-8 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl text-slate-400 dark:text-slate-500 font-semibold text-xs">
               No matching chapters or questions found.
             </div>
           )}
@@ -157,108 +151,61 @@ export const LearnScreen: React.FC = () => {
 
       {/* Main Options: Learning Mode Selection */}
       {!searchQuery && (
-        <div className="space-y-5 animate-fade-in">
-          {/* Practice Mode toggles */}
-          <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-850 p-1.5 rounded-2xl flex shadow-sm">
-            <button
-              onClick={() => setActiveTab('revision')}
-              className={`flex-1 py-3 text-center text-xs font-black uppercase rounded-xl transition-all cursor-pointer ${
-                activeTab === 'revision'
-                  ? 'bg-cyan-600 text-white shadow-md'
-                  : 'text-slate-500 hover:text-slate-700 dark:text-slate-400'
-              }`}
-            >
-              🔄 MCQ Revision Mode
-            </button>
-            <button
-              onClick={openFlashCardsHub}
-              className={`flex-1 py-3 text-center text-xs font-black uppercase rounded-xl transition-all cursor-pointer ${
-                activeTab === 'flashcards'
-                  ? 'bg-rose-500 text-white shadow-md'
-                  : 'text-slate-500 hover:text-slate-700 dark:text-slate-400'
-              }`}
-            >
-              📖 Flash Cards
-            </button>
-          </div>
-
-          {/* Tab Description Context */}
-          <div className="p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 shadow-sm flex items-start gap-3">
-            <div className={`p-2 rounded-xl shrink-0 ${activeTab === 'revision' ? 'bg-cyan-50 text-cyan-600 dark:bg-cyan-950/30' : 'bg-rose-50 text-rose-500 dark:bg-rose-950/30'}`}>
-              {activeTab === 'revision' ? <Sliders size={18} /> : <BookOpen size={18} />}
-            </div>
-            <div>
-              <h4 className="text-xs font-extrabold text-slate-800 dark:text-slate-200 uppercase">
-                {activeTab === 'revision' ? 'Active MCQ Revision' : 'Memory Reinforcement'}
-              </h4>
-              <p className="text-[10px] leading-normal font-semibold text-slate-400 dark:text-slate-500 mt-1">
-                {activeTab === 'revision'
-                  ? 'Answer multiple-choice questions with instant correct/incorrect visual highlighting and detailed text explanations.'
-                  : 'Study key facts, concepts, definitions, and company details with interactive 3D flipping card summary blocks.'}
-              </p>
-            </div>
-          </div>
-
-          {/* Materials Section Tabs (ICA vs GPOE) */}
-          <div className="space-y-4">
-            <div className="flex justify-between items-center">
-              <h3 className="text-xs font-black uppercase tracking-wider text-slate-400">Chapters Selection</h3>
-              <div className="flex gap-1.5 bg-slate-100 dark:bg-slate-850 p-1 rounded-xl">
-                <button
-                  onClick={() => setMaterialFilter('ica')}
-                  className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase cursor-pointer transition-all ${
-                    materialFilter === 'ica'
-                      ? 'bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 shadow-sm'
-                      : 'text-slate-450 dark:text-slate-500'
-                  }`}
-                >
-                  ICA (16 Ch)
-                </button>
-                <button
-                  onClick={() => setMaterialFilter('gpoe')}
-                  className={`px-3 py-1 rounded-lg text-[9px] font-black uppercase cursor-pointer transition-all ${
-                    materialFilter === 'gpoe'
-                      ? 'bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 shadow-sm'
-                      : 'text-slate-450 dark:text-slate-500'
-                  }`}
-                >
-                  GPOE (8 Ch)
-                </button>
+        <div className="flex flex-col gap-5 pt-2">
+          {/* Revision Card */}
+          <div className="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-premium space-y-4 hover:border-cyan-500/30 dark:hover:border-cyan-400/30 transition-colors">
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 rounded-2xl bg-cyan-50 dark:bg-cyan-950/40 text-cyan-600 dark:text-cyan-400 flex items-center justify-center shrink-0">
+                <Sliders size={26} />
+              </div>
+              <div>
+                <h3 className="text-lg font-black text-slate-900 dark:text-white uppercase tracking-tight">
+                  🔄 Revision Mode
+                </h3>
+                <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 mt-0.5">
+                  Practice Questions • Explanations • Active Recall
+                </p>
               </div>
             </div>
+            <p className="text-xs leading-relaxed text-slate-600 dark:text-slate-300 font-medium">
+              Answer multiple-choice questions with instant correct/incorrect visual feedback and detailed explanations to reinforce understanding.
+            </p>
+            <button
+              onClick={() => navigate('chapter-select')}
+              className="w-full flex items-center justify-center gap-2 h-14 bg-cyan-600 hover:bg-cyan-700 dark:bg-cyan-600 dark:hover:bg-cyan-700 text-white font-extrabold rounded-2xl shadow-md active:scale-95 transition-all cursor-pointer text-xs uppercase tracking-wider"
+            >
+              Open Revision Mode <ArrowRight size={16} />
+            </button>
+          </div>
 
-            {/* Render selected chapters list */}
-            <div className="grid grid-cols-1 gap-2">
-              {getChaptersByMaterial(materialFilter).map((ch, idx) => (
-                <button
-                  key={ch.id}
-                  onClick={() =>
-                    activeTab === 'revision'
-                      ? startRevision(materialFilter, ch.id)
-                      : startFlashcards(materialFilter, ch.id)
-                  }
-                  className="w-full p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-cyan-500 dark:hover:border-cyan-600 rounded-2xl flex items-center justify-between text-left shadow-sm active:scale-[0.98] transition-all cursor-pointer"
-                >
-                  <div className="flex items-center gap-3">
-                    <span className="flex items-center justify-center w-8 h-8 rounded-xl font-extrabold text-xs bg-slate-50 dark:bg-slate-800 text-slate-500 dark:text-slate-400">
-                      {idx + 1}
-                    </span>
-                    <div>
-                      <h4 className="text-xs font-extrabold text-slate-850 dark:text-slate-100 font-sans leading-snug">
-                        {ch.title}
-                      </h4>
-                      <p className="text-[9px] text-slate-400 font-semibold uppercase tracking-wider mt-0.5">
-                        {materialFilter.toUpperCase()} • Chapter {ch.num}
-                      </p>
-                    </div>
-                  </div>
-                  <ChevronRight size={16} className="text-slate-400 shrink-0" />
-                </button>
-              ))}
+          {/* Flash Cards Card */}
+          <div className="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 shadow-premium space-y-4 hover:border-rose-500/30 dark:hover:border-rose-400/30 transition-colors">
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 rounded-2xl bg-rose-50 dark:bg-rose-950/40 text-rose-500 dark:text-rose-400 flex items-center justify-center shrink-0">
+                <BookOpen size={26} />
+              </div>
+              <div>
+                <h3 className="text-lg font-black text-slate-900 dark:text-white uppercase tracking-tight">
+                  📖 Flash Cards
+                </h3>
+                <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 mt-0.5">
+                  Important Points • Key Facts • Quick Revision
+                </p>
+              </div>
             </div>
+            <p className="text-xs leading-relaxed text-slate-600 dark:text-slate-300 font-medium">
+              Study key concepts, definitions, formulas, and critical summaries using interactive memory-reinforcing flashcards with auto-flip options.
+            </p>
+            <button
+              onClick={() => navigate('flashcards-landing')}
+              className="w-full flex items-center justify-center gap-2 h-14 bg-rose-500 hover:bg-rose-600 dark:bg-rose-600 dark:hover:bg-rose-700 text-white font-extrabold rounded-2xl shadow-md active:scale-95 transition-all cursor-pointer text-xs uppercase tracking-wider"
+            >
+              Open Flash Cards <ArrowRight size={16} />
+            </button>
           </div>
         </div>
       )}
     </div>
   );
 };
+

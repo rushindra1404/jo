@@ -165,7 +165,7 @@ export const ProgressScreen: React.FC = () => {
         
         {/* ICA */}
         <div className="space-y-2">
-          <div className="flex justify-between items-center text-xs font-bold text-slate-800 dark:text-slate-255">
+          <div className="flex justify-between items-center text-xs font-bold text-slate-800 dark:text-slate-250">
             <span className="flex items-center gap-1"><BookOpen size={14} className="text-cyan-500" /> ICA Study Material</span>
             <span className="text-[10px] text-slate-400">{icaCompletion}% Completed • {icaAccuracy}% Acc</span>
           </div>
@@ -176,7 +176,7 @@ export const ProgressScreen: React.FC = () => {
 
         {/* GPOE */}
         <div className="space-y-2">
-          <div className="flex justify-between items-center text-xs font-bold text-slate-800 dark:text-slate-255">
+          <div className="flex justify-between items-center text-xs font-bold text-slate-800 dark:text-slate-250">
             <span className="flex items-center gap-1"><BookOpen size={14} className="text-emerald-500" /> GPOE Study Material</span>
             <span className="text-[10px] text-slate-400">{gpoeCompletion}% Completed • {gpoeAccuracy}% Acc</span>
           </div>
@@ -231,7 +231,7 @@ export const ProgressScreen: React.FC = () => {
                   <span className="text-[8px] bg-rose-50 dark:bg-rose-950/40 text-rose-500 border border-rose-100 dark:border-rose-900 px-1.5 py-0.5 rounded uppercase font-black">
                     {ch.accuracy}% Accuracy
                   </span>
-                  <h4 className="text-xs font-extrabold text-slate-855 dark:text-slate-150 leading-snug pt-0.5 font-sans">
+                  <h4 className="text-xs font-extrabold text-slate-800 dark:text-slate-150 leading-snug pt-0.5 font-sans">
                     Ch {ch.num}: {ch.title}
                   </h4>
                   <p className="text-[9px] text-slate-400 font-medium">
