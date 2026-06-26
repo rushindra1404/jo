@@ -134,7 +134,7 @@ export const PDFViewer: React.FC = () => {
     renderPage(pageNumber, scale);
   }, [pdfDoc, pageNumber, scale, loading]);
 
-  const renderPage = async (pageNum: number, currentScale: number) => {
+  async function renderPage(pageNum: number, currentScale: number) {
     try {
       setRendering(true);
       const page = await pdfDoc.getPage(pageNum);
@@ -190,7 +190,7 @@ export const PDFViewer: React.FC = () => {
         setRendering(false);
       }
     }
-  };
+  }
 
   // Adjust initial scale to fit mobile screen width
   const handleFitToWidth = async () => {

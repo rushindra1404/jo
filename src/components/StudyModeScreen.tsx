@@ -22,6 +22,7 @@ export const StudyModeScreen: React.FC = () => {
     resumeSpeaking,
     stopSpeaking,
     speakingState,
+    questions,
   } = useApp();
 
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -32,7 +33,7 @@ export const StudyModeScreen: React.FC = () => {
   const [noteInput, setNoteInput] = useState<string>('');
 
   const chapterQuestions = activeMaterial && activeChapterId
-    ? useApp().questions.filter(q => q.material === activeMaterial && q.chapterId === activeChapterId)
+    ? questions.filter(q => q.material === activeMaterial && q.chapterId === activeChapterId)
     : [];
 
   const currentChapter = activeMaterial

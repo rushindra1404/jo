@@ -222,7 +222,7 @@ export const ExamModeScreen: React.FC = () => {
     setShowSubmitModal(false);
   };
 
-  const handleConfirmSubmit = async () => {
+  async function handleConfirmSubmit() {
     setShowSubmitModal(false);
     setShowPalette(false);
     await submitExam(
@@ -231,7 +231,7 @@ export const ExamModeScreen: React.FC = () => {
         addRecentActivity(type, mat, label, detail, chId, count, acc);
       }
     );
-  };
+  }
 
   // Timer formatter
   const formatTime = (seconds: number | null) => {

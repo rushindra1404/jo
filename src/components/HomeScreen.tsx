@@ -41,8 +41,10 @@ export const HomeScreen: React.FC = () => {
     }
   };
 
+  const [now] = React.useState(() => Date.now());
+
   const formatTimeAgo = (timestamp: number) => {
-    const diff = Date.now() - timestamp;
+    const diff = now - timestamp;
     const minutes = Math.floor(diff / 60000);
     if (minutes < 1) return 'Just now';
     if (minutes < 60) return `${minutes}m ago`;

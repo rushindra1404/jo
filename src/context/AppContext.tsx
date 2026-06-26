@@ -196,7 +196,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [speakingState, setSpeakingState] = useState<'playing' | 'paused' | 'stopped'>('stopped');
 
   // Session start timestamp
-  const [sessionStartTime] = useState<number>(Date.now());
+  const [sessionStartTime] = useState<number>(() => Date.now());
 
   // Load question bank on startup
   useEffect(() => {
