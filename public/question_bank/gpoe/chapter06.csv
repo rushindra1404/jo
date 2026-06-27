@@ -1,111 +1,111 @@
 question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
-11,Hot rolling is performed?,Above recrystallization temperature,Below recrystallization temperature,At melting point,At room temperature,A,Above recrystallization temperature is correct according to the Rolling Mills chapter.
-12,Cold rolling is usually performed?,At room temperature,Above recrystallization temperature,At melting temperature,In furnace only,A,At room temperature is correct according to the Rolling Mills chapter.
-13,Hot rolling improves?,Ductility,Brittleness,Porosity,Segregation,A,Ductility is correct according to the Rolling Mills chapter.
-14,Which is a hot rolled product group??,Flat,Liquid,Powder,Casting sand,A,Flat is correct according to the Rolling Mills chapter.
-15,Filing cabinets are typical products of?,Cold rolling,Hot rolling only,Forging,Extrusion,A,Cold rolling is correct according to the Rolling Mills chapter.
-16,Recrystallization temperature is typically?,0.5–0.7 of melting point,0.1–0.2,0.9–1.0,2 times melting point,A,0.5–0.7 of melting point is correct according to the Rolling Mills chapter.
-17,Hot rolled steel is generally?,Less expensive,More expensive,Same cost,Not sold,A,Less expensive is correct according to the Rolling Mills chapter.
-18,Cold rolled steel is generally?,Stronger,Weaker,Brittle only,Molten,A,Stronger is correct according to the Rolling Mills chapter.
-19,Hot rolled steel has?,Excellent weldability,No weldability,Poor weldability,Unknown weldability,A,Excellent weldability is correct according to the Rolling Mills chapter.
-20,Cold rolled stock has?,Better dimensional tolerance,Poorer tolerance,No tolerance,Variable only,A,Better dimensional tolerance is correct according to the Rolling Mills chapter.
-21,Bokaro produces?,Flat products,Only rails,Only wire rods,Only blooms,A,Flat products is correct according to the Rolling Mills chapter.
-22,Burnpur is primarily a?,Long product plant,Flat product plant,Pipe plant,Mine,A,Long product plant is correct according to the Rolling Mills chapter.
-23,Bhilai produces?,Long and flat products,Only flat,Only cold rolled,Only silicon steel,A,Long and flat products is correct according to the Rolling Mills chapter.
-24,Two-high reversing mill rolls rotate?,In both directions,One direction only,Not at all,Randomly,A,In both directions is correct according to the Rolling Mills chapter.
-25,Three-high mill was invented to avoid?,Roll reversal delays,Heating,Cooling,Casting,A,Roll reversal delays is correct according to the Rolling Mills chapter.
-26,Four-high mills use backup rolls to improve?,Stiffness,Corrosion,Density,Hardness,A,Stiffness is correct according to the Rolling Mills chapter.
-27,Cluster mills are commonly used for?,Cold rolling and foils,Casting,Forging,Welding,A,Cold rolling and foils is correct according to the Rolling Mills chapter.
-28,HR coils are used as feedstock for?,Pipe plants,Blast furnace,Coke oven,Converter,A,Pipe plants is correct according to the Rolling Mills chapter.
-29,Cold rolled sheets are used for?,Car body panels,Rail tracks,Bloom casting,Pig iron,A,Car body panels is correct according to the Rolling Mills chapter.
-30,Rails are used primarily for?,Railway networks,Ships only,Aircraft,Mines only,A,Railway networks is correct according to the Rolling Mills chapter.
-31,Reheating furnace discharge temperature is?,1100–1300°C,200–300°C,500–600°C,1500–1700°C,A,1100–1300°C is correct according to the Rolling Mills chapter.
-32,Continuous reheating furnaces include?,Pusher and walking beam,Cupola and BOF,Arc and induction,Kiln and dryer,A,Pusher and walking beam is correct according to the Rolling Mills chapter.
-33,Scale on slab surface is removed by?,High-pressure water jets,Acid only,Grinding only,Air jets,A,High-pressure water jets is correct according to the Rolling Mills chapter.
-34,Major thickness reduction in hot strip mill occurs in?,Roughing mill,Coiler,Cooling bank,Descaler,A,Roughing mill is correct according to the Rolling Mills chapter.
-35,Finishing temperature is critical for?,Metallurgical properties,Packaging,Transport,Painting only,A,Metallurgical properties is correct according to the Rolling Mills chapter.
-36,Strip cooling before coiling occurs on?,Run-out table,Reheating furnace,Pickling line,Annealing line,A,Run-out table is correct according to the Rolling Mills chapter.
-37,Coilers use?,"Pinch rolls, wrapper rolls and mandrel",Only mandrel,Only pinch rolls,Only wrapper rolls,A,"Pinch rolls, wrapper rolls and mandrel is correct according to the Rolling Mills chapter."
-38,Hot strip mill finishing stands are typically?,5–7 stands,1 stand,20 stands,50 stands,A,5–7 stands is correct according to the Rolling Mills chapter.
-39,Long products must generally be?,Hot rolled,Cold rolled only,Cast only,Forged only,A,Hot rolled is correct according to the Rolling Mills chapter.
-40,Primary long product mills produce?,Blooms and billets,Cars,Pipes,Coils,A,Blooms and billets is correct according to the Rolling Mills chapter.
-41,Universal rail rolling provides?,Closer tolerances,More roll wear,Poor surface,Lower quality,A,Closer tolerances is correct according to the Rolling Mills chapter.
-42,TMT stands for?,Thermo-Mechanical Treatment,Thermal Metal Transfer,Tensile Mechanical Test,Thermo Mill Technology,A,Thermo-Mechanical Treatment is correct according to the Rolling Mills chapter.
-43,Wire rod mills roll billets into?,Wire rods,Plates,Rails,Pipes,A,Wire rods is correct according to the Rolling Mills chapter.
-44,In TMT bars outer layer becomes?,Hard,Liquid,Soft,Porous,A,Hard is correct according to the Rolling Mills chapter.
-45,Products are identified by?,Stamping and cast numbers,Color only,Weight only,Length only,A,Stamping and cast numbers is correct according to the Rolling Mills chapter.
-46,Most rolling mills use automation level?,Level-II,Level-V,Level-0,Level-I only,A,Level-II is correct according to the Rolling Mills chapter.
-47,Ultrasonic testing detects?,Internal defects,Paint defects,Color defects,Weight errors,A,Internal defects is correct according to the Rolling Mills chapter.
-48,Rolling defects include?,Laps,Casting powder,Shrinkage cavity only,Gas hole only,A,Laps is correct according to the Rolling Mills chapter.
-49,Special Plate Plant is located at?,Rourkela,Bokaro,Burnpur,Salem,A,Rourkela is correct according to the Rolling Mills chapter.
-50,Cold rolling aims at?,Better surface finish,Increasing scale,Reducing accuracy,Increasing oxidation,A,Better surface finish is correct according to the Rolling Mills chapter.
-51,Input to CRM is?,HR coils,Billets,Blooms,Pig iron,A,HR coils is correct according to the Rolling Mills chapter.
-52,Pickling removes?,Iron oxide scale,Carbon,Silicon,Nitrogen,A,Iron oxide scale is correct according to the Rolling Mills chapter.
-53,Hydrochloric acid pickling rate is?,2.5–3 times sulphuric acid,Equal,Lower,Zero,A,2.5–3 times sulphuric acid is correct according to the Rolling Mills chapter.
-54,20-high mills are used for?,Stainless steel,Rails,TMT,Billets,A,Stainless steel is correct according to the Rolling Mills chapter.
-55,Cold reversing mill typically makes?,2–5 passes,20 passes,1 pass only,50 passes,A,2–5 passes is correct according to the Rolling Mills chapter.
-56,Tandem rolling reduces material in?,All stands simultaneously,One stand only,Furnace,Coiler,A,All stands simultaneously is correct according to the Rolling Mills chapter.
-57,Z-high mill is also called?,Sendzimir mill,Universal mill,Planetary mill,Blooming mill,A,Sendzimir mill is correct according to the Rolling Mills chapter.
-58,Electrolytic cleaning is required before?,Annealing,Casting,Smelting,Rolling ingots,A,Annealing is correct according to the Rolling Mills chapter.
-59,Annealing restores?,Ductility,Scale,Porosity,Segregation,A,Ductility is correct according to the Rolling Mills chapter.
-60,Protective atmosphere uses?,Hydrogen and nitrogen,Oxygen,Chlorine,Argon only,A,Hydrogen and nitrogen is correct according to the Rolling Mills chapter.
-61,Continuous annealing is?,Faster than hood annealing,Slower,Same,Not used,A,Faster than hood annealing is correct according to the Rolling Mills chapter.
-62,Skin passing reduction is typically?,0.25–1.0%,5–10%,20–30%,50%,A,0.25–1.0% is correct according to the Rolling Mills chapter.
-63,Skin pass mill is normally?,Single stand 4-high,20-high,3-high,2-high,A,Single stand 4-high is correct according to the Rolling Mills chapter.
-64,CTL stands for?,Cut To Length,Cold Tandem Line,Coil Transfer Line,Cold Treatment Line,A,Cut To Length is correct according to the Rolling Mills chapter.
-65,Tin coating in ETL uses?,Electrolysis,Forging,Casting,Welding,A,Electrolysis is correct according to the Rolling Mills chapter.
-66,Galvanizing applies?,Zinc coating,Tin coating,Nickel coating,Copper coating,A,Zinc coating is correct according to the Rolling Mills chapter.
-67,Major cold rolling defect is?,Wavy edge,Hot top,Pipe,Segregation,A,Wavy edge is correct according to the Rolling Mills chapter.
-68,RSP has?,Two pipe making mills,No pipe mill,Five pipe mills,One only,A,Two pipe making mills is correct according to the Rolling Mills chapter.
-69,HFW pipe plant was modernized in?,2005,1995,2010,2020,A,2005 is correct according to the Rolling Mills chapter.
-70,API 5L pipes transport?,Gas and petroleum,Food only,Coal,Cement,A,Gas and petroleum is correct according to the Rolling Mills chapter.
-71,SW pipe diameter range is?,16–72 inches,1–5 inches,80–100 inches,5–10 inches,A,16–72 inches is correct according to the Rolling Mills chapter.
-72,Electrical steel may contain silicon up to?,6.5%,20%,15%,0.1%,A,6.5% is correct according to the Rolling Mills chapter.
-73,Commercial silicon steel usually contains up to?,3.2% Si,10%,6.5%,0.01%,A,3.2% Si is correct according to the Rolling Mills chapter.
-74,Silicon increases?,Electrical resistivity,Density only,Melting point only,Carbon,A,Electrical resistivity is correct according to the Rolling Mills chapter.
-75,Carbon level in silicon steel is kept around?,0.005% or lower,1%,5%,10%,A,0.005% or lower is correct according to the Rolling Mills chapter.
-76,Sendzimir mill at Salem is?,20-high,2-high,3-high,4-high only,A,20-high is correct according to the Rolling Mills chapter.
-77,Rolling Mills MCQ 77: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-78,Rolling Mills MCQ 78: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-79,Rolling Mills MCQ 79: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-80,Rolling Mills MCQ 80: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-81,Rolling Mills MCQ 81: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-82,Rolling Mills MCQ 82: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-83,Rolling Mills MCQ 83: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-84,Rolling Mills MCQ 84: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-85,Rolling Mills MCQ 85: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-86,Rolling Mills MCQ 86: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-87,Rolling Mills MCQ 87: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-88,Rolling Mills MCQ 88: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-89,Rolling Mills MCQ 89: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-90,Rolling Mills MCQ 90: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-91,Rolling Mills MCQ 91: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-92,Rolling Mills MCQ 92: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-93,Rolling Mills MCQ 93: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-94,Rolling Mills MCQ 94: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-95,Rolling Mills MCQ 95: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-96,Rolling Mills MCQ 96: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-97,Rolling Mills MCQ 97: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-98,Rolling Mills MCQ 98: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-99,Rolling Mills MCQ 99: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-100,Rolling Mills MCQ 100: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-101,Rolling Mills MCQ 101: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-102,Rolling Mills MCQ 102: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-103,Rolling Mills MCQ 103: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-104,Rolling Mills MCQ 104: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-105,Rolling Mills MCQ 105: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-106,Rolling Mills MCQ 106: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-107,Rolling Mills MCQ 107: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-108,Rolling Mills MCQ 108: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-109,Rolling Mills MCQ 109: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-110,Rolling Mills MCQ 110: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-111,Rolling Mills MCQ 111: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-112,Rolling Mills MCQ 112: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-113,Rolling Mills MCQ 113: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-114,Rolling Mills MCQ 114: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-115,Rolling Mills MCQ 115: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-116,Rolling Mills MCQ 116: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-117,Rolling Mills MCQ 117: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-118,Rolling Mills MCQ 118: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-119,Rolling Mills MCQ 119: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-120,Rolling Mills MCQ 120: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+1,Hot rolling is performed?,Above recrystallization temperature,Below recrystallization temperature,At melting point,At room temperature,A,Above recrystallization temperature is correct according to the Rolling Mills chapter.
+2,Cold rolling is usually performed?,At room temperature,Above recrystallization temperature,At melting temperature,In furnace only,A,At room temperature is correct according to the Rolling Mills chapter.
+3,Hot rolling improves?,Ductility,Brittleness,Porosity,Segregation,A,Ductility is correct according to the Rolling Mills chapter.
+4,Which is a hot rolled product group??,Flat,Liquid,Powder,Casting sand,A,Flat is correct according to the Rolling Mills chapter.
+5,Filing cabinets are typical products of?,Cold rolling,Hot rolling only,Forging,Extrusion,A,Cold rolling is correct according to the Rolling Mills chapter.
+6,Recrystallization temperature is typically?,0.5–0.7 of melting point,0.1–0.2,0.9–1.0,2 times melting point,A,0.5–0.7 of melting point is correct according to the Rolling Mills chapter.
+7,Hot rolled steel is generally?,Less expensive,More expensive,Same cost,Not sold,A,Less expensive is correct according to the Rolling Mills chapter.
+8,Cold rolled steel is generally?,Stronger,Weaker,Brittle only,Molten,A,Stronger is correct according to the Rolling Mills chapter.
+9,Hot rolled steel has?,Excellent weldability,No weldability,Poor weldability,Unknown weldability,A,Excellent weldability is correct according to the Rolling Mills chapter.
+10,Cold rolled stock has?,Better dimensional tolerance,Poorer tolerance,No tolerance,Variable only,A,Better dimensional tolerance is correct according to the Rolling Mills chapter.
+11,Bokaro produces?,Flat products,Only rails,Only wire rods,Only blooms,A,Flat products is correct according to the Rolling Mills chapter.
+12,Burnpur is primarily a?,Long product plant,Flat product plant,Pipe plant,Mine,A,Long product plant is correct according to the Rolling Mills chapter.
+13,Bhilai produces?,Long and flat products,Only flat,Only cold rolled,Only silicon steel,A,Long and flat products is correct according to the Rolling Mills chapter.
+14,Two-high reversing mill rolls rotate?,In both directions,One direction only,Not at all,Randomly,A,In both directions is correct according to the Rolling Mills chapter.
+15,Three-high mill was invented to avoid?,Roll reversal delays,Heating,Cooling,Casting,A,Roll reversal delays is correct according to the Rolling Mills chapter.
+16,Four-high mills use backup rolls to improve?,Stiffness,Corrosion,Density,Hardness,A,Stiffness is correct according to the Rolling Mills chapter.
+17,Cluster mills are commonly used for?,Cold rolling and foils,Casting,Forging,Welding,A,Cold rolling and foils is correct according to the Rolling Mills chapter.
+18,HR coils are used as feedstock for?,Pipe plants,Blast furnace,Coke oven,Converter,A,Pipe plants is correct according to the Rolling Mills chapter.
+19,Cold rolled sheets are used for?,Car body panels,Rail tracks,Bloom casting,Pig iron,A,Car body panels is correct according to the Rolling Mills chapter.
+20,Rails are used primarily for?,Railway networks,Ships only,Aircraft,Mines only,A,Railway networks is correct according to the Rolling Mills chapter.
+21,Reheating furnace discharge temperature is?,1100–1300°C,200–300°C,500–600°C,1500–1700°C,A,1100–1300°C is correct according to the Rolling Mills chapter.
+22,Continuous reheating furnaces include?,Pusher and walking beam,Cupola and BOF,Arc and induction,Kiln and dryer,A,Pusher and walking beam is correct according to the Rolling Mills chapter.
+23,Scale on slab surface is removed by?,High-pressure water jets,Acid only,Grinding only,Air jets,A,High-pressure water jets is correct according to the Rolling Mills chapter.
+24,Major thickness reduction in hot strip mill occurs in?,Roughing mill,Coiler,Cooling bank,Descaler,A,Roughing mill is correct according to the Rolling Mills chapter.
+25,Finishing temperature is critical for?,Metallurgical properties,Packaging,Transport,Painting only,A,Metallurgical properties is correct according to the Rolling Mills chapter.
+26,Strip cooling before coiling occurs on?,Run-out table,Reheating furnace,Pickling line,Annealing line,A,Run-out table is correct according to the Rolling Mills chapter.
+27,Coilers use?,"Pinch rolls, wrapper rolls and mandrel",Only mandrel,Only pinch rolls,Only wrapper rolls,A,"Pinch rolls, wrapper rolls and mandrel is correct according to the Rolling Mills chapter."
+28,Hot strip mill finishing stands are typically?,5–7 stands,1 stand,20 stands,50 stands,A,5–7 stands is correct according to the Rolling Mills chapter.
+29,Long products must generally be?,Hot rolled,Cold rolled only,Cast only,Forged only,A,Hot rolled is correct according to the Rolling Mills chapter.
+30,Primary long product mills produce?,Blooms and billets,Cars,Pipes,Coils,A,Blooms and billets is correct according to the Rolling Mills chapter.
+31,Universal rail rolling provides?,Closer tolerances,More roll wear,Poor surface,Lower quality,A,Closer tolerances is correct according to the Rolling Mills chapter.
+32,TMT stands for?,Thermo-Mechanical Treatment,Thermal Metal Transfer,Tensile Mechanical Test,Thermo Mill Technology,A,Thermo-Mechanical Treatment is correct according to the Rolling Mills chapter.
+33,Wire rod mills roll billets into?,Wire rods,Plates,Rails,Pipes,A,Wire rods is correct according to the Rolling Mills chapter.
+34,In TMT bars outer layer becomes?,Hard,Liquid,Soft,Porous,A,Hard is correct according to the Rolling Mills chapter.
+35,Products are identified by?,Stamping and cast numbers,Color only,Weight only,Length only,A,Stamping and cast numbers is correct according to the Rolling Mills chapter.
+36,Most rolling mills use automation level?,Level-II,Level-V,Level-0,Level-I only,A,Level-II is correct according to the Rolling Mills chapter.
+37,Ultrasonic testing detects?,Internal defects,Paint defects,Color defects,Weight errors,A,Internal defects is correct according to the Rolling Mills chapter.
+38,Rolling defects include?,Laps,Casting powder,Shrinkage cavity only,Gas hole only,A,Laps is correct according to the Rolling Mills chapter.
+39,Special Plate Plant is located at?,Rourkela,Bokaro,Burnpur,Salem,A,Rourkela is correct according to the Rolling Mills chapter.
+40,Cold rolling aims at?,Better surface finish,Increasing scale,Reducing accuracy,Increasing oxidation,A,Better surface finish is correct according to the Rolling Mills chapter.
+41,Input to CRM is?,HR coils,Billets,Blooms,Pig iron,A,HR coils is correct according to the Rolling Mills chapter.
+42,Pickling removes?,Iron oxide scale,Carbon,Silicon,Nitrogen,A,Iron oxide scale is correct according to the Rolling Mills chapter.
+43,Hydrochloric acid pickling rate is?,2.5–3 times sulphuric acid,Equal,Lower,Zero,A,2.5–3 times sulphuric acid is correct according to the Rolling Mills chapter.
+44,20-high mills are used for?,Stainless steel,Rails,TMT,Billets,A,Stainless steel is correct according to the Rolling Mills chapter.
+45,Cold reversing mill typically makes?,2–5 passes,20 passes,1 pass only,50 passes,A,2–5 passes is correct according to the Rolling Mills chapter.
+46,Tandem rolling reduces material in?,All stands simultaneously,One stand only,Furnace,Coiler,A,All stands simultaneously is correct according to the Rolling Mills chapter.
+47,Z-high mill is also called?,Sendzimir mill,Universal mill,Planetary mill,Blooming mill,A,Sendzimir mill is correct according to the Rolling Mills chapter.
+48,Electrolytic cleaning is required before?,Annealing,Casting,Smelting,Rolling ingots,A,Annealing is correct according to the Rolling Mills chapter.
+49,Annealing restores?,Ductility,Scale,Porosity,Segregation,A,Ductility is correct according to the Rolling Mills chapter.
+50,Protective atmosphere uses?,Hydrogen and nitrogen,Oxygen,Chlorine,Argon only,A,Hydrogen and nitrogen is correct according to the Rolling Mills chapter.
+51,Continuous annealing is?,Faster than hood annealing,Slower,Same,Not used,A,Faster than hood annealing is correct according to the Rolling Mills chapter.
+52,Skin passing reduction is typically?,0.25–1.0%,5–10%,20–30%,50%,A,0.25–1.0% is correct according to the Rolling Mills chapter.
+53,Skin pass mill is normally?,Single stand 4-high,20-high,3-high,2-high,A,Single stand 4-high is correct according to the Rolling Mills chapter.
+54,CTL stands for?,Cut To Length,Cold Tandem Line,Coil Transfer Line,Cold Treatment Line,A,Cut To Length is correct according to the Rolling Mills chapter.
+55,Tin coating in ETL uses?,Electrolysis,Forging,Casting,Welding,A,Electrolysis is correct according to the Rolling Mills chapter.
+56,Galvanizing applies?,Zinc coating,Tin coating,Nickel coating,Copper coating,A,Zinc coating is correct according to the Rolling Mills chapter.
+57,Major cold rolling defect is?,Wavy edge,Hot top,Pipe,Segregation,A,Wavy edge is correct according to the Rolling Mills chapter.
+58,RSP has?,Two pipe making mills,No pipe mill,Five pipe mills,One only,A,Two pipe making mills is correct according to the Rolling Mills chapter.
+59,HFW pipe plant was modernized in?,2005,1995,2010,2020,A,2005 is correct according to the Rolling Mills chapter.
+60,API 5L pipes transport?,Gas and petroleum,Food only,Coal,Cement,A,Gas and petroleum is correct according to the Rolling Mills chapter.
+61,SW pipe diameter range is?,16–72 inches,1–5 inches,80–100 inches,5–10 inches,A,16–72 inches is correct according to the Rolling Mills chapter.
+62,Electrical steel may contain silicon up to?,6.5%,20%,15%,0.1%,A,6.5% is correct according to the Rolling Mills chapter.
+63,Commercial silicon steel usually contains up to?,3.2% Si,10%,6.5%,0.01%,A,3.2% Si is correct according to the Rolling Mills chapter.
+64,Silicon increases?,Electrical resistivity,Density only,Melting point only,Carbon,A,Electrical resistivity is correct according to the Rolling Mills chapter.
+65,Carbon level in silicon steel is kept around?,0.005% or lower,1%,5%,10%,A,0.005% or lower is correct according to the Rolling Mills chapter.
+66,Sendzimir mill at Salem is?,20-high,2-high,3-high,4-high only,A,20-high is correct according to the Rolling Mills chapter.
+67,Rolling Mills MCQ 77: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+68,Rolling Mills MCQ 78: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+69,Rolling Mills MCQ 79: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+70,Rolling Mills MCQ 80: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+71,Rolling Mills MCQ 81: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+72,Rolling Mills MCQ 82: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+73,Rolling Mills MCQ 83: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+74,Rolling Mills MCQ 84: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+75,Rolling Mills MCQ 85: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+76,Rolling Mills MCQ 86: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+77,Rolling Mills MCQ 87: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+78,Rolling Mills MCQ 88: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+79,Rolling Mills MCQ 89: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+80,Rolling Mills MCQ 90: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+81,Rolling Mills MCQ 91: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+82,Rolling Mills MCQ 92: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+83,Rolling Mills MCQ 93: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+84,Rolling Mills MCQ 94: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+85,Rolling Mills MCQ 95: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+86,Rolling Mills MCQ 96: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+87,Rolling Mills MCQ 97: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+88,Rolling Mills MCQ 98: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+89,Rolling Mills MCQ 99: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+90,Rolling Mills MCQ 100: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+91,Rolling Mills MCQ 101: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+92,Rolling Mills MCQ 102: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+93,Rolling Mills MCQ 103: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+94,Rolling Mills MCQ 104: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+95,Rolling Mills MCQ 105: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+96,Rolling Mills MCQ 106: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+97,Rolling Mills MCQ 107: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+98,Rolling Mills MCQ 108: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+99,Rolling Mills MCQ 109: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+100,Rolling Mills MCQ 110: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+101,Rolling Mills MCQ 111: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+102,Rolling Mills MCQ 112: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+103,Rolling Mills MCQ 113: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+104,Rolling Mills MCQ 114: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+105,Rolling Mills MCQ 115: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+106,Rolling Mills MCQ 116: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+107,Rolling Mills MCQ 117: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+108,Rolling Mills MCQ 118: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+109,Rolling Mills MCQ 119: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+110,Rolling Mills MCQ 120: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.

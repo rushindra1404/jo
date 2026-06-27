@@ -7,6 +7,8 @@ import {
   saveExamHistory,
   getExamHistory,
 } from '../utils/indexedDB';
+import { shuffleQuestion } from '../utils/shuffler';
+import type { ShuffledQuestionDetails } from '../utils/shuffler';
 
 export interface ExamHistoryItem {
   id: string;
@@ -26,6 +28,7 @@ export interface ExamHistoryItem {
   timerOption: number | null; // in minutes
   answers: Record<string, string>;
   questions: Question[];
+  shuffledQuestions?: Record<string, ShuffledQuestionDetails>;
 }
 
 interface ExamState {
@@ -37,6 +40,7 @@ interface ExamState {
   
   // Running States
   questions: Question[];
+  shuffledQuestions: Record<string, ShuffledQuestionDetails>;
   currentIndex: number;
   answers: Record<string, string>;
   markedForReview: string[];
@@ -105,6 +109,7 @@ export const useExamStore = create<ExamState>((set, get) => {
         selectedChapterTitle: state.selectedChapterTitle,
         selectedChapterNum: state.selectedChapterNum,
         questions: state.questions,
+        shuffledQuestions: state.shuffledQuestions,
         currentIndex: state.currentIndex,
         answers: state.answers,
         markedForReview: state.markedForReview,
@@ -126,6 +131,7 @@ export const useExamStore = create<ExamState>((set, get) => {
     selectedChapterNum: 0,
     
     questions: [],
+    shuffledQuestions: {},
     currentIndex: 0,
     answers: {},
     markedForReview: [],
@@ -170,12 +176,18 @@ export const useExamStore = create<ExamState>((set, get) => {
         finalQuestions.sort(() => Math.random() - 0.5);
       }
       
+      const examShuffledMap: Record<string, ShuffledQuestionDetails> = {};
+      finalQuestions.forEach(q => {
+        examShuffledMap[q.uniqueId] = shuffleQuestion(q);
+      });
+
       const firstQ = finalQuestions[0];
       const visited = firstQ ? [firstQ.uniqueId] : [];
       const totalSeconds = timerOption ? timerOption * 60 : null;
 
       const newState = {
         questions: finalQuestions,
+        shuffledQuestions: examShuffledMap,
         currentIndex: 0,
         answers: {},
         markedForReview: [],
@@ -244,6 +256,7 @@ export const useExamStore = create<ExamState>((set, get) => {
     submitExam: async (recordAttemptCallback, addActivityCallback) => {
       const {
         questions,
+        shuffledQuestions,
         answers,
         timeTaken,
         timeLeft,
@@ -260,9 +273,10 @@ export const useExamStore = create<ExamState>((set, get) => {
 
       questions.forEach((q) => {
         const ans = answers[q.uniqueId];
+        const correctAnswer = shuffledQuestions[q.uniqueId]?.correctAnswer || q.correct_answer;
         if (!ans) {
           unanswered++;
-        } else if (ans === q.correct_answer) {
+        } else if (ans === correctAnswer) {
           correct++;
           recordAttemptCallback(q.uniqueId, true);
         } else {
@@ -293,6 +307,7 @@ export const useExamStore = create<ExamState>((set, get) => {
         timerOption,
         answers,
         questions,
+        shuffledQuestions,
       };
 
       // 1. Save to IndexedDB history
@@ -368,6 +383,7 @@ export const useExamStore = create<ExamState>((set, get) => {
           selectedChapterTitle: saved.selectedChapterTitle,
           selectedChapterNum: saved.selectedChapterNum,
           questions: saved.questions,
+          shuffledQuestions: saved.shuffledQuestions || {},
           currentIndex: saved.currentIndex,
           answers: saved.answers,
           markedForReview: saved.markedForReview,

@@ -35,6 +35,7 @@ export const ExamModeScreen: React.FC = () => {
     selectedChapterTitle,
     selectedChapterNum,
     questions: examQuestions,
+    shuffledQuestions,
     currentIndex: examCurrentIndex,
     answers: examAnswers,
     markedForReview,
@@ -647,7 +648,9 @@ export const ExamModeScreen: React.FC = () => {
           <div className="space-y-4">
             {run.questions.map((q, idx) => {
               const userAns = run.answers[q.uniqueId];
-              const isCorrect = userAns === q.correct_answer;
+              const shuffledDetails = run.shuffledQuestions?.[q.uniqueId];
+              const correctAnswer = shuffledDetails ? shuffledDetails.correctAnswer : q.correct_answer;
+              const isCorrect = userAns === correctAnswer;
               return (
                 <div
                   key={q.uniqueId}
@@ -675,14 +678,14 @@ export const ExamModeScreen: React.FC = () => {
                     <p className="flex items-center gap-1.5 text-slate-700 dark:text-slate-300">
                       <span className="text-slate-400">Your Answer:</span>
                       <span className={isCorrect ? 'text-emerald-600 font-bold' : 'text-rose-500 font-bold'}>
-                        {userAns ? `${userAns}) ${q[`option_${userAns.toLowerCase()}` as keyof typeof q]}` : 'Unanswered'}
+                        {userAns ? `${userAns}) ${shuffledDetails ? (shuffledDetails.options.find(o => o.key === userAns)?.text || '') : q[`option_${userAns.toLowerCase()}` as keyof typeof q]}` : 'Unanswered'}
                       </span>
                     </p>
                     {!isCorrect && (
                       <p className="flex items-center gap-1.5 text-slate-700 dark:text-slate-300">
                         <span className="text-slate-400">Correct Answer:</span>
                         <span className="text-emerald-600 font-bold">
-                          {q.correct_answer}) {q[`option_${q.correct_answer.toLowerCase()}` as keyof typeof q]}
+                          {shuffledDetails ? `${correctAnswer}) ${shuffledDetails.options.find(o => o.key === correctAnswer)?.text || ''}` : `${correctAnswer}) ${q[`option_${correctAnswer.toLowerCase()}` as keyof typeof q]}`}
                         </span>
                       </p>
                     )}
@@ -914,18 +917,20 @@ export const ExamModeScreen: React.FC = () => {
   if (examMode === 'running') {
     if (!currentQuestion) return null;
 
-    const optionsList = [
-      { key: 'A', text: currentQuestion.option_a },
-      { key: 'B', text: currentQuestion.option_b },
-      { key: 'C', text: currentQuestion.option_c },
-      { key: 'D', text: currentQuestion.option_d },
+    const shuffledDetails = shuffledQuestions[currentQuestion.uniqueId];
+    const optionsList = shuffledDetails ? shuffledDetails.options : [
+      { key: 'A' as const, originalKey: 'A' as const, text: currentQuestion.option_a },
+      { key: 'B' as const, originalKey: 'B' as const, text: currentQuestion.option_b },
+      { key: 'C' as const, originalKey: 'C' as const, text: currentQuestion.option_c },
+      { key: 'D' as const, originalKey: 'D' as const, text: currentQuestion.option_d },
     ];
+    const correctAnswer = shuffledDetails ? shuffledDetails.correctAnswer : currentQuestion.correct_answer;
 
     const stats = getCBTStats();
 
     // Color feedback classes if Instant Feedback is selected and user answered
     const showFeedback = answerMode === 'instant' && userChoice !== undefined;
-    const isChoiceCorrect = userChoice === currentQuestion.correct_answer;
+    const isChoiceCorrect = userChoice === correctAnswer;
 
     const handleSelectChoice = (option: string) => {
       // If instant feedback is on, prevent changing once answered
@@ -998,7 +1003,7 @@ export const ExamModeScreen: React.FC = () => {
             <div className="space-y-2.5 pt-2">
               {optionsList.map((opt) => {
                 const isSelected = userChoice === opt.key;
-                const isCorrectOption = opt.key === currentQuestion.correct_answer;
+                const isCorrectOption = opt.key === correctAnswer;
 
                 let optBorderColor = 'border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200';
                 
@@ -1264,12 +1269,12 @@ export const ExamModeScreen: React.FC = () => {
               <ChevronLeft size={20} />
             </button>
             <h3 className="text-base font-bold text-slate-800 dark:text-slate-100">Review Exam Answers</h3>
-          </div>
-
-          <div className="space-y-4">
+          </div>          <div className="space-y-4">
             {lastRun.questions.map((q, idx) => {
               const ans = lastRun.answers[q.uniqueId];
-              const isCorrect = ans === q.correct_answer;
+              const shuffledDetails = lastRun.shuffledQuestions?.[q.uniqueId];
+              const correctAnswer = shuffledDetails ? shuffledDetails.correctAnswer : q.correct_answer;
+              const isCorrect = ans === correctAnswer;
               const isBookmarked = progress.bookmarks.includes(q.uniqueId);
               
               return (
@@ -1308,16 +1313,16 @@ export const ExamModeScreen: React.FC = () => {
 
                   <div className="bg-slate-50 dark:bg-slate-950 rounded-2xl p-3.5 text-xs space-y-2 font-semibold">
                     <p className="flex items-start gap-1.5 text-slate-700 dark:text-slate-300">
-                      <span className="text-slate-450 shrink-0">Your Answer:</span>
+                      <span className="text-slate-455 shrink-0">Your Answer:</span>
                       <span className={isCorrect ? 'text-emerald-600 font-bold' : 'text-rose-500 font-bold'}>
-                        {ans ? `${ans}) ${q[`option_${ans.toLowerCase()}` as keyof typeof q]}` : 'Unanswered'}
+                        {ans ? `${ans}) ${shuffledDetails ? (shuffledDetails.options.find(o => o.key === ans)?.text || '') : q[`option_${ans.toLowerCase()}` as keyof typeof q]}` : 'Unanswered'}
                       </span>
                     </p>
                     {!isCorrect && (
                       <p className="flex items-start gap-1.5 text-slate-700 dark:text-slate-300">
-                        <span className="text-slate-450 shrink-0">Correct Option:</span>
+                        <span className="text-slate-455 shrink-0">Correct Option:</span>
                         <span className="text-emerald-600 font-bold">
-                          {q.correct_answer}) {q[`option_${q.correct_answer.toLowerCase()}` as keyof typeof q]}
+                          {shuffledDetails ? `${correctAnswer}) ${shuffledDetails.options.find(o => o.key === correctAnswer)?.text || ''}` : `${correctAnswer}) ${q[`option_${correctAnswer.toLowerCase()}` as keyof typeof q]}`}
                         </span>
                       </p>
                     )}

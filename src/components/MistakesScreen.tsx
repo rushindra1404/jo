@@ -31,6 +31,9 @@ export const MistakesScreen: React.FC = () => {
     removeMistake,
     toggleBookmark,
     saveQuestionNote,
+    getShuffledQuestion,
+    resetShuffledQuestions,
+    navigate,
   } = useApp();
 
   // ── Filter state ─────────────────────────────────────────────────────────
@@ -80,6 +83,7 @@ export const MistakesScreen: React.FC = () => {
   // ── Start practice session ────────────────────────────────────────────────
   const handleStartPractice = (qs: Question[]) => {
     if (qs.length === 0) return;
+    resetShuffledQuestions();
     const shuffled = [...qs].sort(() => Math.random() - 0.5);
     setPracticeQuestions(shuffled);
     setCurrentIndex(0);
@@ -94,7 +98,8 @@ export const MistakesScreen: React.FC = () => {
   const handleSelectAndReveal = (key: string) => {
     if (hasRevealed) return;
     const q = practiceQuestions[currentIndex];
-    const isCorrect = key === q.correct_answer;
+    const shuffledDetails = getShuffledQuestion(q);
+    const isCorrect = key === shuffledDetails.correctAnswer;
     setSelectedOption(key);
     setHasRevealed(true);
     recordAttempt(q.uniqueId, isCorrect);
@@ -141,18 +146,14 @@ export const MistakesScreen: React.FC = () => {
   // ══════════════════════════════════════════════════════════════════════════
   if (isPracticing && practiceQuestions.length > 0) {
     const currentQ  = practiceQuestions[currentIndex];
-    const isCorrect = selectedOption === currentQ.correct_answer;
+    const shuffledDetails = getShuffledQuestion(currentQ);
+    const isCorrect = selectedOption === shuffledDetails.correctAnswer;
     const chapterInfo  = getChaptersByMaterial(currentQ.material).find(c => c.id === currentQ.chapterId);
     const isBookmarked = progress.bookmarks.includes(currentQ.uniqueId);
     const isLastCard   = currentIndex === practiceQuestions.length - 1;
     const progressPct  = ((currentIndex + 1) / practiceQuestions.length) * 100;
 
-    const options = [
-      { key: 'A', text: currentQ.option_a },
-      { key: 'B', text: currentQ.option_b },
-      { key: 'C', text: currentQ.option_c },
-      { key: 'D', text: currentQ.option_d },
-    ];
+    const options = shuffledDetails.options;
 
     return (
       <div className="flex-1 flex flex-col overflow-hidden bg-slate-50 dark:bg-slate-950">
@@ -237,21 +238,21 @@ export const MistakesScreen: React.FC = () => {
                 disabled={hasRevealed}
                 className={`w-full px-4 py-3.5 rounded-2xl border text-left text-sm font-semibold transition-all flex items-start gap-3 leading-normal active:scale-[0.99] ${
                   hasRevealed ? 'cursor-default' : 'cursor-pointer'
-                } ${getOptionStyle(opt.key, currentQ.correct_answer)}`}
+                } ${getOptionStyle(opt.key, shuffledDetails.correctAnswer)}`}
                 style={{ minHeight: '52px' }}
               >
                 <span className={`flex items-center justify-center w-6 h-6 rounded-lg text-xs shrink-0 font-extrabold transition-all ${
                   hasRevealed
-                    ? opt.key === currentQ.correct_answer
+                    ? opt.key === shuffledDetails.correctAnswer
                       ? 'bg-emerald-500 text-white'
                       : opt.key === selectedOption
                         ? 'bg-rose-500 text-white'
                         : 'bg-slate-100 dark:bg-slate-800 text-slate-400'
                     : 'bg-slate-100 dark:bg-slate-800 text-slate-500'
                 }`}>
-                  {hasRevealed && opt.key === currentQ.correct_answer
+                  {hasRevealed && opt.key === shuffledDetails.correctAnswer
                     ? <Check size={12} />
-                    : hasRevealed && opt.key === selectedOption && selectedOption !== currentQ.correct_answer
+                    : hasRevealed && opt.key === selectedOption && selectedOption !== shuffledDetails.correctAnswer
                       ? <X size={12} />
                       : opt.key
                   }
@@ -279,7 +280,7 @@ export const MistakesScreen: React.FC = () => {
               <div className="flex items-center gap-3 text-xs font-bold text-slate-600 dark:text-slate-400">
                 <span>Your answer: <strong className={isCorrect ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'}>{selectedOption}</strong></span>
                 <span>•</span>
-                <span>Correct: <strong className="text-emerald-600 dark:text-emerald-400">{currentQ.correct_answer}</strong></span>
+                <span>Correct: <strong className="text-emerald-600 dark:text-emerald-400">{shuffledDetails.correctAnswer}</strong></span>
               </div>
               {currentQ.explanation && (
                 <div className="pt-2 border-t border-slate-200 dark:border-slate-700">
@@ -401,7 +402,16 @@ export const MistakesScreen: React.FC = () => {
   const bookmarkedCount = allMistakeQuestions.filter(q => progress.bookmarks.includes(q.uniqueId)).length;
 
   return (
-    <div className="flex-1 overflow-y-auto pb-24 bg-slate-50 dark:bg-slate-950">
+    <div className="flex-1 overflow-y-auto pb-24 bg-slate-50 dark:bg-slate-955 bg-transparent">
+      {/* Back button */}
+      <div className="px-4 pt-4 flex items-center bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 pb-3">
+        <button
+          onClick={() => navigate('progress-mistakes')}
+          className="flex items-center gap-1.5 text-slate-550 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 cursor-pointer font-extrabold text-xs"
+        >
+          <ArrowLeft size={14} /> Back to Progress & Mistakes
+        </button>
+      </div>
 
       {/* Stats Header */}
       <div className="bg-gradient-to-br from-rose-600 via-rose-500 to-pink-600 px-4 pt-5 pb-6 text-white relative overflow-hidden">
@@ -511,6 +521,7 @@ export const MistakesScreen: React.FC = () => {
               const ch = getChaptersByMaterial(q.material).find(c => c.id === q.chapterId);
               const isBookmarked = progress.bookmarks.includes(q.uniqueId);
               const hasNote = !!progress.notes?.[q.uniqueId];
+              const shuffled = getShuffledQuestion(q);
               return (
                 <div
                   key={q.uniqueId}
@@ -540,8 +551,8 @@ export const MistakesScreen: React.FC = () => {
                   </p>
                   <div className="flex items-center justify-between bg-slate-50 dark:bg-slate-950 rounded-xl px-3 py-2 border border-slate-100 dark:border-slate-800 text-xs font-bold">
                     <span className="text-slate-400">Correct Answer:</span>
-                    <span className="bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 px-2.5 py-0.5 rounded-lg">
-                      {q.correct_answer}) {(q as any)[`option_${q.correct_answer.toLowerCase()}`]}
+                    <span className="bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-450 px-2.5 py-0.5 rounded-lg">
+                      {shuffled.correctAnswer}) {shuffled.options.find(o => o.key === shuffled.correctAnswer)?.text}
                     </span>
                   </div>
                   <button

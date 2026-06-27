@@ -16,6 +16,8 @@ export const RandomRevisionScreen: React.FC = () => {
     resumeSpeaking,
     stopSpeaking,
     speakingState,
+    getShuffledQuestion,
+    resetShuffledQuestions,
   } = useApp();
 
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -33,8 +35,9 @@ export const RandomRevisionScreen: React.FC = () => {
     stopSpeaking();
   }, [randomCurrentIndex]);
 
-  // Clean up speech on unmount
+  // Reset shuffled cache on mount and clean up speech on unmount
   useEffect(() => {
+    resetShuffledQuestions();
     return () => {
       stopSpeaking();
     };
@@ -49,6 +52,7 @@ export const RandomRevisionScreen: React.FC = () => {
   }
 
   const isBookmarked = progress.bookmarks.includes(currentQuestion.uniqueId);
+  const shuffledDetails = getShuffledQuestion(currentQuestion);
   const currentChapter = getChaptersByMaterial(currentQuestion.material).find(
     c => c.id === currentQuestion.chapterId
   );
@@ -66,7 +70,7 @@ export const RandomRevisionScreen: React.FC = () => {
     }
     setHasAttempted(true);
     setIsFlipped(true);
-    const isCorrect = selectedOption === currentQuestion.correct_answer;
+    const isCorrect = selectedOption === shuffledDetails.correctAnswer;
     recordAttempt(currentQuestion.uniqueId, isCorrect);
   };
 
@@ -92,19 +96,14 @@ export const RandomRevisionScreen: React.FC = () => {
     }
   };
 
-  const options = [
-    { key: 'A', text: currentQuestion.option_a },
-    { key: 'B', text: currentQuestion.option_b },
-    { key: 'C', text: currentQuestion.option_c },
-    { key: 'D', text: currentQuestion.option_d },
-  ];
+  const options = shuffledDetails.options;
 
-  const isCorrectChoice = selectedOption === currentQuestion.correct_answer;
+  const isCorrectChoice = selectedOption === shuffledDetails.correctAnswer;
   const cardBorderColor = isCorrectChoice ? 'bg-emerald-500 text-white' : 'bg-rose-500 text-white';
 
   const getOptionStyle = (key: string) => {
     if (hasAttempted) {
-      if (key === currentQuestion.correct_answer) {
+      if (key === shuffledDetails.correctAnswer) {
         return 'border-emerald-500 bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300';
       }
       if (key === selectedOption && !isCorrectChoice) {
@@ -260,7 +259,7 @@ export const RandomRevisionScreen: React.FC = () => {
                     <p className="flex items-center gap-1.5">
                       <span className="opacity-75">Correct Answer:</span>
                       <span className="bg-white text-slate-800 px-2 py-0.5 rounded-lg text-xs font-black">
-                        {currentQuestion.correct_answer}
+                        {shuffledDetails.correctAnswer}
                       </span>
                     </p>
                   </div>

@@ -46,7 +46,11 @@ export const TopBar: React.FC = () => {
       case 'bookmarks':
         return 'Bookmarks';
       case 'dashboard':
-        return 'Progress Dashboard';
+        return 'JO Sphere';
+      case 'progress':
+        return 'Progress';
+      case 'progress-mistakes':
+        return 'Progress & Mistakes';
       case 'search':
         return 'Search Bank';
       default:

@@ -4,6 +4,7 @@ import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { TopBar } from './components/TopBar';
 import { BottomNav } from './components/BottomNav';
+import { HomeScreen } from './components/HomeScreen';
 import { ChapterSelectionScreen } from './components/ChapterSelectionScreen';
 import { StudyModeScreen } from './components/StudyModeScreen';
 import { ExamModeScreen } from './components/ExamModeScreen';
@@ -14,16 +15,15 @@ import { SearchScreen } from './components/SearchScreen';
 import { DashboardScreen } from './components/DashboardScreen';
 import { StudyLibraryScreen } from './components/StudyLibraryScreen';
 import { PDFViewer } from './components/PDFViewer';
-import { LearnScreen } from './components/LearnScreen';
 import { FlashCardsPracticeScreen } from './components/FlashCardsPracticeScreen';
 import { FlashCardsLandingScreen } from './components/FlashCardsLandingScreen';
 import { FlashCardsChaptersScreen } from './components/FlashCardsChaptersScreen';
-import { ExamTabScreen } from './components/ExamTabScreen';
-import { ProgressScreen } from './components/ProgressScreen';
 import { MoreScreen } from './components/MoreScreen';
 import { LoginScreen } from './components/LoginScreen';
 import { FirstTimeScreen } from './components/FirstTimeScreen';
 import { ProfileDrawer } from './components/ProfileDrawer';
+import { ProgressScreen } from './components/ProgressScreen';
+import { ProgressMistakesHubScreen } from './components/ProgressMistakesHubScreen';
 
 import logo from './assets/jo logo.png';
 
@@ -123,7 +123,7 @@ const MainAppContent: React.FC = () => {
 
     switch (activeRoute) {
       case 'home':
-        return <DashboardScreen />;
+        return <HomeScreen />;
       case 'chapter-select':
         return <ChapterSelectionScreen />;
       case 'study':
@@ -140,8 +140,6 @@ const MainAppContent: React.FC = () => {
         return <SearchScreen />;
       case 'dashboard':
         return <DashboardScreen />;
-      case 'learn':
-        return <LearnScreen />;
       case 'flashcards-landing':
         return <FlashCardsLandingScreen />;
       case 'flashcards-chapters':
@@ -149,12 +147,12 @@ const MainAppContent: React.FC = () => {
       case 'flashcards-viewer':
       case 'flashcards-practice':
         return <FlashCardsPracticeScreen />;
-      case 'exam-tab':
-        return <ExamTabScreen />;
-      case 'progress':
-        return <ProgressScreen />;
       case 'more':
         return <MoreScreen />;
+      case 'progress':
+        return <ProgressScreen />;
+      case 'progress-mistakes':
+        return <ProgressMistakesHubScreen />;
       case 'study-library':
         return <StudyLibraryScreen />;
       case 'pdf-viewer':

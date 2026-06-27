@@ -46,7 +46,7 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({
     });
 
     const linePath = points.map((p, i) => (i === 0 ? `M ${p.x} ${p.y}` : `L ${p.x} ${p.y}`)).join(' ');
-    
+
     const areaPath = `
       ${linePath} 
       L ${points[points.length - 1].x} ${height - padding} 
@@ -187,7 +187,7 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({
     }));
 
     const linePath = curvePoints.map((p, idx) => (idx === 0 ? `M ${p.x} ${p.y}` : `L ${p.x} ${p.y}`)).join(' ');
-    
+
     const areaPath = `
       ${linePath} 
       L ${curvePoints[curvePoints.length - 1].x} 105 

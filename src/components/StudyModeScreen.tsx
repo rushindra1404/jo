@@ -23,10 +23,16 @@ export const StudyModeScreen: React.FC = () => {
     stopSpeaking,
     speakingState,
     questions,
+    getShuffledQuestion,
+    resetShuffledQuestions,
   } = useApp();
 
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [hasAttempted, setHasAttempted] = useState<boolean>(false);
+  const [justAttempted, setJustAttempted] = useState<boolean>(false);
+
+  // Temporary session state storage
+  const [sessionStates, setSessionStates] = useState<Record<string, { selectedOption: string | null; hasAttempted: boolean }>>({});
   
   // Notes states
   const [showNotesModal, setShowNotesModal] = useState<boolean>(false);
@@ -52,6 +58,7 @@ export const StudyModeScreen: React.FC = () => {
 
   // Log activity on mount and clean up TTS on unmount
   useEffect(() => {
+    resetShuffledQuestions();
     if (activeMaterial && currentChapter) {
       addRecentActivity(
         'study',
@@ -66,12 +73,16 @@ export const StudyModeScreen: React.FC = () => {
     };
   }, []);
 
-  // Reset state on question change
+  // Load state on question change
   useEffect(() => {
-    setSelectedOption(null);
-    setHasAttempted(false);
+    if (currentQuestion) {
+      const qState = sessionStates[currentQuestion.uniqueId] || { selectedOption: null, hasAttempted: false };
+      setSelectedOption(qState.selectedOption);
+      setHasAttempted(qState.hasAttempted);
+      setJustAttempted(false);
+    }
     stopSpeaking();
-  }, [studyQuestionIndex]);
+  }, [studyQuestionIndex, currentQuestion?.uniqueId]);
 
   if (totalQuestions === 0 || !currentQuestion) {
     return (
@@ -83,21 +94,38 @@ export const StudyModeScreen: React.FC = () => {
   }
 
   const isBookmarked = progress.bookmarks.includes(currentQuestion.uniqueId);
+  const shuffledDetails = getShuffledQuestion(currentQuestion);
 
   const handleSelectOption = (option: string) => {
-    if (!hasAttempted) {
+    if (!hasAttempted && currentQuestion) {
       setSelectedOption(option);
+      setSessionStates(prev => ({
+        ...prev,
+        [currentQuestion.uniqueId]: {
+          selectedOption: option,
+          hasAttempted: prev[currentQuestion.uniqueId]?.hasAttempted || false,
+        }
+      }));
     }
   };
 
   const handleRevealAnswer = () => {
-    if (!selectedOption) {
+    if (!selectedOption || !currentQuestion) {
       alert('Please select an option first!');
       return;
     }
     setHasAttempted(true);
-    const isCorrect = selectedOption === currentQuestion.correct_answer;
+    setJustAttempted(true);
+    const isCorrect = selectedOption === shuffledDetails.correctAnswer;
     recordAttempt(currentQuestion.uniqueId, isCorrect);
+
+    setSessionStates(prev => ({
+      ...prev,
+      [currentQuestion.uniqueId]: {
+        selectedOption,
+        hasAttempted: true,
+      }
+    }));
   };
 
   const handleNext = () => {
@@ -122,14 +150,9 @@ export const StudyModeScreen: React.FC = () => {
     }
   };
 
-  const options = [
-    { key: 'A', text: currentQuestion.option_a },
-    { key: 'B', text: currentQuestion.option_b },
-    { key: 'C', text: currentQuestion.option_c },
-    { key: 'D', text: currentQuestion.option_d },
-  ];
+  const options = shuffledDetails.options;
 
-  const isCorrectChoice = selectedOption === currentQuestion.correct_answer;
+  const isCorrectChoice = selectedOption === shuffledDetails.correctAnswer;
 
   const cardVariants = {
     neutral: {
@@ -138,22 +161,44 @@ export const StudyModeScreen: React.FC = () => {
       boxShadow: '0 4px 20px -2px rgba(0, 0, 0, 0.08), 0 2px 8px -1px rgba(0, 0, 0, 0.04)',
     },
     correct: {
-      scale: [1, 1.03, 0.98, 1.01, 1],
-      boxShadow: '0 20px 40px -5px rgba(16, 185, 129, 0.45)',
+      scale: [1, 1.04, 0.97, 1.02, 1],
+      boxShadow: [
+        '0 4px 20px -2px rgba(0, 0, 0, 0.08)',
+        '0 0 40px 10px rgba(16, 185, 129, 0.8)',
+        '0 0 20px 4px rgba(16, 185, 129, 0.4)',
+        '0 0 35px 8px rgba(16, 185, 129, 0.7)',
+        '0 8px 32px 0 rgba(16, 185, 129, 0.45)'
+      ],
       transition: {
-        duration: 0.35,
+        duration: 0.7,
         times: [0, 0.25, 0.5, 0.75, 1],
         ease: 'easeInOut'
       }
     },
     incorrect: {
-      scale: [1, 1.03, 0.98, 1.01, 1],
-      boxShadow: '0 20px 40px -5px rgba(220, 38, 38, 0.45)',
+      scale: [1, 1.04, 0.97, 1.02, 1],
+      boxShadow: [
+        '0 4px 20px -2px rgba(0, 0, 0, 0.08)',
+        '0 0 40px 10px rgba(239, 68, 68, 0.8)',
+        '0 0 20px 4px rgba(239, 68, 68, 0.4)',
+        '0 0 35px 8px rgba(239, 68, 68, 0.7)',
+        '0 8px 32px 0 rgba(239, 68, 68, 0.45)'
+      ],
       transition: {
-        duration: 0.35,
+        duration: 0.7,
         times: [0, 0.25, 0.5, 0.75, 1],
         ease: 'easeInOut'
       }
+    },
+    correctStatic: {
+      scale: 1,
+      y: 0,
+      boxShadow: '0 8px 32px 0 rgba(16, 185, 129, 0.45)',
+    },
+    incorrectStatic: {
+      scale: 1,
+      y: 0,
+      boxShadow: '0 8px 32px 0 rgba(239, 68, 68, 0.45)',
     }
   } as any;
 
@@ -164,31 +209,31 @@ export const StudyModeScreen: React.FC = () => {
   
   if (hasAttempted) {
     if (isCorrectChoice) {
-      cardClass = "bg-[#D1FAE5] dark:bg-[#065F46] border-[#10B981] text-[#065F46] dark:text-white";
-      textPrimaryClass = "text-[#065F46] dark:text-white";
-      textSecondaryClass = "text-[#064E3B] dark:text-[#D1FAE5]";
+      cardClass = "bg-emerald-600 dark:bg-emerald-700 border-emerald-500 text-white";
+      textPrimaryClass = "text-white";
+      textSecondaryClass = "text-emerald-100 dark:text-emerald-250";
     } else {
-      cardClass = "bg-[#FEE2E2] dark:bg-[#7F1D1D] border-[#DC2626] text-[#991B1B] dark:text-white";
-      textPrimaryClass = "text-[#991B1B] dark:text-white";
-      textSecondaryClass = "text-[#7F1D1D] dark:text-[#FEE2E2]";
+      cardClass = "bg-rose-600 dark:bg-rose-700 border-rose-500 text-white";
+      textPrimaryClass = "text-white";
+      textSecondaryClass = "text-rose-100 dark:text-rose-250";
     }
   }
 
   const getOptionStyle = (key: string) => {
     if (hasAttempted) {
-      const isCorrectKey = key === currentQuestion.correct_answer;
+      const isCorrectKey = key === shuffledDetails.correctAnswer;
       const isSelectedKey = key === selectedOption;
 
       if (isCorrectKey) {
-        // Correct Answer Option Style
-        return "bg-emerald-600/20 dark:bg-emerald-950/40 border-emerald-500 text-emerald-800 dark:text-emerald-300 font-extrabold shadow-sm";
+        // Correct option stands out with a solid white background and dark green text
+        return "bg-white text-emerald-900 border-white font-extrabold shadow-md";
       }
       if (isSelectedKey) {
-        // Selected Wrong Option Style
-        return "bg-rose-100/50 dark:bg-rose-950/40 border-rose-500 text-[#991B1B] dark:text-rose-300 font-extrabold shadow-sm";
+        // Selected wrong option has a translucent white background and white text
+        return "bg-white/30 border-white text-white font-extrabold shadow-sm";
       }
-      // Unselected Options Style (muted)
-      return "bg-white/30 dark:bg-black/20 border-slate-200/10 dark:border-slate-800/10 text-slate-500 dark:text-slate-400 opacity-60";
+      // Unselected option is muted but readable
+      return "bg-white/10 border-white/10 text-white/80 opacity-60";
     }
 
     // Unrevealed state styles
@@ -200,13 +245,13 @@ export const StudyModeScreen: React.FC = () => {
 
   const getBadgeStyle = (key: string) => {
     if (hasAttempted) {
-      if (key === currentQuestion.correct_answer) {
-        return "bg-emerald-500 text-white";
+      if (key === shuffledDetails.correctAnswer) {
+        return "bg-emerald-600 text-white";
       }
       if (key === selectedOption) {
-        return "bg-rose-500 text-white";
+        return "bg-rose-600 text-white";
       }
-      return "bg-black/10 dark:bg-white/10 text-slate-500 dark:text-slate-400";
+      return "bg-white/20 text-white";
     }
     if (selectedOption === key) {
       return "bg-cyan-600 text-white";
@@ -283,8 +328,8 @@ export const StudyModeScreen: React.FC = () => {
           >
             <motion.div
               variants={cardVariants}
-              animate={hasAttempted ? (isCorrectChoice ? 'correct' : 'incorrect') : 'neutral'}
-              className={`w-full rounded-3xl border p-5 flex flex-col justify-between overflow-y-auto ${cardClass} shadow-premium`}
+              animate={hasAttempted ? (isCorrectChoice ? (justAttempted ? 'correct' : 'correctStatic') : (justAttempted ? 'incorrect' : 'incorrectStatic')) : 'neutral'}
+              className={`w-full rounded-3xl border p-5 flex flex-col justify-between overflow-y-auto ${cardClass} shadow-premium transition-all duration-500`}
               style={{ minHeight: '380px', maxHeight: '68svh' }}
             >
               {!hasAttempted ? (
@@ -363,7 +408,7 @@ export const StudyModeScreen: React.FC = () => {
                     {/* Status header with buttons */}
                     <div className="flex justify-between items-center border-b border-white/20 dark:border-black/20 pb-3">
                       <span className="flex items-center gap-2 text-lg font-black tracking-wide">
-                        {isCorrectChoice ? '✅ Correct' : '❌ Incorrect'}
+                        {isCorrectChoice ? 'Correct' : 'Incorrect'}
                       </span>
                       <div className="flex gap-1.5">
                         <button
@@ -399,9 +444,7 @@ export const StudyModeScreen: React.FC = () => {
                       </div>
                       <div className="w-full bg-white/25 dark:bg-black/25 h-1.5 rounded-full overflow-hidden">
                         <div
-                          className={`h-full rounded-full transition-all duration-305 ${
-                            isCorrectChoice ? 'bg-[#10B981]' : 'bg-[#DC2626]'
-                          }`}
+                          className="h-full rounded-full transition-all duration-305 bg-white"
                           style={{ width: `${((studyQuestionIndex + 1) / totalQuestions) * 100}%` }}
                         />
                       </div>
@@ -425,7 +468,7 @@ export const StudyModeScreen: React.FC = () => {
                     <div className="text-center">
                       <p className="opacity-80 text-[10px] uppercase font-black tracking-wider">Correct Answer</p>
                       <p className="text-base font-black mt-0.5">
-                        Option {currentQuestion.correct_answer}
+                        Option {shuffledDetails.correctAnswer}
                       </p>
                     </div>
                   </div>

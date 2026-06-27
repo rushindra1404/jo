@@ -1,42 +1,42 @@
 question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
-6,Board Sub Committee on HSE monitors efforts on a,Quarterly basis,Monthly basis,Yearly basis,Weekly basis,A,Monitoring is done quarterly.
-7,Full-fledged Safety Engineering Department functions at,Each Plant/Unit,Corporate office only,Mines only,Training centers only,A,SED functions at each Plant/Unit.
-8,"The three Es of accident prevention include Engineering, Education and",Enforcement,Economics,Evaluation,Expansion,A,SAIL's safety system hinges on the 3 Es.
-9,"Safety interlocks, alarms and detectors are examples of",Engineering measures,Administrative controls,Medical controls,Financial controls,A,These are built-in engineering safety features.
-10,SAIL aims to cover at least what fraction of workforce in training programmes?,One-third,One-fourth,Half,All employees every month,A,The chapter mentions at least one-third coverage.
-11,Contract workers receive induction training of,Two days,One week,One day,Three days,A,A two-day induction is specified.
-12,Permit to Work system is followed for,Hazardous and critical jobs,Office work,Routine paperwork,Procurement,A,Permit systems are mandatory for hazardous work.
-13,HIRA stands for,Hazard Identification and Risk Assessment,Health Inspection and Risk Audit,Hazard Investigation and Risk Action,Health Improvement and Risk Assessment,A,HIRA is Hazard Identification and Risk Assessment.
-14,ALARP means,As Low As Reasonably Practicable,Always Low And Risk Protected,Accident Loss Assessment Reduction Plan,Advanced Loss Avoidance Risk Process,A,ALARP is defined in the chapter.
-15,Which Act is listed among statutory compliance requirements?,Factories Act,RTI Act,Patent Act,Income Tax Act,A,Factories Act compliance is specifically mentioned.
-16,All work-related incidents are investigated to determine,Root cause,Profitability,Attendance,Productivity index,A,Root-cause analysis is required.
-17,Health and Safety Committees support,Joint participation of management and workmen,Only management participation,Only union participation,External audits only,A,The committees promote joint participation.
-18,How many tiers are there in SAIL safety audits?,Three,Two,Four,Five,A,A three-tier audit system is described.
-19,External safety audits are conducted by,Third parties,Only DSOs,Workers,Trade unions,A,Third-party audits satisfy statutory requirements.
-20,SSO was formed in,1988,1998,1978,2008,A,SAIL Safety Organization was formed in 1988.
-21,SSO stands for,SAIL Safety Organization,Steel Safety Office,System Safety Organization,Safety Standards Office,A,Corporate-level SSO coordinates safety activities.
-22,IPSS stands for,Inter Plant Standards in the Steel Industry,Industrial Personnel Safety Standards,Integrated Plant Safety System,Inter Process Safety Scheme,A,IPSS develops industry safety standards.
-23,IPSS 1:11 committee is headed by,ED SSO,Chairman SAIL,MoS Secretary,NSC Director,A,"The committee is headed by ED, SSO."
-24,Safety audits by SSO are conducted in accordance with,IS 14489:2018,ISO 9001,IS 800,ISO 50001,A,Audits follow IS 14489:2018.
-25,Theme-based audits may cover,Fuel Gas Safety,Payroll management,Marketing,Exports,A,Fuel Gas Safety is given as an example.
-26,LEO stands for,Learning from Each Other,Learning Every Operation,Lead Every Objective,Learning Enhancement Option,A,LEO workshops emphasize shared learning.
-27,JCSSI is a,National bipartite forum,Private consultancy,Government ministry,Training school,A,JCSSI is a national bipartite forum.
-28,JCSSI website is,www.jcssi.com,www.sail.co.in,www.ipss.in,www.nsc.org,A,The chapter lists the website.
-29,WSA stands for,World Steel Association,World Safety Alliance,Workplace Standards Agency,World Steel Audit,A,SAIL participates in WSA safety activities.
-30,E-Scan is published,Half-yearly,Monthly,Weekly,Quarterly,A,E-Scan is a half-yearly in-house magazine.
-31,HazAn.Com rewards,Good safety initiatives,Highest production,Sales growth,Cost cutting,A,Hazard Analysis Competition rewards safety initiatives.
-32,World Steel Day for Safety and Health is celebrated on,28 April,1 May,5 June,15 August,A,The global observance is on 28 April.
-33,Process Safety Guidelines book was released on,25 July 2024,25 July 2025,1 Jan 2024,15 Aug 2024,A,Released by the Union Minister on 25 July 2024.
-34,The Process Safety Guidelines book contains,16 guidelines,10 guidelines,25 guidelines,50 guidelines,A,It contains 16 process safety guidelines.
-35,Suraksha Manthan aims to align,SSO and Plants/Units,Marketing and finance,Suppliers and customers,HR and sales,A,The initiative aligns safety thinking and working.
-36,The target highlighted under Suraksha Manthan is,Zero fatality,Zero inventory,Zero downtime,Zero overtime,A,Action plans are aimed at zero fatality.
-37,SOC stands for,Safety Operating Committee,Safety Operations Cell,System Operations Committee,Steel Operations Council,A,SOC promotes learning of good practices.
-38,Theme of the SOC meeting mentioned was,Safety in Rolling Mill Operations,Mine expansion,Export logistics,Environmental taxation,A,The last meeting focused on rolling mill safety.
-39,Suraksha Samvad discusses,Underlying reasons of major incidents,Marketing strategy,Budgeting,Recruitment,A,It is an online safety-learning platform.
-40,Nayi Seekh develops,Safety animations,Tax manuals,Production software,Medical records,A,Animations explain fatal accidents and root causes.
-41,Workshop on Safety in Steel Making Process was held on,10 Nov 2025,10 Oct 2025,1 Jan 2025,12 Dec 2025,A,LEO workshop date given in chapter.
-42,Workshop on Safety in Iron Zone was held during,26-27 Nov 2025,1-2 Nov 2025,10-11 Dec 2025,19-20 Aug 2025,A,Dates are specified in the chapter.
-43,Workshop on Enhancing Safety in Rolling Mills was held during,11-12 Dec 2025,11-12 Jan 2025,26-27 Nov 2025,19-20 Aug 2025,A,Dates are stated under LEO workshops.
-44,Workshop on Safety in Rail Traffic Operations was held during,19-20 Aug 2025,25-26 Jul 2024,23-24 Dec 2025,16-17 Jan 2026,A,The two-day workshop took place at RSP.
-45,RLTIFR uses accidents multiplied by,10^6,10^3,10^9,10^2,A,The formula uses accidents ×10^6 divided by man-hours.
-46,RLTIFR in 2024-25 was,0.06,0.08,0.12,0.09,A,The trend chart shows 0.06.
+1,Board Sub Committee on HSE monitors efforts on a,Quarterly basis,Monthly basis,Yearly basis,Weekly basis,A,Monitoring is done quarterly.
+2,Full-fledged Safety Engineering Department functions at,Each Plant/Unit,Corporate office only,Mines only,Training centers only,A,SED functions at each Plant/Unit.
+3,"The three Es of accident prevention include Engineering, Education and",Enforcement,Economics,Evaluation,Expansion,A,SAIL's safety system hinges on the 3 Es.
+4,"Safety interlocks, alarms and detectors are examples of",Engineering measures,Administrative controls,Medical controls,Financial controls,A,These are built-in engineering safety features.
+5,SAIL aims to cover at least what fraction of workforce in training programmes?,One-third,One-fourth,Half,All employees every month,A,The chapter mentions at least one-third coverage.
+6,Contract workers receive induction training of,Two days,One week,One day,Three days,A,A two-day induction is specified.
+7,Permit to Work system is followed for,Hazardous and critical jobs,Office work,Routine paperwork,Procurement,A,Permit systems are mandatory for hazardous work.
+8,HIRA stands for,Hazard Identification and Risk Assessment,Health Inspection and Risk Audit,Hazard Investigation and Risk Action,Health Improvement and Risk Assessment,A,HIRA is Hazard Identification and Risk Assessment.
+9,ALARP means,As Low As Reasonably Practicable,Always Low And Risk Protected,Accident Loss Assessment Reduction Plan,Advanced Loss Avoidance Risk Process,A,ALARP is defined in the chapter.
+10,Which Act is listed among statutory compliance requirements?,Factories Act,RTI Act,Patent Act,Income Tax Act,A,Factories Act compliance is specifically mentioned.
+11,All work-related incidents are investigated to determine,Root cause,Profitability,Attendance,Productivity index,A,Root-cause analysis is required.
+12,Health and Safety Committees support,Joint participation of management and workmen,Only management participation,Only union participation,External audits only,A,The committees promote joint participation.
+13,How many tiers are there in SAIL safety audits?,Three,Two,Four,Five,A,A three-tier audit system is described.
+14,External safety audits are conducted by,Third parties,Only DSOs,Workers,Trade unions,A,Third-party audits satisfy statutory requirements.
+15,SSO was formed in,1988,1998,1978,2008,A,SAIL Safety Organization was formed in 1988.
+16,SSO stands for,SAIL Safety Organization,Steel Safety Office,System Safety Organization,Safety Standards Office,A,Corporate-level SSO coordinates safety activities.
+17,IPSS stands for,Inter Plant Standards in the Steel Industry,Industrial Personnel Safety Standards,Integrated Plant Safety System,Inter Process Safety Scheme,A,IPSS develops industry safety standards.
+18,IPSS 1:11 committee is headed by,ED SSO,Chairman SAIL,MoS Secretary,NSC Director,A,"The committee is headed by ED, SSO."
+19,Safety audits by SSO are conducted in accordance with,IS 14489:2018,ISO 9001,IS 800,ISO 50001,A,Audits follow IS 14489:2018.
+20,Theme-based audits may cover,Fuel Gas Safety,Payroll management,Marketing,Exports,A,Fuel Gas Safety is given as an example.
+21,LEO stands for,Learning from Each Other,Learning Every Operation,Lead Every Objective,Learning Enhancement Option,A,LEO workshops emphasize shared learning.
+22,JCSSI is a,National bipartite forum,Private consultancy,Government ministry,Training school,A,JCSSI is a national bipartite forum.
+23,JCSSI website is,www.jcssi.com,www.sail.co.in,www.ipss.in,www.nsc.org,A,The chapter lists the website.
+24,WSA stands for,World Steel Association,World Safety Alliance,Workplace Standards Agency,World Steel Audit,A,SAIL participates in WSA safety activities.
+25,E-Scan is published,Half-yearly,Monthly,Weekly,Quarterly,A,E-Scan is a half-yearly in-house magazine.
+26,HazAn.Com rewards,Good safety initiatives,Highest production,Sales growth,Cost cutting,A,Hazard Analysis Competition rewards safety initiatives.
+27,World Steel Day for Safety and Health is celebrated on,28 April,1 May,5 June,15 August,A,The global observance is on 28 April.
+28,Process Safety Guidelines book was released on,25 July 2024,25 July 2025,1 Jan 2024,15 Aug 2024,A,Released by the Union Minister on 25 July 2024.
+29,The Process Safety Guidelines book contains,16 guidelines,10 guidelines,25 guidelines,50 guidelines,A,It contains 16 process safety guidelines.
+30,Suraksha Manthan aims to align,SSO and Plants/Units,Marketing and finance,Suppliers and customers,HR and sales,A,The initiative aligns safety thinking and working.
+31,The target highlighted under Suraksha Manthan is,Zero fatality,Zero inventory,Zero downtime,Zero overtime,A,Action plans are aimed at zero fatality.
+32,SOC stands for,Safety Operating Committee,Safety Operations Cell,System Operations Committee,Steel Operations Council,A,SOC promotes learning of good practices.
+33,Theme of the SOC meeting mentioned was,Safety in Rolling Mill Operations,Mine expansion,Export logistics,Environmental taxation,A,The last meeting focused on rolling mill safety.
+34,Suraksha Samvad discusses,Underlying reasons of major incidents,Marketing strategy,Budgeting,Recruitment,A,It is an online safety-learning platform.
+35,Nayi Seekh develops,Safety animations,Tax manuals,Production software,Medical records,A,Animations explain fatal accidents and root causes.
+36,Workshop on Safety in Steel Making Process was held on,10 Nov 2025,10 Oct 2025,1 Jan 2025,12 Dec 2025,A,LEO workshop date given in chapter.
+37,Workshop on Safety in Iron Zone was held during,26-27 Nov 2025,1-2 Nov 2025,10-11 Dec 2025,19-20 Aug 2025,A,Dates are specified in the chapter.
+38,Workshop on Enhancing Safety in Rolling Mills was held during,11-12 Dec 2025,11-12 Jan 2025,26-27 Nov 2025,19-20 Aug 2025,A,Dates are stated under LEO workshops.
+39,Workshop on Safety in Rail Traffic Operations was held during,19-20 Aug 2025,25-26 Jul 2024,23-24 Dec 2025,16-17 Jan 2026,A,The two-day workshop took place at RSP.
+40,RLTIFR uses accidents multiplied by,10^6,10^3,10^9,10^2,A,The formula uses accidents ×10^6 divided by man-hours.
+41,RLTIFR in 2024-25 was,0.06,0.08,0.12,0.09,A,The trend chart shows 0.06.

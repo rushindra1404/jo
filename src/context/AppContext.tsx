@@ -1,8 +1,11 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import type { Question, UserProgress, AccessibilitySettings, RecentActivity, SessionStats, DailyActivityLog } from '../types';
 import { GPOE_CHAPTERS, ICA_CHAPTERS, getChaptersByMaterial } from '../utils/chapters';
 import { loadChapterQuestions } from '../utils/csvLoader';
 import { useAuth } from './AuthContext';
+import { useTheme } from './ThemeContext';
+import { shuffleQuestion } from '../utils/shuffler';
+import type { ShuffledQuestionDetails } from '../utils/shuffler';
 
 interface AppContextProps {
   // Questions Bank
@@ -20,6 +23,8 @@ interface AppContextProps {
   setActivePdfMaterial: (material: 'ica' | 'gpoe' | null) => void;
   activePdfChapterId: string | null;
   setActivePdfChapterId: (chapterId: string | null) => void;
+  progressMistakesActiveTab: 'progress' | 'mistakes';
+  setProgressMistakesActiveTab: (tab: 'progress' | 'mistakes') => void;
   
   // User Progress & Persistence
   progress: UserProgress;
@@ -80,6 +85,11 @@ interface AppContextProps {
   // Profile Drawer state
   profileDrawerOpen: boolean;
   setProfileDrawerOpen: (open: boolean) => void;
+
+  // Runtime MCQ Shuffling
+  shuffledQuestionsMap: Record<string, ShuffledQuestionDetails>;
+  getShuffledQuestion: (question: Question) => ShuffledQuestionDetails;
+  resetShuffledQuestions: () => void;
 }
 
 const defaultSessionStats: SessionStats = {
@@ -117,17 +127,18 @@ const AppContext = createContext<AppContextProps | undefined>(undefined);
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user } = useAuth();
+  const { theme, setTheme } = useTheme();
 
   // Global states
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loadingQuestions, setLoadingQuestions] = useState<boolean>(true);
   
-  // Navigation / Routing
-  const [activeRoute, setActiveRoute] = useState<string>('home');
+  const [activeRoute, setActiveRoute] = useState<string>('dashboard');
   const [activeMaterial, setActiveMaterial] = useState<'ica' | 'gpoe' | null>(null);
   const [activeChapterId, setActiveChapterId] = useState<string | null>(null);
   const [activePdfMaterial, setActivePdfMaterial] = useState<'ica' | 'gpoe' | null>(null);
   const [activePdfChapterId, setActivePdfChapterId] = useState<string | null>(null);
+  const [progressMistakesActiveTab, setProgressMistakesActiveTab] = useState<'progress' | 'mistakes'>('progress');
 
   // Persistence States
   const [progress, setProgress] = useState<UserProgress>(defaultProgress);
@@ -192,6 +203,20 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [randomQuestions, setRandomQuestions] = useState<Question[]>([]);
   const [randomCurrentIndex, setRandomCurrentIndex] = useState<number>(0);
 
+  // Runtime MCQ Shuffling
+  const shuffledCacheRef = useRef<Record<string, ShuffledQuestionDetails>>({});
+
+  const getShuffledQuestion = (question: Question): ShuffledQuestionDetails => {
+    if (!shuffledCacheRef.current[question.uniqueId]) {
+      shuffledCacheRef.current[question.uniqueId] = shuffleQuestion(question);
+    }
+    return shuffledCacheRef.current[question.uniqueId];
+  };
+
+  const resetShuffledQuestions = () => {
+    shuffledCacheRef.current = {};
+  };
+
   // TTS State
   const [speakingState, setSpeakingState] = useState<'playing' | 'paused' | 'stopped'>('stopped');
 
@@ -239,7 +264,23 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     } else {
       root.classList.remove('high-contrast');
     }
-  }, [settings, user]);
+
+    // Sync settings.darkMode to ThemeContext theme
+    if (settings.darkMode && theme === 'light') {
+      setTheme('dark');
+    } else if (!settings.darkMode && theme === 'dark') {
+      setTheme('light');
+    }
+  }, [settings, user, theme, setTheme]);
+
+  // Sync ThemeContext theme changes back to settings.darkMode
+  useEffect(() => {
+    if (theme === 'dark' && !settings.darkMode) {
+      setSettings(prev => ({ ...prev, darkMode: true }));
+    } else if (theme === 'light' && settings.darkMode) {
+      setSettings(prev => ({ ...prev, darkMode: false }));
+    }
+  }, [theme, settings.darkMode]);
 
 
   // Seed study history data if dailyLogs is empty, and track streaks
@@ -672,12 +713,14 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
     window.speechSynthesis.cancel(); 
 
+    const shuffled = getShuffledQuestion(question);
+
     const textToSpeak = `
       Question. ${question.question}
-      Option A. ${question.option_a}.
-      Option B. ${question.option_b}.
-      Option C. ${question.option_c}.
-      Option D. ${question.option_d}.
+      Option A. ${shuffled.options[0].text}.
+      Option B. ${shuffled.options[1].text}.
+      Option C. ${shuffled.options[2].text}.
+      Option D. ${shuffled.options[3].text}.
     `;
 
     const utterance = new SpeechSynthesisUtterance(textToSpeak);
@@ -768,6 +811,11 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         stopSpeaking,
         profileDrawerOpen,
         setProfileDrawerOpen,
+        shuffledQuestionsMap: shuffledCacheRef.current,
+        getShuffledQuestion,
+        resetShuffledQuestions,
+        progressMistakesActiveTab,
+        setProgressMistakesActiveTab,
       }}
     >
       {children}

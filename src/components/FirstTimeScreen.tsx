@@ -9,7 +9,7 @@ export const FirstTimeScreen: React.FC = () => {
 
   const handleContinue = () => {
     setFirstTimeCompleted();
-    navigate('home');
+    navigate('dashboard');
   };
 
   const steps = [

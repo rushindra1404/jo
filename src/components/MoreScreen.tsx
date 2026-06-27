@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { useAuth } from '../context/AuthContext';
+import { useTheme } from '../context/ThemeContext';
 import { getChaptersByMaterial } from '../utils/chapters';
 import {
   Bookmark,
@@ -26,8 +27,12 @@ export const MoreScreen: React.FC = () => {
     toggleReviewLater,
     questions,
     setProfileDrawerOpen,
+    setActiveMaterial,
+    setActiveChapterId,
+    setStudyQuestionIndex,
   } = useApp();
   const { user } = useAuth();
+  const { theme, toggleTheme } = useTheme();
 
   const [activeSubView, setActiveSubView] = useState<'review-later' | 'about' | null>(null);
 
@@ -43,11 +48,25 @@ export const MoreScreen: React.FC = () => {
   ];
 
   const handleToggleTheme = () => {
-    updateSettings({ darkMode: !settings.darkMode });
+    toggleTheme();
+    updateSettings({ darkMode: theme === 'light' });
   };
 
   const handleToggleContrast = () => {
     updateSettings({ highContrast: !settings.highContrast });
+  };
+
+  const handleResumeQuestion = (q: any) => {
+    const chapterQuestions = questions.filter(
+      item => item.material === q.material && item.chapterId === q.chapterId
+    );
+    const qIdx = chapterQuestions.findIndex(item => item.uniqueId === q.uniqueId);
+    if (qIdx !== -1) {
+      setActiveMaterial(q.material);
+      setActiveChapterId(q.chapterId);
+      setStudyQuestionIndex(qIdx);
+      navigate('study');
+    }
   };
 
   // Review Later Sub-view list
@@ -62,13 +81,13 @@ export const MoreScreen: React.FC = () => {
           <div className="px-4 pt-3 flex items-center justify-between text-xs font-semibold text-slate-500">
             <button
               onClick={() => setActiveSubView(null)}
-              className="flex items-center gap-1 text-slate-500 hover:text-slate-700 dark:hover:text-slate-350 cursor-pointer font-extrabold"
+              className="flex items-center gap-1 text-slate-550 hover:text-slate-700 dark:hover:text-slate-350 cursor-pointer font-extrabold"
             >
               <ArrowLeft size={14} /> Back to More
             </button>
             <span className="font-bold text-slate-450">Review Later ({totalReviewLater})</span>
           </div>
-          <div className="w-full bg-slate-200 dark:bg-slate-800 h-1 mt-1" />
+          <div className="w-full bg-slate-200 dark:bg-slate-805 h-1 mt-1" />
         </div>
 
         <div className="flex-1 overflow-y-auto px-4 py-4 space-y-3">
@@ -108,6 +127,12 @@ export const MoreScreen: React.FC = () => {
                         {q.correct_answer}) {q[`option_${q.correct_answer.toLowerCase()}` as keyof typeof q]}
                       </span>
                     </div>
+                    <button
+                      onClick={() => handleResumeQuestion(q)}
+                      className="w-full py-2 bg-cyan-600 hover:bg-cyan-700 text-white font-extrabold rounded-xl text-[10px] uppercase tracking-wider shadow-sm flex items-center justify-center gap-1 active:scale-95 transition-all cursor-pointer"
+                    >
+                      Practice Question
+                    </button>
                   </div>
                 );
               })}
@@ -157,6 +182,7 @@ export const MoreScreen: React.FC = () => {
             <h3 className="text-2xl font-black text-slate-800 dark:text-slate-100 font-sans leading-none">JO Sphere</h3>
             <p className="text-xs font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest leading-none pt-0.5">Learn • Revise • Succeed</p>
             <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider pt-2">Version 1.2.0</p>
+            <p className="text-[9px] text-slate-500 font-bold uppercase tracking-wide">Developed by JO Sphere Team</p>
           </div>
 
           <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed max-w-xs font-medium">
@@ -305,7 +331,7 @@ export const MoreScreen: React.FC = () => {
               className="w-11 h-11 flex items-center justify-center bg-slate-100 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700/80 active:scale-95 transition-all cursor-pointer text-slate-700 dark:text-slate-300"
               title="Toggle Theme"
             >
-              {settings.darkMode ? <Sun size={16} /> : <Moon size={16} />}
+              {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
             </button>
           </div>
 

@@ -47,18 +47,30 @@
 }
 
 /* Custom Accessibility Font Size Classes */
-.font-size-small {
-  font-size: 0.875rem; /* 14px */
-}
-.font-size-medium {
-  font-size: 1rem; /* 16px */
-}
-.font-size-large {
-  font-size: 1.125rem; /* 18px */
-}
-.font-size-xlarge {
-  font-size: 1.25rem; /* 20px */
-}
+/* Custom Accessibility Font Size Classes with Tailwind Overrides */
+.font-size-small { font-size: 0.875rem !important; }
+.font-size-small .text-xs, .font-size-small [class*="text-xs"] { font-size: 0.7rem !important; }
+.font-size-small .text-sm, .font-size-small [class*="text-sm"] { font-size: 0.8rem !important; }
+.font-size-small .text-base, .font-size-small [class*="text-base"] { font-size: 0.9rem !important; }
+.font-size-small .text-lg, .font-size-small [class*="text-lg"] { font-size: 1.0rem !important; }
+.font-size-small .text-xl, .font-size-small [class*="text-xl"] { font-size: 1.15rem !important; }
+
+.font-size-medium { font-size: 1rem !important; }
+
+.font-size-large { font-size: 1.125rem !important; }
+.font-size-large .text-xs, .font-size-large [class*="text-xs"] { font-size: 0.85rem !important; }
+.font-size-large .text-sm, .font-size-large [class*="text-sm"] { font-size: 0.95rem !important; }
+.font-size-large .text-base, .font-size-large [class*="text-base"] { font-size: 1.1rem !important; }
+.font-size-large .text-lg, .font-size-large [class*="text-lg"] { font-size: 1.25rem !important; }
+.font-size-large .text-xl, .font-size-large [class*="text-xl"] { font-size: 1.4rem !important; }
+
+.font-size-xlarge { font-size: 1.25rem !important; }
+.font-size-xlarge .text-xs, .font-size-xlarge [class*="text-xs"] { font-size: 0.95rem !important; }
+.font-size-xlarge .text-sm, .font-size-xlarge [class*="text-sm"] { font-size: 1.05rem !important; }
+.font-size-xlarge .text-base, .font-size-xlarge [class*="text-base"] { font-size: 1.2rem !important; }
+.font-size-xlarge .text-lg, .font-size-xlarge [class*="text-lg"] { font-size: 1.35rem !important; }
+.font-size-xlarge .text-xl, .font-size-xlarge [class*="text-xl"] { font-size: 1.55rem !important; }
+
 
 /* Flashcard Flip CSS */
 .perspective-1000 {
@@ -98,4 +110,36 @@ body, header, nav, button, input, textarea, select, a, svg, .rounded-xl, .rounde
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
 }
+
+/* High Contrast Mode Accessibility Styling */
+html.high-contrast body {
+  color: #000000 !important;
+}
+
+html.high-contrast.dark body {
+  color: #ffffff !important;
+}
+
+html.high-contrast .border,
+html.high-contrast [class*="border-"] {
+  border-width: 1.5px !important;
+  border-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+html.high-contrast.dark .border,
+html.high-contrast.dark [class*="border-"] {
+  border-width: 1.5px !important;
+  border-color: rgba(255, 255, 255, 0.85) !important;
+}
+
+html.high-contrast p,
+html.high-contrast h1,
+html.high-contrast h2,
+html.high-contrast h3,
+html.high-contrast h4,
+html.high-contrast span,
+html.high-contrast button {
+  font-weight: 700 !important;
+}
+
 
