@@ -238,7 +238,7 @@ export const StudyModeScreen: React.FC = () => {
 
     // Unrevealed state styles
     if (selectedOption === key) {
-      return "border-cyan-600 bg-cyan-50 dark:bg-cyan-950/20 text-cyan-800 dark:text-cyan-300 ring-2 ring-cyan-600/20";
+      return "border-teal-600 bg-teal-50 dark:bg-teal-950/20 text-teal-800 dark:text-teal-300 ring-2 ring-teal-600/20";
     }
     return "border-slate-200 dark:border-slate-800 hover:border-slate-350 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 active:bg-slate-50 dark:active:bg-slate-800/50";
   };
@@ -254,27 +254,27 @@ export const StudyModeScreen: React.FC = () => {
       return "bg-white/20 text-white";
     }
     if (selectedOption === key) {
-      return "bg-cyan-600 text-white";
+      return "bg-teal-600 text-white";
     }
     return "bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400";
   };
 
   return (
-    <div className="flex-1 flex flex-col justify-between overflow-hidden pb-6 safe-padding-bottom bg-slate-50 dark:bg-slate-950 transition-colors duration-200">
+    <div className="flex-1 flex flex-col justify-between overflow-hidden pb-6 safe-padding-bottom bg-transparent transition-colors duration-200">
       {/* Chapter header progress bar */}
       {!hasAttempted && (
         <div className="animate-in fade-in duration-200">
           <div className="px-4 pt-3 flex items-center justify-between gap-4 text-xs font-semibold text-slate-500 dark:text-slate-400">
-            <span className="truncate max-w-[200px]">
+            <span className="truncate max-w-[200px] font-black uppercase tracking-wider text-[10px]">
               Ch {currentChapter?.num}: {currentChapter?.title}
             </span>
-            <span>
+            <span className="font-extrabold text-[10px]">
               {studyQuestionIndex + 1} of {totalQuestions}
             </span>
           </div>
           <div className="w-full bg-slate-200 dark:bg-slate-800 h-1.5 mt-1">
             <div
-              className="bg-cyan-600 dark:bg-cyan-500 h-full transition-all duration-205"
+              className="bg-teal-655 dark:bg-teal-500 h-full transition-all duration-205"
               style={{ width: `${((studyQuestionIndex + 1) / totalQuestions) * 100}%` }}
             />
           </div>
@@ -289,16 +289,16 @@ export const StudyModeScreen: React.FC = () => {
               setNoteInput(progress.notes?.[currentQuestion.uniqueId] || '');
               setShowNotesModal(true);
             }}
-            className="px-3 py-1.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-black flex items-center gap-1 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer min-h-[44px] text-slate-700 dark:text-slate-300 shadow-sm"
+            className="px-3.5 py-2 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-850 rounded-2xl text-[10px] font-black uppercase tracking-wider flex items-center gap-1.5 active:bg-slate-50 dark:active:bg-slate-800 cursor-pointer min-h-[44px] text-slate-700 dark:text-slate-300 shadow-premium tap-bounce"
           >
-            <FileText size={14} className="text-cyan-600" />
+            <FileText size={14} className="text-teal-600" />
             {progress.notes?.[currentQuestion.uniqueId] ? 'Edit Note' : 'Add Note'}
           </button>
         </div>
         <div className="flex gap-2">
           <button
             onClick={handleTtsToggle}
-            className="px-3 py-1.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-xs font-bold flex items-center gap-1.5 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer min-h-[44px] text-slate-700 dark:text-slate-300 shadow-sm"
+            className="px-3.5 py-2 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-850 rounded-2xl text-[10px] font-black uppercase tracking-wider flex items-center gap-1.5 active:bg-slate-50 dark:active:bg-slate-800 cursor-pointer min-h-[44px] text-slate-700 dark:text-slate-300 shadow-premium tap-bounce"
           >
             {speakingState === 'playing' ? <Pause size={14} /> : <Play size={14} fill="currentColor" />}
             {speakingState === 'playing' ? 'Pause' : speakingState === 'paused' ? 'Resume' : 'Read Aloud'}
@@ -306,7 +306,7 @@ export const StudyModeScreen: React.FC = () => {
           {speakingState !== 'stopped' && (
             <button
               onClick={stopSpeaking}
-              className="p-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl text-rose-500 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer flex items-center justify-center min-w-[44px] min-h-[44px]"
+              className="p-2 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-850 rounded-2xl text-rose-500 active:bg-slate-50 dark:active:bg-slate-800 cursor-pointer flex items-center justify-center min-w-[44px] min-h-[44px] shadow-premium tap-bounce"
               aria-label="Stop TTS"
             >
               <Square size={14} fill="currentColor" />
@@ -329,7 +329,7 @@ export const StudyModeScreen: React.FC = () => {
             <motion.div
               variants={cardVariants}
               animate={hasAttempted ? (isCorrectChoice ? (justAttempted ? 'correct' : 'correctStatic') : (justAttempted ? 'incorrect' : 'incorrectStatic')) : 'neutral'}
-              className={`w-full rounded-3xl border p-5 flex flex-col justify-between overflow-y-auto ${cardClass} shadow-premium transition-all duration-500`}
+              className={`w-full rounded-[28px] border p-6 flex flex-col justify-between overflow-y-auto ${cardClass} shadow-premium transition-all duration-500`}
               style={{ minHeight: '380px', maxHeight: '68svh' }}
             >
               {!hasAttempted ? (
@@ -391,10 +391,10 @@ export const StudyModeScreen: React.FC = () => {
                   <button
                     onClick={handleRevealAnswer}
                     disabled={!selectedOption}
-                    className={`w-full py-4 font-bold rounded-2xl text-center shadow-md active:scale-[0.98] transition-all cursor-pointer text-sm tracking-wider uppercase ${
+                    className={`w-full py-4 font-black rounded-2xl text-center shadow-md active:scale-[0.98] transition-all cursor-pointer text-xs tracking-widest uppercase tap-bounce ${
                       selectedOption
-                        ? 'bg-cyan-600 text-white hover:bg-cyan-700'
-                        : 'bg-slate-200 dark:bg-slate-800 text-slate-400 dark:text-slate-655 cursor-not-allowed'
+                        ? 'bg-teal-600 text-white hover:bg-teal-700'
+                        : 'bg-slate-205 dark:bg-slate-800 text-slate-400 dark:text-slate-550 cursor-not-allowed'
                     }`}
                     style={{ minHeight: '52px' }}
                   >
@@ -527,14 +527,14 @@ export const StudyModeScreen: React.FC = () => {
       </div>
 
       {/* Prev / Next controls */}
-      <footer className="px-4 grid grid-cols-2 gap-4 shrink-0">
+      <footer className="px-6 grid grid-cols-2 gap-4 shrink-0">
         <button
           onClick={handlePrev}
           disabled={studyQuestionIndex === 0}
-          className={`py-3.5 rounded-2xl border text-center font-bold text-sm uppercase tracking-wider flex items-center justify-center gap-1 min-h-[48px] ${
+          className={`py-3.5 rounded-2xl border text-center font-black text-xs uppercase tracking-widest flex items-center justify-center gap-1.5 min-h-[48px] transition-all tap-bounce ${
             studyQuestionIndex === 0
-              ? 'border-slate-200 dark:border-slate-800 text-slate-350 dark:text-slate-700 cursor-not-allowed opacity-50'
-              : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer'
+              ? 'border-slate-100 dark:border-slate-850 text-slate-300 dark:text-slate-700 cursor-not-allowed opacity-50'
+              : 'border-slate-205 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-350 hover:bg-slate-50 dark:hover:bg-slate-850 cursor-pointer shadow-premium'
           }`}
         >
           <ChevronLeft size={16} /> Prev
@@ -542,10 +542,10 @@ export const StudyModeScreen: React.FC = () => {
         <button
           onClick={handleNext}
           disabled={studyQuestionIndex === totalQuestions - 1}
-          className={`py-3.5 rounded-2xl border text-center font-bold text-sm uppercase tracking-wider flex items-center justify-center gap-1 min-h-[48px] ${
+          className={`py-3.5 rounded-2xl border text-center font-black text-xs uppercase tracking-widest flex items-center justify-center gap-1.5 min-h-[48px] transition-all tap-bounce ${
             studyQuestionIndex === totalQuestions - 1
-              ? 'border-slate-200 dark:border-slate-800 text-slate-355 dark:text-slate-700 cursor-not-allowed opacity-50'
-              : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 cursor-pointer'
+              ? 'border-slate-105 dark:border-slate-850 text-slate-300 dark:text-slate-700 cursor-not-allowed opacity-50'
+              : 'border-slate-205 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-350 hover:bg-slate-50 dark:hover:bg-slate-850 cursor-pointer shadow-premium'
           }`}
         >
           Next <ChevronRight size={16} />
@@ -554,19 +554,19 @@ export const StudyModeScreen: React.FC = () => {
 
       {/* Notes Modal Overlay */}
       {showNotesModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-sm animate-fade-in">
-          <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-6 w-full max-w-sm space-y-4 shadow-2xl relative">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-5 bg-slate-950/70 backdrop-blur-sm animate-fade-in">
+          <div className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-850 rounded-[28px] p-6 w-full max-w-sm space-y-4 shadow-2xl relative transition-all">
             <button
               onClick={() => setShowNotesModal(false)}
-              className="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-slate-600 rounded-lg cursor-pointer"
+              className="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-slate-655 dark:hover:text-slate-300 rounded-lg cursor-pointer tap-bounce"
               title="Close notes"
             >
               <X size={18} />
             </button>
-            <h4 className="text-sm font-extrabold text-slate-900 dark:text-slate-100 flex items-center gap-1.5 font-sans">
-              <FileText size={18} className="text-cyan-600 animate-pulse" /> Study Notes
+            <h4 className="text-sm font-black text-slate-850 dark:text-slate-100 flex items-center gap-1.5 font-sans uppercase tracking-wider">
+              <FileText size={18} className="text-teal-605 animate-pulse" /> Study Notes
             </h4>
-            <p className="text-[10px] text-slate-500 dark:text-slate-400 font-semibold leading-normal">
+            <p className="text-[10px] text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wide leading-normal">
               Write key takeaways, notes, or mnemonic clues for this question. Your notes will be saved and can be reviewed later.
             </p>
             <textarea
@@ -574,7 +574,7 @@ export const StudyModeScreen: React.FC = () => {
               placeholder="Type your notes here..."
               value={noteInput}
               onChange={(e) => setNoteInput(e.target.value)}
-              className="w-full p-3 bg-slate-50 dark:bg-slate-950 border border-slate-205 dark:border-slate-850 rounded-2xl text-xs font-semibold focus:outline-none focus:border-cyan-500 text-slate-800 dark:text-slate-200"
+              className="w-full p-3.5 bg-slate-50 dark:bg-slate-955 border border-slate-205 dark:border-slate-850 rounded-2xl text-xs font-semibold focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 text-slate-800 dark:text-slate-200 transition-all"
             />
             <div className="flex gap-2">
               <button
@@ -582,7 +582,7 @@ export const StudyModeScreen: React.FC = () => {
                   saveQuestionNote(currentQuestion.uniqueId, noteInput);
                   setShowNotesModal(false);
                 }}
-                className="flex-1 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-extrabold text-xs uppercase rounded-xl tracking-wider cursor-pointer active:scale-95 transition-all shadow-sm"
+                className="flex-1 py-3 bg-teal-600 hover:bg-teal-700 text-white font-extrabold text-[10px] uppercase rounded-xl tracking-wider cursor-pointer active:scale-95 transition-all shadow-sm tap-bounce"
               >
                 Save Note
               </button>
@@ -593,7 +593,7 @@ export const StudyModeScreen: React.FC = () => {
                     setNoteInput('');
                     setShowNotesModal(false);
                   }}
-                  className="px-3.5 py-3 bg-rose-50 hover:bg-rose-100 text-rose-600 font-extrabold text-xs uppercase rounded-xl tracking-wider cursor-pointer active:scale-95 transition-all"
+                  className="px-4 py-3 bg-rose-50 hover:bg-rose-100 text-rose-600 font-extrabold text-[10px] uppercase rounded-xl tracking-wider cursor-pointer active:scale-95 transition-all tap-bounce"
                 >
                   Clear
                 </button>

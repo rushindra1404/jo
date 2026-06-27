@@ -1,20 +1,58 @@
 question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
-1,Who defined strategy in the chapter?,Johnson and Scholes,Porter,Drucker,Mintzberg,A,Strategy definition is attributed to Johnson and Scholes.
-2,Strategy is the direction and scope of an organization over the,Short term,Medium term,Long term,One year,C,The definition emphasizes long-term direction and scope.
-3,SAIL market share target in Corporate Plan 2000? ,60%,40%,50%,70%,A,Based on chapter data.
-4,First corporate plan publication year? ,1987,1992,2000,2004,A,Based on chapter data.
-5,Second corporate plan publication year? ,1992,1987,1998,2005,A,Based on chapter data.
-6,Turnaround Plan period up to? ,2003,2005,2012,2030,A,Based on chapter data.
-7,Corporate Plan 2012 designed in? ,2004,2012,2005,1998,A,Based on chapter data.
-8,Vision 2030 hot metal target (million tonnes)? ,50,48,23,26,A,Based on chapter data.
-9,Vision 2030 crude steel target (million tonnes)? ,48,50,23,21.4,A,Based on chapter data.
-10,SAIL strength?,Nationwide distribution network,No mines,Single plant,No manpower,A,SAIL strength is directly stated in the chapter.
-11,Economic reform allowed foreign equity up to?,100%,49%,51%,74%,A,Economic reform allowed foreign equity up to is directly stated in the chapter.
-12,Strategy formulation starts with?,Vision and mission,Marketing,Finance,HR,A,Strategy formulation starts with is directly stated in the chapter.
-13,SWOT includes?,Strengths and weaknesses,Only strengths,Only threats,Only opportunities,A,SWOT includes is directly stated in the chapter.
-14,Corporate Plan 2005 PAT/NW target?,12% minimum,5%,20%,15%,A,Corporate Plan 2005 PAT/NW target is directly stated in the chapter.
-15,Turnaround initiative?,Cost reduction,Capacity closure,Exit market,Privatization,A,Turnaround initiative is directly stated in the chapter.
-16,MEP stands for?,Modernization-cum-Expansion Plan,Market Expansion Program,Metal Export Plan,Management Excellence Plan,A,MEP stands for is directly stated in the chapter.
-17,Hot metal capacity initially targeted in CP2012?,23 million tonnes,26 million tonnes,50 million tonnes,15.7 million tonnes,A,Hot metal capacity initially targeted in CP2012 is directly stated in the chapter.
-18,Saleable steel target initially in CP2012?,20 million tonnes,23 million tonnes,48 million tonnes,13.8 million tonnes,A,Saleable steel target initially in CP2012 is directly stated in the chapter.
-19,CPFR indicated hot metal capacity?,26 million tonnes,23 million tonnes,21.4 million tonnes,50 million tonnes,A,CPFR indicated hot metal capacity is directly stated in the chapter.
+1,"According to Johnson and Scholes, strategy primarily defines the ____ of an organization.",Direction and scope,Financial strength,Marketing policy,Production capacity,A,Strategy defines long-term direction and scope.
+2,Strategy achieves advantage through? ,Configuration of resources,Option B,Option C,Option D,A,The chapter specifies Configuration of resources.
+3,Corporate strategy highlights? ,Vital organizational issues,Option B,Option C,Option D,A,The chapter specifies Vital organizational issues.
+4,SAIL is India's? ,Leading steel producer,Option B,Option C,Option D,A,The chapter specifies Leading steel producer.
+5,SAIL is fully integrated in? ,Iron ore,Option B,Option C,Option D,A,The chapter specifies Iron ore.
+6,Indian steel evolution occurred in? ,Two stages,Option B,Option C,Option D,A,The chapter specifies Two stages.
+7,First stage lasted till? ,1980s,Option B,Option C,Option D,A,The chapter specifies 1980s.
+8,Second stage is called? ,Post-liberalization era,Option B,Option C,Option D,A,The chapter specifies Post-liberalization era.
+9,Licensing for capacity creation was? ,Removed,Option B,Option C,Option D,A,The chapter specifies Removed.
+10,Automatic foreign investment approval was allowed up to? ,100% equity,Option B,Option C,Option D,A,The chapter specifies 100% equity.
+11,First step in strategy formulation? ,Vision and mission,Option B,Option C,Option D,A,The chapter specifies Vision and mission.
+12,Internal analysis identifies? ,Strengths and weaknesses,Option B,Option C,Option D,A,The chapter specifies Strengths and weaknesses.
+13,External analysis identifies? ,Opportunities and threats,Option B,Option C,Option D,A,The chapter specifies Opportunities and threats.
+14,SWOT includes? ,Strengths Weaknesses Opportunities Threats,Option B,Option C,Option D,A,The chapter specifies Strengths Weaknesses Opportunities Threats.
+15,Formal planning in SAIL began in? ,1986,Option B,Option C,Option D,A,The chapter specifies 1986.
+16,First corporate plan published in? ,1987,Option B,Option C,Option D,A,The chapter specifies 1987.
+17,Planning horizon of early plans? ,15 years,Option B,Option C,Option D,A,The chapter specifies 15 years.
+18,Corporate Plan-2000 market share target? ,60%,Option B,Option C,Option D,A,The chapter specifies 60%.
+19,Corporate Plan-2000 emphasized? ,Modernization,Option B,Option C,Option D,A,The chapter specifies Modernization.
+20,Plants modernized first? ,DSP RSP and BSL,Option B,Option C,Option D,A,The chapter specifies DSP RSP and BSL.
+21,Corporate Plan-2005 issued in? ,February 1992,Option B,Option C,Option D,A,The chapter specifies February 1992.
+22,PAT/NW minimum target? ,12%,Option B,Option C,Option D,A,The chapter specifies 12%.
+23,Turnaround Plan launched? ,August 1998,Option B,Option C,Option D,A,The chapter specifies August 1998.
+24,Turnaround initiatives included? ,Cost reduction,Option B,Option C,Option D,A,The chapter specifies Cost reduction.
+25,Turnaround also included? ,Manpower rightsizing,Option B,Option C,Option D,A,The chapter specifies Manpower rightsizing.
+26,Corporate Plan-2012 launched? ,July 2004,Option B,Option C,Option D,A,The chapter specifies July 2004.
+27,Initial hot metal target? ,23 million tonnes,Option B,Option C,Option D,A,The chapter specifies 23 million tonnes.
+28,Initial saleable steel target? ,20 million tonnes,Option B,Option C,Option D,A,The chapter specifies 20 million tonnes.
+29,MEP means? ,Modernization-cum-Expansion Plan,Option B,Option C,Option D,A,The chapter specifies Modernization-cum-Expansion Plan.
+30,Revised hot metal target? ,26 million tonnes,Option B,Option C,Option D,A,The chapter specifies 26 million tonnes.
+31,Vision 2030 hot metal target? ,50 million tonnes,Option B,Option C,Option D,A,The chapter specifies 50 million tonnes.
+32,Vision 2030 crude steel target? ,48 million tonnes,Option B,Option C,Option D,A,The chapter specifies 48 million tonnes.
+33,Vision 2030 focuses on? ,Customer base expansion,Option B,Option C,Option D,A,The chapter specifies Customer base expansion.
+34,Forward integration is used for? ,Business de-risking,Option B,Option C,Option D,A,The chapter specifies Business de-risking.
+35,Strategic planning is based on? ,SWOT analysis,Option B,Option C,Option D,A,The chapter specifies SWOT analysis.
+36,Market leadership has? ,Global orientation,Option B,Option C,Option D,A,The chapter specifies Global orientation.
+37,Value-added products are? ,Strategic priority,Option B,Option C,Option D,A,The chapter specifies Strategic priority.
+38,2016-17 hot metal production? ,15.7 mtpa,Option B,Option C,Option D,A,The chapter specifies 15.7 mtpa.
+39,Expanded hot metal capacity? ,23.5 mtpa,Option B,Option C,Option D,A,The chapter specifies 23.5 mtpa.
+40,2016-17 crude steel production? ,14.4 mtpa,Option B,Option C,Option D,A,The chapter specifies 14.4 mtpa.
+41,Expanded crude steel capacity? ,21.4 mtpa,Option B,Option C,Option D,A,The chapter specifies 21.4 mtpa.
+42,2016-17 saleable steel production? ,13.8 mtpa,Option B,Option C,Option D,A,The chapter specifies 13.8 mtpa.
+43,Expanded saleable steel target? ,20.23 mtpa,Option B,Option C,Option D,A,The chapter specifies 20.23 mtpa.
+44,Planned pellet capacity? ,15 million tonnes,Option B,Option C,Option D,A,The chapter specifies 15 million tonnes.
+45,Logistics improvement includes? ,Dedicated rail tracks,Option B,Option C,Option D,A,The chapter specifies Dedicated rail tracks.
+46,Another logistics option? ,Inland waterways,Option B,Option C,Option D,A,The chapter specifies Inland waterways.
+47,HR strategy emphasizes? ,Employee engagement,Option B,Option C,Option D,A,The chapter specifies Employee engagement.
+48,Raw material JV? ,International Coal Ventures Ltd.,Option B,Option C,Option D,A,The chapter specifies International Coal Ventures Ltd..
+49,Energy JV partners? ,NTPC and DVC,Option B,Option C,Option D,A,The chapter specifies NTPC and DVC.
+50,Cement JV? ,Bhilai Jaypee Cement Ltd.,Option B,Option C,Option D,A,The chapter specifies Bhilai Jaypee Cement Ltd..
+51,Cement capacity? ,2.1 million tonnes per annum,Option B,Option C,Option D,A,The chapter specifies 2.1 million tonnes per annum.
+52,Grinding unit location? ,Bhilai,Option B,Option C,Option D,A,The chapter specifies Bhilai.
+53,Clinkering unit location? ,Satna,Option B,Option C,Option D,A,The chapter specifies Satna.
+54,E-portal JV partner? ,Tata Steel,Option B,Option C,Option D,A,The chapter specifies Tata Steel.
+55,Steel processing JV partner? ,BMW Industries Ltd.,Option B,Option C,Option D,A,The chapter specifies BMW Industries Ltd..
+56,Another steel processing partner? ,Prime Gold Group,Option B,Option C,Option D,A,The chapter specifies Prime Gold Group.
+57,Which statement about SAIL strategy is correct?,Long-term planning aligns with changing business environment,External analysis is unnecessary,Vision is ignored,Only finance matters,A,The strategy process integrates vision and environmental analysis.

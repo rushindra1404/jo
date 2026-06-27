@@ -66,50 +66,50 @@ export const TopBar: React.FC = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-30 w-full border-b border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md safe-padding-top transition-colors duration-200">
-      <div className="flex items-center justify-between px-4 h-14">
-        <div className="flex items-center gap-2">
+    <header className="sticky top-0 z-30 w-full border-b border-slate-100 dark:border-slate-850/50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md safe-padding-top transition-colors duration-300">
+      <div className="max-w-md mx-auto flex items-center justify-between px-6 h-14">
+        <div className="flex items-center gap-1">
           {isSubScreen ? (
             <button
               onClick={handleBack}
-              className="p-2 -ml-2 rounded-xl text-slate-600 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 transition-colors cursor-pointer min-w-[44px] min-h-[44px] flex items-center justify-center"
+              className="p-2 -ml-2 rounded-xl text-slate-655 dark:text-slate-300 active:bg-slate-50 dark:active:bg-slate-800 transition-colors cursor-pointer min-w-[44px] min-h-[44px] flex items-center justify-center tap-bounce"
               aria-label="Go back"
             >
-              <ArrowLeft size={22} />
+              <ArrowLeft size={20} />
             </button>
           ) : null}
-          <h1 className="text-lg font-bold text-slate-800 dark:text-slate-100 font-sans tracking-tight">
+          <h1 className="text-sm font-black text-slate-800 dark:text-slate-100 font-sans uppercase tracking-widest leading-none pt-0.5">
             {getTitle()}
           </h1>
         </div>
 
-        <div className="flex items-center gap-1 relative">
+        <div className="flex items-center gap-1.5 relative">
           {/* High Contrast Toggle */}
           <button
             onClick={() => updateSettings({ highContrast: !settings.highContrast })}
-            className={`p-2 rounded-xl text-slate-600 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 min-w-[40px] min-h-[40px] flex items-center justify-center cursor-pointer transition-colors ${
-              settings.highContrast ? 'text-amber-500 bg-amber-50 dark:bg-amber-950/30' : ''
+            className={`p-2 rounded-xl text-slate-550 dark:text-slate-400 active:bg-slate-50 dark:active:bg-slate-800 min-w-[40px] min-h-[40px] flex items-center justify-center cursor-pointer transition-colors tap-bounce ${
+              settings.highContrast ? 'text-teal-600 bg-teal-50 dark:bg-teal-950/30' : ''
             }`}
             title="Toggle High Contrast"
             aria-label="Toggle High Contrast"
           >
-            <Eye size={20} />
+            <Eye size={18} />
           </button>
 
           {/* Adjust Text Size Menu Toggle */}
           <button
             onClick={() => setShowFontMenu(!showFontMenu)}
-            className={`p-2 rounded-xl text-slate-600 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 min-w-[40px] min-h-[40px] flex items-center justify-center cursor-pointer transition-colors ${
-              showFontMenu ? 'bg-slate-100 dark:bg-slate-800' : ''
+            className={`p-2 rounded-xl text-slate-550 dark:text-slate-400 active:bg-slate-50 dark:active:bg-slate-800 min-w-[40px] min-h-[40px] flex items-center justify-center cursor-pointer transition-colors tap-bounce ${
+              showFontMenu ? 'bg-slate-50 dark:bg-slate-800 text-teal-605' : ''
             }`}
             title="Adjust Text Size"
             aria-label="Adjust Text Size"
           >
-            <Type size={20} />
+            <Type size={18} />
           </button>
 
           {showFontMenu && (
-            <div className="absolute right-10 top-12 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-premium p-1 flex gap-1 z-50">
+            <div className="absolute right-10 top-12 bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-850 rounded-2xl shadow-premium p-1.5 flex gap-1.5 z-50">
               {fontSizes.map((sz) => (
                 <button
                   key={sz.value}
@@ -117,10 +117,10 @@ export const TopBar: React.FC = () => {
                     updateSettings({ fontSize: sz.value });
                     setShowFontMenu(false);
                   }}
-                  className={`px-3 py-1.5 rounded-lg text-sm font-semibold transition-colors cursor-pointer ${
+                  className={`px-3 py-1.5 rounded-xl text-[10px] uppercase tracking-wider font-extrabold transition-colors cursor-pointer tap-bounce ${
                     settings.fontSize === sz.value
-                      ? 'bg-cyan-600 text-white'
-                      : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700'
+                      ? 'bg-teal-600 text-white shadow-sm'
+                      : 'text-slate-655 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800'
                   }`}
                 >
                   {sz.label}
@@ -132,14 +132,14 @@ export const TopBar: React.FC = () => {
           {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-xl text-slate-600 dark:text-slate-300 active:bg-slate-100 dark:active:bg-slate-800 min-w-[40px] min-h-[40px] flex items-center justify-center cursor-pointer transition-colors tap-bounce"
+            className="p-2 rounded-xl text-slate-550 dark:text-slate-400 active:bg-slate-50 dark:active:bg-slate-800 min-w-[40px] min-h-[40px] flex items-center justify-center cursor-pointer transition-colors tap-bounce"
             title={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
             aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
           >
             {theme === 'light' ? (
-              <Sun size={20} className="text-amber-500 animate-pulse" />
+              <Sun size={18} className="text-amber-500 animate-pulse" />
             ) : (
-              <Moon size={20} className="text-cyan-400" />
+              <Moon size={18} className="text-teal-400" />
             )}
           </button>
         </div>
