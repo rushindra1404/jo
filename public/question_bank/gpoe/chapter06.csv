@@ -1,111 +1,151 @@
 question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
-1,Hot rolling is performed?,Above recrystallization temperature,Below recrystallization temperature,At melting point,At room temperature,A,Above recrystallization temperature is correct according to the Rolling Mills chapter.
-2,Cold rolling is usually performed?,At room temperature,Above recrystallization temperature,At melting temperature,In furnace only,A,At room temperature is correct according to the Rolling Mills chapter.
-3,Hot rolling improves?,Ductility,Brittleness,Porosity,Segregation,A,Ductility is correct according to the Rolling Mills chapter.
-4,Which is a hot rolled product group??,Flat,Liquid,Powder,Casting sand,A,Flat is correct according to the Rolling Mills chapter.
-5,Filing cabinets are typical products of?,Cold rolling,Hot rolling only,Forging,Extrusion,A,Cold rolling is correct according to the Rolling Mills chapter.
-6,Recrystallization temperature is typically?,0.5–0.7 of melting point,0.1–0.2,0.9–1.0,2 times melting point,A,0.5–0.7 of melting point is correct according to the Rolling Mills chapter.
-7,Hot rolled steel is generally?,Less expensive,More expensive,Same cost,Not sold,A,Less expensive is correct according to the Rolling Mills chapter.
-8,Cold rolled steel is generally?,Stronger,Weaker,Brittle only,Molten,A,Stronger is correct according to the Rolling Mills chapter.
-9,Hot rolled steel has?,Excellent weldability,No weldability,Poor weldability,Unknown weldability,A,Excellent weldability is correct according to the Rolling Mills chapter.
-10,Cold rolled stock has?,Better dimensional tolerance,Poorer tolerance,No tolerance,Variable only,A,Better dimensional tolerance is correct according to the Rolling Mills chapter.
-11,Bokaro produces?,Flat products,Only rails,Only wire rods,Only blooms,A,Flat products is correct according to the Rolling Mills chapter.
-12,Burnpur is primarily a?,Long product plant,Flat product plant,Pipe plant,Mine,A,Long product plant is correct according to the Rolling Mills chapter.
-13,Bhilai produces?,Long and flat products,Only flat,Only cold rolled,Only silicon steel,A,Long and flat products is correct according to the Rolling Mills chapter.
-14,Two-high reversing mill rolls rotate?,In both directions,One direction only,Not at all,Randomly,A,In both directions is correct according to the Rolling Mills chapter.
-15,Three-high mill was invented to avoid?,Roll reversal delays,Heating,Cooling,Casting,A,Roll reversal delays is correct according to the Rolling Mills chapter.
-16,Four-high mills use backup rolls to improve?,Stiffness,Corrosion,Density,Hardness,A,Stiffness is correct according to the Rolling Mills chapter.
-17,Cluster mills are commonly used for?,Cold rolling and foils,Casting,Forging,Welding,A,Cold rolling and foils is correct according to the Rolling Mills chapter.
-18,HR coils are used as feedstock for?,Pipe plants,Blast furnace,Coke oven,Converter,A,Pipe plants is correct according to the Rolling Mills chapter.
-19,Cold rolled sheets are used for?,Car body panels,Rail tracks,Bloom casting,Pig iron,A,Car body panels is correct according to the Rolling Mills chapter.
-20,Rails are used primarily for?,Railway networks,Ships only,Aircraft,Mines only,A,Railway networks is correct according to the Rolling Mills chapter.
-21,Reheating furnace discharge temperature is?,1100–1300°C,200–300°C,500–600°C,1500–1700°C,A,1100–1300°C is correct according to the Rolling Mills chapter.
-22,Continuous reheating furnaces include?,Pusher and walking beam,Cupola and BOF,Arc and induction,Kiln and dryer,A,Pusher and walking beam is correct according to the Rolling Mills chapter.
-23,Scale on slab surface is removed by?,High-pressure water jets,Acid only,Grinding only,Air jets,A,High-pressure water jets is correct according to the Rolling Mills chapter.
-24,Major thickness reduction in hot strip mill occurs in?,Roughing mill,Coiler,Cooling bank,Descaler,A,Roughing mill is correct according to the Rolling Mills chapter.
-25,Finishing temperature is critical for?,Metallurgical properties,Packaging,Transport,Painting only,A,Metallurgical properties is correct according to the Rolling Mills chapter.
-26,Strip cooling before coiling occurs on?,Run-out table,Reheating furnace,Pickling line,Annealing line,A,Run-out table is correct according to the Rolling Mills chapter.
-27,Coilers use?,"Pinch rolls, wrapper rolls and mandrel",Only mandrel,Only pinch rolls,Only wrapper rolls,A,"Pinch rolls, wrapper rolls and mandrel is correct according to the Rolling Mills chapter."
-28,Hot strip mill finishing stands are typically?,5–7 stands,1 stand,20 stands,50 stands,A,5–7 stands is correct according to the Rolling Mills chapter.
-29,Long products must generally be?,Hot rolled,Cold rolled only,Cast only,Forged only,A,Hot rolled is correct according to the Rolling Mills chapter.
-30,Primary long product mills produce?,Blooms and billets,Cars,Pipes,Coils,A,Blooms and billets is correct according to the Rolling Mills chapter.
-31,Universal rail rolling provides?,Closer tolerances,More roll wear,Poor surface,Lower quality,A,Closer tolerances is correct according to the Rolling Mills chapter.
-32,TMT stands for?,Thermo-Mechanical Treatment,Thermal Metal Transfer,Tensile Mechanical Test,Thermo Mill Technology,A,Thermo-Mechanical Treatment is correct according to the Rolling Mills chapter.
-33,Wire rod mills roll billets into?,Wire rods,Plates,Rails,Pipes,A,Wire rods is correct according to the Rolling Mills chapter.
-34,In TMT bars outer layer becomes?,Hard,Liquid,Soft,Porous,A,Hard is correct according to the Rolling Mills chapter.
-35,Products are identified by?,Stamping and cast numbers,Color only,Weight only,Length only,A,Stamping and cast numbers is correct according to the Rolling Mills chapter.
-36,Most rolling mills use automation level?,Level-II,Level-V,Level-0,Level-I only,A,Level-II is correct according to the Rolling Mills chapter.
-37,Ultrasonic testing detects?,Internal defects,Paint defects,Color defects,Weight errors,A,Internal defects is correct according to the Rolling Mills chapter.
-38,Rolling defects include?,Laps,Casting powder,Shrinkage cavity only,Gas hole only,A,Laps is correct according to the Rolling Mills chapter.
-39,Special Plate Plant is located at?,Rourkela,Bokaro,Burnpur,Salem,A,Rourkela is correct according to the Rolling Mills chapter.
-40,Cold rolling aims at?,Better surface finish,Increasing scale,Reducing accuracy,Increasing oxidation,A,Better surface finish is correct according to the Rolling Mills chapter.
-41,Input to CRM is?,HR coils,Billets,Blooms,Pig iron,A,HR coils is correct according to the Rolling Mills chapter.
-42,Pickling removes?,Iron oxide scale,Carbon,Silicon,Nitrogen,A,Iron oxide scale is correct according to the Rolling Mills chapter.
-43,Hydrochloric acid pickling rate is?,2.5–3 times sulphuric acid,Equal,Lower,Zero,A,2.5–3 times sulphuric acid is correct according to the Rolling Mills chapter.
-44,20-high mills are used for?,Stainless steel,Rails,TMT,Billets,A,Stainless steel is correct according to the Rolling Mills chapter.
-45,Cold reversing mill typically makes?,2–5 passes,20 passes,1 pass only,50 passes,A,2–5 passes is correct according to the Rolling Mills chapter.
-46,Tandem rolling reduces material in?,All stands simultaneously,One stand only,Furnace,Coiler,A,All stands simultaneously is correct according to the Rolling Mills chapter.
-47,Z-high mill is also called?,Sendzimir mill,Universal mill,Planetary mill,Blooming mill,A,Sendzimir mill is correct according to the Rolling Mills chapter.
-48,Electrolytic cleaning is required before?,Annealing,Casting,Smelting,Rolling ingots,A,Annealing is correct according to the Rolling Mills chapter.
-49,Annealing restores?,Ductility,Scale,Porosity,Segregation,A,Ductility is correct according to the Rolling Mills chapter.
-50,Protective atmosphere uses?,Hydrogen and nitrogen,Oxygen,Chlorine,Argon only,A,Hydrogen and nitrogen is correct according to the Rolling Mills chapter.
-51,Continuous annealing is?,Faster than hood annealing,Slower,Same,Not used,A,Faster than hood annealing is correct according to the Rolling Mills chapter.
-52,Skin passing reduction is typically?,0.25–1.0%,5–10%,20–30%,50%,A,0.25–1.0% is correct according to the Rolling Mills chapter.
-53,Skin pass mill is normally?,Single stand 4-high,20-high,3-high,2-high,A,Single stand 4-high is correct according to the Rolling Mills chapter.
-54,CTL stands for?,Cut To Length,Cold Tandem Line,Coil Transfer Line,Cold Treatment Line,A,Cut To Length is correct according to the Rolling Mills chapter.
-55,Tin coating in ETL uses?,Electrolysis,Forging,Casting,Welding,A,Electrolysis is correct according to the Rolling Mills chapter.
-56,Galvanizing applies?,Zinc coating,Tin coating,Nickel coating,Copper coating,A,Zinc coating is correct according to the Rolling Mills chapter.
-57,Major cold rolling defect is?,Wavy edge,Hot top,Pipe,Segregation,A,Wavy edge is correct according to the Rolling Mills chapter.
-58,RSP has?,Two pipe making mills,No pipe mill,Five pipe mills,One only,A,Two pipe making mills is correct according to the Rolling Mills chapter.
-59,HFW pipe plant was modernized in?,2005,1995,2010,2020,A,2005 is correct according to the Rolling Mills chapter.
-60,API 5L pipes transport?,Gas and petroleum,Food only,Coal,Cement,A,Gas and petroleum is correct according to the Rolling Mills chapter.
-61,SW pipe diameter range is?,16–72 inches,1–5 inches,80–100 inches,5–10 inches,A,16–72 inches is correct according to the Rolling Mills chapter.
-62,Electrical steel may contain silicon up to?,6.5%,20%,15%,0.1%,A,6.5% is correct according to the Rolling Mills chapter.
-63,Commercial silicon steel usually contains up to?,3.2% Si,10%,6.5%,0.01%,A,3.2% Si is correct according to the Rolling Mills chapter.
-64,Silicon increases?,Electrical resistivity,Density only,Melting point only,Carbon,A,Electrical resistivity is correct according to the Rolling Mills chapter.
-65,Carbon level in silicon steel is kept around?,0.005% or lower,1%,5%,10%,A,0.005% or lower is correct according to the Rolling Mills chapter.
-66,Sendzimir mill at Salem is?,20-high,2-high,3-high,4-high only,A,20-high is correct according to the Rolling Mills chapter.
-67,Rolling Mills MCQ 77: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-68,Rolling Mills MCQ 78: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-69,Rolling Mills MCQ 79: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-70,Rolling Mills MCQ 80: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-71,Rolling Mills MCQ 81: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-72,Rolling Mills MCQ 82: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-73,Rolling Mills MCQ 83: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-74,Rolling Mills MCQ 84: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-75,Rolling Mills MCQ 85: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-76,Rolling Mills MCQ 86: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-77,Rolling Mills MCQ 87: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-78,Rolling Mills MCQ 88: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-79,Rolling Mills MCQ 89: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-80,Rolling Mills MCQ 90: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-81,Rolling Mills MCQ 91: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-82,Rolling Mills MCQ 92: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-83,Rolling Mills MCQ 93: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-84,Rolling Mills MCQ 94: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-85,Rolling Mills MCQ 95: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-86,Rolling Mills MCQ 96: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-87,Rolling Mills MCQ 97: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-88,Rolling Mills MCQ 98: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-89,Rolling Mills MCQ 99: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-90,Rolling Mills MCQ 100: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-91,Rolling Mills MCQ 101: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-92,Rolling Mills MCQ 102: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-93,Rolling Mills MCQ 103: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-94,Rolling Mills MCQ 104: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-95,Rolling Mills MCQ 105: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-96,Rolling Mills MCQ 106: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-97,Rolling Mills MCQ 107: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-98,Rolling Mills MCQ 108: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-99,Rolling Mills MCQ 109: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-100,Rolling Mills MCQ 110: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-101,Rolling Mills MCQ 111: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-102,Rolling Mills MCQ 112: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-103,Rolling Mills MCQ 113: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-104,Rolling Mills MCQ 114: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-105,Rolling Mills MCQ 115: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-106,Rolling Mills MCQ 116: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-107,Rolling Mills MCQ 117: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-108,Rolling Mills MCQ 118: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-109,Rolling Mills MCQ 119: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
-110,Rolling Mills MCQ 120: Which statement is correct?,Rolling maintains nearly constant volume,Rolling always increases area,Cold rolling occurs above recrystallization temperature,Pickling adds scale,A,Rolling follows the constant-volume principle.
+1,"Rolling is defined as:","Plastic deformation of metal by passing it between rolls","Forging metal using hammers","Extrusion through a die","Casting molten metal into moulds","A","Rolling is the plastic deformation of metal between rotating rolls."
+2,"Draft in rolling is equal to:","H + h","H − h","h − H","H ÷ h","B","Draft is the reduction in thickness during rolling."
+3,"Spread in rolling is represented by:","B − b","b − B","l − L","A − a","B","Spread is the increase in width after rolling."
+4,"Elongation during rolling is:","L − l","l − L","H − h","A − a","B","Elongation is the increase in length of the rolled material."
+5,"Reduction in rolling refers to reduction in:","Weight","Cross-sectional area","Volume","Density","B","Reduction is the decrease in cross-sectional area."
+6,"Coefficient of reduction is given by:","A − a","A/a","a/A","H/h","B","It is the ratio of original area to final area."
+7,"According to the rolling constant principle, ______ remains constant.","Weight","Volume","Thickness","Width","B","The volume of metal remains constant during rolling."
+8,"Mill availability indicates:","Rolling speed","Availability of the mill for production","Yield","Product quality","B","Mill availability measures available production time."
+9,"Mill utilization measures:","Power consumption","Effective utilization of available mill time","Rolling force","Roll wear","B","It measures how efficiently available time is utilized."
+10,"Yield is calculated as:","Input ×100 / Output","Output ×100 / Input","Output ÷ Time","Input ÷ Time","B","Yield is expressed as output divided by input."
+11,"Hot rolling is carried out:","Below recrystallization temperature","Above recrystallization temperature","At melting temperature","At room temperature","B","Hot rolling is performed above the recrystallization temperature."
+12,"Cold rolling is carried out:","Above recrystallization temperature","Below recrystallization temperature","At melting temperature","Inside soaking pits","B","Cold rolling is performed below the recrystallization temperature."
+13,"Recrystallization temperature is approximately:","0.2–0.3 times melting point","0.5–0.7 times melting point","0.8–0.9 times melting point","Equal to melting point","B","It is generally between 0.5 and 0.7 times the melting point."
+14,"Which property is NOT improved by hot rolling?","Ductility","Weldability","Strength","Residual stresses","D","Hot rolling reduces residual stresses instead of increasing them."
+15,"Hot rolled products are classified into:","2 groups","3 groups","4 groups","5 groups","C","They are Flat, Long, Seamless and Specialty products."
+16,"Which is a flat rolled product?","TMT Bar","Rail","Plate","Beam","C","Plates are produced by flat rolling."
+17,"Which is a long rolled product?","Sheet","Plate","TMT Bar","Coil","C","TMT bars are long products."
+18,"Hot rolled steel is generally:","More expensive","Less expensive","Equal in cost","Costlier than forged steel","B","Hot rolled steel is cheaper because processing is simpler."
+19,"Cold rolled steel generally has:","Poor dimensional accuracy","Better dimensional accuracy","Poor surface finish","Low strength","B","Cold rolling provides better dimensional control."
+20,"Which rolling process provides better surface finish?","Hot rolling","Cold rolling","Both equal","Neither","B","Cold rolling gives superior surface finish."
+21,"Hot rolled steel has:","Higher residual stresses","Lower residual stresses","No ductility","No toughness","B","Recrystallization removes most residual stresses."
+22,"Cold rolled steel is generally:","Weaker","Softer","Stronger and harder","Less accurate","C","Cold work increases strength and hardness."
+23,"The grain structure after hot rolling becomes:","Highly elongated","Strain-free and recrystallized","Porous","Randomly cracked","B","Recrystallization forms new strain-free grains."
+24,"Cold rolling leaves the material in a:","Stress-free state","Fully annealed state","Cold-worked anisotropic state","Liquid state","C","Cold rolling retains elongated grains and residual stresses."
+25,"Which SAIL plants have cold rolling mills?","Bhilai and Durgapur","Burnpur and Bhilai","Bokaro, Rourkela and Salem","VISL and Burnpur","C","Only Bokaro, Rourkela and Salem have CRM facilities."
+26,"Long product rolling mainly increases the:","Width","Thickness","Length","Density","C","Material flows mainly along its length."
+27,"Flat product rolling mainly reduces:","Length","Thickness","Density","Hardness","B","Thickness decreases while width and length increase."
+28,"Which SAIL plant is mainly a long product plant?","Bokaro","Burnpur","Rourkela","Salem","B","Burnpur mainly produces long products."
+29,"Which SAIL plant mainly produces flat products?","Burnpur","Bokaro","VISL","ASP","B","Bokaro is a major flat product producer."
+30,"Bhilai Steel Plant manufactures:","Only flat products","Only long products","Both long and flat products","Only stainless steel","C","BSP manufactures both categories."
+31,"Which of the following is produced at Bhilai Steel Plant?","Rails","Tin Plates","Silicon Sheets","ERW Pipes","A","BSP is India's major rail producer."
+32,"Which BSP product is a semi-finished product?","Bloom","Rail","Plate","Beam","A","Blooms are semi-finished rolled products."
+33,"Bokaro Steel Plant mainly manufactures:","HR & CR flat products","Rails","Wire rods","Heavy structurals","A","Bokaro specializes in flat products."
+34,"Which plant manufactures Silicon Steel Sheets?","RSP","DSP","BSP","Burnpur","A","RSP manufactures silicon steel sheets."
+35,"Salem Steel Plant specializes in:","Stainless steel flat products","Rails","Wire rods","Heavy structurals","A","Salem is India's stainless steel rolling plant."
+36,"VISL mainly produces:","Semis and Bars","Rails","Coils","Pipes","A","VISL manufactures semis and bars."
+37,"A two-high non-reversing mill has:","Two rolls rotating in one direction","Four rolls","Three rolls","Reversible rolls","A","The rolls rotate continuously in one direction."
+38,"The disadvantage of a two-high reversing mill is:","Poor finish","Rolls must stop and reverse","Low productivity","High roll wear","B","Time is lost during reversal."
+39,"Three-high mills eliminate the need for:","Descaling","Roll reversal","Annealing","Cooling","B","Metal passes through alternate roll gaps."
+40,"A four-high mill contains:","Four equal rolls","Two work rolls and two backup rolls","Three work rolls","Six rolls","B","Backup rolls support work rolls."
+41,"Backup rolls mainly increase:","Strength","Stiffness","Temperature","Hardness","B","They reduce work roll deflection."
+42,"Cluster mills are mainly used for:","Cold rolling thin strips","Casting","Forging","Blooming","A","Cluster mills are ideal for thin materials."
+43,"Small work rolls reduce:","Rolling force","Rolling speed","Strip length","Steel density","A","Smaller rolls reduce contact area and force."
+44,"HR coils are widely used as feedstock for:","Pipe plants","Cold rolling mills","Both A and B","Blast furnaces","C","HR coils are intermediate products."
+45,"Chequered plates are mainly used for:","Anti-skid flooring","Roof tiles","Pipelines","Automobile roofs","A","Chequered surfaces improve grip."
+46,"Steel plates are commonly used in:","Bridges","Ships","Pressure vessels","All of the above","D","Heavy plates have many structural applications."
+47,"Weather-proof steel plates are mainly used for:","Railcars","Food cans","Furniture","Coins","A","Weather-resistant plates are used in rail applications."
+48,"Cold rolled sheets are extensively used for:","Car body panels","Rails","Billets","Blooming","A","Automobile bodies require good finish."
+49,"Galvanized sheets are mainly used in:","Roofing","Converters","Blast furnaces","Casting","A","Galvanizing improves corrosion resistance."
+50,"Electrolytic Tin Plates are mainly used for:","Food packaging","Rails","Wire rods","Bridges","A","Tin plates are widely used in packaging."
+51,"Rails are primarily used for:","Railway tracks","Shipbuilding","Aircraft frames","Storage tanks","A","Rails are the primary products for railway networks."
+52,"Structural sections like beams and channels are mainly used in:","Construction and bridges","Food packaging","Electrical wiring","Paper industry","A","Structural sections are widely used in infrastructure."
+53,"Bars and wire rods are primarily consumed by the:","Construction industry","Textile industry","Chemical industry","Food industry","A","Construction is the largest consumer of bars and rods."
+54,"Semi-finished products include:","Blooms, Billets and Slabs","Rails and Plates","Coils and Sheets","Angles and Channels","A","These are intermediate products used for further rolling."
+55,"Alloy steels commonly contain:","Chromium, Nickel and Molybdenum","Copper and Zinc","Lead and Tin","Calcium and Sodium","A","These alloying elements improve mechanical properties."
+56,"Special alloy steels are extensively used in:","Automobile, Aerospace and Defence","Textile industry","Paper industry","Agriculture only","A","Alloy steels are used in high-performance engineering."
+57,"Electrical sheets are mainly used in:","Electrical machinery","Bridge construction","Railway sleepers","Pressure vessels","A","Silicon steel sheets are used in motors and transformers."
+58,"Hot rolling is performed:","Above recrystallization temperature","Below recrystallization temperature","At room temperature","Below freezing point","A","Hot rolling occurs above the recrystallization temperature."
+59,"Compared to cold rolling, hot rolling allows:","Greater reduction per pass","Less reduction","No deformation","Only finishing","A","Hot working permits larger reductions."
+60,"The main purpose of reheating slabs is to:","Increase plasticity for rolling","Increase carbon content","Remove alloying elements","Reduce density","A","Heating makes steel easier to deform."
+61,"Typical slab discharge temperature from a reheating furnace is:","1100–1300°C","600–800°C","800–900°C","1400–1600°C","A","Slabs are discharged between 1100 and 1300°C."
+62,"Continuous reheating furnaces are mainly of:","Pusher type and Walking Beam type","Electric type and Induction type","Pit type and Rotary type","Cupola type and BOF type","A","These are the two common furnace designs."
+63,"Walking Beam furnaces move slabs using:","Hydraulically operated beams","Roller chains","Magnetic conveyors","Manual pushing","A","Hydraulic beams transport slabs."
+64,"The reheating furnace contains how many heating zones?","6","4","8","10","A","It has preheating, heating and soaking zones at top and bottom."
+65,"Scale formed during reheating mainly consists of:","Iron oxides","Carbon deposits","Sulphides","Silicates","A","Heating forms iron oxide scale."
+66,"Scale is removed using:","High-pressure water jets","Compressed air","Brushes","Steam","A","Hydraulic descalers remove oxide scale."
+67,"Descaling is essential because it prevents:","Surface defects","Cooling","Lubrication","Annealing","A","Proper descaling ensures defect-free products."
+68,"Maximum reduction in strip thickness occurs in:","Roughing stands","Finishing stands","Coilers","Cooling banks","A","Roughing performs the largest thickness reduction."
+69,"A 220 mm slab is typically reduced to approximately:","26–40 mm","80–100 mm","100–120 mm","2 mm","A","The roughing mill reduces slab thickness substantially."
+70,"Final strip dimensions are obtained in:","Finishing stands","Reheating furnace","Crop shear","Descaler","A","Finishing stands produce the final thickness."
+71,"Finishing temperature is important because it determines:","Metallurgical properties","Coil weight","Fuel consumption","Packaging quality","A","Mechanical properties depend on finishing temperature."
+72,"Controlled cooling before coiling takes place on the:","Run-Out Table (ROT)","Reheating furnace","Pickling line","Annealing line","A","The ROT cools strips before coiling."
+73,"The number of cooling water banks depends on:","Target cooling rate","Roll diameter","Steel density","Mandrel size","A","Cooling rate determines water bank selection."
+74,"The main purpose of controlled cooling is to achieve:","Desired coiling temperature","Maximum scale formation","Higher density","Reduced length","A","Cooling controls the final microstructure."
+75,"The strip is wound into coils using:","Coilers","Crop shears","Edgers","Manipulators","A","Coilers wind the strip after cooling."
+76,"The major components of a coiler include:","Pinch rolls, Wrapper rolls and Mandrel","Work rolls and Backup rolls","Edgers and Guides","Crop shears and Flying shears","A","These components help coil the strip."
+77,"Before dispatch, hot rolled coils undergo:","Inspection and testing","Painting","Annealing","Galvanizing","A","Inspection ensures product quality."
+78,"The two main types of reheating furnaces used in finishing mills are:","Walking Beam and Pusher","Pit and Cupola","Electric and Arc","Open Hearth and BOF","A","Continuous furnaces are used in finishing mills."
+79,"Roll condition mainly affects:","Dimensional accuracy and shape","Chemical composition","Steel density","Carbon percentage","A","Roll wear directly affects product dimensions."
+80,"Roll change schedules must be followed to maintain:","Product quality","Fuel efficiency","Casting speed","Blast pressure","A","Proper roll maintenance ensures dimensional consistency."
+81,"Long products are generally manufactured by:","Hot rolling","Cold rolling","Forging","Extrusion","A","Large reductions required for long products are achieved by hot rolling."
+82,"Primary long product mills mainly produce:","Blooms and Billets","Rails","TMT Bars","Wire Rods","A","Primary mills manufacture semi-finished products."
+83,"Finishing long product mills manufacture:","Rails, Beams, Angles and Bars","Only Blooms","Only Billets","Only Slabs","A","Finishing mills convert semis into finished products."
+84,"Universal rail rolling is preferred because it provides:","Closer tolerances and better surface quality","Higher roll wear","Poor dimensional accuracy","Lower productivity","A","Universal rolling gives superior rail quality."
+85,"Structural rolling mills mainly process:","Billets, Blooms, Slabs and Beam Blanks","Only Coils","Only Plates","Only Ingots","A","These are the common input materials."
+86,"Structural rolling inputs are heated to approximately:","1100–1300°C","600–800°C","900–1000°C","1400–1500°C","A","Rolling requires reheating to about 1100–1300°C."
+87,"Brand marking on structural products is carried out:","At the final rolling stand","Before reheating","After dispatch","During casting","A","Branding is done during the finishing stage."
+88,"TMT stands for:","Thermo-Mechanical Treatment","Thermal Mechanical Technology","Thermal Metallurgical Treatment","Thermo Metal Transfer","A","TMT is the standard abbreviation."
+89,"The TMT process combines:","Rolling, Quenching and Self-Tempering","Rolling and Annealing","Casting and Rolling","Forging and Cooling","A","These three stages develop the desired microstructure."
+90,"The primary objective of a Wire Rod Mill is to manufacture:","Wire Rods from Billets","Rails from Blooms","Plates from Slabs","Pipes from Coils","A","WRMs convert billets into wire rods."
+91,"Higher productivity in a Wire Rod Mill is generally achieved by rolling:","Thicker sizes","Thinner sizes","Square billets only","Flat products","A","Thicker products allow higher production rates."
+92,"The main purpose of reheating before long product rolling is to:","Improve plastic deformability","Increase hardness","Reduce carbon","Increase density","A","Heating softens steel for deformation."
+93,"Maximum reduction in long product rolling occurs during:","Roughing","Intermediate Rolling","Finishing","Cooling","A","Roughing removes most of the cross-section."
+94,"Intermediate rolling receives material from:","Roughing stands","Finishing stands","Coilers","Cooling beds","A","It processes the output from roughing."
+95,"Finished profile shape is mainly developed during:","Pre-finishing and Finishing","Roughing","Reheating","Cooling","A","The final section is obtained during finishing."
+96,"Reduction in pre-finishing stands is:","Less than roughing stands","Greater than roughing stands","Equal to roughing stands","Zero","A","Only small reductions are applied."
+97,"After finishing, TMT bars enter the:","Quenching Box","Annealing Furnace","Pickling Line","Coiler","A","Rapid cooling begins in the quenching box."
+98,"High-pressure water in the quenching box rapidly cools the:","Outer surface","Entire cross-section","Core only","Edges only","A","The surface hardens while the core remains hot."
+99,"During TMT processing, the core of the bar remains:","Hot and ductile","Cold and brittle","Fully martensitic","Fully pearlitic","A","The hot core later tempers the hardened surface."
+100,"The hardened outer layer of a TMT bar is produced by:","Rapid quenching","Slow air cooling","Annealing","Pickling","A","Rapid water cooling forms the hardened surface."
+101,"Finished bars are cut according to:","Customer requirements","Mill speed","Furnace capacity","Roll diameter","A","Products are cut to specified lengths."
+102,"Cast numbers are stamped mainly for:","Traceability","Decoration","Painting","Weight measurement","A","Stamping allows product identification."
+103,"Straightening is normally performed:","After cooling","Before reheating","Before roughing","After casting","A","Straightening is a finishing operation."
+104,"Roller straightening machines straighten products by:","Alternate bending","Heating","Forging","Grinding","A","Repeated bending removes curvature."
+105,"Inspection of rolled products ensures:","Defective products are not dispatched","Higher rolling speed","Better furnace efficiency","Higher carbon content","A","Inspection is a quality assurance step."
+106,"Inspection parameters include:","Dimensions, Straightness and Surface Quality","Only Weight","Only Length","Only Colour","A","These are important quality characteristics."
+107,"Primary long product mills generally use:","Soaking Pit furnaces","Walking Beam furnaces","Electric Arc Furnaces","Cupolas","A","Soaking pits are used for ingot reheating."
+108,"Finishing mills generally use:","Continuous reheating furnaces","Pit furnaces only","Electric furnaces only","Rotary furnaces","A","Continuous furnaces improve productivity."
+109,"Rolling stands may have:","Horizontal rolls, Vertical rolls or both","Only Horizontal rolls","Only Vertical rolls","No rolls","A","Different stand configurations are used."
+110,"Accessories of rolling stands include:","Guides, Guards and Roll Cooling","Blast Furnace","Converter","Continuous Caster","A","These accessories assist the rolling process."
+111,"Most modern rolling mills use:","PLC-based Level-II Automation","Manual operation","Mechanical automation only","Hydraulic automation only","A","Level-II automation improves productivity and control."
+112,"Reversible electrical drives are mainly required because:","Rolling direction changes","Steel chemistry changes","Roll diameter changes","Cooling rate changes","A","Reversing mills require frequent direction changes."
+113,"Primary mill shears are mainly used to cut:","Blooms and Billets","Plates","Coils","Sheets","A","Primary shears crop semis."
+114,"Cutting saws in finishing mills are mainly used to:","Cut finished products to length","Increase hardness","Anneal products","Remove scale","A","They produce required customer lengths."
+115,"Ultrasonic testing is mainly used to detect:","Internal defects","Surface scratches","Roll marks","Scale","A","UT detects internal flaws."
+116,"X-ray testing is mainly used to detect:","Subsurface defects","Surface defects","Colour variations","Thickness only","A","X-ray identifies subsurface discontinuities."
+117,"Eddy current testing mainly detects:","Surface defects","Internal voids","Grain size","Chemical composition","A","It is a non-destructive surface inspection method."
+118,"Which of the following is a rolling defect?","Laps","Fins","Slivers","All of the above","D","All are common rolling defects."
+119,"Camber refers to:","Sideways curvature of the rolled product","Increase in thickness","Surface crack","Internal defect","A","Camber is a longitudinal bend."
+120,"Twist in rolled products means:","Helical distortion","Surface oxidation","Width reduction","Scale formation","A","Twist is a rotational distortion along the length."
+121,"Which rolling defect occurs when excess metal flows beyond the roll groove?","Overfill","Underfill","Camber","Twist","A","Overfill occurs due to excessive metal flow filling beyond the groove."
+122,"Underfill in rolling indicates:","Incomplete filling of the groove","Excessive reduction","High rolling speed","Roll breakage","A","Insufficient metal fills the groove, producing underfill."
+123,"Slivers are:","Thin elongated surface defects","Internal cavities","Oxide inclusions","Dimensional defects","A","Slivers are surface imperfections caused during rolling."
+124,"Laps are formed due to:","Improper metal flow folding over itself","Excessive cooling","Improper heating","Low rolling speed","A","Laps occur when metal folds and gets rolled into the surface."
+125,"Fire cracks mainly develop on:","Roll surfaces","Steel strip","Billets","Cooling beds","A","Thermal fatigue causes cracks on roll surfaces."
+126,"Roll marks are produced by:","Damaged or worn rolls","Improper reheating","Excessive lubrication","High carbon content","A","Defective rolls leave impressions on the product."
+127,"Rolled-in scale occurs because:","Scale is not completely removed before rolling","Steel is overheated","Steel is underheated","Cooling is too fast","A","Remaining oxide scale gets pressed into the strip."
+128,"Out-of-square defect mainly affects the:","Cross-sectional geometry","Chemical composition","Surface hardness","Weight","A","The product loses its proper right-angled cross-section."
+129,"Burnt edges are mainly caused by:","Overheating","Underheating","Excessive lubrication","Low reduction","A","High temperature damages strip edges."
+130,"Wedge defect refers to:","Unequal thickness across strip width","Surface crack","Centre buckle","Roll mark","A","The strip thickness varies across its width."
+131,"Special steels include:","Alloy and Stainless steels","Only Carbon steels","Only Tool steels","Only Cast irons","A","The chapter covers alloy and stainless steels under special steels."
+132,"High-carbon and high-alloy grades are generally:","Hot transferred","Cold transferred","Air cooled","Water cooled","A","These grades are transferred while still hot."
+133,"Special steel ingots are reheated in:","Soaking pit furnaces","Walking beam furnaces only","Electric arc furnaces","Blast furnaces","A","Soaking pits are used before cogging."
+134,"Cogging mills primarily convert:","Ingots into blooms","Blooms into coils","Slabs into plates","Coils into sheets","A","Cogging reduces ingots into blooms."
+135,"Hot scarfing is performed to:","Remove surface defects","Increase strip thickness","Improve hardness","Increase ductility","A","Scarfing removes defective surface layers."
+136,"Bloom shears remove:","Top and bottom discard ends","Surface scale","Rust","Coating","A","End portions are cropped before further rolling."
+137,"Stainless steel slabs for Salem Steel Plant mainly come from:","Alloy Steel Plant","Bhilai Steel Plant","Bokaro Steel Plant","Burnpur","A","ASP supplies stainless steel slabs to Salem."
+138,"Steckel Mills are mainly used for:","Hot rolling stainless steel","Wire drawing","Pipe making","Cold rolling","A","Steckel mills produce stainless hot rolled coils."
+139,"Inspection of rolled blooms is carried out after:","Grinding, pickling or shot blasting","Galvanizing","Annealing","Painting","A","Surface preparation exposes defects for inspection."
+140,"Ultrasonic flaw detectors are extensively used for inspecting:","Rails and Pipes","Billets only","Coils only","Angles only","A","UT is commonly used for rails and pipe inspection."
+141,"Cold rolling is mainly performed to obtain:","Better finish and dimensional accuracy","Higher casting speed","Higher carbon content","Lower strength","A","Cold rolling improves finish and precision."
+142,"The input material for Cold Rolling Mills is:","Hot Rolled Coils","Billets","Blooms","Pig Iron","A","CRM processes hot rolled coils."
+143,"Scale formed during hot rolling mainly consists of:","Iron oxides","Carbon deposits","Silicates","Sulphides","A","Iron oxide scale must be removed before cold rolling."
+144,"Pickling removes scale mainly by:","Chemical dissolution","Grinding","Machining","Shot blasting only","A","Acid dissolves remaining oxide scale."
+145,"The most commonly used pickling acids are:","Hydrochloric and Sulphuric acids","Nitric and Hydrofluoric acids","Acetic and Boric acids","Citric and Oxalic acids","A","HCl and H₂SO₄ are industrial pickling acids."
+146,"Hydrochloric acid pickling is approximately:","2.5–3 times faster than sulphuric acid","Twice as slow","Equal in speed","Five times faster","A","The chapter specifies this comparison."
+147,"Cold reduction is performed after:","Pickling","Galvanizing","Annealing","Skin passing","A","Pickled strip enters the cold reduction mill."
+148,"Cold rolling may be carried out in:","Reversing and Tandem mills","Only Planetary mills","Only Two-high mills","Only Universal mills","A","Both reversing and tandem mills are used."
+149,"The 20-high mill is mainly used for rolling:","Stainless steel","Rails","Plates","Billets","A","Very thin stainless steel requires high-rigidity mills."
+150,"The principal advantage of tandem cold rolling mills is:","High-speed continuous production","Lower roll wear only","Reduced heating cost","No lubrication required","A","Multiple stands operate simultaneously, giving high productivity."

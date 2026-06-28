@@ -1,151 +1,231 @@
 question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
-1,Hindustan Steel Limited was set up on,19 Jan 1954,19 Jan 1955,24 Jan 1973,2 Feb 1955,A,HSL was established on 19 January 1954.
-2,SAIL was incorporated on,24 Jan 1973,24 Jan 1972,19 Jan 1954,1 May 1978,A,SAIL was incorporated on 24 January 1973.
-3,SAIL was incorporated with authorised capital of,Rs.2000 crore,Rs.1000 crore,Rs.500 crore,Rs.2500 crore,A,"The authorised capital was Rs. 2,000 crore."
-4,The registered office of HSL was ultimately shifted to,Ranchi,Delhi,Kolkata,Bokaro,A,The office finally moved to Ranchi in Dec 1959.
-5,Chandrapur Ferro Alloy Plant is known for producing,Manganese based ferro alloys,Aluminium alloys,Copper alloys,Nickel alloys,A,CFP is the only PSU producing manganese based ferro alloys.
-6,SAIL's crude steel operating capacity at five integrated plants is,20.30 MTPA,49.60 MTPA,18.07 MTPA,6.80 MTPA,A,Current integrated plant crude steel capacity is 20.30 MTPA.
-7,Envisaged SAIL crude steel capacity of 5 ISPs by FY 2047 is,49.60 MTPA,50.60 MTPA,37 MTPA,20.30 MTPA,A,Target capacity is 49.60 MTPA.
-8,BSP envisaged crude steel capacity by FY2047 is,12.0 MTPA,8.8 MTPA,14.0 MTPA,7.5 MTPA,A,Bhilai target capacity is 12 MTPA.
-9,Which plant has envisaged capacity of 14 MTPA by FY2047?,Bokaro,Rourkela,Durgapur,IISCO,A,Bokaro's target is 14 MTPA.
-10,Current crude steel capacity of RSP is,4.2 MTPA,2.2 MTPA,6.8 MTPA,2.5 MTPA,A,RSP currently has 4.2 MTPA crude steel capacity.
-11,Agreement for Bhilai plant was signed with,Soviet Union,Germany,UK,Japan,A,India signed with the Soviet Union in 1955.
-12,Bhilai began operation with commissioning of,Coke Battery No.1,Blast Furnace No.2,SMS,Plate Mill,A,Operations began with Coke Battery No.1 on 31 Jan 1959.
-13,BSP is India's largest producer of,Rails,Pipes,Stainless steel,Electrical steel,A,BSP is the major rail producer.
-14,World's longest rails produced by BSP are,130 metre,120 metre,150 metre,260 metre,A,Single-piece rails are 130 m long.
-15,RSP is located in,Odisha,Jharkhand,West Bengal,Chhattisgarh,A,Rourkela Steel Plant is in Odisha.
-16,RSP has produced 100% steel through continuous casting since,1998,1994,1988,2006,A,RSP adopted 100% continuous casting from 1998.
-17,RSP is the only SAIL plant capable of producing,Large diameter pipes,Rails,Wheels,Stainless slabs,A,RSP uniquely produces large diameter pipes.
-18,DSP is situated on the banks of river,Damodar,Mahanadi,Subarnarekha,Narmada,A,Durgapur is on the Damodar river.
-19,DSP is pioneer in manufacturing,Forged railway wheels and axles,Large pipes,CRNO steel,Rails,A,DSP is known for wheels and axles.
-20,Bokaro is known as country's first,Swadeshi steel plant,Private steel plant,Stainless steel plant,Export steel plant,A,Bokaro was conceived as the first Swadeshi steel plant.
-21,First blast furnace at Bokaro started on,2 Oct 1972,6 Apr 1968,25 Jan 1965,26 Feb 1978,A,The first blast furnace started on 2 October 1972.
-22,IISCO was incorporated on,11 March 1918,11 March 1936,16 Feb 2006,1 Jan 1910,A,IISCO was incorporated in 1918.
-23,IISCO was amalgamated with SAIL on,16 Feb 2006,16 Feb 1979,28 Jul 2009,12 Jul 2011,A,IISCO merged with SAIL in 2006.
-24,ASP is located at,Durgapur,Salem,Ranchi,Bhilai,A,Alloy Steels Plant is at Durgapur.
-25,SSP was commissioned in,1981,1971,1991,1988,A,Salem Steel Plant was commissioned in 1981.
-26,VISL is a pioneer in production of,Alloy and special steels,Rails,Pipes,Galvanized sheets,A,VISL specializes in alloy and special steels.
-27,CFP installed silico-manganese capacity is,124000 TPY,240000 TPY,70000 TPY,180000 TPY,A,"CFP capacity is 1,24,000 TPY."
-28,SAIL operates how many iron ore mines?,15,22,11,6,A,SAIL operates 15 iron ore mines.
-29,Mining leases held by SAIL for iron ore operations,22,15,11,34,A,There are 22 mining leases.
-30,National Steel Policy 2017 envisages steel capacity of,300 MTPA,100 MTPA,200 MTPA,500 MTPA,A,NSP 2017 targets 300 MTPA by FY2030-31.
-31,Planned iron ore production capacity by FY2030-31,100 MT,46 MT,34 MT,37 MT,A,SAIL plans about 100 MT capacity.
-32,SAIL imports approximately what share of coking coal requirement?,80-85%,20-25%,50-55%,95-100%,A,Most coking coal is imported.
-33,Chasnalla and Tasra mines produce,Coking coal,Thermal coal,Limestone,Dolomite,A,Both are coking coal mines.
-34,Ramnagore mine produces,Thermal coal,Coking coal,Iron ore,Dolomite,A,Ramnagore is a thermal coal mine.
-35,CCSO is located at,Dhanbad,Ranchi,Kolkata,Bokaro,A,CCSO headquarters are in Dhanbad.
-36,CMO headquarters are at,Kolkata,Delhi,Ranchi,Mumbai,A,Central Marketing Organisation HQ is Kolkata.
-37,Number of CMO regional offices,4,35,5,2,A,CMO has four regional offices.
-38,Total sales during FY 2024-25 were,18.07 MT,20.30 MT,19.17 MT,34 MT,A,Sales reached 18.07 MT.
-39,Exports during FY2024-25 were about,0.12 MT,1.2 MT,0.48 MT,18.07 MT,A,Exports were 0.12 MT.
-40,RDCIS was set up in,1972,1982,1988,1962,A,RDCIS was established in 1972.
-41,SSO was set up in,1988,1972,1982,1962,A,SAIL Safety Organisation began in 1988.
-42,CET was started in,1982,1988,1972,1962,A,Centre for Engineering & Technology started in 1982.
-43,MTI was set up in,1962,1972,1982,1954,A,Management Training Institute started in 1962.
-44,EMD was established on,23 June 1988,24 Jan 1973,1 Jan 1988,23 June 1982,A,EMD was established on 23 June 1988.
-45,Digital transformation initiative of SAIL is called,PRAVARTANAM,SARATHI,NEX,E-Abhigyan,A,PRAVARTANAM is the 3-year initiative.
-46,PRAVARTANAM targets annual value realization of,₹1000 crore,₹100 crore,₹500 crore,₹2000 crore,A,"Target value realization is ₹1,000 crore."
-47,SAIL workforce as on 01.02.2026 was,"50,246","52,046","40,256","60,246",A,"Manpower stood at 50,246."
-48,Revenue from operations during 2024-25 was,"Rs.1,02,478 Cr","Rs.2,00,000 Cr","Rs.49,600 Cr","Rs.18,070 Cr",A,"Revenue was Rs.1,02,478 crore."
-49,Chapter-based revision MCQ #0: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-50,Chapter-based revision MCQ #1: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-51,Chapter-based revision MCQ #2: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-52,Chapter-based revision MCQ #3: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-53,Chapter-based revision MCQ #4: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-54,Chapter-based revision MCQ #5: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-55,Chapter-based revision MCQ #6: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-56,Chapter-based revision MCQ #7: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-57,Chapter-based revision MCQ #8: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-58,Chapter-based revision MCQ #9: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-59,Chapter-based revision MCQ #10: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-60,Chapter-based revision MCQ #11: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-61,Chapter-based revision MCQ #12: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-62,Chapter-based revision MCQ #13: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-63,Chapter-based revision MCQ #14: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-64,Chapter-based revision MCQ #15: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-65,Chapter-based revision MCQ #16: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-66,Chapter-based revision MCQ #17: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-67,Chapter-based revision MCQ #18: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-68,Chapter-based revision MCQ #19: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-69,Chapter-based revision MCQ #20: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-70,Chapter-based revision MCQ #21: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-71,Chapter-based revision MCQ #22: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-72,Chapter-based revision MCQ #23: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-73,Chapter-based revision MCQ #24: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-74,Chapter-based revision MCQ #25: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-75,Chapter-based revision MCQ #26: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-76,Chapter-based revision MCQ #27: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-77,Chapter-based revision MCQ #28: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-78,Chapter-based revision MCQ #29: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-79,Chapter-based revision MCQ #30: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-80,Chapter-based revision MCQ #31: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-81,Chapter-based revision MCQ #32: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-82,Chapter-based revision MCQ #33: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-83,Chapter-based revision MCQ #34: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-84,Chapter-based revision MCQ #35: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-85,Chapter-based revision MCQ #36: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-86,Chapter-based revision MCQ #37: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-87,Chapter-based revision MCQ #38: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-88,Chapter-based revision MCQ #39: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-89,Chapter-based revision MCQ #40: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-90,Chapter-based revision MCQ #41: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-91,Chapter-based revision MCQ #42: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-92,Chapter-based revision MCQ #43: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-93,Chapter-based revision MCQ #44: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-94,Chapter-based revision MCQ #45: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-95,Chapter-based revision MCQ #46: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-96,Chapter-based revision MCQ #47: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-97,Chapter-based revision MCQ #48: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-98,Chapter-based revision MCQ #49: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-99,Chapter-based revision MCQ #50: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-100,Chapter-based revision MCQ #51: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-101,Chapter-based revision MCQ #52: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-102,Chapter-based revision MCQ #53: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-103,Chapter-based revision MCQ #54: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-104,Chapter-based revision MCQ #55: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-105,Chapter-based revision MCQ #56: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-106,Chapter-based revision MCQ #57: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-107,Chapter-based revision MCQ #58: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-108,Chapter-based revision MCQ #59: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-109,Chapter-based revision MCQ #60: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-110,Chapter-based revision MCQ #61: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-111,Chapter-based revision MCQ #62: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-112,Chapter-based revision MCQ #63: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-113,Chapter-based revision MCQ #64: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-114,Chapter-based revision MCQ #65: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-115,Chapter-based revision MCQ #66: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-116,Chapter-based revision MCQ #67: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-117,Chapter-based revision MCQ #68: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-118,Chapter-based revision MCQ #69: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-119,Chapter-based revision MCQ #70: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-120,Chapter-based revision MCQ #71: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-121,Chapter-based revision MCQ #72: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-122,Chapter-based revision MCQ #73: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-123,Chapter-based revision MCQ #74: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-124,Chapter-based revision MCQ #75: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-125,Chapter-based revision MCQ #76: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-126,Chapter-based revision MCQ #77: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-127,Chapter-based revision MCQ #78: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-128,Chapter-based revision MCQ #79: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-129,Chapter-based revision MCQ #80: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-130,Chapter-based revision MCQ #81: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-131,Chapter-based revision MCQ #82: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-132,Chapter-based revision MCQ #83: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-133,Chapter-based revision MCQ #84: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-134,Chapter-based revision MCQ #85: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-135,Chapter-based revision MCQ #86: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-136,Chapter-based revision MCQ #87: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-137,Chapter-based revision MCQ #88: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-138,Chapter-based revision MCQ #89: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-139,Chapter-based revision MCQ #90: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-140,Chapter-based revision MCQ #91: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-141,Chapter-based revision MCQ #92: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-142,Chapter-based revision MCQ #93: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-143,Chapter-based revision MCQ #94: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-144,Chapter-based revision MCQ #95: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-145,Chapter-based revision MCQ #96: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-146,Chapter-based revision MCQ #97: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-147,Chapter-based revision MCQ #98: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-148,Chapter-based revision MCQ #99: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-149,Chapter-based revision MCQ #100: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
-150,Chapter-based revision MCQ #101: Which organization is India's largest industrial marketing setup for SAIL products?,CMO,CCSO,RDCIS,EMD,A,CMO handles sales and marketing of SAIL's prime products.
+1,"When was Hindustan Steel Limited (HSL) established?","19 January 1954","24 January 1973","2 February 1955","1 January 1959","A","HSL was established on 19 January 1954."
+2,"Who owned the shares of Hindustan Steel Limited on behalf of the people of India?","President of India","Prime Minister of India","Ministry of Steel","Parliament of India","A","The President of India held the shares on behalf of the people."
+3,"Which steel plant was initially managed by Hindustan Steel Limited?","Rourkela Steel Plant","Bhilai Steel Plant","Durgapur Steel Plant","Bokaro Steel Plant","A","HSL was initially created to manage only the Rourkela Steel Plant."
+4,"In which year were Bhilai and Durgapur Steel Plants brought under HSL?","1957","1954","1959","1962","A","Control of Bhilai and Durgapur plants was transferred to HSL in April 1957."
+5,"Where was the registered office of HSL originally located?","New Delhi","Kolkata","Ranchi","Bhilai","A","The original registered office of HSL was in New Delhi."
+6,"To which city was HSL's registered office finally shifted?","Ranchi","Kolkata","New Delhi","Bokaro","A","The registered office finally shifted to Ranchi in December 1959."
+7,"When was Bokaro Steel Limited incorporated?","January 1964","January 1954","January 1973","January 1968","A","Bokaro Steel Limited was incorporated in January 1964."
+8,"The 1 MT phase of Bhilai Steel Plant was completed by the end of which year?","1961","1959","1962","1967","A","The first 1 MT phase was completed by December 1961."
+9,"Which unit completed the 2.5 MT expansion phase of Bhilai Steel Plant?","Wire Rod Mill","Blast Furnace","Plate Mill","SMS","A","The commissioning of the Wire Rod Mill completed the 2.5 MT phase."
+10,"What was the total crude steel output of HSL in 1972-73?","4 MT","3 MT","2.5 MT","5 MT","A","HSL achieved a crude steel output of 4 MT in 1972-73."
+11,"Which Parliamentary Committee first reviewed the formation of a steel holding company?","Committee of Public Undertakings","Finance Committee","Planning Commission","Public Accounts Committee","A","The Committee of Public Undertakings reviewed the proposal."
+12,"The proposal to establish a steel holding company was approved by the Government in which year?","1972","1971","1973","1974","A","The proposal received approval in January 1972."
+13,"On which date was SAIL incorporated?","24 January 1973","19 January 1954","2 February 1955","1 May 1978","A","SAIL was incorporated on 24 January 1973."
+14,"What was the authorised capital of SAIL at the time of incorporation?","Rs. 2,000 crore","Rs. 500 crore","Rs. 5,000 crore","Rs. 1,000 crore","A","The authorised capital was Rs. 2,000 crore."
+15,"Which of the following was NOT originally included under SAIL in 1973?","RINL","HSL","BSL","NMDC","A","RINL was established later and initially remained under SAIL until 1982."
+16,"In which year was SAIL restructured into an operating company?","1978","1973","1982","1971","A","SAIL was restructured in 1978."
+17,"Which company merged with SAIL in February 2006?","IISCO","BCCL","NMDC","HSCL","A","IISCO merged with SAIL in February 2006."
+18,"Which SAIL unit is the only Public Sector producer of manganese-based ferro alloys?","Chandrapur Ferro Alloy Plant","Salem Steel Plant","Alloy Steels Plant","VISL","A","CFP is the only PSU producing manganese-based ferro alloys."
+19,"How many integrated steel plants does SAIL currently operate?","Five","Four","Six","Seven","A","SAIL operates five integrated steel plants."
+20,"Which integrated steel plant has the highest present crude steel capacity?","Bhilai Steel Plant","Bokaro Steel Plant","Rourkela Steel Plant","IISCO Steel Plant","A","BSP has the highest present capacity of 6.8 MTPA."
+21,"What is the current integrated crude steel capacity of SAIL?","20.30 MTPA","18.07 MTPA","49.60 MTPA","25 MTPA","A","The combined integrated crude steel capacity is 20.30 MTPA."
+22,"What crude steel capacity has SAIL envisaged by FY 2047?","49.60 MTPA","30 MTPA","37 MTPA","20.30 MTPA","A","The target capacity is 49.60 MTPA."
+23,"Which condition is essential before SAIL undertakes future expansion?","Demand growth for finished steel","Increase in exports only","Reduction in manpower","Closure of mines","A","Demand growth is necessary to absorb increased production."
+24,"Which steel plant has the highest envisaged crude steel capacity by FY 2047?","Bokaro Steel Plant","Bhilai Steel Plant","Rourkela Steel Plant","Durgapur Steel Plant","A","Bokaro is targeted to reach 14 MTPA."
+25,"With which country did India sign the agreement to establish Bhilai Steel Plant?","Soviet Union","Germany","United Kingdom","Japan","A","Bhilai was established with Soviet assistance."
+26,"When did Bhilai Steel Plant begin operations?","31 January 1959","2 February 1955","4 February 1959","24 January 1973","A","Operations began with commissioning of Coke Battery No.1."
+27,"Bhilai Steel Plant is India's largest producer of which product?","Rails","Pipes","Stainless Steel","Electrical Steel","A","BSP is India's largest producer of rails."
+28,"What is unique about the rails produced by Bhilai Steel Plant?","130 m single-piece rails","100 m rails","200 m rails","90 m rails","A","BSP produces the world's longest 130 m single-piece rails."
+29,"Which steel plant was the first integrated steel plant in India to produce flat products?","Rourkela Steel Plant","Bhilai Steel Plant","Bokaro Steel Plant","Durgapur Steel Plant","A","RSP pioneered flat product manufacturing."
+30,"Which SAIL plant is capable of producing large-diameter pipes?","Rourkela Steel Plant","Bhilai Steel Plant","Durgapur Steel Plant","ISP","A","Only RSP produces large-diameter pipes."
+31,"Since which year has Rourkela Steel Plant produced 100% of its steel through the Continuous Casting route?","1998","1994","2000","1990","A","RSP has produced 100% of its steel through continuous casting since 1998."
+32,"Which steelmaking process was first introduced in Asia by Rourkela Steel Plant?","Basic Oxygen Furnace (BOF)","Electric Arc Furnace","Open Hearth Furnace","Corex Process","A","RSP was the first in Asia to introduce the BOF process."
+33,"Which of the following products is NOT produced by Rourkela Steel Plant?","Heavy Rails","Hot Rolled Coils","Galvanized Sheets","CRNO Steel","A","Heavy rails are produced at Bhilai Steel Plant."
+34,"Rourkela Steel Plant specializes in producing defence and space quality products through which facility?","Special Plate Plant","Wire Rod Mill","Wheel & Axle Plant","Structural Mill","A","The Special Plate Plant produces defence and space quality plates."
+35,"What is the current crude steel production capacity of Rourkela Steel Plant?","4.2 MT","6.8 MT","2.2 MT","4.6 MT","A","RSP has a crude steel capacity of 4.2 MT."
+36,"On which river is Durgapur Steel Plant situated?","Damodar River","Mahanadi River","Subarnarekha River","Narmada River","A","DSP is situated on the banks of the Damodar River."
+37,"Which plant pioneered the manufacture of forged railway wheels and axles in India?","Durgapur Steel Plant","Bhilai Steel Plant","Bokaro Steel Plant","Rourkela Steel Plant","A","DSP is the pioneer in manufacturing forged railway wheels and axles."
+38,"What is the current crude steel capacity of Durgapur Steel Plant?","2.2 MT","4.2 MT","6.8 MT","2.5 MT","A","DSP currently has a crude steel capacity of 2.2 MT."
+39,"Which certification has been awarded to products from DSP's Medium Structural Mill?","CE Marking","ISO 14001","API Certification","BIS Hallmark","A","MSM products have received CE marking certification."
+40,"Which unique facility at DSP primarily serves Indian Railways?","Wheel & Axle Plant","Pipe Mill","Bloom Mill","Cold Rolling Mill","A","DSP's Wheel & Axle Plant manufactures forged wheels and axles."
+41,"Bokaro Steel Plant was conceived as India's first what?","Swadeshi Steel Plant","Export-Oriented Steel Plant","Private Steel Plant","Integrated Stainless Steel Plant","A","Bokaro was conceived as India's first Swadeshi steel plant."
+42,"When was the agreement signed with the USSR for Bokaro Steel Plant?","25 January 1965","24 January 1973","2 February 1955","6 April 1968","A","The Indo-USSR agreement was signed on 25 January 1965."
+43,"When did construction of Bokaro Steel Plant officially begin?","6 April 1968","2 October 1972","29 January 1964","1 May 1978","A","Construction started on 6 April 1968."
+44,"When was the first Blast Furnace of Bokaro Steel Plant commissioned?","2 October 1972","6 April 1968","25 January 1965","26 February 1978","A","The first blast furnace started on 2 October 1972."
+45,"The first phase of Bokaro Steel Plant was completed after commissioning of which blast furnace?","Third Blast Furnace","First Blast Furnace","Second Blast Furnace","Fourth Blast Furnace","A","The first phase was completed with the third blast furnace."
+46,"What is the present crude steel capacity of Bokaro Steel Plant?","4.65 MT","4.20 MT","6.80 MT","2.50 MT","A","BSL currently has a crude steel capacity of 4.65 MT."
+47,"Which category of products is the major specialization of Bokaro Steel Plant?","Flat Products","Rails","Ferro Alloys","Special Alloy Steels","A","BSL mainly manufactures flat steel products."
+48,"Which product is extensively supplied by Bokaro Steel Plant for LPG cylinder manufacturing?","Hot Rolled Coils","Rails","Heavy Structurals","Wire Rods","A","Hot Rolled Coils are supplied for LPG cylinder production."
+49,"Where is IISCO Steel Plant located?","Burnpur, West Bengal","Bhilai, Chhattisgarh","Rourkela, Odisha","Salem, Tamil Nadu","A","ISP is located at Burnpur in West Bengal."
+50,"IISCO was originally incorporated on which date?","11 March 1918","11 March 1936","16 February 2006","24 January 1973","A","IISCO was incorporated on 11 March 1918."
+51,"Which company established the iron works at Hirapur?","Burn & Co.","Tata Iron & Steel","Bengal Iron Works","Steel Corporation of Bengal","A","Burn & Co. promoted the original iron works."
+52,"In which year was the open-top blast furnace established at Kulti?","1870","1881","1889","1918","A","The first modern blast furnace at Kulti dates back to 1870."
+53,"Which company converted the open-top furnaces into closed-top furnaces?","Bengal Iron & Steel Company","Burn & Co.","IISCO","SCOB","A","BISCO modernized the furnaces."
+54,"In which year did regular steelmaking begin at IISCO?","1939","1918","1936","1952","A","Regular steel production started in 1939."
+55,"When was IISCO nationalized?","1972","1979","2006","1952","A","IISCO was nationalized in 1972."
+56,"IISCO became a wholly-owned subsidiary of SAIL in which year?","1979","1972","2006","1989","A","IISCO joined SAIL as a subsidiary in 1979."
+57,"What is the current crude steel capacity of IISCO Steel Plant?","2.5 MT","2.2 MT","4.6 MT","6.8 MT","A","ISP currently has a crude steel capacity of 2.5 MT."
+58,"Which of the following products is produced by IISCO Steel Plant?","TMT Re-bars","Large Diameter Pipes","Stainless Steel Coils","Electrical Steel","A","ISP manufactures TMT re-bars, wire rods and structurals."
+59,"Where is Alloy Steels Plant (ASP) located?","Durgapur","Salem","Bhilai","Ranchi","A","ASP is located at Durgapur."
+60,"Which special feature makes ASP unique in India?","Slab-cum-Twin Bloom Continuous Casting Machine","Largest Blast Furnace","Largest Plate Mill","Largest Coke Oven","A","ASP has India's only slab-cum-twin bloom continuous casting machine."
+61,"Which type of steel can ASP cast using its unique casting machine?","Austenitic Stainless Steel","Only Carbon Steel","Only Tool Steel","Only Pig Iron","A","ASP produces austenitic, ferritic and many special steels."
+62,"Approximately how many grades of steel can ASP manufacture?","More than 400","Around 100","Around 200","Around 50","A","ASP manufactures over 400 grades of alloy and special steels."
+63,"Salem Steel Plant was commissioned in which year?","1981","1973","1988","1991","A","SSP was commissioned in 1981."
+64,"Salem Steel Plant is primarily known for producing which material?","Stainless Steel","Rails","Pig Iron","Ferro Alloys","A","SSP is India's premier stainless steel producer."
+65,"Which stainless steel varieties are produced at Salem Steel Plant?","Austenitic, Ferritic, Martensitic and Low-Nickel","Only Austenitic","Only Ferritic","Only Duplex","A","SSP manufactures multiple stainless steel grades."
+66,"What is the installed capacity of Salem Steel Plant's Hot Rolling Mill?","3,64,000 tonnes/year","70,000 tonnes/year","1,80,000 tonnes/year","1,24,000 tonnes/year","A","The Hot Rolling Mill capacity is 3,64,000 tonnes per year."
+67,"What is the slab production capacity of Salem Steel Plant's Steel Melting Shop?","1,80,000 tonnes/year","70,000 tonnes/year","3,64,000 tonnes/year","98,280 tonnes/year","A","Its Steel Melting Shop produces 1.8 lakh tonnes of slabs annually."
+68,"Which country-first facility exists at Salem Steel Plant?","Stainless Steel Blanking Facility","Wheel Manufacturing Plant","Rail Welding Plant","Continuous Annealing Line","A","SSP has India's first top-of-the-line stainless steel blanking facility."
+69,"Which value-added products are manufactured under SSP's conversion scheme?","Kitchenware and Door Frames","Rails and Wheels","Pig Iron and Coke","Wire Rods","A","Kitchenware and door frames are important value-added products."
+70,"Which of the following is a new application developed using Salem Steel products?","LPG Tanks for Automobiles","Rail Tracks","Blast Furnaces","Coke Batteries","A","SSP developed stainless steel applications including LPG automobile tanks."
+71,"Visvesvaraya Iron & Steel Plant (VISL) is primarily known for producing which products?","High-quality alloy and special steels","Stainless steel coils","Large diameter pipes","Railway wheels","A","VISL is a pioneer in producing high-quality alloy and special steels along with pig iron."
+72,"Which steelmaking route is followed at VISL?","BF–BOF–LRF–VD","EAF–CCM","Corex–BOF","DRI–EAF","A","VISL uses the Blast Furnace–Basic Oxygen Furnace–Ladle Refining Furnace–Vacuum Degassing route."
+73,"Which advanced refining facility is available at VISL?","Vacuum Degassing","Basic Oxygen Converter","Pellet Plant","Sinter Plant","A","VISL includes Vacuum Degassing (VD) for producing high-quality alloy steels."
+74,"What is the installed hot metal capacity of VISL?","2,16,000 tonnes","98,280 tonnes","1,80,000 tonnes","1,24,000 tonnes","A","VISL has an installed hot metal capacity of 2,16,000 tonnes."
+75,"What is the installed alloy and special steel capacity of VISL?","98,280 tonnes","2,16,000 tonnes","70,000 tonnes","1,80,000 tonnes","A","VISL produces 98,280 tonnes of alloy and special steels annually."
+76,"Which SAIL unit was formerly known as Maharashtra Elektrosmelt Limited (MEL)?","Chandrapur Ferro Alloy Plant","Salem Steel Plant","VISL","ASP","A","CFP was earlier known as Maharashtra Elektrosmelt Limited."
+77,"From which date did Chandrapur Ferro Alloy Plant become a unit of SAIL?","12 July 2011","28 July 2009","16 February 2006","24 January 1973","A","CFP became a SAIL unit on 12 July 2011."
+78,"Chandrapur Ferro Alloy Plant is India's only PSU producing which products?","Manganese-based ferro alloys","Nickel alloys","Copper alloys","Silicon steel","A","CFP is the country's only PSU producing manganese-based ferro alloys."
+79,"What is the installed Silico-Manganese production capacity of CFP?","1,24,000 TPY","98,280 TPY","70,000 TPY","2,16,000 TPY","A","The installed capacity is 1,24,000 tonnes per year."
+80,"Which of the following is NOT produced by CFP?","Stainless Steel Coils","High Carbon Ferro Manganese","Silico Manganese","Medium Carbon Ferro Manganese","A","CFP produces ferro alloys, not stainless steel coils."
+81,"CFP is accredited with which quality certification?","ISO 9001:2008","ISO 14001","ISO 45001","ISO 50001","A","CFP holds ISO 9001:2008 certification."
+82,"How many 33 MVA submerged electric arc furnaces are available at CFP?","Two","One","Three","Four","A","CFP has two 33 MVA submerged electric arc furnaces."
+83,"Which former company merged with SAIL to become SAIL Refractory Unit (SRU)?","Bharat Refractories Limited","Hindustan Steel Construction Ltd.","National Mineral Development Corporation","Steel Corporation of Bengal","A","SRU originated from Bharat Refractories Limited."
+84,"What is the primary objective of SRU?","Meet refractory requirements of SAIL plants","Produce stainless steel","Export iron ore","Manufacture rails","A","SRU supplies refractories to SAIL plants."
+85,"How many production units are under SRU?","Four","Three","Five","Six","A","SRU operates four production units."
+86,"Which SRU unit manufactures Tap Hole Mass and Fire Clay Bricks?","Bhandaridah","IFICO Ramgarh","Ranchi Road","Bhilai Unit","A","Bhandaridah produces Tap Hole Mass, Castables and Fire Clay Bricks."
+87,"Which SRU unit manufactures Magnesia Carbon Bricks?","Ranchi Road","Bhandaridah","IFICO Ramgarh","Bhilai","A","Ranchi Road specializes in Basic Masses and Magnesia Carbon Bricks."
+88,"Which SRU unit produces Slide Gate Plates?","IFICO Ramgarh","Ranchi Road","Bhandaridah","Bhilai","A","IFICO Ramgarh manufactures Slide Gate Plates."
+89,"Which SRU unit produces silica refractories and performs lime calcination?","Bhilai Unit","IFICO Ramgarh","Ranchi Road","Bhandaridah","A","The Bhilai unit manufactures silica refractories and calcines lime."
+90,"After Coal India Ltd., SAIL has the ______ largest mining outfit in India.","Second","First","Third","Fourth","A","SAIL has the second-largest mining outfit after Coal India."
+91,"SAIL's captive mines are spread mainly across which three states?","Jharkhand, Odisha and Chhattisgarh","Jharkhand, Bihar and Odisha","Odisha, Maharashtra and MP","Chhattisgarh, Telangana and Karnataka","A","Most captive mines are located in Jharkhand, Odisha and Chhattisgarh."
+92,"How many iron ore mines are operated by SAIL?","15","22","18","12","A","SAIL operates 15 iron ore mines."
+93,"How many mining leases are held by SAIL for iron ore operations?","22","15","11","18","A","There are 22 mining leases."
+94,"Which Jharkhand mine recorded the highest iron ore production during FY 2024-25?","Gua","Kiriburu","Meghahatuburu","Chiria","A","Gua produced the highest quantity among Jharkhand mines."
+95,"Which Odisha iron ore mine recorded the highest production during FY 2024-25?","Bolani","Barsua","Kalta","Taldih","A","Bolani produced the maximum iron ore in Odisha."
+96,"Which Chhattisgarh mine showed the highest production during FY 2024-25?","Rowghat","Rajhara Mechanical","Mahamaya","Kalwar","A","Rowghat recorded the highest production among Chhattisgarh mines."
+97,"Approximately how much iron ore is currently produced annually by SAIL mines?","34 MTPA","20 MTPA","46 MTPA","100 MTPA","A","SAIL currently produces about 34 MTPA of iron ore."
+98,"What is SAIL's installed iron ore production capacity?","46 MTPA","34 MTPA","100 MTPA","20 MTPA","A","Installed iron ore capacity is 46 MTPA."
+99,"What iron ore production capacity does SAIL plan to achieve by FY 2030-31?","100 MTPA","50 MTPA","75 MTPA","46 MTPA","A","SAIL plans to increase capacity to about 100 MTPA."
+100,"The iron ore expansion plan is aligned with which National Steel Policy?","NSP 2017","NSP 2020","Steel Vision 2047","Industrial Policy 1991","A","Expansion aligns with National Steel Policy 2017."
+101,"According to NSP 2017, India's targeted steel capacity by FY 2030-31 is","300 MTPA","200 MTPA","500 MTPA","150 MTPA","A","NSP 2017 targets 300 MTPA steel capacity."
+102,"Which raw material is considered the most critical for blast furnace steelmaking?","Coking Coal","Thermal Coal","Limestone","Dolomite","A","Coking coal is essential for blast furnace ironmaking."
+103,"Approximately what percentage of coking coal requirement is imported by SAIL?","80–85%","40–50%","60–65%","20–30%","A","SAIL imports about 80–85% of its coking coal requirement."
+104,"Which SAIL coal mines produce coking coal?","Chasnalla and Tasra","Tasra and Ramnagore","Ramnagore and Jitpur","Jitpur and Kalwar","A","Chasnalla and Tasra are coking coal mines."
+105,"Which SAIL coal mine produces thermal coal?","Ramnagore","Tasra","Chasnalla","Jitpur","A","Ramnagore produces non-coking thermal coal."
+106,"Where is Chasnalla Washery located?","Jharkhand","Odisha","West Bengal","Chhattisgarh","A","Chasnalla Washery is located in Jharkhand."
+107,"How much washed coking coal was produced by Chasnalla Washery during FY 2024-25?","About 0.4 MTPA","1.2 MTPA","2.6 MTPA","4 MTPA","A","The washery produced approximately 0.4 MTPA."
+108,"What is the ash percentage of washed coking coal produced at Chasnalla Washery?","18%","10%","25%","30%","A","Washed coking coal supplied has around 18% ash."
+109,"Which coal block is being developed by SAIL with a capacity of 4 MTPA?","Tasra Coal Block","Jitpur Block","Chasnalla Block","Ramnagore Block","A","SAIL is developing the Tasra Coal Block."
+110,"What is the planned capacity of the new coking coal washery under the MDO model?","3.5 MTPA","4.0 MTPA","2.0 MTPA","5.0 MTPA","A","A 3.5 MTPA washery is being developed along with the Tasra Coal Block."
+111,"Which captive limestone mine of SAIL is located in Madhya Pradesh?","Kuteshwar Limestone Mine","Nandini Limestone Mine","Hirri Dolomite Mine","Rajhara Mine","A","Kuteshwar Limestone Mine is located in Madhya Pradesh."
+112,"Which SAIL limestone mine is situated in Chhattisgarh?","Nandini Limestone Mine","Kuteshwar Limestone Mine","Hirri Dolomite Mine","Bolani Mine","A","Nandini Limestone Mine is located in Chhattisgarh."
+113,"Which captive dolomite mine is operated by SAIL?","Hirri Dolomite Mine","Kuteshwar Mine","Nandini Mine","Barsua Mine","A","Hirri is SAIL's captive dolomite mine."
+114,"Where is the Central Coal Supply Organisation (CCSO) headquartered?","Dhanbad","Ranchi","Kolkata","Bhilai","A","CCSO is headquartered at Dhanbad."
+115,"What is the primary responsibility of CCSO?","Coal movement and supply coordination","Steel exports","Iron ore mining","Marketing steel","A","CCSO coordinates movement and supply of coal to SAIL plants."
+116,"Which organization coordinates the movement of raw coal from BCCL to Chasnalla Washery?","CCSO","CMO","RDCIS","EMD","A","CCSO coordinates raw coal movement."
+117,"Which CCSO function ensures coal quality at loading points?","Quality assessment of indigenous coal","Coal import","Coal washing","Coal auction","A","CCSO assesses coal quality before dispatch."
+118,"Which organization conducts linkage planning for all SAIL steel plants?","CCSO","CMO","RDCIS","CET","A","Linkage planning is a core responsibility of CCSO."
+119,"CCSO liaises with Railways primarily for what purpose?","Arrangement of rakes","Land acquisition","Export clearance","Port operations","A","Railways provide rakes for coal transportation."
+120,"CCSO maintains records related to which activity?","Coal production and dispatch","Steel exports","Plant modernization","Employee training","A","Production and dispatch records are maintained by CCSO."
+121,"Which organization conducts coking coal linkage auctions for SAIL?","Coal India Limited","SAIL","NMDC","RINL","A","Coal India Limited conducts linkage auctions."
+122,"Approximately how much washed coking coal is planned to be supplied by CCSO annually?","2.6 MTPA","4.0 MTPA","0.4 MTPA","1.0 MTPA","A","CCSO plans to supply around 2.6 MTPA."
+123,"Approximately how much boiler coal is planned to be supplied annually by CCSO?","4 MTPA","2.6 MTPA","1 MTPA","6 MTPA","A","Domestic boiler coal supply target is about 4 MTPA."
+124,"Which organization is India's largest industrial marketing setup?","Central Marketing Organisation (CMO)","RDCIS","CET","CCSO","A","CMO is India's largest industrial marketing network."
+125,"Which SAIL plant markets its stainless steel products independently?","Salem Steel Plant","Bhilai Steel Plant","Bokaro Steel Plant","Rourkela Steel Plant","A","SSP directly markets its stainless steel."
+126,"Who markets Mild Steel Hot Rolled Coils produced by Salem Steel Plant?","CMO","SSP","CET","RDCIS","A","Only stainless products are directly sold by SSP."
+127,"Where is the headquarters of Central Marketing Organisation located?","Kolkata","Delhi","Mumbai","Ranchi","A","CMO headquarters are in Kolkata."
+128,"How many Regional Offices does CMO operate?","4","5","6","8","A","CMO has four Regional Offices."
+129,"Which of the following is NOT a CMO Regional Office?","Hyderabad","Delhi","Mumbai","Chennai","A","CMO regional offices are Delhi, Kolkata, Mumbai and Chennai."
+130,"How many Branch Sales Offices are operated by CMO?","35","25","40","50","A","CMO operates 35 Branch Sales Offices."
+131,"How many Customer Contact Offices does CMO have?","4","6","8","10","A","CMO has four Customer Contact Offices."
+132,"How many Warehouses are operated under CMO?","35","25","40","50","A","CMO services customers through 35 warehouses."
+133,"Which division of CMO is responsible for exports?","International Trade Division (ITD)","Regional Office","Retail Division","Logistics Division","A","ITD handles exports."
+134,"During FY 2024-25, SAIL's total steel sales reached approximately","18.07 MT","20.30 MT","19.17 MT","34 MT","A","The chapter reports sales of 18.07 MT."
+135,"Approximately how much steel did SAIL export during FY 2024-25?","0.12 MT","0.40 MT","1.20 MT","2.60 MT","A","Exports were approximately 0.12 MT."
+136,"Exports contributed approximately what percentage of SAIL's turnover during FY 2024-25?","0.48%","4.8%","1.8%","2.4%","A","Exports accounted for about 0.48%."
+137,"SAIL's representative office has been established in which Middle East country?","United Arab Emirates","Saudi Arabia","Qatar","Oman","A","SAIL has a representative office in UAE."
+138,"Besides UAE, SAIL has representative offices in","Mozambique and Nepal","Japan and Singapore","Germany and France","USA and UK","A","The chapter lists Mozambique and Nepal."
+139,"Which product category is handled by CMO?","Hot Rolled Coils","Only Ferro Alloys","Only Pig Iron","Only Stainless Steel","A","CMO markets a wide range of steel products."
+140,"Which of the following is marketed by CMO?","Rails","Only TMT Bars","Only Plates","Only Pipes","A","Rails are one of the major products marketed."
+141,"Which campaign of the Government inspired SAIL to develop new grades?","Atmanirbhar Bharat","Skill India","Digital India","Startup India","A","New grades support Atmanirbhar Bharat."
+142,"Which new stainless steel grade was developed by Salem Steel Plant?","Duplex Stainless Steel","Ferritic 409","Austenitic 304","Martensitic 410","A","SSP developed Duplex Stainless Steel."
+143,"Duplex Stainless Steel offers","Higher strength and superior corrosion resistance","Low strength","Only decorative finish","Lower corrosion resistance","A","It combines high strength with excellent corrosion resistance."
+144,"Which SAIL plant developed AWS A5.17 EM12K welding wire grade?","IISCO Steel Plant","Bhilai Steel Plant","Rourkela Steel Plant","Durgapur Steel Plant","A","The chapter attributes this development to ISP."
+145,"Which SAIL plant developed Ultra Low Nb Structural (E-350 BR)?","Durgapur Steel Plant","Bhilai Steel Plant","Bokaro Steel Plant","Rourkela Steel Plant","A","DSP developed this structural grade."
+146,"Which SAIL plant developed IS 7887 CAQ Grade-1 wire rods?","Bhilai Steel Plant","Bokaro Steel Plant","Rourkela Steel Plant","IISCO Steel Plant","A","BSP developed this grade."
+147,"Which SAIL plant developed HSFQ-450 steel grade?","Rourkela Steel Plant","Bhilai Steel Plant","Bokaro Steel Plant","Durgapur Steel Plant","A","HSFQ-450 was developed by RSP."
+148,"Which SAIL plant developed EN10025-5 / IS11587 HR Coils?","Bokaro Steel Plant","Rourkela Steel Plant","Bhilai Steel Plant","ISP","A","BSL developed these HR coils."
+149,"SAIL primarily focuses its exports on which markets?","SAARC nations and Europe","North America","Australia","South America","A","The export strategy focuses on nearby markets."
+150,"Which product supplied by SAIL is extensively used in Vande Bharat coaches?","Stainless Steel","Pig Iron","Silico Manganese","Dolomite","A","SAIL supplied a major portion of stainless steel for Vande Bharat coaches."
+151,"Which SAIL brand is promoted specifically for structural steel products?","NEX","SAILMAX","STEELX","BHARAT","A","NEX is SAIL's flagship brand for structural steel products."
+152,"SAIL promotes the NEX brand primarily through interactions with","Architects and Structural Designers","School Students","Export Agents","Coal Suppliers","A","Architects and structural designers are key stakeholders for NEX promotion."
+153,"Approximately how many dealers are included in SAIL's dealership network?","More than 4,800","More than 2,000","More than 3,000","More than 6,000","A","SAIL has an extensive network of over 4,800 dealers."
+154,"SAIL established which distribution model to strengthen its retail channel?","Two-Tier Distributor Channel","Single Dealer Model","Direct Factory Sales Only","Franchise Model","A","A two-tier distribution system improves market reach."
+155,"The primary objective of SAIL's Two-Tier Distribution System is to","Reach individual steel consumers efficiently","Reduce steel production","Increase imports","Replace warehouses","A","The system expands retail availability across the country."
+156,"SAIL conducts workshops at engineering colleges mainly to","Promote steel usage in structural design","Recruit employees","Sell machinery","Promote exports","A","These workshops encourage the use of steel in engineering design."
+157,"Cross-functional teams in SAIL mainly consist of representatives from","Marketing and Plants","Finance and HR","Safety and Mines","Railways and Marketing","A","Marketing and plant experts jointly develop new products."
+158,"SAIL actively collaborates with Ministries to emphasize which concept in projects?","Life Cycle Cost","Lowest Initial Cost","Import Substitution Only","Private Funding","A","SAIL promotes Life Cycle Cost for better long-term project evaluation."
+159,"Which social media platform is NOT specifically mentioned in the chapter for SAIL promotions?","Pinterest","LinkedIn","Instagram","YouTube","A","Pinterest is not listed among SAIL's official promotional platforms."
+160,"What is the purpose of assigning a Key Account Manager to important customers?","Provide single-window service","Reduce production cost","Control exports","Monitor mines","A","Dedicated managers improve customer service and coordination."
+161,"What is the name of SAIL's AI-based chatbot?","SAIL SARATHI","SAIL MITRA","STEEL AI","SAIL CARE","A","SAIL SARATHI provides customer information and navigation support."
+162,"Which online portal allows customers to book TMT orders?","SAIL Suraksha","SAIL Connect","Steel India Portal","SAIL Market","A","SAIL Suraksha enables online TMT booking."
+163,"The 'Gaon Ki Ore' campaign primarily promotes","Steel usage in rural areas","Mine safety","Employee welfare","Exports","A","The campaign encourages steel consumption in rural India."
+164,"Who are the major target audience under the 'Gaon Ki Ore' campaign?","Village decision makers, masons and builders","Export buyers","Mining engineers","College professors","A","The campaign targets rural construction influencers."
+165,"How many workshops were conducted under 'Gaon Ki Ore' during FY 2022-23?","363","263","463","563","A","The chapter reports 363 workshops."
+166,"Approximately how many 'Gaon Ki Ore' workshops were held during Apr–May 2023-24?","90","60","120","150","A","Ninety workshops were conducted during this period."
+167,"How many Key Accounts are managed under SAIL's strategic customer relationship programme?","62","42","82","102","A","The chapter mentions 62 Key Accounts."
+168,"Contract manufacturing from December 2024 was initiated with","NMDC Steel","RINL","Tata Steel","JSW Steel","A","SAIL entered into contract manufacturing with NMDC Steel."
+169,"Technical Marketing Officers (TMOs) are primarily appointed to","Solve customer application problems","Inspect mines","Audit finances","Train employees","A","TMOs assist customers in technical applications of steel."
+170,"SAIL organized which major conclave in 2025 to strengthen defence collaboration?","Defence Conclave 2025","Steel Vision Summit","National Alloy Meet","Rail Infrastructure Expo","A","The Defence Conclave strengthened ties with defence organizations."
+171,"SAIL supplied naval steel for India's first indigenously designed Anti-Submarine Warfare Shallow Water Craft named","INS Arnala","INS Vikrant","INS Nilgiri","INS Ajay","A","INS Arnala is specifically mentioned in the chapter."
+172,"Which aircraft carrier listed in the chapter used SAIL steel?","INS Vikrant","INS Viraat","INS Jalashwa","INS Delhi","A","SAIL supplied steel for INS Vikrant."
+173,"Which of the following naval vessels is specifically mentioned as using SAIL steel?","INS Nilgiri","INS Mysore","INS Mumbai","INS Chennai","A","INS Nilgiri is listed among the naval platforms."
+174,"Which digital feature was integrated into the SAIL Suraksha website?","TMT Estimator","AI Recruitment Portal","Mine Monitoring System","Steel Auction Portal","A","The TMT Estimator helps estimate reinforcement requirements."
+175,"Which organization assisted in developing the TMT Estimator?","INSDAG","BIS","RDSO","CII","A","INSDAG collaborated in developing the estimator."
+176,"Which bank was integrated with SAIL's portal for customer payments?","State Bank of India","Punjab National Bank","Bank of Baroda","Canara Bank","A","SBI payment integration is specifically mentioned."
+177,"Which registration module was introduced in SAIL's portal?","MSME Registration Module","GST Registration Module","Import Registration Module","Export Registration Module","A","The portal includes MSME registration."
+178,"Which SAIL plant developed wheels for the Vande Bharat Express?","Durgapur Steel Plant","Bhilai Steel Plant","Rourkela Steel Plant","Bokaro Steel Plant","A","DSP's Wheel & Axle Plant developed these wheels."
+179,"Which SAIL plant developed R350 HT grade Long Rail Panels for higher axle loads?","Bhilai Steel Plant","Rourkela Steel Plant","Bokaro Steel Plant","IISCO Steel Plant","A","BSP developed these rails for Indian Railways."
+180,"R350 HT grade Long Rail Panels were developed primarily for","Higher axle load requirements","Metro Rail","Export Markets","Industrial Cranes","A","The rails support higher axle loads for Indian Railways."
+181,"Research & Development Centre for Iron & Steel (RDCIS) was established in which year?","1972","1982","1988","1962","A","RDCIS was established in 1972 as the corporate R&D unit of SAIL."
+182,"RDCIS is registered as an approved R&D unit under which organization?","DSIR","DRDO","CSIR","BIS","A","RDCIS is registered under the Department of Scientific and Industrial Research (DSIR)."
+183,"Which SAIL organization is the nodal agency for product development and intellectual property management?","RDCIS","CET","CMO","EMD","A","RDCIS is responsible for product development and IP management."
+184,"Which of the following is NOT a major area of RDCIS research?","Banking Technology","Product Development","Plant Performance Improvement","Technical Services","A","RDCIS focuses on iron and steel technologies, not banking."
+185,"Approximately how many scientists and engineers work at RDCIS?","121","75","250","500","A","The chapter states RDCIS has around 121 scientists and engineers."
+186,"RDCIS primarily aims to improve","Product quality and cost effectiveness","Foreign trade","Coal imports","Railway operations","A","Major R&D efforts target quality improvement and cost reduction."
+187,"RDCIS provides consultancy through","Technology transfer and contract research","Mining leases","Railway management","Export licensing","A","Technology transfer and consultancy are key RDCIS services."
+188,"RDCIS collaborates with","National and international research organizations","Only foreign universities","Only private companies","Only steel plants","A","Collaboration strengthens technological development."
+189,"How many advanced diagnostic equipment are available at RDCIS?","More than 500","Around 100","250","1000","A","The chapter specifies more than 500 advanced diagnostic instruments."
+190,"How many major laboratories are available at RDCIS?","15","10","20","8","A","RDCIS has 15 major laboratories."
+191,"SAIL Safety Organisation (SSO) was established in","1988","1972","1982","1992","A","SSO was established in Ranchi in 1988."
+192,"SSO headquarters is located at","Ranchi","Kolkata","Delhi","Bhilai","A","The corporate safety organization is based at Ranchi."
+193,"The primary objective of SSO is to","Promote accident-free work environment","Increase exports","Develop new steel grades","Manage coal mines","A","SSO formulates safety policies for accident-free operations."
+194,"SSO formulates","Safety policies, procedures and guidelines","Mining leases","Marketing plans","Financial budgets","A","Safety management is the core responsibility."
+195,"Which forum is managed by SSO?","JCSSI","INSDAG","CIL","RDSO","A","SSO manages the Joint Committee on Safety, Health & Environment."
+196,"JCSSI stands for","Joint Committee on Safety, Health & Environment in Steel Industry","Joint Council for Steel Standards","National Safety Committee","Joint Coal Safety Institute","A","This bipartite committee promotes safety."
+197,"SSO emphasizes","Systematic Safety Management","Manual inspection only","Export promotion","Financial auditing","A","Systematic safety management is emphasized."
+198,"Each SAIL plant has","Safety Engineering Department","Export Division","Digital Cell","Training Academy","A","Every plant has a dedicated Safety Engineering Department."
+199,"SSO conducts HRD interventions for","Managers, Safety Personnel and Trade Union Leaders","Only workers","Only engineers","Only executives","A","Training covers multiple stakeholder groups."
+200,"SSO also focuses on","Occupational Health and Pollution Control","Sales Promotion","Mine Auctions","Export Documentation","A","Occupational health is an important responsibility."
+201,"Centre for Engineering & Technology (CET) started in","1982","1972","1988","1962","A","CET started in 1982."
+202,"CET headquarters is located at","Ranchi","Delhi","Kolkata","Bhilai","A","The head office of CET is Ranchi."
+203,"Which organization is the design and consultancy unit of SAIL?","CET","RDCIS","CMO","EMD","A","CET provides engineering consultancy."
+204,"CET acts as the nodal agency for","Technology acquisition and transfer","Steel exports","Mine safety","Coal washing","A","Technology acquisition is one of CET's major roles."
+205,"Which of the following services is provided by CET?","Project Consultancy","Export Financing","Employee Recruitment","Stock Market Analysis","A","CET offers engineering consultancy."
+206,"CET also provides expertise in","Mine Planning","Insurance","Railway Signalling","Taxation","A","Mine planning is specifically mentioned."
+207,"CET supports","Industrial Pollution Control","Hospital Management","Coal Trading","Steel Marketing","A","Environmental engineering is one of its services."
+208,"CET represents","Technical and Managerial Expertise","Financial Expertise","Export Expertise","Mining Licensing","A","The chapter describes CET as a reservoir of expertise."
+209,"CET continuously upgrades engineers through","HRD Programmes","Sports Activities","Foreign Tours","Online Shopping","A","Continuous skill development is emphasized."
+210,"CET aims to provide","Cost-effective engineering solutions","Imported technologies only","Mining contracts","Foreign consultancy only","A","CET focuses on cost-effective engineering."
+211,"Management Training Institute (MTI) was established in","1962","1972","1982","1988","A","MTI is SAIL's apex management training institute."
+212,"MTI is located at","Ranchi","Delhi","Kolkata","Bokaro","A","MTI is situated in Ranchi."
+213,"The primary role of MTI is","Management Development","Steel Production","Coal Mining","Marketing","A","MTI develops managerial capabilities."
+214,"MTI prepares","Case Studies and Business Games","Mining Plans","Railway Timetables","Import Licenses","A","Training materials include business games."
+215,"MTI conducts workshops for","Senior and Middle Level Executives","Customers","Suppliers","Foreign Delegates","A","Leadership development is a key activity."
+216,"Which e-learning portal is maintained by MTI?","E-Abhigyan","SAIL Sarathi","NEX Portal","Steel Connect","A","E-Abhigyan is SAIL's learning portal."
+217,"E-Abhigyan provides","Online Assessment and Certification","Export Services","Mine Monitoring","Coal Procurement","A","It supports anytime-anywhere learning."
+218,"MTI also offers programmes to","Executives of Other Organizations","School Students","Mine Workers Only","Foreign Buyers","A","Selected programmes are open externally."
+219,"MTI monitors","Training Activities across SAIL","Exports","Coal Imports","Environmental Audits","A","Training coordination is one of its responsibilities."
+220,"MTI disseminates","Modern Management Practices","Mining Laws","Financial Audits","Trade Policies","A","Management knowledge dissemination is its objective."
+221,"Environment Management Division (EMD) was established on","23 June 1988","24 January 1973","1 May 1978","12 July 2011","A","EMD was established on 23 June 1988."
+222,"EMD headquarters is located at","Kolkata","Ranchi","Delhi","Bhilai","A","EMD is headquartered in Kolkata."
+223,"EMD operates under which Directorate?","Technical, Projects & Raw Materials","Finance","Personnel","Commercial","A","EMD functions under the Technical Directorate."
+224,"EMD is certified under","ISO 9001:2015","ISO 14001","ISO 45001","ISO 50001","A","The division follows ISO 9001:2015 Quality Management System."
+225,"EMD coordinates environmental compliance with","Steel Plants and Mines","Foreign Companies","Banks","Railways","A","Compliance coordination is a primary responsibility."
+226,"EMD organizes","Environmental Audits and Workshops","Export Summits","Mine Auctions","Recruitment Drives","A","Environmental auditing is a core function."
+227,"EMD liaises with","State and Central Pollution Authorities","Export Houses","Private Banks","Universities","A","It coordinates with statutory authorities."
+228,"EMD addresses","Climate Change and Low Carbon Roadmap","Coal Imports","Steel Pricing","Foreign Investment","A","Climate strategy is a major focus."
+229,"EMD facilitates implementation of","Environmental Management System (EMS)","Financial MIS","Coal Linkage","Marketing Portal","A","EMS implementation is specifically mentioned."
+230,"Which study is specifically conducted by EMD?","Life Cycle Inventory (LCI) Study","Market Survey","Customer Satisfaction Study","Coal Quality Survey","A","LCI studies support sustainability planning."
