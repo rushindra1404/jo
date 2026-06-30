@@ -1,301 +1,151 @@
 question_id,question,option_a,option_b,option_c,option_d,correct_answer,explanation
-1,"What is the process of converting coking coal into metallurgical coke called?","Carbonization","Calcination","Gasification","Roasting","A","Carbonization is the process of converting coking coal into metallurgical coke by heating it in the absence of air."
-2,"The coke-making process begins with which operation?","Unloading coal at wagon tipplers","Charging coal into ovens","Coal crushing","Coal blending","A","The process starts with unloading coal at wagon tipplers."
-3,"The coke-making process ends with:","Sizing and transportation of coke to Blast Furnace","Coal washing","Coal blending","Coal crushing","A","After carbonization, coke is sized and transported to the Blast Furnace."
-4,"During coal formation, plant material first decomposes into:","Peat","Lignite","Bituminous coal","Anthracite","A","Peat is the first stage formed from decayed vegetation."
-5,"Which coal rank is formed immediately after peat?","Lignite","Bituminous coal","Anthracite","Coke","A","Peat transforms into lignite under heat and pressure."
-6,"Continuous compaction converts lignite into:","Bituminous coal","Anthracite","Coke","Peat","A","Lignite gradually transforms into bituminous coal over millions of years."
-7,"Coal formation is a process that takes:","Millions of years","Hundreds of years","Thousands of years","Few decades","A","Coal formation occurs over geological time scales."
-8,"Which of the following is an indigenous coking coal?","Prime Coking Coal (PCC)","Soft Coking Coal","Australian Hard Coal","USA Hard Coal","A","PCC is classified as indigenous coking coal."
-9,"Which of the following is an imported coking coal?","Hard Coking Coal (HCC)","Prime Coking Coal","Medium Coking Coal","Washed Coal","A","Imported coals include hard and soft coking coals."
-10,"Coal washeries mainly reduce:","Ash content","Volatile matter","Moisture","Carbon","A","Coal washing reduces ash before coke making."
-11,"Lower ash percentage in coal indicates:","Better coal quality","Higher moisture","Poor coking property","Lower strength","A","Lower ash improves coke quality."
-12,"Volatile Matter (VM) represents:","Materials released as gases during carbonization","Fixed carbon","Moisture only","Ash","A","VM consists of gases driven off during heating."
-13,"Free Swelling Index (FSI) is also called:","Crucible Swelling Number","Coal Strength Number","Carbonization Number","Plasticity Index","A","FSI is also known as CSN."
-14,"Gieseler Fluidity measures the:","Rheological properties of coal","Ash percentage","Moisture content","Carbon content","A","It evaluates coal softening and plastic behavior."
-15,"Mean Max Reflectance (MMR) is directly proportional to:","Coke strength","Moisture","Ash","Sulphur","A","Higher MMR generally results in stronger coke."
-16,"A rake generally contains how many wagons?","59","45","72","80","A","A standard rake consists of about 59 wagons."
-17,"Wagon tipplers rotate wagons up to approximately:","172°","90°","180°","120°","A","The wagons are tilted up to 172° for unloading."
-18,"Mixing different grades of coal in the stockyard should be:","Avoided","Encouraged","Ignored","Done daily","A","Mixing different grades adversely affects coke quality."
-19,"Coal reclaiming from the yard is carried out using a:","Reclaimer","Stacker","Crusher","Tippler","A","A reclaimer recovers stored coal."
-20,"In RSP, the sequence followed is:","Crushing before blending","Blending before crushing","Only crushing","Only blending","A","RSP follows crushing before blending."
-21,"The primary purpose of coal crushing before carbonization is to:","Homogenize the coal blend","Increase ash content","Increase moisture","Reduce volatile matter","A","Fine crushing homogenizes the different constituents of the coal blend and improves coke quality."
-22,"Organic-rich coal particles are generally:","Softer than inorganic-rich particles","Harder than inorganic-rich particles","Equal in hardness","Brittle only at high temperatures","A","Organic-rich particles are softer than ash-rich or inorganic-rich particles."
-23,"Ash-rich particles are generally found in which size fraction?","Greater than 5 mm","Less than 1 mm","Exactly 3.2 mm","Less than 0.5 mm","A","Larger particles usually contain more ash and require finer crushing."
-24,"The desirable crushing index after crushing is:","80–82% below 3.2 mm","50–60% below 3.2 mm","90–95% below 5 mm","70–75% below 2 mm","A","The recommended crushing index is 80–82% passing 3.2 mm."
-25,"Over-crushing of coal is undesirable because it:","Reduces bulk density and increases microfines","Increases coke strength","Reduces ash content","Improves permeability","A","Over-crushing lowers bulk density and creates excessive fines."
-26,"Bulk density refers to the:","Compactness of coal charge in the oven","Density of coke","Specific gravity of coal","Moisture content of coal","A","Bulk density indicates how closely the coal particles are packed."
-27,"Higher bulk density generally produces:","Stronger coke","Weaker coke","Higher ash coke","Higher moisture coke","A","Higher bulk density improves coke strength."
-28,"The main objective of coal blending is to:","Obtain desired coal blend properties","Reduce coal consumption only","Increase moisture","Increase volatile matter","A","Blending combines different coals to achieve required coke quality."
-29,"Which property is NOT additive during coal blending?","Fluidity","Ash","Volatile Matter","MMR","A","Most properties are additive except fluidity."
-30,"Imported coking coals generally have:","Lower ash and better coking properties","Higher ash and poor coking properties","Higher moisture only","Lower carbon content","A","Imported coals are preferred for their better coking characteristics."
-31,"Indigenous coking coals generally have:","Higher ash content","Lower ash than imported coal","No ash","No volatile matter","A","Indian coals usually contain relatively high ash."
-32,"Blending is generally achieved by:","Adjusting discharge from different bunkers to a common belt","Adding water","Heating coal","Adding limestone","A","Coal proportions are controlled using bunker discharge rates."
-33,"The maximum permissible ash content in coal blend is:","11.5%","15%","20%","10%","A","The target ash for coal blend is 11.5% maximum."
-34,"The desired volatile matter of coal blend is:","23–25%","15–18%","30–35%","10–12%","A","Coal blend VM should remain between 23 and 25%."
-35,"The desired Mean Max Reflectance (MMR) of coal blend is:","1.15–1.20","0.80–0.90","1.40–1.50","0.60–0.70","A","Coal blend MMR should be maintained between 1.15 and 1.20."
-36,"The sulphur content of the coal blend should be:","Less than 0.7%","Less than 2%","Exactly 1%","Less than 5%","A","Coal blend sulphur should remain below 0.7%."
-37,"The desired FSI of coal blend is:","5–6","2–3","8–10","1–2","A","FSI of 5–6 provides suitable coking characteristics."
-38,"The recommended moisture content of coal blend is:","7–9%","1–2%","15–20%","10–15%","A","Proper moisture improves charging characteristics."
-39,"Carbonization is defined as heating coal in the:","Absence of air","Presence of oxygen","Presence of nitrogen only","Vacuum only","A","Carbonization occurs without air."
-40,"Carbonization is also known as:","Destructive distillation","Calcination","Roasting","Sintering","A","Heating coal without air is called destructive distillation."
-41,"The chambers in which carbonization occurs are made of:","Refractory bricks","Concrete","Steel","Cast iron","A","Coke ovens are constructed using refractory bricks."
-42,"A group of coke ovens is known as a:","Battery","Furnace","Stack","Reactor","A","Several ovens together form a battery."
-43,"A tall coke oven battery has a height of approximately:","7.0 m","4.3 m","10.0 m","5.5 m","A","Tall batteries are about 7 m high."
-44,"A small coke oven battery has a height of approximately:","4.3 m","7.0 m","6.5 m","5.0 m","A","Small batteries are approximately 4.3 m high."
-45,"In a recovery type battery:","Gas is cleaned and by-products are recovered","Gas is wasted","No by-products are formed","Coal is burned directly","A","Recovery batteries collect and process coke oven gas."
-46,"In a non-recovery battery:","Generated gas acts as fuel","Gas is stored","Gas is converted into oxygen","Gas is liquefied","A","The gas itself serves as the fuel."
-47,"In a top-charge battery, coal is charged through:","Charging holes on the oven top","The oven side","The oven bottom","The coke guide","A","Coal enters through charging holes located on top."
-48,"Stamp charging involves:","Charging a rammed coal cake","Charging powdered coke","Charging wet coal","Charging limestone","A","Coal is compacted into a cake before charging."
-49,"The first stage after charging coal into the oven is:","Drying (de-moisturization)","Plastic stage","Gas evolution","Resolidification","A","Coal first loses moisture."
-50,"Drying of coal continues up to approximately:","250°C","100°C","500°C","700°C","A","Moisture removal occurs up to about 250°C."
-51,"Coal begins to soften at approximately:","300°C","100°C","600°C","900°C","A","Softening starts around 300°C."
-52,"The plastic stage occurs approximately between:","350–550°C","100–200°C","700–900°C","900–1100°C","A","Coal becomes plastic within this temperature range."
-53,"Entrapped gases are mainly driven out between:","400–700°C","100–200°C","800–1000°C","50–100°C","A","Most gases evolve during this stage."
-54,"Resolidification of coke begins above:","700°C","300°C","500°C","100°C","A","The plastic mass resolidifies beyond 700°C."
-55,"Coke is finally produced at around:","1000°C","500°C","750°C","300°C","A","Complete coke formation occurs near 1000°C."
-56,"The calorific value of coke oven gas is approximately:","4300 kcal/m³","2500 kcal/m³","7000 kcal/m³","1000 kcal/m³","A","The chapter specifies about 4300 kcal/m³."
-57,"The coke oven gas is cooled to approximately:","80°C","200°C","500°C","1000°C","A","The gas is cooled using flushing liquor."
-58,"The total duration required for complete carbonization is called:","Coking time","Residence time","Retention time","Cooling time","A","The complete carbonization period is called coking time."
-59,"Cooling hot coke after pushing is called:","Quenching","Annealing","Calcination","Roasting","A","Quenching rapidly cools hot coke."
-60,"The usual wet quenching time is approximately:","90 seconds","10 seconds","5 minutes","30 minutes","A","Typical quenching lasts about 90 seconds."
-61,"Which machine charges coal into empty ovens?","Charging Car","Pusher Car","Coke Guide Car","Quenching Car","A","Charging cars transfer coal from coal tower to ovens."
-62,"Which machine levels coal and pushes coke from the oven?","Pusher Car","Charging Car","Quenching Car","Crusher","A","The pusher car performs leveling and coke pushing."
-63,"The Coke Guide Car is used to:","Guide coke into the quenching car","Carry coal","Crush coke","Cool coke","A","It directs hot coke during pushing."
-64,"The Quenching Car is used to:","Carry hot coke to the quenching tower","Charge coal","Crush coke","Screen coke","A","The quenching car transports hot coke."
-65,"Modern coke oven machines are commonly controlled using:","PLC systems","Manual gears","Steam engines","Hydraulic presses only","A","PLC-based automation is widely used."
-66,"VVFD stands for:","Variable Voltage Variable Frequency Drive","Variable Vacuum Flow Device","Vertical Voltage Frequency Driver","Vacuum Variable Feed Drive","A","VVFD controls motor speed in coke oven machines."
-67,"Wet quenching cools coke using:","Water spray","Nitrogen gas","Compressed air","Steam","A","Wet quenching uses water."
-68,"Dry quenching mainly uses:","Nitrogen","Oxygen","Hydrogen","Carbon dioxide","A","Nitrogen is circulated as the cooling gas."
-69,"One major advantage of dry quenching is:","Recovery of sensible heat as steam","Higher moisture in coke","Reduced coke strength","Lower productivity","A","Dry quenching recovers waste heat."
-70,"Moisture in dry-quenched coke is approximately:","0.3–0.4%","5%","10%","15%","A","Dry quenching produces low-moisture coke."
-71,"Moisture in wet-quenched coke is approximately:","5%","0.3%","10%","15%","A","Wet quenching leaves about 5% moisture."
-72,"After wet quenching, coke is dumped onto the:","Wharf","Coal tower","Battery top","Crusher","A","The wharf is the receiving platform."
-73,"Recommended coke retention time on the wharf is:","20 minutes","5 minutes","1 hour","2 hours","A","Retention helps remove internal heat."
-74,"Manual cooling of remaining hot coke is known as:","Spot quenching","Dry quenching","Primary quenching","Flash cooling","A","Spot quenching uses manual water spraying."
-75,"Spot quenching is undesirable because it:","Increases moisture content","Reduces ash","Improves strength","Increases CSR","A","Extra water raises coke moisture."
-76,"The first screen in the Coke Sorting Plant is generally:","80 mm","25 mm","15 mm","50 mm","A","Initial screening uses an 80 mm screen."
-77,"Blast Furnace coke size is:","+25 mm to -80 mm","+15 mm to -25 mm","Below 15 mm","Above 100 mm","A","This is the desired BF coke size."
-78,"Nut coke size is:","+15 mm to -25 mm","+25 mm to -80 mm","Below 15 mm","Above 80 mm","A","Nut coke is supplied mainly to sinter plants."
-79,"Coke breeze size is:","Below 15 mm","25–80 mm","15–25 mm","Above 80 mm","A","Fine breeze is used in sintering."
-80,"Nut coke and coke breeze are mainly supplied to:","Sinter Plant","Blast Furnace","BOF","Rolling Mill","A","Both fractions are utilized in the sintering process."
-81,"Ash present in coke mainly becomes part of the:","Slag","Hot metal","Flue gas","Limestone","A","Ash is inert and combines with fluxes to form slag in the Blast Furnace."
-82,"Higher ash content in coke results in:","Higher slag generation","Higher coke strength","Higher CSR","Lower fuel consumption","A","Ash increases slag volume and heat requirement."
-83,"The desired ash content in metallurgical coke is:","Less than 15%","Less than 20%","Less than 10%","Less than 25%","A","The recommended ash content is below 15%."
-84,"Volatile Matter (VM) in coke indicates:","Completion of carbonization","Moisture content","Ash percentage","Bulk density","A","Lower VM indicates better completion of carbonization."
-85,"The desirable volatile matter in coke should be:","Less than 1%","5%","10%","15%","A","VM below 1% indicates well-carbonized coke."
-86,"Gross moisture in coke mainly:","Consumes heat during evaporation","Improves reduction","Increases carbon content","Increases CSR","A","Moisture absorbs heat during evaporation inside the furnace."
-87,"Micum Index measures the:","Cold strength of coke","Hot strength of coke","Ash content","Carbon content","A","Micum Index evaluates mechanical strength at room temperature."
-88,"The M10 value represents resistance against:","Abrasion","Impact","Compression","Oxidation","A","M10 indicates abrasion resistance of coke."
-89,"A lower M10 value indicates:","Better abrasion resistance","Poor coke quality","Higher ash","Higher moisture","A","Lower M10 signifies stronger coke."
-90,"A good M10 value is approximately:","8","20","40","60","A","Around 8 is considered desirable."
-91,"The M40 value represents coke strength against:","Impact load","Abrasion","Moisture","Thermal expansion","A","M40 measures impact resistance."
-92,"A good M40 value should be:","Greater than 80","Less than 50","Exactly 60","Greater than 95","A","Higher M40 indicates better strength."
-93,"Coke Reactivity Index (CRI) measures coke behavior with:","Carbon dioxide","Nitrogen","Oxygen","Steam","A","CRI measures reaction with CO₂ at high temperature."
-94,"CRI testing is carried out at approximately:","1100°C","800°C","500°C","1400°C","A","The standard testing temperature is 1100°C."
-95,"Lower CRI values indicate:","Better coke quality","Higher moisture","Lower carbon","Poor strength","A","Lower CRI means better resistance to reaction."
-96,"The desirable CRI range is:","21–24","10–15","35–40","50–60","A","Good metallurgical coke has CRI around 21–24."
-97,"CSR stands for:","Coke Strength After Reaction","Carbon Strength Ratio","Coal Strength Rating","Carbon Stability Ratio","A","CSR measures strength after reacting with CO₂."
-98,"CSR is also known as the:","Hot strength of coke","Cold strength of coke","Bulk density index","Ash index","A","CSR indicates coke strength under furnace conditions."
-99,"The desirable CSR value is:","64–66","30–35","45–50","80–90","A","Good coke has CSR between 64 and 66."
-100,"The recommended Blast Furnace coke size is:","+25 mm to -80 mm","+15 mm to -25 mm","Below 15 mm","Above 100 mm","A","This size provides proper permeability."
-101,"Excess undersized coke decreases:","Burden permeability","Carbon content","Ash content","Coke strength","A","Fine coke blocks gas flow inside the furnace."
-102,"Excess oversized coke decreases:","Reaction surface area","Slag volume","Moisture","Carbon content","A","Larger coke pieces provide less surface area."
-103,"One major role of coke in the Blast Furnace is to act as:","Fuel","Flux","Coolant","Lubricant","A","Coke supplies the heat required for ironmaking."
-104,"Another important role of coke is to act as a:","Reducing agent","Oxidizing agent","Catalyst","Binder","A","Carbon monoxide generated from coke reduces iron oxides."
-105,"Coke also provides:","Permeability to furnace burden","Additional moisture","Higher slag","Cooling effect","A","Coke maintains gas flow through the burden."
-106,"Coal carbonization is also called:","Destructive distillation","Roasting","Calcination","Agglomeration","A","Heating coal without air is called destructive distillation."
-107,"The main purpose of coal carbonization is to produce:","Metallurgical coke","Pig iron","Steel","Limestone","A","Coke is the primary product."
-108,"The major gaseous by-product of coke making is:","Coke Oven Gas","Blast Furnace Gas","Producer Gas","Natural Gas","A","COG is evolved during carbonization."
-109,"Typical high-temperature carbonization is carried out at:","1000–1200°C","400–600°C","600–800°C","1500°C","A","Integrated steel plants carbonize coal at this range."
-110,"The major by-products recovered in the by-product plant include:","Tar, ammonia and crude benzol","Only tar","Only ammonia","Only benzene","A","These are the major recovered chemicals."
-111,"Which impurity is NOT removed from Coke Oven Gas during cleaning?","Nitrogen","Tar fog","Ammonia","Naphthalene","A","Nitrogen is a normal constituent of cleaned gas."
-112,"Tar fog is removed primarily because it:","Fouls downstream equipment","Improves combustion","Increases calorific value","Reduces gas pressure","A","Tar deposits damage downstream systems."
-113,"The cleaning of Coke Oven Gas uses:","Coolers, condensers and scrubbers","Only crushers","Only screens","Only filters","A","Multiple cleaning units remove impurities."
-114,"Typical tar fog content in cleaned Coke Oven Gas is approximately:","30 mg/Nm³","300 mg/Nm³","3 mg/Nm³","3000 mg/Nm³","A","Good quality gas contains about 30 mg/Nm³."
-115,"Typical ammonia content in clean Coke Oven Gas is:","30 mg/Nm³","300 mg/Nm³","3 mg/Nm³","3000 mg/Nm³","A","The desired value is about 30 mg/Nm³."
-116,"Typical hydrogen sulphide content in clean Coke Oven Gas is about:","200 mg/Nm³","20 mg/Nm³","500 mg/Nm³","1000 mg/Nm³","A","Good quality gas contains around 200 mg/Nm³."
-117,"HCN in clean Coke Oven Gas is generally present as:","Traces","10%","5%","20%","A","Only trace quantities remain after cleaning."
-118,"Among tar products, the most valuable product is:","Naphthalene","Pitch","Road tar","Creosote","A","The chapter identifies naphthalene as the costliest tar product."
-119,"Ammonia recovered from Coke Oven Gas is converted into:","Ammonium sulphate","Ammonium nitrate","Urea","Nitric acid","A","Ammonia reacts with sulphuric acid."
-120,"Ammonium sulphate is widely used as:","Fertilizer","Fuel","Flux","Lubricant","A","It is an agricultural fertilizer."
-121,"Yield of benzol products depends mainly on:","VM of coal blend and coking temperature","Coal moisture only","Ash only","Crusher speed","A","Both VM and coking temperature influence benzol yield."
-122,"Typical recovery of benzol products from crude benzol is:","78–84%","40–50%","90–95%","20–30%","A","The recovery lies between 78 and 84%."
-123,"Pitch obtained from tar distillation is mainly used for:","Electrode making","Steel rolling","Blast furnace cooling","Flux preparation","A","Pitch is used in electrode manufacture."
-124,"Tar is commonly used for:","Road making","Iron ore reduction","Steel casting","Water treatment","A","Road tar is one of its major applications."
-125,"Benzene, toluene and xylene are important raw materials for:","Chemical industries","Power plants","Cement plants","Rolling mills","A","They are widely used in chemical manufacturing."
-126,"The Tar and Liquor Processing Plant mainly handles:","Flushing liquor and wastewater","Only blast furnace gas","Only tar","Only water","A","It processes flushing liquor circulated with the battery."
-127,"The flushing liquor primarily helps to:","Cool hot oven exit gases","Increase gas pressure","Increase moisture","Reduce carbonization time","A","It cools the hot gas leaving the ovens."
-128,"Primary Gas Cooler mainly:","Reduces gas temperature","Removes sulphur","Produces coke","Increases pressure","A","It cools the raw coke oven gas."
-129,"The Electrostatic Tar Precipitator removes:","Tar aerosols","Hydrogen","Methane","Carbon monoxide","A","Electrostatic attraction removes condensed tar particles."
-130,"The main function of the exhauster is to:","Maintain gas suction","Crush coal","Cool coke","Screen coke","A","It maintains proper gas pressure in the collecting main."
-131,"Failure of the exhauster will result in:","Raw gas venting to atmosphere","Higher CSR","Better coke quality","Lower emissions","A","Gas escapes through battery flares if the exhauster fails."
-132,"The Ammonium Sulphate Plant removes ammonia using:","Sulphuric acid","Hydrochloric acid","Nitric acid","Acetic acid","A","Ammonia reacts with sulphuric acid in saturators."
-133,"The acidity of saturator liquor is maintained at:","3–5%","10–15%","20%","1%","A","The recommended acidity is 3–5%."
-134,"The Final Gas Cooler mainly removes:","Heat gained during previous treatment","Ash","Carbon","Nitrogen","A","FGC cools the treated gas."
-135,"In the Benzol Recovery Plant, benzol is absorbed by:","Wash oil","Water","Lime slurry","Ammonia liquor","A","Wash oil absorbs benzol from gas."
-136,"The recovered wash oil is:","Reused","Discarded","Burned","Sold directly","A","Wash oil is recycled."
-137,"The Benzol Rectification Plant produces:","Benzene, toluene and xylene","Only benzene","Only pitch","Only ammonia","A","Rectification separates individual aromatic compounds."
-138,"The Tar Distillation Plant produces:","Pitch and naphthalene","Pig iron","Coke","Sinter","A","Pitch and naphthalene are major tar products."
-139,"Sulphuric acid in the Acid Plant is produced by:","DCDA process","LD process","Bessemer process","Hall process","A","DCDA stands for Double Conversion Double Absorption."
-140,"The catalyst used in the Acid Plant is:","Vanadium pentoxide","Nickel","Iron oxide","Copper oxide","A","Vanadium pentoxide catalyzes SO₂ oxidation."
-141,"The full form of DCDA is:","Double Conversion Double Absorption","Direct Conversion Direct Absorption","Double Carbon Double Absorption","Dual Conversion Dual Absorption","A","Sulphuric acid is produced using the DCDA process."
-142,"Vanadium pentoxide (V₂O₅) acts as the:","Catalyst in the Acid Plant","Fuel","Oxidizing agent","Coolant","A","V₂O₅ catalyzes the conversion of SO₂ to SO₃."
-143,"The sulphuric acid produced in the Acid Plant is mainly used in the:","Ammonium Sulphate Plant","Tar Distillation Plant","Coal Handling Plant","Coke Sorting Plant","A","Sulphuric acid reacts with ammonia to form ammonium sulphate."
-144,"PETP stands for:","Phenolic Effluent Treatment Plant","Primary Effluent Treatment Plant","Phenol Extraction Treatment Process","Pollution Elimination Treatment Plant","A","PETP treats contaminated wastewater from coke ovens."
-145,"BOD Plant mainly treats:","Contaminated wastewater","Blast furnace gas","Coal dust","Iron ore slurry","A","The BOD plant biologically treats wastewater."
-146,"The treated water from PETP is mainly reused for:","Quenching hot coke","Coal washing","Gas cooling","Boiler feed","A","The treated water is recycled for coke quenching."
-147,"The permissible ammonia concentration after BOD treatment is:","50 ppm","100 ppm","10 ppm","5 ppm","A","The treated effluent should contain a maximum of 50 ppm ammonia."
-148,"The permissible phenol concentration after treatment is:","1 ppm","5 ppm","10 ppm","50 ppm","A","Phenol should not exceed 1 ppm."
-149,"The permissible cyanide concentration after treatment is:","0.2 ppm","2 ppm","1 ppm","5 ppm","A","The allowable cyanide concentration is 0.2 ppm."
-150,"The permissible Tar & Oil concentration after treatment is:","10 ppm","20 ppm","50 ppm","100 ppm","A","Tar and oil concentration should be within 10 ppm."
-151,"Hydrogen constitutes approximately what percentage of clean Coke Oven Gas?","50–60%","20–25%","70–80%","5–10%","A","Hydrogen is the major constituent of Coke Oven Gas."
-152,"Methane content in clean Coke Oven Gas is approximately:","25–28%","5–10%","35–40%","10–15%","A","Methane is the second largest component."
-153,"Carbon monoxide content in Coke Oven Gas is approximately:","6–8%","20–25%","1–2%","15–20%","A","CO contributes to the fuel value of the gas."
-154,"Carbon dioxide content in Coke Oven Gas is approximately:","3–4%","10–15%","20–25%","1%","A","CO₂ is present in relatively small quantities."
-155,"Other hydrocarbons constitute approximately:","2–2.5%","10–12%","5–8%","15–20%","A","Small amounts of hydrocarbons remain in the cleaned gas."
-156,"Nitrogen content in Coke Oven Gas is generally:","2–7%","15–20%","25–30%","0%","A","Nitrogen enters mainly through leakage."
-157,"Oxygen content in clean Coke Oven Gas is approximately:","0.2–0.4%","2–4%","5–10%","1–2%","A","Only traces of oxygen remain."
-158,"The calorific value of clean Coke Oven Gas is about:","4300 kcal/m³","2500 kcal/m³","6000 kcal/m³","1500 kcal/m³","A","The gas has a heating value of approximately 4300 kcal/m³."
-159,"The Percentage Leaking Doors (PLD) allowed for a new battery is:","5%","10%","15%","20%","A","CPCB specifies a maximum of 5% PLD for new batteries."
-160,"The Percentage Leaking Doors (PLD) allowed for an existing battery is:","10%","5%","15%","20%","A","Existing batteries are allowed up to 10% PLD."
-161,"The permissible Percentage Leaking Lids (PLL) for both new and existing batteries is:","1%","2%","5%","10%","A","PLL limit is 1% irrespective of battery age."
-162,"The Percentage Leaking Off-takes (PLO) permitted is:","4%","2%","6%","8%","A","Maximum allowable PLO is 4%."
-163,"The permissible SO₂ emission is:","800 mg/Nm³","400 mg/Nm³","1000 mg/Nm³","200 mg/Nm³","A","CPCB has fixed the limit at 800 mg/Nm³."
-164,"The permissible stack emission is:","50 mg/Nm³","100 mg/Nm³","200 mg/Nm³","500 mg/Nm³","A","Stack emission should not exceed 50 mg/Nm³."
-165,"Charging emission limit for a new battery is:","16 sec/charge","25 sec/charge","50 sec/charge","60 sec/charge","A","New batteries have stricter charging emission norms."
-166,"Charging emission limit for an existing battery is:","50 sec/charge","16 sec/charge","25 sec/charge","100 sec/charge","A","Existing batteries are allowed up to 50 sec/charge."
-167,"ISO 14001:2004 is related to:","Environmental Management System","Quality Management System","Occupational Safety","Energy Management","A","ISO 14001 focuses on environmental management."
-168,"The primary objective of ISO 14001 is to make:","Land, air and water pollution free","Production faster","Coal stronger","Blast furnace larger","A","It aims to minimize environmental pollution."
-169,"The most important aspect in the steel industry is:","Safety","Production","Marketing","Finance","A","The chapter emphasizes safety as the highest priority."
-170,"PPE stands for:","Personal Protective Equipment","Personnel Protection Equipment","Personal Process Equipment","Plant Protection Equipment","A","PPE protects workers from workplace hazards."
-171,"Which of the following is NOT a PPE?","Hammer Crusher","Safety Helmet","Safety Shoes","Dust Mask","A","A hammer crusher is equipment, not PPE."
-172,"Gas-prone areas require clearance from:","EMD","HR Department","Finance Department","Stores","A","EMD clearance is mandatory before working in gas-prone areas."
-173,"EL-20 is associated with:","Permit to Work system","Coal blending","Coal crushing","Gas cleaning","A","EL-20 refers to maintenance safety procedures."
-174,"SOP stands for:","Standard Operating Procedure","Standard Operational Plan","Safety Operation Plan","System Operation Process","A","SOP defines standardized operating methods."
-175,"SMP stands for:","Standard Maintenance Procedure","Safety Maintenance Process","Standard Mechanical Practice","System Maintenance Plan","A","SMP specifies maintenance practices."
-176,"The first 'S' in the 5S system is:","Seiri","Seiton","Seiso","Shitsuke","A","Seiri means sorting and removing unnecessary items."
-177,"Seiri mainly means:","Sort and remove unwanted items","Clean the workplace","Standardize work","Develop discipline","A","Seiri is the first step of workplace organization."
-178,"The second 'S' (Seiton) refers to:","Systematic arrangement","Cleaning","Standardization","Discipline","A","Seiton means arranging items systematically."
-179,"The third 'S' (Seiso) refers to:","Cleaning and housekeeping","Sorting","Discipline","Inspection","A","Seiso emphasizes cleanliness."
-180,"The fourth 'S' (Seiketsu) refers to:","Standardization","Cleaning","Sorting","Inspection","A","Seiketsu maintains standardized practices."
-181,"The fifth 'S' (Shitsuke) refers to:","Discipline","Cleaning","Arrangement","Inspection","A","Shitsuke promotes disciplined adherence."
-182,"The 5S workplace management concept originated in:","Japan","Germany","USA","India","A","5S was developed in Japan."
-183,"Takasi Osada is associated with:","5S workplace management","ISO 14001","CSR Index","Coal Carbonization","A","Takasi Osada popularized the 5S philosophy."
-184,"ISO 45001:2018 relates to:","Occupational Health and Safety Management System","Quality Management","Environmental Management","Energy Management","A","ISO 45001 focuses on occupational health and safety."
-185,"OH&SMS stands for:","Occupational Health and Safety Management System","Operational Health System","Occupational Hazard Safety Method","Operational Hazard Management System","A","OH&SMS is the full form of ISO 45001."
-186,"The main objective of OH&SMS is to:","Identify hazards and minimize risks","Increase production","Reduce coal consumption","Improve coke strength","A","Hazard identification and risk control are its main objectives."
-187,"ISO 45001 is NOT primarily concerned with:","Product safety for end users","Employee safety","Hazard identification","Risk management","A","The standard excludes product safety."
-188,"ISO 45001 is compatible with:","ISO 9001 and ISO 14001","ISO 22000 only","ISO 50001 only","ISO 27001 only","A","The standard integrates well with ISO 9001 and ISO 14001."
-189,"One major benefit of implementing OH&SMS is:","Reduced accidents","Higher ash","Lower CSR","Lower M40","A","The system significantly reduces workplace accidents."
-190,"Implementation of OH&SMS improves:","Company image and reputation","Ash content","Moisture content","Gas leakage","A","Effective safety management enhances organizational reputation."
-191,"Reliable operations are achieved through:","Proper implementation of OH&SMS","Increasing moisture","Reducing crushing","Higher ash","A","Safety systems contribute to reliable plant operation."
-192,"One important benefit of OH&SMS is:","Compliance with legislation","Higher coke moisture","Higher sulphur","Reduced hydrogen","A","The system ensures compliance with legal requirements."
-193,"Hazard identification is an essential requirement of:","ISO 45001","ISO 9001","ISO 50001","ISO 17025","A","Hazard identification is a core requirement of OH&SMS."
-194,"The process flow of coke making begins with:","Washed coal from washeries","Blast Furnace","By-product Plant","Coke Sorting Plant","A","The process starts with washed coal."
-195,"After wagon tipplers, coal is normally transported to:","Coal Yard/Silos","Blast Furnace","Tar Distillation Plant","BOD Plant","A","Coal is conveyed to the storage yard or silos."
-196,"Coal is transported from silos to the:","Coal Tower","Blast Furnace","Acid Plant","BOD Plant","A","Coal towers supply coal for charging."
-197,"Raw Coke Oven Gas is generated during:","Carbonization","Coal washing","Coal blending","Coal crushing","A","Carbonization releases Coke Oven Gas."
-198,"The By-product Plant receives:","Raw Coke Oven Gas","Blast Furnace Gas","Producer Gas","Natural Gas","A","Raw Coke Oven Gas is cleaned in the By-product Plant."
-199,"The final cleaned Coke Oven Gas is mainly used as:","Fuel gas in the plant","Cooling water","Lubricant","Flux","A","Cleaned Coke Oven Gas serves as a valuable industrial fuel."
-200,"Which sequence correctly represents the overall coke-making process?","Coal Handling → Carbonization → Coke Sorting → By-product Recovery","Carbonization → Coal Washing → Blast Furnace → Coke Sorting","Coal Washing → Blast Furnace → Carbonization → Gas Cleaning","By-product Recovery → Coal Crushing → Carbonization → Coke Sorting","A","The process starts with coal handling, followed by carbonization, coke sorting, and by-product recovery."
-201,"Which of the following coal properties is most directly measured by the Crucible Swelling Number (CSN)?","Free Swelling Index","Volatile Matter","Ash Content","Moisture Content","A","CSN is another name for the Free Swelling Index (FSI)."
-202,"The primary purpose of the LTGK test is to evaluate the:","Caking property of coal","Ash fusion temperature","Carbon content","Moisture absorption","A","LTGK assesses caking properties and by-product yield during carbonization."
-203,"Which coal property provides information about the plastic range of coal?","Gieseler Fluidity","Ash Content","FSI","Moisture","A","Gieseler Fluidity measures softening, plasticity, and resolidification."
-204,"The rheological behavior of coal is determined by the:","Gieseler Fluidity Test","MMR Test","Ash Test","VM Test","A","The Gieseler Fluidity Test measures rheological characteristics."
-205,"Higher MMR values generally indicate:","Higher coke strength","Higher moisture","Lower carbon","Higher ash","A","MMR is directly proportional to coke strength."
-206,"Coal maturity generally increases as:","Inherent moisture decreases","Ash increases","VM increases","Sulphur increases","A","More mature coals contain lower inherent moisture."
-207,"Which imported coal has the highest MMR according to the table?","Australian Hard Coal","USA Hard Coal","Indonesia Hard Coal","Imported Soft Coal","A","Australian Hard Coal has an MMR of about 1.25."
-208,"Which indigenous coal generally has the lower MMR?","Medium Coking Coal","Prime Coking Coal","Australian Hard Coal","Imported Soft Coal","A","MCC has an MMR around 0.85."
-209,"Coal handling mainly influences which stage of coke production?","Pre-carbonization","Post-carbonization","Blast Furnace operation","Steel making","A","Coal handling determines pre-carbonization quality."
-210,"Coal towers mainly supply coal to:","Charging Cars","Quenching Cars","Crushers","Stackers","A","Charging cars collect coal from coal towers."
-211,"The main purpose of stacking different coal grades separately is to:","Prevent contamination of blends","Reduce moisture","Increase ash","Increase production rate","A","Mixing different grades affects coke quality."
-212,"Specific surface area of coal increases with:","Finer crushing","Coarser crushing","Higher moisture","Lower temperature","A","Fine crushing increases surface area."
-213,"Inert-rich particles in coal mainly act as:","Centers of weakness in coke","Strengthening agents","Catalysts","Reducing agents","A","Coarse inert particles create weak points in coke."
-214,"Over-crushing increases the formation of:","Microfines","Nut coke","Lump coke","Pitch","A","Microfines increase when coal is over-crushed."
-215,"Bulk density is directly related to:","Packing of coal charge","Ash content","Gas pressure","Sulphur content","A","Bulk density measures compactness."
-216,"Which property of coal is NOT additive during blending?","Fluidity","Ash","VM","MMR","A","Fluidity behaves differently from other blend properties."
-217,"Accurate blending is essential because it directly affects:","Coke quality","Coal moisture only","Crusher efficiency","Railway unloading","A","Incorrect blending degrades coke quality."
-218,"Heating walls in coke ovens primarily transfer:","Heat to the coal charge","Coal to ovens","Gas to towers","Steam to quenching cars","A","Heating walls provide the heat required for carbonization."
-219,"During carbonization, the plastic layers move toward the:","Centre of the oven","Heating wall","Coal tower","Charging holes","A","Plastic layers from both sides meet at the centre."
-220,"The gases evolved during carbonization are mainly driven out in the temperature range:","400–700°C","100–250°C","700–900°C","900–1200°C","A","Gas evolution mainly occurs between 400°C and 700°C."
-221,"The hot coke pushed from the oven is first received by the:","Coke Guide Car","Charging Car","Coal Tower","Crusher","A","The Coke Guide Car directs coke into the Quenching Car."
-222,"Dry quenching improves coke quality mainly because it:","Produces low-moisture coke","Increases ash","Increases VM","Reduces carbon","A","Dry quenching preserves coke quality."
-223,"Wet quenching generally leaves coke with approximately:","5% moisture","0.3% moisture","10% moisture","15% moisture","A","Wet quenching leaves about 5% moisture."
-224,"Retention time on the wharf helps to:","Evaporate remaining surface moisture","Increase ash","Reduce coke size","Increase VM","A","Remaining heat removes moisture."
-225,"Spot quenching should be minimized because it:","Raises coke moisture","Raises CSR","Improves strength","Reduces ash","A","Extra water increases moisture."
-226,"Oversized coke after screening is sent to the:","Coke Cutter/Crusher","Coal Washeries","Coal Tower","Gas Cooler","A","Oversized coke is crushed to the required size."
-227,"Which coke fraction is mainly supplied to the Blast Furnace?","+25 mm to -80 mm","+15 mm to -25 mm","Below 15 mm","Above 100 mm","A","Blast Furnace requires this size range."
-228,"Nut coke is mainly supplied to the:","Sinter Plant","Blast Furnace","Steel Melting Shop","Power Plant","A","Nut coke is used in sintering."
-229,"Coke breeze is mainly used in:","Sinter Plant","Blast Furnace","Rolling Mill","Coke Oven Battery","A","Fine coke is consumed in sinter making."
-230,"Ash in coke reduces the useful volume of the:","Blast Furnace","Coal Tower","Battery","Coal Yard","A","Higher ash increases slag and occupies furnace volume."
-231,"Volatile matter in coke mainly indicates:","Degree of carbonization","Bulk density","Ash content","Particle size","A","Low VM indicates complete carbonization."
-232,"A high M10 value generally indicates:","Poor abrasion resistance","Better abrasion resistance","Better CSR","Higher carbon","A","Lower M10 is preferred."
-233,"A low M40 value generally causes:","Poor burden permeability","Better permeability","Lower slag","Higher CSR","A","Weak coke breaks into fines."
-234,"CRI measures the ability of coke to resist reaction with:","Carbon dioxide","Nitrogen","Hydrogen","Steam","A","CRI evaluates CO₂ reactivity."
-235,"CSR evaluates coke strength after:","Reaction with CO₂","Water quenching","Dry quenching","Coal blending","A","CSR is measured after the CRI test."
-236,"Which property is commonly referred to as the hot strength of coke?","CSR","M10","M40","Bulk Density","A","CSR represents strength after reaction."
-237,"One important role of coke in the Blast Furnace is to:","Support the burden","Reduce slag","Increase moisture","Reduce furnace height","A","Coke physically supports the burden."
-238,"Which by-product is directly recovered from ammonia in Coke Oven Gas?","Ammonium Sulphate","Pitch","Benzene","Tar","A","Ammonia reacts with sulphuric acid."
-239,"Which by-product is the most valuable product obtained from coal tar?","Naphthalene","Road Tar","Pitch","Creosote","A","The chapter identifies naphthalene as the costliest."
-240,"Tar products are widely used in:","Road construction","Blast Furnace charging","Coal washing","Iron ore crushing","A","Road tar is an important commercial product."
-241,"Pitch is mainly used in manufacturing:","Electrodes","Coke","Pig Iron","Flux","A","Pitch is a binder for electrode production."
-242,"Benzene, toluene and xylene are mainly used in:","Chemical industries","Power generation","Steel casting","Rolling mills","A","BTX chemicals are industrial feedstocks."
-243,"The flushing liquor mainly circulates between the:","By-product Plant and Coke Oven Battery","Blast Furnace and SMS","Coal Yard and Crusher","Battery and Coke Sorting Plant","A","Flushing liquor circulates continuously."
-244,"Primary Gas Cooler removes heat mainly by using:","Water-cooled tubes","Steam","Compressed air","Nitrogen","A","Cooling water circulates through tubes."
-245,"The Electrostatic Tar Precipitator operates using:","Electrostatic attraction","Magnetic separation","Centrifugal force","Gravity settling","A","Charged tar particles are collected electrostatically."
-246,"The Exhauster mainly maintains pressure in the:","Gas Collecting Main","Blast Furnace","Coal Tower","Wharf","A","Stable gas pressure is essential."
-247,"Failure of the Exhauster can cause:","Gas venting through battery bleeders","Higher gas recovery","Lower emissions","Better coke quality","A","Loss of suction forces gas to vent."
-248,"The saturator in ASP contains:","Sulphuric Acid","Hydrochloric Acid","Nitric Acid","Caustic Soda","A","Sulphuric acid absorbs ammonia."
-249,"The Final Gas Cooler is located:","After the Ammonium Sulphate Plant","Before the Primary Gas Cooler","Inside the Battery","Before Coal Handling","A","FGC cools gas after ammonia removal."
-250,"The clean Coke Oven Gas is finally distributed through the:","Gas Network","Coal Conveyor","Crusher","Wharf","A","The Energy Management Department distributes the cleaned gas."
-251,"Which coal property is commonly called the Crucible Swelling Number (CSN)?","Free Swelling Index","Volatile Matter","Mean Max Reflectance","Inherent Moisture","A","FSI is also known as the Crucible Swelling Number."
-252,"Which coal property helps determine compatibility among different coals in a blend?","Gieseler Fluidity","Ash Percentage","Moisture Content","Fixed Carbon","A","Gieseler Fluidity indicates compatibility during blending."
-253,"The initial softening temperature of coal is determined by the:","Gieseler Fluidity Test","MMR Test","Ash Test","FSI Test","A","The Gieseler Fluidity Test provides the softening temperature."
-254,"Coal rank is primarily determined by measuring:","Mean Max Reflectance","Volatile Matter","Ash Content","Bulk Density","A","Coal rank is evaluated using MMR."
-255,"Which imported coal listed in the chapter has the highest Mean Max Reflectance?","Australian Hard Coal","USA Hard Coal","Imported Soft Coal","Indonesia Hard Coal","A","Australian Hard Coal has the highest MMR among the listed imported coals."
-256,"Which coal property generally decreases as coal rank advances?","Inherent Moisture","MMR","Fixed Carbon","Coke Strength","A","Coal maturity increases while inherent moisture decreases."
-257,"Coal crushing should ensure minimum variation between different:","Particle size fractions","Moisture contents","Sulphur levels","VM values","A","Uniform particle size improves coke quality."
-258,"Ash-rich particles require finer crushing because they are:","Generally larger in size","More plastic","Lower in density","Rich in volatile matter","A","Large inert particles weaken coke if not crushed."
-259,"Which coal handling practice directly improves uniform coke quality?","Accurate blending","Higher moisture","Delayed charging","Longer unloading","A","Proper blending ensures uniform coal properties."
-260,"The main objective of crushing before carbonization is to:","Improve homogeneity of coal blend","Increase moisture","Increase ash","Reduce carbon","A","Homogeneous coal produces stronger coke."
-261,"Blending after crushing mainly achieves mixing through:","Conveyor transfer points","Coal washeries","Quenching towers","Tar decanters","A","Transfer points provide additional mixing."
-262,"Which blend parameter should remain between 300 and 600?","Maximum Fluidity","MMR","Sulphur","Ash","A","Maximum fluidity is maintained between 300 and 600 DDPM."
-263,"Which coal blend parameter should remain below 0.7%?","Sulphur","Ash","Moisture","VM","A","Sulphur should remain below 0.7%."
-264,"Recovery type coke oven batteries differ because they:","Recover by-products from gas","Consume less coal","Use oxygen heating","Require no quenching","A","Recovery batteries recover chemicals from Coke Oven Gas."
-265,"Stamp charging improves oven charging by:","Charging a compact coal cake","Reducing oven height","Using wet coal","Reducing coal blending","A","Coal is compacted before charging."
-266,"Which stage of carbonization immediately follows coal softening?","Plastic stage","Drying","Quenching","Resolidification","A","Coal enters the plastic stage after softening."
-267,"The plastic layers formed during carbonization finally meet at the:","Centre of the oven","Heating wall","Charging hole","Gas off-take","A","Carbonization proceeds from the walls toward the centre."
-268,"During carbonization, heat reaches the centre mainly through:","Conduction from heating walls","Radiation from charging holes","Steam injection","Hot air circulation","A","Heat transfers inward from both heating walls."
-269,"The process occurring beyond 700°C is:","Resolidification","Moisture removal","Coal softening","Plastic swelling","A","Beyond 700°C the coke mass resolidifies."
-270,"Dry quenching primarily recovers:","Sensible heat","Latent heat","Chemical energy","Electrical energy","A","Dry quenching utilizes sensible heat for steam generation."
-271,"Dry-quenched coke is preferred because of:","Lower moisture content","Higher ash","Higher VM","Lower CSR","A","Dry quenching produces superior coke."
-272,"Spot quenching should be avoided because it increases:","Moisture in coke","CSR","M40","Fixed Carbon","A","Extra water increases moisture."
-273,"The +80 mm coke fraction is sent for:","Further crushing","Direct blast furnace use","Export","Recarbonization","A","Oversized coke is crushed before use."
-274,"Nut coke generally falls within the size range:","+15 mm to -25 mm","+25 mm to -80 mm","Below 15 mm","Above 80 mm","A","Nut coke is separated in this size range."
-275,"The principal reason for maintaining coke size between +25 and -80 mm is to:","Maintain burden permeability","Reduce ash","Increase VM","Improve moisture","A","Correct size ensures proper gas flow."
-276,"Higher ash in coke increases:","Slag volume","CSR","Carbon percentage","Reduction efficiency","A","Ash contributes directly to slag."
-277,"Lower volatile matter in coke indicates:","Better carbonization","Higher moisture","Higher ash","Poor strength","A","Low VM indicates complete carbonization."
-278,"M10 is an indicator of resistance against:","Abrasion","Compression","Thermal shock","Chemical attack","A","M10 measures abrasion resistance."
-279,"M40 mainly measures resistance against:","Impact load","Abrasion","Oxidation","Corrosion","A","M40 evaluates impact strength."
-280,"Which coke property is tested after exposure to CO₂?","CSR","M10","Bulk Density","GM","A","CSR is measured after the CRI reaction."
-281,"A lower CRI generally indicates:","Better metallurgical coke","Poor coke","Higher moisture","Lower carbon","A","Less reactive coke performs better in the furnace."
-282,"Hot strength of coke is represented by:","CSR","M10","M40","VM","A","CSR measures post-reaction strength."
-283,"Which role of coke helps upward movement of furnace gases?","Providing permeability","Increasing slag","Increasing moisture","Reducing ash","A","Proper coke structure maintains gas flow."
-284,"The major objective of coal carbonization is production of:","Metallurgical Coke","Blast Furnace Gas","Steel","Pig Iron","A","Coke is the primary product."
-285,"The gaseous by-product of carbonization is known as:","Coke Oven Gas","Blast Furnace Gas","Producer Gas","Converter Gas","A","COG is evolved during carbonization."
-286,"The major by-products recovered from Coke Oven Gas include:","Tar, Ammonia and Crude Benzol","Pitch and Limestone","Coal Dust and Coke","Steam and Oxygen","A","These are the principal recoverable chemicals."
-287,"Tar fog present in raw Coke Oven Gas mainly causes:","Fouling of downstream equipment","Higher calorific value","Lower gas pressure","Improved combustion","A","Tar deposits interfere with equipment operation."
-288,"The Electrostatic Tar Precipitator removes tar particles using:","Electrostatic attraction","Magnetic force","Gravity settling","Cyclone action","A","Charged particles are attracted to collection plates."
-289,"The Exhauster maintains constant suction in the:","Gas Collecting Main","Blast Furnace","Coal Tower","Wharf","A","Stable pressure is maintained by the exhauster."
-290,"If the Exhauster fails, raw gas is released through:","Battery bleeders/flares","Coal Tower","Crusher","Wharf","A","Loss of suction causes emergency venting."
-291,"The saturator in ASP converts ammonia into:","Ammonium Sulphate","Ammonium Chloride","Nitric Acid","Hydrogen Sulphide","A","Ammonia reacts with sulphuric acid."
-292,"Benzol is absorbed using:","Wash Oil","Water","Phenol","Tar","A","Wash oil absorbs benzol from the gas."
-293,"Light crude benzol is processed in the:","Benzol Rectification Plant","Tar Distillation Plant","Primary Gas Cooler","Acid Plant","A","Rectification separates useful aromatic compounds."
-294,"Which product is NOT produced in the Benzol Rectification Plant?","Pitch","Benzene","Toluene","Xylene","A","Pitch is produced in the Tar Distillation Plant."
-295,"Tar Distillation Plant produces:","Pitch and Naphthalene","Ammonium Sulphate","Hydrogen","Methane","A","Pitch and naphthalene are major products."
-296,"The catalyst used in sulphuric acid manufacture is:","Vanadium Pentoxide","Iron Oxide","Nickel","Copper","A","V₂O₅ catalyzes SO₂ oxidation."
-297,"ISO 14001 primarily focuses on:","Environmental Management","Quality Management","Safety Management","Energy Management","A","ISO 14001 deals with environmental systems."
-298,"ISO 45001 primarily focuses on:","Occupational Health and Safety","Environmental Protection","Quality Control","Production Planning","A","ISO 45001 is the OH&S management standard."
-299,"The first 'S' of the 5S system emphasizes:","Sorting unnecessary items","Cleaning equipment","Standardization","Discipline","A","Seiri focuses on removing unnecessary items."
-300,"Which of the following best summarizes the objective of the Coke Oven and Coal Chemicals process?","Produce high-quality metallurgical coke while recovering valuable by-products efficiently","Maximize coal moisture","Produce only furnace gas","Increase ash content of coke","A","The overall objective is efficient coke production with recovery of useful by-products."
+Q0001,What is the primary objective of the coke making process in an integrated steel plant?,To produce thermal coal,To convert coking coal into metallurgical coke,To remove ash from coal,To produce blast furnace gas,B,Metallurgical coke is produced by carbonizing coking coal and serves as the primary fuel, reducing agent, and burden support in the blast furnace. Other options are not the main objective.
+Q0002,Coal is converted into metallurgical coke by heating it under which condition?,In presence of steam,In presence of oxygen,In absence of air,Under vacuum only,C,Carbonization is defined as heating coal in the absence of air (destructive distillation). Presence of air would cause combustion instead of coke formation.
+Q0003,Which sequence correctly represents the geological formation of coal?,Lignite → Peat → Bituminous Coal,Peat → Lignite → Bituminous Coal,Bituminous Coal → Peat → Lignite,Peat → Bituminous Coal → Lignite,B,Plant remains first form peat, which changes to lignite and finally to bituminous coal over millions of years under heat and pressure.
+Q0004,Which of the following is classified as an indigenous Prime Coking Coal (PCC) source?,Australia,Mozambique,Bhojudih,Russia,C,Bhojudih is one of the indigenous Prime Coking Coal washeries, whereas Australia, Mozambique, and Russia are imported coal sources.
+Q0005,Lower ash percentage in coking coal is desirable because it:,Improves coke color,Improves coal quality and blast furnace performance,Increases volatile matter,Increases moisture,B,Lower ash results in better coal quality and lower slag generation in the blast furnace.
+Q0006,Which property of coal is also known as the Crucible Swelling Number (CSN)?,Mean Max Reflectance,Volatile Matter,Free Swelling Index,Gieseler Fluidity,C,Free Swelling Index (FSI) is also called Crucible Swelling Number and indicates the swelling behavior of coal during heating.
+Q0007,Gieseler Fluidity test is mainly used to determine:,Ash content,Coal rheological properties and compatibility,Moisture content,Coke hardness,B,Gieseler Fluidity evaluates softening, plastic range, maximum fluidity, and compatibility of coal blends.
+Q0008,Mean Max Reflectance (MMR) is directly proportional to:,Ash content,Moisture content,Strength of coke,Volatile matter,C,Higher MMR indicates higher coal rank and generally produces stronger metallurgical coke.
+Q0009,What is the recommended crushing index after coal crushing?,50–60% below 3.2 mm,60–70% below 3.2 mm,80–82% below 3.2 mm,90–95% below 3.2 mm,C,The desired crushing index is 80–82% of coal passing below 3.2 mm to achieve optimum coke strength.
+Q0010,Why should over-crushing of coal be avoided?,It increases volatile matter,It reduces bulk density and produces excessive micro-fines,It increases coke size,It increases ash percentage,B,Over-crushing lowers bulk density and creates excessive fines that may block gas off-take systems.
+Q0011,Higher bulk density of coal charge results in:,Lower coke strength,Higher coke strength,Higher ash content,Longer coking time,B,Higher bulk density improves coke strength by ensuring better packing of coal particles.
+Q0012,Why is coal blending essential before carbonization?,To increase moisture,To obtain the desired coke quality by combining different coal properties,To reduce carbonization temperature,To eliminate volatile matter,B,Blending combines the strengths of different coals while compensating for their weaknesses.
+Q0013,Which SAIL plant follows crushing before blending?,BSP,RSP,ISP,BSL,B,Rourkela Steel Plant (RSP) follows crushing before blending, while most other SAIL plants blend before crushing.
+Q0014,Which parameter is NOT additive during coal blending?,Ash,Volatile Matter,Fluidity,Moisture,C,Most coal properties are additive except fluidity, making fluidity a critical blending consideration.
+Q0015,Which of the following is the desired ash content of the coal blend?,9%,11.5% maximum,15%,18%,B,Coal blend quality requires ash content not exceeding 11.5%.
+Q0016,Carbonization begins with which stage?,Plastic state,Gas evolution,Drying (de-moisturization),Shrinkage,C,Coal first undergoes drying up to about 250°C before softening and plastic transformation.
+Q0017,At approximately what temperature does coal start softening?,150°C,300°C,700°C,1000°C,B,Coal starts softening around 300°C before entering the plastic stage.
+Q0018,During which temperature range does coal remain in the plastic state?,100–200°C,250–300°C,350–550°C,800–1000°C,C,The plastic stage occurs between approximately 350°C and 550°C.
+Q0019,Final coke is formed at approximately:,550°C,700°C,850°C,1000°C,D,Coke becomes a hard, porous mass at around 1000°C after complete carbonization.
+Q0020,What is the calorific value of clean Coke Oven Gas?,2500 kcal/m³,3200 kcal/m³,4300 kcal/m³,6000 kcal/m³,C,Coke Oven Gas has an approximate calorific value of 4300 kcal/m³.
+Q0021,What is the function of the Charging Car?,Push coke from oven,Carry hot coke for quenching,Charge blended coal into ovens,Screen coke,C,The Charging Car transfers blended coal from the coal tower into empty coke ovens.
+Q0022,Which machine levels coal during charging and pushes coke after carbonization?,Charging Car,Coke Guide Car,Pusher (Ram) Car,Quenching Car,C,The Pusher (Ram) Car performs both leveling and coke pushing operations.
+Q0023,Which quenching method produces better-quality coke with only 0.3–0.4% moisture?,Wet quenching,Steam quenching,Dry quenching,Air cooling,C,Dry quenching uses nitrogen and recovers sensible heat while producing low-moisture, high-quality coke.
+Q0024,What is the normal moisture content of wet-quenched coke?,0.3%,1%,5%,10%,C,Wet quenching generally leaves about 5% moisture in coke.
+Q0025,The recommended retention time of coke on the wharf after wet quenching is:,5 minutes,10 minutes,20 minutes,45 minutes,C,A retention time of about 20 minutes allows internal heat to evaporate surface moisture.
+Q0026,Which coke size is supplied to the Blast Furnace?,Below 15 mm,15–25 mm,25–80 mm,Above 100 mm,C,Blast Furnace requires hard coke between +25 mm and −80 mm.
+Q0027,Nut coke supplied to the sinter plant has a size of:,Below 15 mm,15–25 mm,25–80 mm,Above 80 mm,B,The 15–25 mm fraction is called Nut Coke and is used in sintering.
+Q0028,Which property indicates completion of carbonization?,Ash,VM in coke,CSR,CRI,B,Low volatile matter in coke indicates complete carbonization.
+Q0029,For good metallurgical coke, the desired volatile matter should be:,Below 1%,2–3%,5–6%,Above 10%,A,VM below 1% indicates properly carbonized coke.
+Q0030,What is the desirable ash content of coke?,Less than 15%,20%,25%,30%,A,Lower ash minimizes slag formation and improves blast furnace efficiency.
+Q0031,A good M10 value is approximately:,20,15,8,40,C,Lower M10 indicates better resistance to abrasion, with around 8 considered good.
+Q0032,The desirable M40 value for good coke is:,Below 50,Above 80,Exactly 60,Less than 70,B,M40 represents impact strength; values above 80 indicate strong coke.
+Q0033,A desirable Coke Reactivity Index (CRI) is:,10–15,21–24,35–40,50–60,B,Lower CRI indicates better resistance to CO₂ attack inside the blast furnace.
+Q0034,The desirable Coke Strength after Reaction (CSR) is:,40–45,50–55,64–66,75–80,C,CSR indicates hot strength after reaction; 64–66 is preferred.
+Q0035,Which of the following is NOT a role of coke in the Blast Furnace?,Acts as fuel,Acts as reducing agent,Supports burden,Acts as flux,D,Coke acts as fuel, reducing agent, and structural support, but fluxing is performed mainly by limestone.
+Q0036,Which impurity is removed in the Ammonium Sulphate Plant (ASP)?,Tar,Ammonia,Naphthalene,Benzol,B,ASP removes ammonia by reacting it with sulfuric acid to form ammonium sulfate fertilizer.
+Q0037,Which by-product is widely used as fertilizer?,Tar,Benzene,Ammonium Sulphate,Pitch,C,Recovered ammonium sulfate is extensively used in agriculture.
+Q0038,Which by-product plant removes benzol from Coke Oven Gas?,Tar Distillation Plant,Benzol Recovery Plant,Primary Gas Cooler,Electrostatic Tar Precipitator,B,Benzol is absorbed in wash oil within the Benzol Recovery Plant.
+Q0039,Which catalyst is used in the Sulphuric Acid Plant?,Nickel,Vanadium Pentoxide,Iron Oxide,Copper Sulphate,B,The DCDA process uses Vanadium Pentoxide (V₂O₅) as the catalyst.
+Q0040,Which gas constitutes the highest percentage of clean Coke Oven Gas?,Methane,Carbon Monoxide,Hydrogen,Nitrogen,C,Hydrogen forms approximately 50–60% of clean Coke Oven Gas, making it the major constituent.
+Q0041,Which impurity is primarily removed by the Electrostatic Tar Precipitator?,Ammonia,Benzol,Tar aerosols,Hydrogen sulphide,C,The Electrostatic Tar Precipitator removes fine tar aerosols using high-voltage electrostatic attraction, preventing fouling of downstream equipment.
+Q0042,What is the primary function of the Exhauster in a By-Product Plant?,Cool the gas,Maintain suction and transport Coke Oven Gas,Recover benzol,Remove ammonia,B,The Exhauster maintains the required suction in the Gas Collecting Main (GCM) and transports raw Coke Oven Gas for further processing.
+Q0043,Failure of the Exhauster will immediately result in:,Higher coke strength,Gas venting to atmosphere through bleeders,Better carbonization,Reduced door emissions,B,Without the Exhauster, gas pressure cannot be controlled and raw Coke Oven Gas escapes through battery flares/bleeders.
+Q0044,In the Ammonium Sulphate Plant, ammonia reacts with:,Hydrochloric acid,Nitric acid,Sulphuric acid,Caustic soda,C,Ammonia reacts with sulphuric acid (H₂SO₄) to form ammonium sulphate fertilizer.
+Q0045,The acidity of the saturator liquor in the ASP is maintained at:,1–2%,3–5%,8–10%,10–12%,B,Maintaining 3–5% acidity ensures efficient absorption of ammonia and formation of ammonium sulphate.
+Q0046,Which equipment cools the gas after the Ammonium Sulphate Plant?,Primary Gas Cooler,Final Gas Cooler,Electrostatic Tar Precipitator,Exhauster,B,The Final Gas Cooler removes the heat gained by the gas during ammonia removal.
+Q0047,Which oil is used to absorb benzol in the Benzol Recovery Plant?,Lubricating oil,Wash oil,Diesel oil,Tar oil,B,Wash oil absorbs benzol from Coke Oven Gas and is later regenerated by distillation.
+Q0048,Which of the following products is NOT obtained in the Benzol Rectification Plant?,Benzene,Toluene,Xylene,Pitch,D,Pitch is produced in the Tar Distillation Plant, not in the Benzol Rectification Plant.
+Q0049,Which is the most valuable product obtained from coal tar distillation?,Road tar,Pitch,Naphthalene,Creosote oil,C,Naphthalene is identified as the costliest product recovered from coal tar.
+Q0050,Which of the following is NOT a major product of the Tar Distillation Plant?,Pitch,Naphthalene,Anthracene Oil,Ammonium Sulphate,D,Ammonium sulphate is produced in the ASP, whereas the others are tar distillation products.
+Q0051,The Phenolic Effluent Treatment Plant (PETP/BOD Plant) mainly uses ______ for wastewater treatment.,Acids,Bacteria,Ozone,Nitrogen,B,PETP uses biological treatment through bacteria to remove pollutants before reuse of water.
+Q0052,After treatment in the BOD Plant, the permissible ammonia concentration is:,10 ppm,25 ppm,50 ppm,100 ppm,C,The treated effluent standard for ammonia is 50 ppm.
+Q0053,After treatment in the BOD Plant, the permissible phenol concentration is:,10 ppm,5 ppm,1 ppm,0.01 ppm,C,Phenol concentration after treatment should not exceed 1 ppm.
+Q0054,After treatment in the BOD Plant, the permissible cyanide concentration is:,1 ppm,0.2 ppm,5 ppm,10 ppm,B,Cyanide concentration is limited to 0.2 ppm after treatment.
+Q0055,After treatment in the BOD Plant, Tar & Oil concentration should not exceed:,5 ppm,10 ppm,25 ppm,50 ppm,B,The maximum permissible Tar & Oil concentration after treatment is 10 ppm.
+Q0056,Which constituent is present in the highest percentage in clean Coke Oven Gas?,Methane,Hydrogen,Carbon Monoxide,Nitrogen,B,Hydrogen constitutes about 50–60% of clean Coke Oven Gas.
+Q0057,The methane content in clean Coke Oven Gas is approximately:,5–10%,10–15%,25–28%,40–45%,C,Methane is the second-largest constituent at approximately 25–28%.
+Q0058,Which gas in Coke Oven Gas acts as a valuable fuel component due to its high concentration?,Hydrogen,Oxygen,Carbon dioxide,Sulphur dioxide,A,Hydrogen contributes significantly to the fuel value of Coke Oven Gas.
+Q0059,According to CPCB norms, the permissible Percentage Leaking Doors (PLD) for a new coke oven battery is:,1%,5%,10%,15%,B,The CPCB standard limits PLD to 5% for new batteries.
+Q0060,According to CPCB norms, the permissible Percentage Leaking Doors (PLD) for an existing battery is:,5%,8%,10%,12%,C,Existing batteries are allowed a maximum PLD of 10%.
+Q0061,The permissible Percentage Leaking Lids (PLL) for both new and existing batteries is:,0%,1%,2%,5%,B,PLL is restricted to 1% irrespective of battery type.
+Q0062,The permissible Percentage Leaking Off-takes (PLO) for coke oven batteries is:,2%,3%,4%,5%,C,PLO is limited to 4% for both new and existing batteries.
+Q0063,The maximum permissible stack emission according to CPCB norms is:,25 mg/Nm³,50 mg/Nm³,75 mg/Nm³,100 mg/Nm³,B,Stack emission is limited to 50 mg/Nm³ for both new and existing batteries.
+Q0064,ISO 14001:2004 primarily deals with:,Quality Management,Occupational Health & Safety,Environmental Management System,Energy Management,C,ISO 14001 focuses on reducing environmental pollution affecting land, air, and water.
+Q0065,Which of the following PPE is essential while working in Coke Ovens?,Safety helmet,Safety shoes,Gas mask,All of the above,D,All listed PPE are mandatory depending on the work area and associated hazards.
+Q0066,Before carrying out maintenance work, employees must strictly follow:,Only verbal instructions,Permit-to-Work procedures and SOPs,Production targets only,Shift instructions only,B,Maintenance requires compliance with Permit-to-Work, SOPs, and SMPs to ensure safety.
+Q0067,Before working on gas lines or gas-prone areas, ______ clearance is mandatory.,Mechanical,Production,EMD,Quality,C,EMD clearance ensures gas hazards are assessed before work begins.
+Q0068,In the 5S workplace management system, "Seiri" means:,Standardization,Systematic arrangement,Sorting and removal of unwanted items,Discipline,C,Seiri focuses on separating necessary and unnecessary items to improve workplace organization.
+Q0069,Which 5S principle emphasizes systematic arrangement of items?,Seiri,Seiton,Seiso,Shitsuke,B,Seiton ensures every item has a designated place for efficient work.
+Q0070,The 5S principle "Seiso" refers to:,Cleaning and housekeeping,Discipline,Standardization,Sorting,A,Seiso emphasizes cleanliness of the workplace and equipment.
+Q0071,Which 5S principle is associated with standardization?,Seiri,Seiton,Seiketsu,Shitsuke,C,Seiketsu standardizes best practices developed through the first three S's.
+Q0072,The literal meaning of "Shitsuke" in the 5S system is:,Inspection,Training,Discipline,Planning,C,Shitsuke promotes discipline and consistent adherence to established procedures.
+Q0073,ISO 45001:2018 is concerned primarily with:,Product safety,Occupational Health and Safety Management System,Environmental Management,Financial Management,B,ISO 45001 establishes a systematic framework for workplace health and safety.
+Q0074,ISO 45001 is compatible with which two major ISO standards?,ISO 50001 and ISO 31000,ISO 9001 and ISO 14001,ISO 27001 and ISO 22000,ISO 17025 and ISO 45002,B,ISO 45001 integrates effectively with ISO 9001 (Quality) and ISO 14001 (Environment).
+Q0075,Which of the following is NOT an expected benefit of a fully implemented OH&SMS?,Reduced accidents,Reliable operations,Increased workplace hazards,Improved company image,C,OH&SMS reduces risks and accidents; it does not increase workplace hazards.
+Q0076,Why is consistent coke quality essential for Blast Furnace operation?,To increase slag formation,To maintain stable furnace operation and chemistry,To increase moisture,To reduce carbon content,B,Variations in coke quality adversely affect furnace permeability, reduction reactions, and overall productivity.
+Q0077,Why is spot quenching considered undesirable?,It increases coke size,It increases coke moisture content,It reduces ash content,It improves CSR,B,Spot quenching raises the moisture content of coke, reducing blast furnace efficiency.
+Q0078,Which sequence correctly represents the major process flow in coke making?,Carbonization → Coal Handling → Coke Sorting,Coal Handling → Carbonization → Coke Sorting → Blast Furnace,Coke Sorting → Carbonization → Coal Handling,Coal Handling → Blast Furnace → Carbonization,B,Coal is first handled and blended, then carbonized, sorted, and finally supplied to the Blast Furnace.
+Q0079,Which process recovers sensible heat from hot coke while improving coke quality?,Wet quenching,Dry quenching,Spot quenching,Natural cooling,B,Dry quenching recovers heat to generate steam and produces stronger, low-moisture coke.
+Q0080,Which topic is considered one of the highest-weightage areas for the SAIL JO Promotion Examination from this chapter?,Only historical formation of coal,Only PPE list,Complete coke-making process, coal properties, carbonization, coke properties, by-product recovery, pollution norms, and safety,Only ISO standards,D,These integrated process, equipment, property, safety, and standards concepts form the core of SAIL JO promotion examinations and are repeatedly tested in conceptual and application-based questions.
+Q0081,Which coal property test is primarily used to assess the caking property of coal and the yield of by-products during carbonization?,Free Swelling Index,Gieseler Fluidity,Low Temperature Gray King (LTGK) Test,Mean Max Reflectance,C,LTGK assesses the caking characteristics of coal/coal blend and estimates by-product yield during carbonization, making it an important quality parameter.
+Q0082,Which coal property provides the best indication of coal maturity with increasing rank?,Volatile Matter,Ash Content,Inherent Moisture,FSI,C,As coal rank increases, inherent moisture generally decreases, making it an indicator of coal maturity.
+Q0083,Why are larger coal particles (>5 mm) required to be crushed more finely?,To increase moisture,They contain higher ash/inert matter requiring uniform dispersion,To reduce volatile matter,To increase sulfur,B,Larger particles are richer in ash/inerts and need finer crushing for better dispersion, resulting in stronger coke.
+Q0084,Which equipment is mainly responsible for crushing coal before charging into coke ovens?,Jaw Crusher,Gyratory Crusher,Hammer Crusher,Roll Crusher,C,Hammer crushers are specifically used in coal handling plants for achieving the desired crushing index.
+Q0085,The main objective of maintaining separate coal stockpiles in the coal yard is to:,Increase moisture,Prevent mixing of different coal grades,Reduce transportation cost,Increase volatile matter,B,Mixing different coal grades unintentionally adversely affects coal blend quality and ultimately coke quality.
+Q0086,What is the maximum angle through which a wagon tippler rotates to unload coal?,90°,120°,172°,180°,C,Wagon tipplers mechanically rotate wagons up to about 172° for complete unloading.
+Q0087,A standard railway rake carrying coal to the Coal Handling Plant generally consists of:,40 wagons,45 wagons,59 wagons,75 wagons,C,A typical rake contains 59 wagons carrying washed coking coal.
+Q0088,Coal reclaimed from the coal yard is transported to:,Only the Blast Furnace,Crushers or silos depending on plant practice,Only coke ovens,Only washeries,B,After reclaiming, coal is conveyed either to crushers or directly to silos according to the plant configuration.
+Q0089,Which property of coal blend is maintained within 300–600 DDPM?,Ash,Maximum Fluidity,MMR,FSI,B,The recommended maximum fluidity of the coal blend is maintained between 300 and 600 DDPM.
+Q0090,The recommended moisture content of the coal blend before charging is:,2–4%,5–6%,7–9%,10–12%,C,Coal blend moisture is maintained between 7% and 9% for optimum charging and coke quality.
+Q0091,Which coal blend parameter is maintained in the range of 1.15–1.20?,Ash,MMR,FSI,VM,B,The desired Mean Max Reflectance (MMR) of the coal blend is between 1.15 and 1.20.
+Q0092,The desired sulphur content in the coal blend is:,Below 0.3%,Below 0.5%,Below 0.7%,Below 1.5%,C,Sulphur in the coal blend should be maintained below 0.7% to ensure better coke quality and blast furnace performance.
+Q0093,The carbonization process takes place inside:,Rotary kiln,Sinter strand,Tall narrow refractory brick ovens,Electric arc furnace,C,Carbonization occurs inside tall, narrow refractory brick ovens arranged in batteries.
+Q0094,A recovery-type coke oven battery is characterized by:,No gas generation,Gas is released directly to atmosphere,Recovery of by-products and utilization of cleaned gas,Only coke production without by-products,C,Recovery-type batteries collect Coke Oven Gas, recover chemicals, and use cleaned gas as fuel.
+Q0095,Which battery type does NOT recover chemical by-products?,Top Charge Battery,Recovery Battery,Stamp Charge Battery,Non-Recovery Battery,D,In Non-Recovery batteries, generated gas itself acts as fuel and by-products are not recovered.
+Q0096,In a Stamp Charged Battery, coal is charged into the oven as:,Loose powder,Liquid slurry,A rammed coal cake,Coal briquettes,C,Stamp charging involves compacting coal into a cake before charging, increasing bulk density.
+Q0097,Which stage immediately follows the plastic stage during carbonization?,Drying,Gas evolution,Shrinkage,Quenching,B,After the plastic stage, entrapped gases evolve between approximately 400°C and 700°C.
+Q0098,The gases entrapped inside coal are mainly driven out during the temperature range:,100–250°C,250–350°C,400–700°C,900–1000°C,C,Gas evolution occurs between approximately 400°C and 700°C during carbonization.
+Q0099,What is the usual wet quenching time for hot coke?,30 seconds,60 seconds,90 seconds,180 seconds,C,The standard wet quenching time is approximately 90 seconds.
+Q0100,Which of the following is an advantage of Dry Coke Quenching over Wet Quenching?,Higher moisture content,No heat recovery,Recovery of sensible heat for steam generation,Higher volatile matter,C,Dry quenching recovers heat from hot coke to produce steam while improving coke quality.
+Q0101,The main reason for allowing coke to remain on the wharf before screening is to:,Reduce ash content,Evaporate residual surface moisture,Increase volatile matter,Increase CSR,B,The retention period allows internal heat to remove surface moisture naturally.
+Q0102,Which coke fraction is known as Breeze Coke?,+25 to -80 mm,+15 to -25 mm,-15 mm,+80 mm,C,Coke particles smaller than 15 mm are called Breeze Coke and are mainly used in sinter plants.
+Q0103,Which coke property is commonly referred to as its Cold Strength?,CSR,CRI,Micum Index,Gross Moisture,C,Micum Index evaluates the cold mechanical strength of coke.
+Q0104,Which Micum Index measures resistance to abrasion?,M10,M20,M30,M40,A,M10 measures abrasion resistance; lower values indicate stronger coke.
+Q0105,Which Micum Index represents resistance to impact loading?,M10,M25,M40,CSR,C,M40 indicates impact strength or load-bearing capacity of coke.
+Q0106,A high CRI value generally indicates:,Better coke quality,Greater coke reactivity and poorer performance,Higher ash only,Higher CSR,B,Higher CRI means coke reacts more readily with CO₂, reducing its usefulness in the blast furnace.
+Q0107,The relationship between CRI and CSR is generally:,Both increase together,Higher CRI usually results in lower CSR,No relationship,Both remain constant,B,Highly reactive coke generally loses strength after reaction, leading to lower CSR.
+Q0108,Why should oversized coke (>80 mm) be avoided in the Blast Furnace?,It increases moisture,It decreases reaction surface area,It increases CSR,It reduces ash,B,Oversized coke has lower surface area, reducing reaction efficiency.
+Q0109,Why should excessive undersized coke (<25 mm) be avoided in the Blast Furnace?,It increases permeability,It blocks burden voids and reduces gas permeability,It improves reduction reaction,It increases coke strength,B,Fine coke fills void spaces, increasing resistance to upward gas flow.
+Q0110,Which by-product plant first separates flushing liquor into tar and aqueous liquor?,Primary Gas Cooler,Tar & Liquor Processing Plant,Final Gas Cooler,Benzol Recovery Plant,B,The Tar & Liquor Processing Plant performs the initial separation of tar and ammonia liquor from flushing liquor.
+Q0111,What is the primary purpose of the Primary Gas Cooler?,Recover benzol,Cool raw Coke Oven Gas and condense tar,Remove ammonia,Produce sulphuric acid,B,The Primary Gas Cooler lowers gas temperature, condensing tar, water, and naphthalene.
+Q0112,The cleaned Coke Oven Gas after Benzol Recovery is mainly supplied to:,Blast Furnace only,Sinter Plant only,Consumers through the plant gas network,Coke Sorting Plant,C,After purification, Coke Oven Gas is distributed through the plant gas network as a valuable fuel.
+Q0113,Which product obtained from coal chemicals is mainly used for electrode manufacturing?,Tar,Naphthalene,Pitch,Ammonium Sulphate,C,Pitch recovered from tar distillation is an important raw material for electrode production.
+Q0114,Benzene, toluene and xylene obtained from coke oven by-products are mainly used in:,Blast Furnace operation,Chemical industries,Coke quenching,Coke screening,B,These aromatic hydrocarbons are major feedstocks for chemicals, dyes, pharmaceuticals, plastics, paints, and detergents.
+Q0115,Which is the single most important aspect emphasized throughout the Coke Ovens chapter?,High production rate,Cost reduction,Safety,Automation,C,The chapter explicitly states that safety is the single most important aspect in the steel industry, covering both personnel and equipment safety.
+Q0116,Which property of coke directly indicates the completion of the carbonization process?,Ash,Volatile Matter (VM),CSR,CRI,B,Volatile Matter remaining in coke is an indicator of the completeness of carbonization. Properly carbonized coke should have VM below 1%.
+Q0117,Why is low gross moisture (GM) desirable in coke?,It improves coke color,It prevents heat loss due to evaporation,It increases ash content,It increases volatile matter,B,Moisture does not contribute to blast furnace reactions and only consumes heat for evaporation, reducing furnace efficiency.
+Q0118,Which coal property test provides information about initial softening temperature, maximum fluidity, plastic range, and resolidification temperature?,FSI Test,MMR Test,Gieseler Fluidity Test,LTGK Test,C,Gieseler Fluidity measures the rheological behavior of coal during heating and is essential for coal blend compatibility.
+Q0119,The quality of coke mainly depends upon:,Coal transportation only,Pre-carbonization, carbonization and post-carbonization techniques,Coke sorting only,Quenching only,B,All three stages—pre-carbonization (coal preparation), carbonization, and post-carbonization—collectively determine coke quality.
+Q0120,Which operation in the Coal Handling Plant has the greatest influence on obtaining a homogeneous coal blend?,Coal unloading,Coal reclaiming,Crushing and Blending,Coke sorting,C,Proper crushing and blending ensure uniform distribution of reactive and inert components, producing strong metallurgical coke.
+Q0121,Which coal property is an indicator of coal rank and consequently influences coke strength?,Volatile Matter,Free Swelling Index,Mean Max Reflectance (MMR),Moisture,C,MMR is directly related to coal rank and has a strong influence on the strength of the final coke.
+Q0122,Which statement regarding imported hard coking coal is correct?,It has higher ash than PCC,It generally possesses better coking properties and lower ash than indigenous coal,It cannot be blended with Indian coal,It has very low volatile matter only,B,Imported hard coking coal is blended with indigenous coal because of its superior coking characteristics and lower ash.
+Q0123,Which coal property is the only major blending parameter that is NOT additive?,Ash,Volatile Matter,Fluidity,Sulphur,C,Fluidity behaves differently during blending and therefore requires special attention while designing coal blends.
+Q0124,Which machine guides the coke mass safely into the Quenching Car during pushing?,Charging Car,Pusher Car,Coke Guide Car,Crusher,C,Coke Guide Car aligns and guides the hot coke during pushing to prevent spillage and equipment damage.
+Q0125,The Quenching Car is primarily used to:,Charge coal,Transport hot coke to the quenching tower,Recover coke oven gas,Blend coal,B,The Quenching Car carries incandescent coke from the battery to the quenching tower.
+Q0126,Which process is also known as destructive distillation of coal?,Coal washing,Carbonization,Coke screening,Coal blending,B,Carbonization heats coal in the absence of air, decomposing it into coke, gas, and valuable by-products.
+Q0127,During carbonization, the coal mass first undergoes:,Plastic deformation,Drying (De-moisturization),Shrinkage,Coke formation,B,Drying up to about 250°C is the first stage before coal softens.
+Q0128,Which stage immediately follows gas evolution during carbonization?,Drying,Softening,Resolidification (Shrinkage),Charging,C,After volatile gases escape, the plastic mass resolidifies into coke.
+Q0129,The coking time refers to:,Time taken to charge coal,Time taken to quench coke,Total time required for complete carbonization,Time taken to screen coke,C,Coking time is the complete duration required to convert coal into metallurgical coke.
+Q0130,Which process improves coke quality while simultaneously recovering waste heat?,Wet Quenching,Dry Quenching,Spot Quenching,Natural Cooling,B,Dry Quenching recovers sensible heat for steam generation while producing stronger, low-moisture coke.
+Q0131,Which by-product is directly recovered by reacting ammonia with sulphuric acid?,Phenol,Ammonium Sulphate,Benzene,Naphthalene,B,Ammonia is converted into ammonium sulphate fertilizer in the ASP.
+Q0132,Which impurity must be removed because it is highly corrosive in Coke Oven Gas?,Tar,Naphthalene,Ammonia,Hydrogen,C,Ammonia is corrosive and therefore must be removed efficiently before gas utilization.
+Q0133,Which plant produces sulphuric acid required for ammonia recovery?,Tar Distillation Plant,Acid Plant,Benzol Recovery Plant,Primary Gas Cooler,B,The Acid Plant manufactures sulphuric acid by the DCDA process for use in the ASP.
+Q0134,The DCDA process stands for:,Double Carbon Double Absorption,Double Conversion Double Absorption,Direct Conversion Double Absorption,Dual Conversion Direct Absorption,B,DCDA is the industrial process used for efficient sulphuric acid production.
+Q0135,Which catalyst is used during sulphuric acid production in the Acid Plant?,Nickel Oxide,Iron Oxide,Vanadium Pentoxide,Chromium Oxide,C,Vanadium Pentoxide (V₂O₅) catalyzes the oxidation of SO₂ to SO₃.
+Q0136,Which by-product is extensively used in road construction?,Benzene,Pitch,Tar,Ammonium Sulphate,C,Road tar obtained from tar distillation is widely used for road surfacing.
+Q0137,Pitch obtained from tar distillation is mainly used for:,Blast Furnace charging,Fertilizer production,Electrode manufacturing,Coke quenching,C,Pitch is an important raw material for carbon electrode manufacture.
+Q0138,Which aromatic hydrocarbon obtained from Benzol Rectification is an important raw material for chemical industries?,Benzene,Limestone,Coke Breeze,Hydrogen,A,Benzene is one of the most valuable chemical feedstocks recovered from coke oven by-products.
+Q0139,Which process unit absorbs benzol from Coke Oven Gas using wash oil?,Tar Distillation Plant,Benzol Recovery Plant,Final Gas Cooler,Electrostatic Tar Precipitator,B,Wash oil selectively absorbs benzol before it is recovered through distillation.
+Q0140,The principal purpose of cleaning Coke Oven Gas is to:,Increase ash content,Improve calorific value and make it suitable as fuel,Reduce coke size,Increase moisture,B,Cleaning removes harmful impurities while producing a clean, high-calorific-value fuel gas.
+Q0141,Which constituent contributes the maximum percentage to the calorific value of Coke Oven Gas?,Hydrogen,Methane,Carbon Dioxide,Nitrogen,A,Hydrogen forms the largest fraction (50–60%) of Coke Oven Gas and significantly contributes to its fuel value.
+Q0142,The process flow of coke making finally supplies hard coke to which major unit?,Steel Melting Shop,Sinter Plant,Blast Furnace,Rolling Mill,C,Properly sized hard coke (+25 to -80 mm) is supplied to the Blast Furnace.
+Q0143,Which by-product is mainly sent to agriculture as fertilizer?,Pitch,Ammonium Sulphate,Naphthalene,Benzene,B,Recovered ammonium sulphate is marketed as a nitrogenous fertilizer.
+Q0144,According to pollution norms, charging emissions for a new battery should not exceed:,16 seconds per charge,30 seconds per charge,50 seconds per charge,60 seconds per charge,A,CPCB specifies a maximum charging emission duration of 16 seconds per charge for new batteries.
+Q0145,According to CPCB norms, charging emissions for an existing battery should not exceed:,16 seconds per charge,30 seconds per charge,50 seconds per charge,75 seconds per charge,C,Existing batteries are permitted up to 50 seconds per charge.
+Q0146,ISO 14001 primarily aims to make which three environmental components pollution free?,Land, Air and Water,Coal, Coke and Gas,Heat, Steam and Water,Air, Coke and Slag,A,ISO 14001 focuses on environmental management to protect land, air, and water.
+Q0147,Which document should always be followed during equipment maintenance in Coke Ovens?,Personal notebook,Standard Maintenance Procedure (SMP),Attendance Register,Production Log Book,B,SMP ensures maintenance activities are carried out safely and systematically.
+Q0148,The major purpose of the Permit-to-Work (PTW/EL-20) system is to:,Increase production speed,Ensure safe maintenance and shutdown activities,Improve coal quality,Reduce coke moisture,B,Permit-to-Work procedures eliminate hazards before maintenance begins.
+Q0149,OH&SMS under ISO 45001 is primarily concerned with:,Safety of the final product,Safety of customers only,Occupational Health and Safety of employees,Quality inspection of coke,C,ISO 45001 focuses on protecting employees through hazard identification, risk assessment, and preventive controls.
+Q0150,Which statement best summarizes the most important examination concept from this chapter?,Only coal properties are important,Only by-products are important,Coke making is an integrated process where coal quality, blending, carbonization, coke quality, by-product recovery, pollution control, ISO standards, and safety are all interconnected,Only safety questions are asked,C,This chapter is process-oriented. Promotion examinations frequently test the interrelationship among coal preparation, carbonization, coke quality, by-product recovery, environmental compliance, and safety rather than isolated facts.
